@@ -67,7 +67,7 @@
     </div>
 
     {# Script for displaying modal if messages are present #}
-    {% if messages and (messages | len) > 0 %}
+    {% if messages and (messages | length) > 0 %}
     <script type="text/javascript">
         // If messages are queued up, show them in a modal dialog
         var messages = {{ messages | safe }};
