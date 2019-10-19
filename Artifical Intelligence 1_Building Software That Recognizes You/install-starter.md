@@ -6,7 +6,7 @@ We'll start by opening a command or terminal window, and then creating a directo
 
 ``` bash
 # Windows
-mmd contoso
+md contoso
 cd contoso
 
 # macOS or Linux
