@@ -1,5 +1,4 @@
 # Workshop setup
-
 To follow along with the exercises which make up this workshop, you will need a few utilities installed on your system, including Python and an IDE. Specifically, you will need the following:
 
 - An [Azure](https://azure.microsoft.com/) account
