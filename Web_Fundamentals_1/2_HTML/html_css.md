@@ -73,4 +73,8 @@ The format for commenting in an HTML file is as follows:
 <!-- This is a comment in HTML -->
 ```
 
+## What you learned
+
+In the section, we learned about how HTML and CSS interact with each other and how to create a simple HTML document we also learned that tags come in pairs and that nesting is a common practice when using HTML. The next section will look at the relationships between different elements within a webpage.
+
 NEXT: [Parent, Child, Sibling Relationships in HTML](./parent_child_relationship.md)

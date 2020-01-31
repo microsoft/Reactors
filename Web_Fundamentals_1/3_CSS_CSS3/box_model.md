@@ -159,4 +159,8 @@ There are other situations where elements do not have their margins collapsed:
 * elements with overflow property set to anything other than visible (They do not collapse margins with their children.)
 * cleared elements (They do not collapse their top margins with their parent block's bottom margin.)
 
+## What you learned
+
+Understanding how the box model works and how to use margins, padding, and borders are challenging. The best way to learn this new concept is to practice. Remember to use the outline property along with your CSS resets so that you can see all of your elements with a one pixel border around them. This will help you troubleshoot any problems you have with your layout. In the next section, we have an activity that will teach you how to layout a simple webpage using the box model. You can do everything in the next activity with margin, padding, and borders.
+
 NEXT:[Activity: Plotting Your Blocks](./plotting_your_blox.md)

@@ -71,4 +71,8 @@ While you do this activity, please use min-height as well as vertical align to g
 
 [Or, you can complete the activity online: Click Here](https://codepen.io/dannyooooo/pen/100311ce217467fbcf13862a5090012b)
 
- NEXT: [Part 4. Capstone + Deployment with Azure](../Part%204.%20%20Capstone%20%2B%20Deployment)
+## What you learned
+
+This is one of the essential activities of the workshop. Being able to use margins, padding, and borders to layout your webpages is an important skill. If you don’t get this the first time, don’t be discouraged, keep working at it. You can keep using the pot in your box template to create the base for your other static HTML pages. We finished with the section and now will go on to Do our capstone project and deployed it on Azure.
+
+ NEXT: [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)

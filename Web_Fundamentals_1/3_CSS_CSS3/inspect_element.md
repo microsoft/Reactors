@@ -8,4 +8,8 @@ Each browser has it's own way of displaying the code a page is built with. You s
 
 Here's the guide to the developer tools built into the [Edge browser.](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
+## What you learned
+
+Every browser has a method to inspect HTML elements within a website. In this lesson, we learned how to select specific elements and view them in the console. Now let’s go on to learn more about the display properly.
+
 NEXT: [The Display Property](./display_property.md)

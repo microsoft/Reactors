@@ -156,4 +156,8 @@ Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairi
 
 Notice that the input element is now nested inside the label element and we no longer need to link the two using the label's for attribute and the input's id attribute.
 
+## What you've learned
+
+There is a lot going on with forms. The best way to get good at creating forms is to create a lot of them. It's an important skill for a developer to be able to make forms and use the data somehow after a user has entered something. Making forms with validation rules can help insure that you have good data from your users. Let's solidify our new skill with an activity where we create a registration form.
+
 NEXT: [Activity: Registration Page](./registration_assignment.md)

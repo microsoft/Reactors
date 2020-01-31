@@ -81,4 +81,8 @@ This property allows the corners of your border to be given a rounded appearance
   }
 ```
 
+## What you learned
+
+We learned how to add style to elements in HTML. Remember that now we should be using only external CSS style sheets rather than trying to do inline styling. If we do too much inline styling, if we have to make changes later, it will become challenging because we will have to make changes at every place we’ve used inline styling. In the next section, we will focus on styling text.
+
 NEXT: [Styling Text](./styling_text.md)

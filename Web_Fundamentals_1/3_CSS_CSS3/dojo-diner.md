@@ -12,4 +12,8 @@ To do this activity you must add the CSS code to select the elements that each p
 
 Complete this activity with a partner!
 
-Next: [Styling Elements](./styling_elements.md)
+## What you learned
+
+In this activity we learned how to select HTML elements in a variety of different ways. Good job for doing this optional activity.
+
+NEXT: [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)

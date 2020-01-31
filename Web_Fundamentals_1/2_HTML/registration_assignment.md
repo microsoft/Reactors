@@ -25,4 +25,8 @@ Need a place to work on this? You can do this activity here in this [HTML enviro
 
 [When you've completed this assignment, check out this important tips!](./tips_for_html.md)
 
- NEXT: [Part 3. CSS: Selectors, Styling, and Display](../Part%203.%20CSS%20%26%20CSS3)
+## What you learned
+
+In this activity, you learned how to create a simple web form. You also learned how to implement some tags that you learned in previous sessions. Remember that it’s more important to know where to find information about HTML tags and forms rather than trying to memorize things. And lastly, don’t forget to use the validation tool. In the next section, we will begin examining  CSS selectors, styling, and display properties.
+
+ NEXT: [Part 3. CSS: Selectors, Styling, and Display](../3_CSS_CSS3)

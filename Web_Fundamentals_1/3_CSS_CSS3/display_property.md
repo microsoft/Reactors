@@ -145,4 +145,8 @@ When we start utilizing inline-block, we might notice that the vertical position
 
 ![Vertical Align Example](../images/verticalalign.png)
 
+## What you learned
+
+The display property is one of the most critical properties within CSS. You should remember that block elements take up the entire width of the screen, and inline elements are going to fill in the width of the screen with as many elements that will fit in the same screen width.
+
 NEXT: [Box Model](./box_model.md)

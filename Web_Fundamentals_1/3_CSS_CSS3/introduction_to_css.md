@@ -16,4 +16,8 @@ Refer back to the HTML section if you don't remember how to add a link to your `
 
 > **CSS uses a priority scheme to determine which style rules apply if more than one rule matches a particular element. In this scheme, priorities (or "weights")  cascade and are assigned to rules, so that the results are predictable.**
 
+## What you learned
+
+This is just the beginning of your education in CSS. Don’t forget that we’re going to be using external stylesheets. This way, you’ll learn how to connect CSS style sheets that you create or that are created by others. The next section will cover the most important part of CSS, the selector.
+
 NEXT:[CSS Selectors](./css_selectors.md)

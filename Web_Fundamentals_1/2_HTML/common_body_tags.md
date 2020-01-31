@@ -146,4 +146,8 @@ Example:
 
 Copy and paste this into your code editor and see what happens!
 
+## What you've learned
+
+We covered a lot of HTML in this section and learned how to create tables, make links, and embed images. These are just a couple of the many HTML tags that you need to know. Let's move on to another important feature of most web pages, the form. With web forms we can create surveys, contact forms, and comment boxes.
+
 NEXT: [Forms](./forms.md)

@@ -123,4 +123,8 @@ h1 span {
 
 To learn more about the difference between ```<div>``` and ```<span>```, you can also read: <https://www.codecademy.com/en/forum_questions/502ad0ea558dfe0002026d69>
 
+## What you learned
+
+This lesson taught us how to use fonts within our HTML and to change colors and create links. Many times I would rather style my elements rather than using the built-in styling that comes along with using elements like ‘<h1>’. The next section will show us how to inspect specific HTML elements and see CSS properties.
+
 NEXT: [Using the Inspect Tool](./inspect_element.md)

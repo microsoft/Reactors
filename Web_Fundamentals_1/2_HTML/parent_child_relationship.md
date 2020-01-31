@@ -1,6 +1,6 @@
 # Parent, Child, Sibling Relationship
 
-In this chapter, we will be covering 2 very important concepts: Indentation and the Parent, Child, Sibling Relationship.
+In this chapter, we will be covering two very important concepts: Indentation and the Parent, Child, Sibling Relationship.
 
 Consider the following example:
 
@@ -110,5 +110,9 @@ It's not required, but it is _highly recommended_, and here are the reasons why:
 * For a quick demo, please watch the video below:
 
 At this point, you may not appreciate the significance of HTML PCSrelationship -- and that's okay. Just know that as early as the HTML course, you will be dealing with them (through properly indenting your code), but will not be directly working on them (target, and manipulate related elements via CSS and or jQuery).
+
+## What you learned
+
+In the section, we learn about indentation and help different HTML elements are nested within each other, and because of this, nesting has a parent-child relationship. Similarly, children of parent elements in HTML are called siblings. HTML is recursive, and siblings can also have children. Next, we will do an activity to practice how to indent in our HTML code.
 
 NEXT: [Activity: Indentation Practice](./indentation_practice.md)

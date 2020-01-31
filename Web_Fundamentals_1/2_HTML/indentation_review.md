@@ -55,4 +55,8 @@ By analyzing our HTML, we notice that we have an opening HTML tag on our second 
 
 Review this code and apply the parent, sibling and child relationships to understand this content a little easier.
 
+## What you learned
+
+By reviewing this activity, Another thing we should take note of is that by doing  Ha good job within the temptation and formatting of our code, we make the job easier for the next person who may be coming in after us to do work on a page. That’s why it’s essential to make sure that your code is up to standard and looks good.
+
 NEXT: [After you've completed this activity go on to the next section, "Common Body Tags"](./common_body_tags.md)

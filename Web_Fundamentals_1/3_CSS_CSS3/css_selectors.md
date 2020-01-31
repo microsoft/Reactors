@@ -66,4 +66,8 @@ c represents the number of tag names
 
 Combining these into a number will give you the actual weight. This means that  li #list will have the same weight as ul #list. This is probably one of the most confusing things about the cascade scheme, but it’s actually simpler than you might think: **it’s all about counting**.
 
+## What you learned
+
+In this lesson, We learned how to style HTML elements by selecting them with their tag or by using a class or ID. Remember that IDs are used only once, And classes are designed to be used over and over again to style elements. Let’s look at how to style HTML elements.
+
 Next: [Styling Elements](./styling_elements.md)
