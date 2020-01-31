@@ -4,8 +4,7 @@ In addition to the display property and the box model, the **position property**
 
 ## **Consider the following:**
 
-##### HTML:
-```
+``` html
 <div id="container">
   <div id="box-1">
   </div>
@@ -15,9 +14,8 @@ In addition to the display property and the box model, the **position property**
   </div>
 </div>
 ```
-##### CSS:
 
-```
+``` css
 #container{
   background-color: yellow;
   display: inline-block;
@@ -41,7 +39,7 @@ In addition to the display property and the box model, the **position property**
 
 This results in:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_1514_positioning-03.gif)
+![Positioning Example](../images/positioning-03.gif)
 
 ## **Static**
 
@@ -61,7 +59,7 @@ The key to understanding absolute positioning is understanding where the origin 
 
 Using absolute positioning on box-1:
 
-```
+``` css
 #container{
   background-color: yellow;
   display: inline-block;
@@ -87,7 +85,7 @@ Using absolute positioning on box-1:
 
 This results in:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_1515_absolute-03.gif)
+![Absolute Position](../images/absolute-03.gif)
 
 ## **Relative**
 
@@ -95,7 +93,7 @@ Relatively positioned elements are positioned based on the same top, right, bott
 
 Using relative positioning on box-2:
 
-```
+``` css
 #container{
   background-color: yellow;
   display: inline-block;
@@ -122,7 +120,7 @@ Using relative positioning on box-2:
 
 This results in:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_1516_relative-03.gif)
+![Relative Position](../images/relative-03.gif)
 
 ## **Fixed**
 
@@ -134,16 +132,14 @@ An awesome resource on how to center elements: [http://designshack.net/articles/
 
 An easy way to center an element inside a container:
 
-##### HTML:
-```
+``` html
 <div id="container">
   <div id="center-me">
   </div>
 </div>
 ```
-##### CSS:
 
-```
+``` css
 #container{
   width:200px;
   height:200px;
@@ -165,16 +161,14 @@ An easy way to center an element inside a container:
 
 Another way to horizontally center an element:
 
-##### HTML:
-```
+``` html
 <div id="container">
   <div id="center-me">
   </div>
 </div>
 ```
-##### CSS:
 
-```
+``` css
 #container{
   width:200px;
   height:200px;
@@ -188,4 +182,5 @@ Another way to horizontally center an element:
   margin: 0 auto;
 }
 ```
-#### NEXT: [Activity: Portfolio Webpage](./portfolio_activity.md)
+
+NEXT: [Activity: Portfolio Webpage](./portfolio_activity.md)

@@ -5,11 +5,10 @@
 3. [What does "full stack" mean?](./full_stack.md)
 4. [Install Visual Studio Code and other tools](./environment.md)
 
-#### Next: [Part 2. HTML: Programming the Web](../Part%202.%20HTML)
+Next: [Part 2. HTML: Programming the Web](../Part%202.%20HTML)
 
-
----
 ## Course modules
+
 * [Part 1. Web Basics](../Part%201.%20Web%20Basics)
 * [Part 2. HTML: Programming the Web](../Part%202.%20HTML)
 * [Part 3. CSS: Selectors, Styling, and Display](../Part%203.%20CSS%20%26%20CSS3)

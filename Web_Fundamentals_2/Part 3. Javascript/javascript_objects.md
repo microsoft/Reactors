@@ -4,11 +4,11 @@ In this section, we will focus on another way of storing a collection of informa
 
 Objects are a way to store information where a Key accesses a set Value. Let us keep on reading through the material to find out how this occurs and why we need to learn this.
 
-# Why Objects?
+## Why Objects
 
 Let's say we had information regarding Daenerys Targaryen from Game of Thrones we wanted to store in a variable.
 
-```
+```javascript
 var Dany = ['Daenerys', 'Targaryen', 22, 'House Targaryen', 'Valyrian', 'Queen of the Andals the Rhoynar and the First Men', 'Lady Regnant of the Seven Kingdoms', 'Protector of the Realm', 'Khaleesi of the Great Grass Sea', 'Breaker of Chains', 'Mother of Dragons', 'Queen of Meereen']
 ```
 
@@ -22,7 +22,7 @@ Notice how we had to remember the exact index of where that information is locat
 
 But with arrays, we cannot find a named index. To accomplish that, we need to use a structure called an object. An object allows us to find information inside of a collection by naming a key to that value. Let's take a look at that in action.
 
-```
+```javascript
 var Dany = {
   first_name: 'Daenerys',
   last_name: 'Targaryen',
@@ -39,6 +39,4 @@ Here is how we access a key-value pair for the Dany variable.
 
 ```console.log(Dany.allegiance); // House Targaryen```
 
-#### NEXT: [The DOM](./the_dom.md)
-
-
+NEXT: [The DOM](./the_dom.md)

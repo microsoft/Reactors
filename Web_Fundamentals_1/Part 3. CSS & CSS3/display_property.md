@@ -26,15 +26,17 @@ We can, however, change the default display style of HTML elements using CSS and
 
 Ex: Inline links by default
 
-![Inline-Default](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Inline-Default.png)
-```      
+![Inline-Default](../images/Inline-Default.png)
+
+```html
       <a href="#">One</a>
       <a href="#">Two</a>
       <a href="#">Three</a>
       <a href="#">Four</a>
       <a href="#">Five</a>
 ```
-```
+
+```css
 a {
         margin: 10px;
         background: #eee;
@@ -45,15 +47,17 @@ a {
 
 Turning them into block elements:
 
-![Inline-Display-Block](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Inline-Display-Block.png)
-```
+![Inline-Display-Block](../images/Inline-Display-Block.png)
+
+```html
       <a href="#">One</a>
       <a href="#">Two</a>
       <a href="#">Three</a>
       <a href="#">Four</a>
       <a href="#">Five</a>
 ```
-```
+
+```css
       a {
         margin: 10px;
         background: #eee;
@@ -61,10 +65,11 @@ Turning them into block elements:
         display: block;
         padding: 10px;
       }
-```    
+```
 
 On the reverse side, suppose we have the following navigation menu:
-```
+
+``` html
 <ul id="nav-menu">
   <li><a href="#">Home</a></li>
   <li><a href="#">Dashboard</a></li>
@@ -72,13 +77,14 @@ On the reverse side, suppose we have the following navigation menu:
   <li><a href="#">Contact Us</a></li>
 </ul>
 ```
+
 The HTML would normally appear like this:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3247_inline-block-list.png)
+![Inline Block List](../images/inline-block-list.png)
 
 When we want to make this a horizontal menu on the top of our page, we can do this:
 
-```
+``` css
 #nav-menu{
   list-style-type: none; /*This gets rid of the bullets.*/
 }
@@ -89,22 +95,24 @@ When we want to make this a horizontal menu on the top of our page, we can do th
 
 Now it looks like this:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3248_inline-block-list2.png)
+![Inline Block List 2](../images/inline-block-list2.png)
 
 **Inline-block:**
 
 Consider the following example:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3316_inlineBlock-1.jpg)
+![Inline Block](../images/inlineBlock-1.jpg)
 
-Recall that <p> tags are block elements by default. When we display them as inline the two flow together into a single paragraph.
+Recall that `<p>` tags are block elements by default. When we display them as inline the two flow together into a single paragraph.
 
-![Inline-Block-Example-Two](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Inline-Block-Example-Two.png)
-```
+![Inline-Block-Example-Two](../images/Inline-Block-Example-Two.png)
+
+``` html
       <p>Lorem ipsum dolor sit amet...</p>
       <p>Lorem ipsum dolor sit amet...</p>
 ```
-```
+
+```css
       p {
         font-size: 14px;
         background: #eee;
@@ -116,9 +124,9 @@ We've now lost all ability to set our width and height since the two paragraphs 
 
 The same paragraphs with inline-block:
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3321_inlineBlock-6a.jpg)
+![Inline Block example 6a](../images/inlineBlock-6a.jpg)
 
-```
+``` css
 p {
         width: 180px;
         margin:10px;
@@ -135,6 +143,6 @@ What's happening here is that we're telling the browser to display the paragraph
 
 When we start utilizing inline-block, we might notice that the vertical positioning of the blocks can start to behave differently than we might expect, particularly when the blocks have different heights. The default is for elements to be aligned to the lowest edge of the blocks within the line. To adjust this behavior, we can use the CSS property ````vertical-align````, which has values like top and middle.
 
-![](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/verticalalign.png)
+![Vertical Align Example](../images/verticalalign.png)
 
-#### NEXT: [Box Model](./box_model.md)
+NEXT: [Box Model](./box_model.md)

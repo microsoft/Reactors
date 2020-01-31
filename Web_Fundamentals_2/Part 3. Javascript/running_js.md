@@ -2,7 +2,7 @@
 
 To be able to learn JavaScript, first we need to be able to run JavaScript. JS is an interpreted language, meaning it needs an interpreter to parse through our code and turn it into actions for the computer. As a client-facing scripting language, JavaScript is most comfortable running in a browser. You can do this one of three ways.
 
-### Online Interpreters
+## Online Interpreters
 
 If you need to write and test just a few lines of JS, an online interpreter can be a good option. [JSFiddle](https://jsfiddle.net/), [jsbin](http://jsbin.com/?js,console), and [CodePen](http://codepen.io/) are a few
     examples. These can be great for algorithm challenges!
@@ -22,7 +22,8 @@ This is also where we will read the majority of our console messages.
 ### .html
 
 **We recommend writing .html files and including your JavaScript in a script tag.** You will need to do this to complete some of the assignments in the JavaScript chapter, and it's the best representation of how client side JavaScript actually performs. This is also the JavaScript you are already familiar with!
-```
+
+``` html
 <html>
 <head>
   <script>
@@ -30,10 +31,11 @@ This is also where we will read the majority of our console messages.
         console.log(x);
     </script>  
 </head>
-<body> 
+<body>
 </body>
 </html>
 ```
+
 Remember to always have your browser console open so you can see the outputs!
 
-#### NEXT: [ECMAScript & ES6](./es6.md)
+NEXT: [ECMAScript & ES6](./es6.md)

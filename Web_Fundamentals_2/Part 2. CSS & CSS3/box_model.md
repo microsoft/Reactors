@@ -12,13 +12,13 @@ Total width is how much horizontal space a block occupies. This includes the blo
 
 The box model consists of the properties **margin, border,** and **padding**.
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_1511_box-model-01-03.gif)
+![Box Model Diagram](../images/box-model-01-03.gif)
 
 Margin is **outside** block elements, while padding is **within** them. This means that we use margin to separate a block from things around it, and padding to move a block's content away from its edges.
 
 We can specifically set the margin, padding, or border of any side of an element.
 
-```
+``` css
 div{
   padding-top: 10px;
   padding-right: 10px;
@@ -29,7 +29,7 @@ div{
 
 You can also use the shorthand property:
 
-```
+``` css
 div{
   padding-top: 25px;
   padding-right: 50px;
@@ -40,7 +40,7 @@ div{
 
 is equivalent to:
 
-```
+``` css
 div{
   padding: 25px 50px 75px 100px;
 }
@@ -48,7 +48,7 @@ div{
 
 And
 
-```
+``` css
 div{
   padding-top: 25px;
   padding-right: 50px;
@@ -59,7 +59,7 @@ div{
 
 is equivalent to:
 
-```
+``` css
 div{
   padding: 25px 50px 75px;
 }
@@ -67,7 +67,7 @@ div{
 
 And
 
-```
+``` css
 div{
   padding-top: 25px;
   padding-right: 50px;
@@ -78,7 +78,7 @@ div{
 
 is equivalent to:
 
-```
+```css
 div{
   padding: 25px 50px;
 }
@@ -86,7 +86,7 @@ div{
 
 And
 
-```
+```css
 div{
   padding-top: 25px;
   padding-right: 25px;
@@ -97,7 +97,7 @@ div{
 
 is equivalent to:
 
-```
+```css
 div{
   padding: 25px;
 }
@@ -114,7 +114,8 @@ Calculating the height is trickier. Why? Because **vertical margins collapse**.
 Ex:
 
 HTML:
-```
+
+``` html
 <div id="box-1">
 </div>
 <div id="box-2">
@@ -122,9 +123,10 @@ HTML:
 <div id="box-3">
 </div>
 ```
+
 CSS:
 
-```
+```css
 #box-1, #box-2, #box-3{
   height: 100px;
   width: 100px;
@@ -142,10 +144,10 @@ CSS:
 ```
 
 You might think that this will look like this:
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_1513_vertical-uncollapsed-03.gif)
+![Vertical Box Model Diagram](../images/vertical-uncollapsed-03.gif)
 
 But this code will actually result in this:
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_1512_vertical-collapsed-03.gif)
+![Collapse Box Model](../images/vertical-collapsed-03.gif)
 
 When the vertical margins of two elements are touching, **only the margin of the element with the largest margin value will be honored**, while the margin of the element with the smaller margin value will be collapsed to zero.
 
@@ -157,4 +159,4 @@ There are other situations where elements do not have their margins collapsed:
 * elements with overflow property set to anything other than visible (They do not collapse margins with their children.)
 * cleared elements (They do not collapse their top margins with their parent block's bottom margin.)
 
-#### NEXT: [Activity: Portfolio Webpage](./portfolio_activity.md)
+NEXT: [Activity: Portfolio Webpage](./portfolio_activity.md)

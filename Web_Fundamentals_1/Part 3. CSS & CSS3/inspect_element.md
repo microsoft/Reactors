@@ -6,4 +6,6 @@ To access inspect element, simply right-click any element within the browser win
 
 Each browser has it's own way of displaying the code a page is built with. You should check your browser's documentation, or ask your instructor about this now.
 
-#### NEXT: [The Display Property](./display_property.md)
+Here's the guide to the developer tools built into the [Edge browser.](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
+
+NEXT: [The Display Property](./display_property.md)

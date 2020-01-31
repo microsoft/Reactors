@@ -8,19 +8,19 @@ You can think of the document as a big container, inside of which sits informati
 
 Each specific element also has a [wealth of methods](http://www.w3schools.com/jsref/dom_obj_all.asp) to exploit.
 
-Open up your browser and right click on a webpage and click "Inspect", from there you should see a tab labeled, "console." Ask your instructor for guidance if you can't find the browser console for Javascript. 
+Open up your browser and right click on a webpage and click "Inspect", from there you should see a tab labeled, "console." Ask your instructor for guidance if you can't find the browser console for Javascript.
 
 Once you're ready, let's play with the DOM a little bit:
 
 Try this in the console:
 
-```
+```javascript
 console.log(document.body);
 ```
 
 Next, try this:
 
-```
+```javascript
 var body = document.body;
 // this is more fun if it's a random page with stuff already on it (like the learning platform for example).
 body. innerHTML = "Hello World";
@@ -29,15 +29,17 @@ body. innerHTML = "Hello World";
 Awesome ---- we are manipulating the DOM using JavaScript. Good work!
 
 Let's try this:
-```
+
+```javascript
 var bod = document.body;
 for (var i = 0; i < 10; i ++){
   bod. innerHTML += "<p>This has gone through the loop completely: " +i+ " times</p>";
 }
 ```
-Lastly, these DOM elements **can listen for events**. After we've placed all the **p**-tags into the body (using the above loop), let's put an event listener on them! 
 
-```
+Lastly, these DOM elements **can listen for events**. After we've placed all the **p**-tags into the body (using the above loop), let's put an event listener on them!
+
+```javascript
 var paragraphs = document.getElementsByTagName('p');
 console.log(paragraphs);
 for (var i = 0; i < paragraphs.length; i ++){
@@ -52,9 +54,6 @@ Now click on the text in the ```<p>``` tags to see the listener change the color
 
 Unfortunately, that was a bit tedious (the interface to access and manipulate the DOM is widely viewed as clunky), and it'd be great if there was a more streamlined way to get the job done (more on this later).
 
-This is exactly where _front-end frameworks or libraries_ come in handy. By layering some functionality atop regular JavaScript, the DOM becomes much easier to manipulate. That means faster development and, hopefully, a better end product. 
+This is exactly where _front-end frameworks or libraries_ come in handy. By layering some functionality atop regular JavaScript, the DOM becomes much easier to manipulate. That means faster development and, hopefully, a better end product.
 
-
-#### NEXT: [Fat Arrow Functions](./fat_arrow_functions.md))
-
-
+NEXT: [Fat Arrow Functions](./fat_arrow_functions.md)

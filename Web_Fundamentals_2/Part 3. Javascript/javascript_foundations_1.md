@@ -1,14 +1,17 @@
 # Javascript Foundations I
-## Objectives:
+
+## Objectives
+
 * Get comfortable with basic for loops, if/else statements, and functions.
 * Get comfortable building basic algorithms in preparation for the Python track
 * Try to do these on paper with your neighbor! Or, goto your instructor to get paired up.
 
 Use JSBin to see how to execute each one of these functions. Remove the comment marks (Remove `*/`) at the end of each function to run them in JSBin.
-#### [Click here to got JSBin.](https://jsbin.com/casegoy/edit?js,console)
 
+[Click here to got JSBin.](https://jsbin.com/casegoy/edit?js,console)
 
-##  Practice writing functions for the following Algorithms:
+## Practice writing functions for the following Algorithms
+
 1. Get 1 to 255 - Write a function that returns an array with all the numbers from 1 to 255.
 2. Get even 1000 - Write a function that would get the sum of all the even numbers from 1 to 1000.  You may use a modulus operator for this exercise.
 3. Sum odd 5000 - Write a function that returns the sum of all the odd numbers from 1 to 5000. (e.g. 1+3+5+...+4997+4999).
@@ -23,4 +26,4 @@ Use JSBin to see how to execute each one of these functions. Remove the comment 
 12. Swap Values - Write a function that will swap the first and last values of any given array. The default minimum length of the array is 2. (e.g. [1,5,10,-2] will become [-2,5,10,1]).
 13. Number to String - Write a function that takes an array of numbers and replaces any negative values within the array with the string 'Dojo'. For example if array = [-1,-3,2], your function will return ['Dojo','Dojo',2].
 
-#### NEXT: [Javascript Objects](./javascript_objects.md)
+NEXT: [Javascript Objects](./javascript_objects.md)

@@ -1,5 +1,6 @@
 # Activity: Debugging jQuery
-Learning how to write correct code is important, obviously. However, learning how to spot errors and debug code is an invaluable skill as well. For this assignment, you need to [clone this Github repo](https://github.com/Codingdojo-Trey/Debugging-jQuery/tree/error_version) and find all the errors. 
+
+Learning how to write correct code is important, obviously. However, learning how to spot errors and debug code is an invaluable skill as well. For this assignment, you need to [clone this Github repo](https://github.com/Codingdojo-Trey/Debugging-jQuery/tree/error_version) and find all the errors.
 
 **Note that the correct version of the code is contained in another branch of this repository.** Don't clone it or look at it unless you are really struggling. There are 5 mistakes in the jQuery/JavaScript code for you to find. When you have corrected all of the code, make sure to test the page and see if the code is working the way it should!
 
@@ -20,6 +21,6 @@ When the link in the red div is clicked, an alert box should pop up containing a
 
 Check the code line by line--a few of the errors may be hard to spot, but that is on purpose.
 
-##### Do this activity at [Codepen Here](https://codepen.io/dannyooooo/pen/jOEpaxR)
+Do this activity at [Codepen Here](https://codepen.io/dannyooooo/pen/jOEpaxR)
 
-#### NEXT: [Traversing JSON + Building HTML](./json_html.md)
+NEXT: [Traversing JSON + Building HTML](./json_html.md)

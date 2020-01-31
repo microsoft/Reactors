@@ -8,10 +8,12 @@ Consider the following example:
 Bacon ipsum dolor amet tail salami ball tip leberkas venison. Pig pork loin shoulder pork fatback corned beef chuck shank drumstick cow doner cupim capicola. Swine beef ground round, kielbasa meatball doner jowl rump chuck pastrami venison spare ribs turducken sirloin sausage. Sausage venison doner brisket, andouille pork pastrami strip steak drumstick tri-tip cupim.
 
 Notice how the header is centered in the middle of the page. Also notice that the first word at the beginning of the paragraph is indented a few spaces over. As programmers, we also want our co-programmers to distinguish where our
- ```code block``` ends and the next begins. 
- 
+ ```code block``` ends and the next begins.
+
  Applying this concept to coding, our "Bacon Ipsum" paragraph should be translated like this in HTML:
-```<!DOCTYPE html>
+
+``` html
+<!DOCTYPE html>
 <html>
     <head>
         <title> Hello World! </title>
@@ -22,8 +24,10 @@ Notice how the header is centered in the middle of the page. Also notice that th
     </body>
 </html>
 ```
+
 Wait. Isn't it supposed to be indented like below?
-```
+
+``` html
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -32,29 +36,31 @@ Wait. Isn't it supposed to be indented like below?
    </head>
    <body>
                                    <h3>Bacon Ipsum, Dolor Amet?</h3>
-                <p> Bacon ipsum dolor amet tail salami ball tip leberkas venison. Pig pork 
+                <p> Bacon ipsum dolor amet tail salami ball tip leberkas venison. Pig pork
         loin shoulder pork fatback corned beef chuck shank drumstick cow doner cupim capicola. Swine
-        beef ground round, kielbasa meatball doner jowl rump chuck pastrami venison spare ribs turdu 
+        beef ground round, kielbasa meatball doner jowl rump chuck pastrami venison spare ribs turdu
         ken sirloin sausage. Sausage venison doner brisket, andouille pork pastrami strip steak drums
         tick tri-tip cupim.</p>
    </body>
 </html>
 ```
+
 Simple answer: **NO.**
 
-![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3250_what.jpeg)
+![Pic of Frustrated Man](../images/what.jpeg)
 
 Remember, we don't indent our code by our website's
   _content,_ we indent them via the HTML tag's **parent, child, sibling relationship**. So how did we get the title centered? Good question! That'll require some CSS that we will be going over in part three of the workshop. For now, just understand that indentation is determined by the PCS relationship, _not_by how we want the HTML to be visually rendered on the browser.
 
-## What is the HTML PCS Relationship?
+## HTML PCS Relationship
 
-The PCS relationship is just a term to describe the relationship between tags/elements inside an HTML document. 
+The PCS relationship is just a term to describe the relationship between tags/elements inside an HTML document.
 
 To know the relationship between tags, we must first determine the parents, children, and siblings within our HTML document.
 
 Example:
-```
+
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -68,15 +74,18 @@ Example:
 ```
 
 From the HTML above you can read:
-```
+
+```html
 * <html> is the root element![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3253_batman.jpg)
 * <html> has no parents
 * <html> is the parent of <head> and <body>
 * <head> is the first child of <html>
 * <body> is the last child of <html>
 ```
+
 and:
-```
+
+``` html
 * <head> has one child: <title>
 * <title> has one content (text): "Hello World!"
 * <body> has two children: <h1> and <p>
@@ -85,7 +94,8 @@ and:
 * <h1> and <p> are siblings
 * <head> and <body> are siblings
 ```
-## Is it really required to indent HTML code?
+
+## Is it really required to indent HTML code
 
 It's not required, but it is _highly recommended_, and here are the reasons why:
 

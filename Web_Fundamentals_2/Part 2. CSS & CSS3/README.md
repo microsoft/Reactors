@@ -8,15 +8,13 @@
 6. [Using the Inspect Tool](./inspect_element.md)
 7. [The Display Property](./display_property.md)
 8. [Box Model](./box_model.md)
-10. [Position Practice](./position_practice.md)
-11. [Activity: Portfolio Activity](./portfolio_activity.md)
+9. [Position Practice](./position_practice.md)
+10. [Activity: Portfolio Activity](./portfolio_activity.md)
 
+NEXT: [Part 3. Javascript](../Part%203.%20Javascript)
 
-#### NEXT: [Part 3. Javascript](../Part%203.%20Javascript)
-
-
----
 ## Course modules
+
 * [Part 1. HTML: Programming the Web](../Part%201.%20HTML)
 * [Part 2. CSS: Selectors, Styling, and Display](../Part%202.%20CSS%20%26%20CSS3)
 * [Part 3. Javascript](../Part%203.%20Javascript)

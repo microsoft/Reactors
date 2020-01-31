@@ -8,4 +8,4 @@ Each browser has it's own way of displaying the code a page is built with. You s
 
 Here's the guide to the developer tools built into the [Edge browser.](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
-#### NEXT: [The Display Property](./display_property.md)
+NEXT: [The Display Property](./display_property.md)

@@ -1,8 +1,8 @@
-## Overview
+# Overview
 
 HyperText Markup Language (HTML) is the main markup language for all web pages. HTML elements are the basic building-blocks of the internet.
 
-### Objectives
+## Objectives
 
 * Understand the theoretical components of the web and how they interact
 * Understand the client-server model
@@ -41,22 +41,24 @@ That's it! You should see the text "Hello World!" displayed in your browser.
 Now, you may have noticed that we didn't add any tags to our text. To see how the browser handles this situation, right click in your browser and click **Inspect**. A new module should open at the bottom of your browser with various tabs.
 
 We're currently interested in the **Elements** tab. When you click on it, you should see:
-```
+
+```html
 <html>
     <head></head>
     <body>Hello World!</body>
 </html>
 ```
+
 In the case where your HTML document isn't "valid", the browser will try to add appropriate tags to fix it.
 
-One of each of ```<html>, <head>, and <body> ```above are required for each valid HTML document.
+One of each of ```<html>, <head>, and <body>```above are required for each valid HTML document.
 
-### Terminology:
+### Terminology
 
 > **"Opening and closing tags"**
 Since tags are supposed to wrap things, **most tags come in pairs**: one opening and one closing tag, that denote the beginning and end of content. Tags without a leading forward slash are called opening tags while tags with leading forward slashes are called closing tags.
 
-In the above example, ```<body>``` is an opening tag - it's equivalent to you telling the browser "Hey, I'm going to start putting in body content now". ```</body> ```is a closing tag that means "OK, I'm done with body content."
+In the above example, ```<body>``` is an opening tag - it's equivalent to you telling the browser "Hey, I'm going to start putting in body content now". ```</body>```is a closing tag that means "OK, I'm done with body content."
 
 > **"Nesting"**
 Notice that between the opening and closing HTML tags, we also have head and body tags. **Tags can encapsulate other tags**. This is called nesting. Nested items are **indented with a tab** to make the document easier to read.
@@ -65,8 +67,10 @@ The hierarchy that rises from **nesting** is called **DOM** - Document Object Mo
 
 > **Commenting**
 The format for commenting in an HTML file is as follows:
-```
+
+```html
 <p> Some paragraph content. </p>
 <!-- This is a comment in HTML -->
 ```
-#### NEXT: [Parent, Child, Sibling Relationships in HTML](./parent_child_relationship.md)
+
+NEXT: [Parent, Child, Sibling Relationships in HTML](./parent_child_relationship.md)

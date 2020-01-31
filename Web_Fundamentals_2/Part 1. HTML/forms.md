@@ -1,4 +1,5 @@
 # Forms
+
 Forms are one of the most important HTML tags you will learn. They are responsible for all the data exchange between the user (front-end) and the server (back-end). So it's very important that you have a good understanding of how to build them.
 
 A form's job is to take in user input and send it to the back-end to be processed. A form is declared by using the `<form>` tag, which will have attributes action and method that decide where the form information gets sent, and how it gets sent respectively. [Learn more about forms and attributes here.](https://www.w3schools.com/htmL/html_forms.asp)
@@ -11,7 +12,8 @@ Let's look at what input types would be used in the following circumstances:
 
 When the user needs to enter a short amount of text, such as an email address or name.
 The appropriate input type here is text.
-```
+
+```html
 <label for="first_name">First Name:</label>
 <input type="text" id="first_name" name="first_name">
 <label for="last_name">Last Name:</label>
@@ -22,7 +24,8 @@ The appropriate input type here is text.
 
 A password field.
 The appropriate input type here is password.
-```
+
+```html
 <label for="password">Password</label>
 <input type="password" id="password" name="password">
 ```
@@ -30,7 +33,7 @@ The appropriate input type here is password.
 When the user can choose only 1 option from a variety of options. A good example is a gender selector.
 One appropriate input type here is radio buttons.
 
-```
+```html
 <label for="male">Male</label>
 <input type="radio" id="male" name="gender" value="male">
 <label for="female">Female</label>
@@ -49,7 +52,7 @@ Another option is a dropdown menu, which uses <select> and <option> tags.
 When the user can choose multiple things from a variety of options, such as choosing their favorite 3 colors from 5 options.
 The appropriate input type here is checkboxes.
 
-```
+```html
 <label for="blue">Blue</label>
 <input type="checkbox" id="blue" name="color" value="blue">
 <label for="green">Green</label>
@@ -67,79 +70,75 @@ In this case we use the ```<textarea>``` tag.
 
 ```<textarea name="description"></textarea>```
 
-When a form needs to submit more than just user input. 
-Input type hidden is similar to text fields, except they do not show on the page and users can not enter anything into them. This is useful for the back-end authentication and passing data. 
-```
+When a form needs to submit more than just user input.
+Input type hidden is similar to text fields, except they do not show on the page and users can not enter anything into them. This is useful for the back-end authentication and passing data.
+
+```html
 <input type="hidden" name="id" value="7">
 ```
 
 Finally, to create a submit button:
 The appropriate input type is submit.
 
-```
+```html
 <input type="submit" value="Submit">
 ```
 
 Let's look at a sample full registration form:
-```
+
+```html
 <form action="process.php" method="post">
     <p>Please Register</p>
     <label for="first_name">First Name:</label>
     <input type="text" id="first_name" name="first_name">
-   
     <label for="last_name">Last Name:</label>
     <input type="text" id="last_name" name="last_name">
-   
     <label for="email">Email:</label>
     <input type="text" id="email" name="email">
-   
+
     <p>Select your gender:</p>
     <label for="male">Male</label>
     <input type="radio" id="male" name="gender" value="male">
-   
     <label for="female">Female</label>
     <input type="radio" id="female" name="gender" value="female">
-    
     <label for="decline">Prefer not to say</label>
     <input type="radio" id="decline" name="gender" value="decline">
-   
+
     <p>Select 3 of your favorite colors:</p>
     <label for="blue">Blue</label>
     <input type="checkbox" id="blue" name="color" value="blue">
-    
     <label for="green">Green</label>
     <input type="checkbox" id="green" name="color" value="green">
-   
     <label for="red">Red</label>
     <input type="checkbox" id="red" name="color" value="red">
-    
     <label for="black">Black</label>
     <input type="checkbox" id="black" name="color" value="black">
-   
     <label for="purple">Purple</label>
     <input type="checkbox" id="purple" name="color" value="Purple">
-    
+
     <p>Say a few words about yourself:</p>
     <textarea name="description"></textarea>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password">
    <label for="pw_confirm">Password Confirmation:</label>
    <input type="password" id="pw_confirm" name="password_confirmation">
-   
+
    <input type="submit" value="Click here to register">
 </form>
 ```
+
 Other label-input Declaration
 Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairing shown above, but you may encounter a different format on how the label-input set is being declared. Below is an example:
-```
-<form>    
+
+```html
+<form>
     <p>Please Register</p>
     <label>
         Name:<input type="text" name="name">
     </label>
     <p>Select your gender:</p>
     <label>
-       Male<input type="radio" name="gender" value="male"> 
+       Male<input type="radio" name="gender" value="male">
     </label>
     <label>
        Female<input type="radio" name="gender" value="female">
@@ -154,8 +153,7 @@ Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairi
     <input type="submit" value="Click here to register">
 </form>
 ```
+
 Notice that the input element is now nested inside the label element and we no longer need to link the two using the label's for attribute and the input's id attribute.
 
-#### NEXT: [Activity: Registration Page](./registration_assignment.md)
-
-
+NEXT: [Activity: Registration Page](./registration_assignment.md)
