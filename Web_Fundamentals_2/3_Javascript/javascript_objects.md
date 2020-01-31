@@ -1,42 +1,46 @@
 # Javascript Objects
 
-In this section, we will focus on another way of storing a collection of information. When we are presented with a number of pieces of information and we wish to keep them in a collection since they are related to each other, normally we would store this collection of information as an array. We will cover the creation of Objects, updating values in an object, and deleting keys of information out of an object. Objects are one of the best ways to store information in an organized way.
+An object is something that we can describe with attributes. In the real world a car is an object. It is an object because we can give it properties like color and max_speed, and we can also give it methods like brake, signal, stop, and drive.
 
-Objects are a way to store information where a Key accesses a set Value. Let us keep on reading through the material to find out how this occurs and why we need to learn this.
+## Car Object Properties and Methods
 
-## Why Objects
+**Car Properties:**
 
-Let's say we had information regarding Daenerys Targaryen from Game of Thrones we wanted to store in a variable.
+* car.color = red
+* car.model = XF-RS
+* car.make = Jaguar
+* car.max_speed = 200
+
+**Car Methods:**
+
+* car.start()
+* car.stop()
+* car.signal()
+* car.brake()
+
+All cars have the same properties and methods. The specific values for the car's properties will be different for each car and the car's methods will be executed separately and at different times from other cars.
+
+## Using JavaScript
+
+We know that JS variables are storage containers for information, and in this case car values. We can assign a value, in this case the car's make to a variable we create called `car`:
+`var car = "Jaguar";`
+
+Don't forget that we can treat objects just like variables, since they are variables that can contain multiple values. Look at this code:
+`var car = {color:"red", model:"XFRS", color:"red", max_speed:250};`
+
+Here we are defining the car with an "object literal" that we can also express like this:
 
 ```javascript
-var Dany = ['Daenerys', 'Targaryen', 22, 'House Targaryen', 'Valyrian', 'Queen of the Andals the Rhoynar and the First Men', 'Lady Regnant of the Seven Kingdoms', 'Protector of the Realm', 'Khaleesi of the Great Grass Sea', 'Breaker of Chains', 'Mother of Dragons', 'Queen of Meereen']
+var car = {
+        color:"red",
+        model:"XFRS",
+        color:"red",
+        max_speed:250
+};
 ```
 
-Now that we have a variable of all the information regarding Daenerys, how do we access what culture Daenerys hails from?
+The values are written as **name:value pairs** (name and value separated by a colon). We can access the values inside of our objects more than one way. To access the color value of the car we can use: `car.color` or, we can also access color like this: `car["color"]`
 
-```console.log(Dany[4]); // Valyrian```
-
-Notice how we had to remember the exact index of where that information is located. Not only that but how do we know which String in our array is related to her last name? This can be a little confusing since we might not be the creators of the collection we get back. If we wanted to make this easier for ourselves we would be able to state something like this:
-
-```console.log(Dany.last_name); // Targaryen```
-
-But with arrays, we cannot find a named index. To accomplish that, we need to use a structure called an object. An object allows us to find information inside of a collection by naming a key to that value. Let's take a look at that in action.
-
-```javascript
-var Dany = {
-  first_name: 'Daenerys',
-  last_name: 'Targaryen',
-  age: 22,
-  allegiance: 'House Targaryen',
-  ancestry: 'Valyrian',
-  titles: ['Queen of the Andals, the Rhoynar and the First Men', 'Lady Regent of the Seven Kingdoms', 'Protector of the Realm', 'Khaleesi of the Great Grass Sea', 'Breaker of Chains', 'Mother of Dragons', 'Queen of Meereen']
-}
-```
-
-As we can see there are a few changes that were made. First, we are using curly braces. This defines this collection of information as an Object. Next, we can see that we have 'first_name:' which is how we name a key to a value. This portion on the left-hand side is referred to as a key. Using this key unlocks access to the value on the right-hand side. One last thing to note, those values we hold on the right-hand side can be of any type; we can store Strings, Numbers, Arrays or other Objects.
-
-Here is how we access a key-value pair for the Dany variable.
-
-```console.log(Dany.allegiance); // House Targaryen```
+We can work with the car's methods in the same way. [To learn more about JS Objects read up on them here.](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 NEXT: [The DOM](./the_dom.md)
