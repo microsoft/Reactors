@@ -76,7 +76,7 @@ Example:
 From the HTML above you can read:
 
 ```html
-* <html> is the root element![](http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3253_batman.jpg)
+* <html> is the root element!
 * <html> has no parents
 * <html> is the parent of <head> and <body>
 * <head> is the first child of <html>
@@ -111,4 +111,4 @@ It's not required, but it is _highly recommended_, and here are the reasons why:
 
 At this point, you may not appreciate the significance of HTML PCSrelationship -- and that's okay. Just know that as early as the HTML course, you will be dealing with them (through properly indenting your code), but will not be directly working on them (target, and manipulate related elements via CSS and or jQuery).
 
-#### NEXT: [Activity: Indentation Practice](./indentation_practice.md)
+NEXT: [Activity: Indentation Practice](./indentation_practice.md)
