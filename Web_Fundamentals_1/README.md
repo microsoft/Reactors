@@ -9,11 +9,11 @@ Have you been looking for a way to break into the web development industry as a 
 |Hour|Topic
 |---|---|
 |10:00 |Web Development Keynote
-|10:30 |[Part 1. Web Basics](../1_Web_Basics)
-|11:00 |[Part 2. HTML: Programming the Web](../2_HTML)
+|10:30 |[Part 1. Web Basics](1_Web_Basics)
+|11:00 |[Part 2. HTML: Programming the Web](2_HTML)
 |12:00 |Lunch + Survey
-|1:00 |[Part 3. CSS: Selectors, Styling, and Display](../3_CSS_CSS3)
-|2:00 |[Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)
+|1:00 |[Part 3. CSS: Selectors, Styling, and Display](3_CSS_CSS3)
+|2:00 |[Part 4. Capstone + Deployment with Azure](4_Capstone_Deployment)
 |3:45 |Wrap-up Next Steps
 
 START HERE: [**Part 1. Web Basics**](1_Web_Basics)
@@ -24,10 +24,10 @@ This workshop can be completed online however we do suggest all participants use
 
 ## Course modules
 
-* [Part 1. Web Basics](../1_Web_Basics)
-* [Part 2. HTML: Programming the Web](../2_HTML)
-* [Part 3. CSS: Selectors, Styling, and Display](../3_CSS_CSS3)
-* [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)
+* [Part 1. Web Basics](1_Web_Basics)
+* [Part 2. HTML: Programming the Web](2_HTML)
+* [Part 3. CSS: Selectors, Styling, and Display](3_CSS_CSS3)
+* [Part 4. Capstone + Deployment with Azure](4_Capstone_Deployment)
 
 ## Learning Pathways
 
