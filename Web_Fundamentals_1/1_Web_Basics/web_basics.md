@@ -39,4 +39,8 @@ Localhost is the perfect tool for developers building web applications because i
 
 ![Local Host Image](../images/localhost.jpg)
 
+## What you've learned
+
+In this section you learned about servers and clients and how they use a protocol called HTTP to connect. You also learned with how IP addresses and URLs work together and what it means to run a localhost on your home computer. In the next section we will discuss the HTTP Request and Response Cycle.
+
 Next: [Request and Response Cycle.](./req_resp.md)

@@ -16,4 +16,8 @@ Once the **server** receives the client's request, given that the server approve
 
 ![Client Server](../images/client-server.jpg)
 
+## What you've learned
+
+In this section we covered how the HTTP Request and Response cycle works and how the response is made up of HTML, CSS, and JavaScript. We also quickly discussed how the DNS system works and how it interprets URLs to return the data you request from specific websites.
+
 NEXT: [Full Stack Web Development](./full_stack.md)
