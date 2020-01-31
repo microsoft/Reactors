@@ -20,4 +20,4 @@ JavaScript is extremely fun to work with especially on the front-end and there i
 
 This module is designed to get you familiar with the basics of JavaScript, Algorithms, and DOM manipulation. With these skills in your back pocket, nothing can stop you. There is a lot of great information that you may want to review at various times throughout the course so feel free to come back as much as you can.
 
-#### NEXT: [Basic Javascript Functions](./basic_functions_1.md)
+#### NEXT: [Running Javascript Code](./running_js.md)

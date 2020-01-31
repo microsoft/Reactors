@@ -44,4 +44,3 @@ How many requests do you think this web page will send? Load the code into a bro
 To load this page, the browser had to make 4 GET requests. First to GET the page. Then as it was reading the page it saw that we are including jQuery's CDN. So the browser makes another GET request to get the code located in the URL specified in the src attribute and includes it on the page. Then the browser has to send another GET request when it realizes the img tag's source is located in the pokeapi URL. Finally, the browser makes another GET request to load the video located in the URL provided in the video element's src attribute.
 
 
-#### NEXT: [Traversing JSON and Building HTML](./json_html.md)

@@ -1,11 +1,15 @@
 # Part 3. CSS & CSS3
 
 1. [Start Here: Javascript Overview](./javascript_overview.md)
-2. [Javascript Basic Functions](./basic_functions_1.md)
-3. [Javascript Foundations 1](./javascript_foundations_1.md)
-4. [Javascript Objects](./javascript_objects.md)
-5. [The DOM](./the_dom.md)
-
+2. [Running Javascript Code](./running_js.md)
+3. [ECMAScript & ES6](./es6.md)
+4. [Javascript Basic Functions](./basic_functions_1.md)
+5. [Javascript Foundations 1](./javascript_foundations_1.md)
+6. [Javascript Objects](./javascript_objects.md)
+7. [The DOM](./the_dom.md)
+8. [Fat Arrow Functions](./fat_arrow_functions.md)
+9. [Using the Fetch API](./fetch.md)
+10. [Javascript Libraries](./javascript_libraries.md)
 
 #### NEXT: [Part 4. JQuery + APIs](../Part%204.%20JQuery%20%2B%20APIs)
 

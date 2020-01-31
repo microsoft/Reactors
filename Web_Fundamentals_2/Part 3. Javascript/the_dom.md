@@ -55,7 +55,6 @@ Unfortunately, that was a bit tedious (the interface to access and manipulate th
 This is exactly where _front-end frameworks or libraries_ come in handy. By layering some functionality atop regular JavaScript, the DOM becomes much easier to manipulate. That means faster development and, hopefully, a better end product. 
 
 
-
-#### NEXT: [Part 4. JQuery + APIs](../Part%204.%20JQuery%20%2B%20APIs)
+#### NEXT: [Fat Arrow Functions](./fat_arrow_functions.md))
 
 

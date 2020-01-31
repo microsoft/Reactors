@@ -35,4 +35,4 @@ Inside the curly brackets of the function above is where you are to insert **all
 3. **Write the code on what you want to happen when the event is triggered.**
 
 
-#### NEXT:[ Learn these Tags](./learn_these_tags.md)
+#### NEXT: [Activity: Debugging jQuery](./debugging_jquery.md)

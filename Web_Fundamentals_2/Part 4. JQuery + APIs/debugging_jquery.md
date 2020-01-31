@@ -22,4 +22,4 @@ Check the code line by line--a few of the errors may be hard to spot, but that i
 
 ##### Do this activity at [Codepen Here](https://codepen.io/dannyooooo/pen/jOEpaxR)
 
-#### NEXT: 6. [Advanced jQuery](./advanced_jquery.md)
+#### NEXT: [Traversing JSON + Building HTML](./json_html.md)

@@ -66,4 +66,3 @@ But the above code is redundant! What if there is a way we can choose the partic
 ```
 This is an example of how to streamline your jQuery code. You never have to write the same code twice. By leveraging the power of the $(this) selector, you can really cut down on the number of lines of code you have.
 
-#### NEXT: 5. [Activity: Debugging jQuery](./debugging_jquery.md)

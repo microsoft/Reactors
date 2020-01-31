@@ -1,4 +1,4 @@
-# Getting Data from an API
+# Getting Data from an API 
 Some URLs have JSON (JavaScript Object Notation) that we can use. JSON is just one of many ways of representing data. Navigate to `https://pokeapi.co/api/v2/pokemon/1/` to see JSON data about Bulbasaur. This means that instead of having our own database about Bulbasaur, we can just refer to this link to get more data about this Pokemon. How can we use this JSON data to display Bulbasaur's types (grass and poison), its height, and weight onto our website? 
 
 Thanks to jQuery, we have a convenient function `$.get` to do AJAX (which is a way of getting information from another URL without having to reload your own page). If we were to do it using pure JavaScript (which is how $.get function in jQuery is implemented), we would have to write a lot of code to make AJAX work for all different types and versions of browsers. Thanks, jQuery!

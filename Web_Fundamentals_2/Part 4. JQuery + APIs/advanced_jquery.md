@@ -182,4 +182,4 @@ Notice all we did was just define a function that did exactly what the original 
 
 Here's why: by calling the function within the `.ready()` tags, we told our browser to search all of our JavaScript for a function of that name and execute it. Pretty sweet, huh? That is part of the beauty of functions in JavaScript. When the browser/interpreter reads a statement that invokes a function, the entire document is scanned for a function of that name, meaning it could be defined on a latter segment of the page and the interpreter/browser will still be able to find it. 
 
-#### NEXT: [APIs](./api.md)
+

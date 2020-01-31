@@ -38,4 +38,3 @@ Note that for the **manipulation** jQuery functions, there are few distinctions 
 
 Similarly, **`.append()`** and **`.html()`** do nearly the same thing; they both can alter the HTML content of the selected item. The function **`.append`** will **add** markup to the element in question, whereas **`.html()`** will **overwrite** the markup with whatever is run inside the parentheses. So keep in mind that if you want to **add** content, use **`.append()`**, but if you want to **replace** content, use **`.html()`**.
 
-#### NEXT: 4. [$(this)](./this.md)
