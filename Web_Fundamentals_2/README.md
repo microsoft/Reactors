@@ -9,15 +9,15 @@ Have you been looking for a way to break into the web development industry as a 
 |Hour|Topic
 |---|---|
 |10:00 |Web Development Keynote
-|10:30 |[Part 1. HTML: Programming the Web](Part%201.%20HTML)
-|11:00 |[Part 2. CSS: Selectors, Styling, and Display](Part%202.%20CSS%20%26%20CSS3)
+|10:30 |[Part 1. HTML: Programming the Web](1_HTML)
+|11:00 |[Part 2. CSS: Selectors, Styling, and Display](2_CSS_CSS3)
 |12:00 |Lunch + Survey
-|12:30 |[Part 3. Javascript](Part%203.%20Javascript)
-|1:00  |[Part 4. JQuery + APIs](Part%204.%20JQuery%20%2B%20APIs)
-|1:30  |[Part 5. Capstone + Deployment](Part%205.%20%20Capstone%20%2B%20Web%20Publishing)
+|12:30 |[Part 3. Javascript](3_Javascript)
+|1:00  |[Part 4. JQuery + APIs](4_JQuery_APIs)
+|1:30  |[Part 5. Capstone + Deployment](5_Capstone_Web_Publishing)
 |3:45  |Wrap-up Next Steps
 
-START HERE: [Part 1. HTML: Programming the Web](Part%201.%20HTML)
+START HERE: [Part 1. HTML: Programming the Web](1_HTML)
 
 ## Workshop requirements
 
@@ -25,11 +25,11 @@ This workshop can be completed online however we do suggest all participants use
 
 ## Course modules
 
-* [Part 1. HTML: Programming the Web](Part%201.%20HTML)
-* [Part 2. CSS: Selectors, Styling, and Display](Part%202.%20CSS%20%26%20CSS3)
-* [Part 3. Javascript](Part%203.%20Javascript)
-* [Part 4. JQuery + APIs](Part%204.%20JQuery%20%2B%20APIs)
-* [Part 5. Capstone + Deployment with Azure](Part%205.%20%20Capstone%20%2B%20Web%20Publishing)
+* [Part 1. HTML: Programming the Web](1_HTML)
+* [Part 2. CSS: Selectors, Styling, and Display](2_CSS_CSS3)
+* [Part 3. Javascript](3_Javascript)
+* [Part 4. JQuery + APIs](4_JQuery_APIs)
+* [Part 5. Capstone + Deployment with Azure](5_Capstone_Web_Publishing)
 
 ## Learning Pathways
 

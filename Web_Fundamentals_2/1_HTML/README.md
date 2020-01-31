@@ -8,12 +8,12 @@
 6. [Forms in your Webpages](./forms.md)
 7. [Optional: Tips for Success with HTML](./tips_for_html.md)
 
-NEXT: [Part 2. CSS: Selectors, Styling, and Display](../Part%202.%20CSS%20%26%20CSS3)
+NEXT: [Part 2. CSS: Selectors, Styling, and Display](../2_CSS_CSS3)
 
 ## Course modules
 
-* [Part 1. HTML: Programming the Web](../Part%201.%20HTML)
-* [Part 2. CSS: Selectors, Styling, and Display](../Part%202.%20CSS%20%26%20CSS3)
-* [Part 3. Javascript](../Part%203.%20Javascript)
-* [Part 4. JQuery + APIs](../Part%204.%20JQuery%20%2B%20APIs)
-* [Part 5. Capstone + Deployment with Azure](../Part%205.%20%20Capstone%20%2B%20Web%20Publishing)
+* [Part 1. HTML: Programming the Web](../1_HTML)
+* [Part 2. CSS: Selectors, Styling, and Display](../2_CSS_CSS3)
+* [Part 3. Javascript](../3_Javascript)
+* [Part 4. JQuery + APIs](../4_JQuery_APIs)
+* [Part 5. Capstone + Deployment with Azure](../5_Capstone_Web_Publishing)
