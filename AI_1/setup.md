@@ -8,7 +8,7 @@ To follow along with the exercises which make up this workshop, you will need a 
 - A code editor, such as [Visual Studio Code](https://code.visualstudio.com/) with the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installed.
 - (Optional) [Azure Command Line Interface (CLI)](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest), a command line tool for managing Azure resources. You can also access the CLI without having to perform a local installation by navigating to [Azure Shell](https://shell.azure.com).
 
-If you have all of those utilities installed, you can skip ahead to [obtaining the starter site](./starting-site.md).
+If you have all of those utilities installed, you can skip ahead to [obtaining the starter site](./starting-site.md). Alternatively, you can [create an instance of the Data Science Virtual Machine on Azure](dsvm.md) to run a VM on Azure instead.
 
 > **NOTE** During the installation process you will be installing utilities commonly used in a command or terminal window such as Python and Git. The installation process will update system variables which aren't always detected in a command or terminal window already open. If you install a tool and receive an error message telling you it's not available, try closing the window and opening a new one.
 

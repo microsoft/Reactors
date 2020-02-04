@@ -19,7 +19,7 @@ cd contoso
 1. If Git isn’t installed on your computer, go to the [Git website](https://git-scm.com/) and install it now. Versions are available for Windows, macOS, and Linux.
 2. In a command window or terminal, use `cd` to switch to the project directory you created in the previous subsection. Then use the following command to clone the GitHub repo containing the starter files for the website:
 
-# Using Git
+## Using Git
 
 To download the starter and solution files, you will [clone](https://help.github.com/en/articles/cloning-a-repository) a repository from [GitHub](https://github.com) using git. Git is a distributed source code management system.
 
@@ -52,6 +52,7 @@ cd ./reactors/Artifical Intelligence 1_Building Software That Recognizes You/sta
 ```
 
 5. Create a virtual environment and install packages
+
 Let's create a virtual environment for the packages we'll be using. Virtual environments allow us to separate packages from other environments. Return to the command line and issuing the following command:
 
 ``` console
@@ -67,17 +68,21 @@ python3 -m venv env
 > **Note**: If you're using macOS or Linux the leading `.` for the `. ./env/bin/` activate is required as it indicates to Python where your source code resides.
 
 6. Install the necessary Python packages
+
 Install the packages listed in requirements.txt by using pip
 
 ``` console
 pip install -r requirements.txt
 ```
+
 7. Confirm the site starts
 
 ``` console
 flask run
 ```
 
-Navigate to **http://localhost:5000**
+Navigate to **http://localhost:5000**. Click **Translate a sign**. Click **Upload a photo**, and choose a photo, such as **sample.jpg** in the `starter-site` folder. Confirm it displays.
 
-If you're following along, the next step is to [start the site](./starting-site.md).
+## Next steps
+
+Congratulations! You've configured your environment and are ready to complete the rest of the labs! You can start by examining [Computer Vision and Translation services](computer-vision-translator/README.md). You can also explore [Python basics](intro-python.md) or [Flask basics](intro-flask.md) if you're not familiar with the language or framework.
