@@ -55,17 +55,17 @@ One of each of ```<html>, <head>, and <body>```above are required for each valid
 
 ### Terminology
 
-> **"Opening and closing tags"**
+**"Opening and closing tags"**
 Since tags are supposed to wrap things, **most tags come in pairs**: one opening and one closing tag, that denote the beginning and end of content. Tags without a leading forward slash are called opening tags while tags with leading forward slashes are called closing tags.
 
 In the above example, ```<body>``` is an opening tag - it's equivalent to you telling the browser "Hey, I'm going to start putting in body content now". ```</body>```is a closing tag that means "OK, I'm done with body content."
 
-> **"Nesting"**
+**"Nesting"**
 Notice that between the opening and closing HTML tags, we also have head and body tags. **Tags can encapsulate other tags**. This is called nesting. Nested items are **indented with a tab** to make the document easier to read.
 
 The hierarchy that rises from **nesting** is called **DOM** - Document Object Model.
 
-> **Commenting**
+**Commenting**
 The format for commenting in an HTML file is as follows:
 
 ```html

@@ -4,7 +4,7 @@ In this chapter, we will be covering 2 very important concepts: Indentation and 
 
 Consider the following example:
 
-> **_Bacon Ipsum, Dolor Amet?_**
+> **Bacon Ipsum, Dolor Amet?**
 Bacon ipsum dolor amet tail salami ball tip leberkas venison. Pig pork loin shoulder pork fatback corned beef chuck shank drumstick cow doner cupim capicola. Swine beef ground round, kielbasa meatball doner jowl rump chuck pastrami venison spare ribs turducken sirloin sausage. Sausage venison doner brisket, andouille pork pastrami strip steak drumstick tri-tip cupim.
 
 Notice how the header is centered in the middle of the page. Also notice that the first word at the beginning of the paragraph is indented a few spaces over. As programmers, we also want our co-programmers to distinguish where our
@@ -106,8 +106,7 @@ It's not required, but it is _highly recommended_, and here are the reasons why:
 
 ### **How to Indent**
 
-* Just tap the TAB key. 1 TAB is equal to 4 spaces. Some people like 2 spaces and you can change this option with your favorite text editor, but we recommend _tabs, not spaces_.
-* For a quick demo, please watch the video below:
+* Just tap the tab key. One tab is equal to four spaces. Some people like two spaces and you can change this option within the settings in your favorite text editor. We recommend you to be consistent and do your best to make your code readable and clear.
 
 At this point, you may not appreciate the significance of HTML PCSrelationship -- and that's okay. Just know that as early as the HTML course, you will be dealing with them (through properly indenting your code), but will not be directly working on them (target, and manipulate related elements via CSS and or jQuery).
 

@@ -8,7 +8,7 @@ To do this activity you must add the CSS code to select the elements that each p
 
 ![Dojo Diner Image](../images/diner.png "Dojo Diner")
 
-### [Click Here to begin the activity.](http://algorithms.dojo.news/static/dojo-diner/index.html)
+### [Begin the activity](http://algorithms.dojo.news/static/dojo-diner/index.html)
 
 Complete this activity with a partner!
 

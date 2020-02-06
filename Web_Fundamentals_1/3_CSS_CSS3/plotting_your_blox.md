@@ -1,6 +1,6 @@
 # Plotting Your Blocks: Activity
 
-Try to duplicate the image below by adjusting the CSS code provided. Use **_margins_** and **_paddings_** to adjust the spaces between divisions and use the **_display_** property to be able to put each block in its proper place. You may need additional CSS properties.
+Try to duplicate the image below by adjusting the CSS code provided. Use **margins** and **paddings** to adjust the spaces between divisions and use the **display** property to be able to put each block in its proper place. You may need additional CSS properties.
 
 ![Blocks Diagram](../images/position-blocks.png)
 
@@ -69,7 +69,7 @@ Try to duplicate the image below by adjusting the CSS code provided. Use **_marg
 
 While you do this activity, please use min-height as well as vertical align to give minimum height to the division and also to vertically align some of the inline-blocks. Also, please do NOT use float (use display:inline-block instead).
 
-[Or, you can complete the activity online: Click Here](https://codepen.io/dannyooooo/pen/100311ce217467fbcf13862a5090012b)
+[Or, you can complete the activity online at Codepen](https://codepen.io/dannyooooo/pen/100311ce217467fbcf13862a5090012b)
 
 ## What you learned
 

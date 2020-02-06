@@ -5,6 +5,12 @@ Checkpoint:
 * If you haven't installed [Visual Studio Code please install it now](https://code.visualstudio.com/download).
 * [You can also perform this exercise here.](https://codepen.io/dannyooooo/pen/RwNyYXr)
 
+Automatic code formatting is available in Visual Studio Code through the following shortcuts:
+
+* On Windows: Shift + Alt + F
+* On Mac: Shift + Option + F
+* On Ubuntu: Ctrl + Shift + I
+
 **Let's Start coding!**
 
 Please fix this very ugly code!

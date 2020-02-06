@@ -15,6 +15,6 @@ NEXT: [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)
 ## Course modules
 
 * [Part 1. Web Basics](../1_Web_Basics)
-* [Part 2. HTML: Programming the Web](../2_HTML)
+* [Part 2. HTML: Hypertext Markup Language](../2_HTML)
 * [Part 3. CSS: Selectors, Styling, and Display](../3_CSS_CSS3)
 * [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)

@@ -52,7 +52,17 @@ There are two ways that we use images on a web page: as page elements (such as a
 
 For embedding images as page elements you use the ```<img>``` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". ```<img src="[location of the image goes here]" alt="[This is a description of the image]">```
 
-It has two required attributes: ```src``` and ```alt```.  The ```src``` attribute stands for source. This is the link to where the image is residing. The alt attribute stands for alternate. This is a few words of text to describe the image, in case it fails to load. This is also used by screen readers, for the vision-impaired. This text will show up where the image should be in case the image fails to load.
+It has two required attributes: ```src``` and ```alt```.  The ```src``` attribute stands for source. This is the link to where the image is residing. The alt attribute stands for alternate. This is a few words of text to describe the image, in case it fails to load. This text will show up where the image should be in case the image fails to load.
+
+## Special Note About the `alt` tag
+
+There are several reasons for using the `alt` tag (attribute) when using images in your webpages. Using the tag with your images is required to make your website 508 compliant, the US government's laws about providing accessibility to disabled people. It's also important to mention that using `alt` tags is considered best practices for SEO so that search engines can know something about the images in our content.
+
+`alt` tags are read by screen readers in place of images allowing the content and function of the image to be accessible to those with visual or certain cognitive disabilities.
+
+The text stored in the tag is displayed in place of the image in browsers if the image file is not loaded or when the user has chosen not to view images.
+
+`alt' tags provide a semantic meaning and description to images which can be read by search engines or be used to later determine the content of the image from page context alone.
 
 ## Links
 Links are things that we click on that redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
@@ -69,7 +79,7 @@ An absolute URL - points to another website (like ```href="http://www.example.co
 Example:
 
 ```html
-<a href="https://www.microsoft.com">Click here to go to Microsoft</a>
+<a href="https://www.microsoft.com">Link Text to Visit Microsoft.com</a>
 <a href="https://www.microsoft.com">
     <img src="">
 </a>

@@ -16,4 +16,4 @@ To download the starter and solution files, you will [clone](https://help.github
 
 To install git, navigate to [Git downloads](https://git-scm.com/downloads) and follow the instructions.
 
-NEXT: [Part 2. HTML: Programming the Web](https://github.com/daniel-dc-cd/web-fundamentals-1/tree/master/Part%202.%20HTML)
+NEXT: [Part 2. HTML: Hypertext Markup Language](https://github.com/daniel-dc-cd/web-fundamentals-1/tree/master/Part%202.%20HTML)

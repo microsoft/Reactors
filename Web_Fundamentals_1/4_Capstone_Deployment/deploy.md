@@ -64,6 +64,6 @@ Navigate to the web address that the extension creates and you're all set! You j
 ## Course modules
 
 * [Part 1. Web Basics](../Part%201.%20Web%20Basics)
-* [Part 2. HTML: Programming the Web](../Part%202.%20HTML)
+* [Part 2. HTML: Hypertext Markup Language](../Part%202.%20HTML)
 * [Part 3. CSS: Selectors, Styling, and Display](../Part%203.%20CSS%20%26%20CSS3)
 * [Part 4. Capstone + Deployment with Azure](../Part%204.%20%20Capstone%20%2B%20Deployment)

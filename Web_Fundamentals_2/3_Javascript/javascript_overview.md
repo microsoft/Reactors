@@ -10,7 +10,7 @@ An interpreted language is a language that is evaluated line-by-line at run-time
 
 ## JavaScript uses an event-driven programming style
 
-Think about a scenario where you are expecting a package to be delivered to your door sometime over the next 3 days but you are going to be out of town. You tell your roommate to sign for the package on your behalf when it arrives. Imagine that your roommate **stands in front of the door for 2 days waiting until the package arrives and then signs for the package after it arrives. That's such a waste of time!** If instead, your roommate **_listened_** for the package to arrive while going about his/her other chores, your roommate **takes care of many other tasks and then just keeps track of what to do (_list of_ _instructions_) once the package arrives (_event_).** **So much more efficient!**
+Think about a scenario where you are expecting a package to be delivered to your door sometime over the next 3 days but you are going to be out of town. You tell your roommate to sign for the package on your behalf when it arrives. Imagine that your roommate **stands in front of the door for 2 days waiting until the package arrives and then signs for the package after it arrives. That's such a waste of time!** If instead, your roommate **listened** for the package to arrive while going about his/her other chores, your roommate **takes care of many other tasks and then just keeps track of what to do (_list of_ _instructions_) once the package arrives (_event_).** **So much more efficient!**
 
 **Note: Pay special attention to the following keywords (talked about above) while you're going through the rest of the JavaScript module**: _Listener, List of instructions, Event_
 

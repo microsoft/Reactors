@@ -7,7 +7,7 @@ To be able to learn JavaScript, first we need to be able to run JavaScript. JS 
 If you need to write and test just a few lines of JS, an online interpreter can be a good option. [JSFiddle](https://jsfiddle.net/), [jsbin](http://jsbin.com/?js,console), and [CodePen](http://codepen.io/) are a few
     examples. These can be great for algorithm challenges!
 
-![online](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/online.png)
+![online](../images/online.png)
 
 Every online interpreter will have its own interface, just make sure you have an area to write code and a console to read outputs.
 
@@ -15,7 +15,7 @@ Every online interpreter will have its own interface, just make sure you have an
 
 We can also run JS right out of the browser console. This can be useful for debugging, however it will only interpret JS one input at a time, rather than running an entire file.
 
-![console](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/browser_console.png)
+![console](../images/browser_console.png)
 
 This is also where we will read the majority of our console messages.
 

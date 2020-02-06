@@ -59,7 +59,9 @@ Font-family allows for multiple options to be entered where the browser goes thr
 
 The browser searches for Helvetica Neue on the user's system and uses this if it finds it. If Helvetica Neue isn't found, the browser searches for Arial on the user's system and uses it if it finds it. If Arial isn't found, we'll use Verdana.
 
-As a last resort, if none of the fonts in the font stack are found we fall back to sans-serif, which basically instructs the browser to use whatever the system's default sans-serif font is. You don't know exactly what will be used in this eventuality, but at least this is better than ending up with the browser default, Times new roman, which is a serif font!
+As a last resort, if none of the fonts in the font stack are found we fall back to sans-serif, which basically instructs the browser to use whatever the system's default sans-serif font is. You don't know exactly what will be used in this eventuality, but at least this is better than ending up with the browser default, Times New Roman, which is a serif font!
+
+[Read more about the difference between sans and sans serif fonts.](https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/serif-vs-sans-for-text-in-print)
 
 Note that fonts with more than one word in their name need surrounding in quotes.
 

@@ -8,7 +8,7 @@
 
 Use JSBin to see how to execute each one of these functions. Remove the comment marks (Remove `*/`) at the end of each function to run them in JSBin.
 
-[Click here to got JSBin.](https://jsbin.com/casegoy/edit?js,console)
+[Run Javascript Code at JSBin.](https://jsbin.com/casegoy/edit?js,console)
 
 ## Practice writing functions for the following Algorithms
 

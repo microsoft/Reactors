@@ -22,10 +22,10 @@ The Database is the final component of full stack development. The database is s
 
 ## Checkpoint
 
-If you still need a code editor [Click here to install Visual Studio Code](https://code.visualstudio.com/)
+If you still need a code editor [Install Visual Studio Code](https://code.visualstudio.com/)
 
 ## What you've learned
 
 In this section we broke down what a full-stack is and what it means to work on the front and back ends of a web application. We also discussed databases and how they connect with the other components of a typical web application. Additionally, we learned about ERD diagrams and how we can use them to design our databases.
 
-NEXT: [Part 2. HTML: Programming the Web](../2_HTML)
+NEXT: [Part 2. HTML: Hypertext Markup Language](../2_HTML)

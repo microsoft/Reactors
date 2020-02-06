@@ -2,15 +2,15 @@
 
 Each HTML element by default is either **inline** or **block**.
 
-**_Inline_** items only take up as much space as needed.
+**Inline** items only take up as much space as needed.
 
-![inline](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Inline.png)
+![inline](../images/Inline.png)
 
 Inline elements: ```<a>, <img>, <span>, <input>, <label>, <select>, <textarea>```
 
-_**Block**_  items take up the 100% of the width of the parent element. Even if the width of the element is less than the parent, the element will still take up 100% of the width of the parent
+**Block**  items take up the 100% of the width of the parent element. Even if the width of the element is less than the parent, the element will still take up 100% of the width of the parent
 
-![block](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Block.png)
+![block](../images/Block.png)
 
 Block elements: ```<body>, <div>, <form>, <h1>-<h6>, <p>, <table>, <ul>, <ol>, <li>```
 
