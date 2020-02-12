@@ -1,0 +1,51 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+
+
+/* Wrapper */
+
+	#wrapper {
+		opacity: 1 !important;
+	}
+
+/* Nav */
+
+	#nav {
+		a {
+			opacity: 1.0;
+
+			&:before,
+			&:after {
+				display: none;
+			}
+
+			span {
+				top: 0;
+				opacity: 1.0;
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
+/* Main */
+
+	#main {
+		background: none;
+		box-shadow: none;
+
+		> .panel {
+			background: #ffffff;
+			margin-bottom: 2em;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
