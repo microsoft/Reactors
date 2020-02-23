@@ -31,7 +31,7 @@ git commit -m "Initial commit"
 
 ### Add Azure as a remote destination
 
-To add your web app as a remote for your Git repository, execute the following command from the same terminal or command window. Replace `<appname>` with the name of your application, which you you can find from the output you saved when you executed [az hack create](./create-computer-vision-keys.md#run-the-extension).
+To add your web app as a remote for your Git repository, execute the following command from the same terminal or command window. Replace `<appname>` with the name of your application, which you you can find from the output you saved when you executed [az hack create](./create-azure-resources.md#run-the-extension).
 
 ``` terminal
 git remote add azure https://<appname>.scm.azurewebsites.net:443/<appname>.git
