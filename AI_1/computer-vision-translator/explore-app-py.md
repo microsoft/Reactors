@@ -2,6 +2,10 @@
 
 To help focus attention on calling Cognitive Services, we've provided a starter file for your use during the workshop. Some of the work has already been done, and we'll be adding the code to perform tasks like translating text and detecting faces. Let's walk through **app.py** to better understand the structure and what we'll be updating.
 
+## Prerequisites
+
+You will need a [system configured for Python development](../setup.md), and the [starter site installed](../install-starter.md).
+
 ## Initial import statements
 
 ``` python
