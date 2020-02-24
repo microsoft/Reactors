@@ -93,10 +93,12 @@ What did the command do for us? Quite a bit!
   - Configured [local Git deployment](https://docs.microsoft.com/azure/app-service/deploy-local-git), which we'll use when it's time to make our website public
   - Configured [app settings](https://docs.microsoft.com/azure/app-service/configure-common), which are accessible as environmental variables in our website code
 
-### Last step
+### Last steps
 
 Make sure you copy/paste the output from the execution of `az hack`. We are going to need the information to complete the remainder of the course.
 
+Once you have the information copied, you can **close the browser tab**, as we won't be using it for the remainder of the course. All of the remaining lab steps will be perfromed from your local system. one of the best things about Cognitive Services is the fact you're able to use the service without having to run your application on Azure (of course you can if you so desire!), and they're accessible from any type of application with internet access.
+
 ## Summary and next steps
 
-We've explored how to create keys for Computer Vision Service and Translator Text. Next, we'll see how we [can call Computer Vision](./computer-vision.md) from our application.
+We've explored how to create the necessary resources on Azure. Next, we'll see how we [can call Computer Vision](./computer-vision.md) from our application.
