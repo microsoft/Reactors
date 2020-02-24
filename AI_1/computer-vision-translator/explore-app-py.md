@@ -121,4 +121,4 @@ Inside of **image.py** is our `Image` helper class. `Image` exposes a `uri` prop
 
 ## Summary and next steps
 
-**app.py** represents a small Flask application. From this base structure we will add our functionality. To begin using Cognitive Services, we need to [create keys for Computer Vision](./create-computer-vision-keys.md).
+**app.py** represents a small Flask application. From this base structure we will add our functionality. To begin using Cognitive Services, we need to [create the resources we'll be using on Azure](./create-azure-resources.md).
