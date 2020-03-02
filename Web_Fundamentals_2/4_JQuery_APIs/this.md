@@ -2,7 +2,7 @@
 
 Consider the following HTML codes:
 
-```html
+``` html
 <img src="image1.jpg" />
 <img src="image2.jpg" />
 <img src="image3.jpg" />
@@ -14,7 +14,7 @@ Let's say that you want to make your app work such that when the user clicks an 
 
 One way is to change your HTML so that we add a unique ID for each image and add a jQuery code like below:
 
-```html
+``` html
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -49,7 +49,7 @@ One way is to change your HTML so that we add a unique ID for each image and add
 
 But the above code is redundant! What if there is a way we can choose the particular element within the selector that triggered the event? And there is! It's called $(this). $(this) selects that particular element that triggered that event. Using this, we can clean up the above code like below:
 
-```html
+``` html
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

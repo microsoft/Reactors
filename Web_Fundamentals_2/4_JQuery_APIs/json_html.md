@@ -4,7 +4,7 @@ Some URLs have JSON (JavaScript Object Notation) that we can use. JSON is just o
 
 Thanks to jQuery, we have a convenient function `$.get` to do AJAX (which is a way of getting information from another URL without having to reload your own page). If we were to do it using pure JavaScript (which is how $.get function in jQuery is implemented), we would have to write a lot of code to make AJAX work for all different types and versions of browsers. Thanks, jQuery!
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -69,7 +69,7 @@ $.get("https://pokeapi.co/api/v2/pokemon/1/", function(res) {
 **Hint: Use the code below in your Capstone Project.**
 What if we wanted to display the JSON data to our website instead of just logging it to our console? We can include the data from JSON object into our HTML so that the users of our website can see that Bulbasaur's types are poison and grass.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>

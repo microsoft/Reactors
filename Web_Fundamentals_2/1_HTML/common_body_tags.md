@@ -25,7 +25,7 @@ Any chunk of text is a paragraph and, therefore, needs to be encapsulated in par
 
 Here's an example of how to use ```<p>``` tags:
 
-```html
+``` html
 <p>
  velit lectus, ut congue ligula molestie nec. Fusce a facilisis risus. Nullam
  id magna semper, semper eros quis, varius velit. Duis sagittis porta enim ac
@@ -78,7 +78,7 @@ An absolute URL - points to another website (like ```href="http://www.example.co
 
 Example:
 
-```html
+``` html
 <a href="https://www.microsoft.com">Link Text to Visit Microsoft.com</a>
 <a href="https://www.microsoft.com">
     <img src="">
@@ -101,7 +101,7 @@ It is any collection of elements that are of the same type. The most common use 
 
 There are two types of HTML lists: ordered lists (lists that are numbered) and unordered lists. Ordered lists use the `<ol>` tag, and unordered lists use the `<ul>` tag. Both lists use the `<li>` tag to describe each list item.
 
-```html
+``` html
 <ul>
     <li>
         <a href="home.html">Home</a>
@@ -130,7 +130,7 @@ So the tags we need are:
 
 Example:
 
-```html
+``` html
 <table>
     <thead>
         <tr>

@@ -6,7 +6,7 @@ JQuery also converts what would have been a long block of code into just a few l
 
 ## Overview of basic jQuery functions
 
-```html
+``` html
 <head>
 <script>
    $(document).ready(function() {
@@ -18,7 +18,7 @@ JQuery also converts what would have been a long block of code into just a few l
 
 Other developers don't want jQuery to wait for the document to be fully ready, and insert their jQuery codes just before the ```</body>``` tag ends.
 
-```html
+``` html
 <script>
   // your jquery codes here
 </script>

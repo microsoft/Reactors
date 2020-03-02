@@ -43,7 +43,7 @@ Notice how there is a `.click` function, that's the event that triggers the requ
 
 See it working here on Codepen: <https://codepen.io/dannyooooo/pen/rNaEmKo>
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
 <head>

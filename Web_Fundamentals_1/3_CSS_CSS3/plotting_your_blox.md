@@ -6,7 +6,7 @@ Try to duplicate the image below by adjusting the CSS code provided. Use **margi
 
 ## Here's the HTML code
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="en">
    <head>

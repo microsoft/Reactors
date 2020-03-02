@@ -28,7 +28,7 @@ Ex: Inline links by default
 
 ![Inline-Default](../images/Inline-Default.png)
 
-```html
+``` html
       <a href="#">One</a>
       <a href="#">Two</a>
       <a href="#">Three</a>
@@ -49,7 +49,7 @@ Turning them into block elements:
 
 ![Inline-Display-Block](../images/Inline-Display-Block.png)
 
-```html
+``` html
       <a href="#">One</a>
       <a href="#">Two</a>
       <a href="#">Three</a>

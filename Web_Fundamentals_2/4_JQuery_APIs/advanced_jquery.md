@@ -108,7 +108,7 @@ The recommended way to attach handlers to dynamic HTML content is by using callb
 
 Consider the following portion of a web page:
 
-```html
+``` html
 <script>
     $(document).ready( function() {
         $('h3').click( function() { alert('You clicked an H3!'); });
@@ -123,7 +123,7 @@ Consider the following portion of a web page:
 
 Naturally, this function just triggers an alert any time an h3 tag is clicked. So what happens if we dynamically generate some new HTML by adding some more jQuery and HTML? When first learning jQuery, the different nested `({ })` marks can be very confusing (and error-prone!), so for clarity, we will indent the following example code a bit differently. Once you are comfortable with jQuery callbacks, you can revert to a more compact style.
 
-```html
+``` html
 <script>
     $(document).ready(
         function() {
@@ -178,7 +178,7 @@ Notice that all we did was restate the original jQuery code for new content afte
 
 One last thing: note this repeats the code, which is something developers dislike doing. Following the principle Don't Repeat Yourself (DRY), let's DRY out our code. Here is the convention we use to achieve this:
 
-```html
+``` html
 <script>
     function attach_h3_handlers() {
         $('h3').click( function() { alert('You clicked an H3!'); });

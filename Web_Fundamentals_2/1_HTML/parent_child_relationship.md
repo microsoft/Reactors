@@ -75,7 +75,7 @@ Example:
 
 From the HTML above you can read:
 
-```html
+``` html
 * <html> is the root element
 * <html> has no parents
 * <html> is the parent of <head> and <body>
