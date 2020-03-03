@@ -86,7 +86,7 @@ Here the HTML doesn't use the proper heading and paragraph elements; instead, it
 
 Bad Code
 
-```html
+``` html
 <span class="heading"><strong>Welcome Back</span></strong>
 ```
 
@@ -94,7 +94,7 @@ It has been a while. What have you been up to lately?
 
 Good Code
 
-```html
+``` html
 <h1>Welcome Back</h1>
 <p> It has been a while. What have you been up to lately?</p>
 ```
@@ -117,13 +117,13 @@ Using meaningful alt attributes with `<img>` elements is a must for writing vali
 
 Bad Code
 
-```html
+``` html
 <img id="logo" src="images/logo.png" alt="logo.png">
 ```
 
 Good Code
 
-```html
+``` html
 <img id="logo" src="images/logo.png" alt="My First Website's logo">
 ```
 

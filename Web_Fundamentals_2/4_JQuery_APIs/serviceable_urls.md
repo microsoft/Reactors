@@ -34,7 +34,7 @@ We can include this code on our website by using a script tag:
 
 How many requests do you think this web page will send? Load the code into a browser, open up the developer console, click on the network tab, and refresh the page.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
   <head>

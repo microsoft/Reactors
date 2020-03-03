@@ -42,7 +42,7 @@ The background property can modify the background of an element all in one line.
 ```background-color | background-image | background-position | background-size | background-repeat```:
 These background properties adjust the background by property type. Like background, background-color can be defined using hex, rgb or semantic code.
 
-```css
+``` css
   p {
     background-color: blue;
   }
@@ -59,7 +59,7 @@ This property adjusts all border elements in one line. The first value is the bo
 
 The border property can also be broken down into separate lines using border-width, border-style and border color. Additionally, you can select very specifically which border you want to style by using ```border-top, border-bottom, border-right, border-left```.
 
-```css
+``` css
   button {
     border: 2px dotted green;
   }

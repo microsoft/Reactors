@@ -1,73 +1,92 @@
-# The Display Property - Block, Inline-Block, Inline
+# The Display Property
 
-Each HTML element by default is either **inline** or **block**.
+Not all tags are created equal, and as a result not all tags are displayed the same way. Understanding how a tag will display by default allows you to better control page layout and predict how items will be displayed. Each HTML element is displayed as either `block` or `inline`.
 
-**Inline** items only take up as much space as needed.
+## inline
 
-![inline](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Inline.png)
+`inline` items only take up as much space as needed. Consider the following HTML:
 
-Inline elements: ```<a>, <img>, <span>, <input>, <label>, <select>, <textarea>```
-
-**Block**  items take up the 100% of the width of the parent element. Even if the width of the element is less than the parent, the element will still take up 100% of the width of the parent
-
-![block](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Block.png)
-
-Block elements: ```<body>, <div>, <form>, <h1>-<h6>, <p>, <table>, <ul>, <ol>, <li>```
-
-**It's invalid to put block elements inside inline elements.**
-
-Ex:
-Not valid:
-```<a href="http://www.bing.com">www.bing.com<h1>Bing Search</h1></a>```
-Valid:
-```<h1><a href="http://www.bing.com">Bing Search</a></h1>```
-
-We can, however, change the default display style of HTML elements using CSS and the  **display property**. The possible values for display are: **inline, block, none, and inline-block**.
-
-Ex: Inline links by default
-
-![Inline-Default](../images/Inline-Default.png)
-
-```html
-      <a href="#">One</a>
-      <a href="#">Two</a>
-      <a href="#">Three</a>
-      <a href="#">Four</a>
-      <a href="#">Five</a>
+``` html
+<span><a href="https://www.microsoft.com/">Microsoft</a> created <a href="https://code.visualstudio.com">Visual Studio Code</a>. Isn't that <strong>cool?!</strong></span>
 ```
 
-```css
-a {
-        margin: 10px;
-        background: #eee;
-        color: black;
-        padding: 10px;
-      }
+This will display as:
+
+[Microsoft](https://www.microsoft.com) created [Visual Studio Code](https://code.visualstudio.com). Isn't that **cool?!**
+
+Some examples of inline elements are `<a>`, `<span>`, `<input>`, `<label>`, `<select>`, and `<textarea>`.
+
+## block
+
+`block` items take up the 100% of the width of the parent element. Even if the width of the element is less than the parent, the element will still take up 100% of the width of the parent. The most common side effect of this is the element will put a new line before and after the element.
+
+Consider the following HTML:
+
+``` html
+<table>
+  <tr>
+    <th>Column</th>
+  </tr>
+  <tr>
+    <td>
+      <div>Hello</div>
+      <div>World</div>
+    </td>
+  </tr>
+</table>
 ```
 
-Turning them into block elements:
+This will generate:
 
-![Inline-Display-Block](../images/Inline-Display-Block.png)
+| Column           |
+| ---------------- |
+| Hello<br />World |
 
-```html
-      <a href="#">One</a>
-      <a href="#">Two</a>
-      <a href="#">Three</a>
-      <a href="#">Four</a>
-      <a href="#">Five</a>
+Some examples of block elements include `<div>`, `<form>`, `<h1>`-`<h6>`, `<p>`, `<table>`, `<ul>`, `<ol>`, and `<li>`
+
+## Interaction between inline and block elements
+
+While it's valid to put inline elements inside block elements (an `a` works just fine in a `div`), block elements are **not** allowed inside inline elements, so you couldn't put a `div` inside an `a`.
+
+## Controllilng the display
+
+We can, however, change the default display style of HTML elements using CSS.
+
+### Changing inline to block
+
+`inline` is the default for `span` elements. As a result, this HTML...
+
+``` html
+<span>One</span>
+<span>Two</span>
+<span>Three</span>
 ```
 
-```css
-      a {
-        margin: 10px;
-        background: #eee;
-        color: black;
-        display: block;
-        padding: 10px;
-      }
+... results in this output:
+
+``` text
+OneTwoThree
 ```
 
-On the reverse side, suppose we have the following navigation menu:
+If we change our `span` to be `block`, we'll notice we get white space. This CSS...
+
+``` css
+span {
+  display: block;
+}
+```
+
+... renders this result on the same HTML
+
+``` text
+One
+Two
+Three
+```
+
+### Changing block to inline
+
+On the reverse, suppose we have the following navigation menu:
 
 ``` html
 <ul id="nav-menu">
@@ -80,9 +99,12 @@ On the reverse side, suppose we have the following navigation menu:
 
 The HTML would normally appear like this:
 
-![Inline Block List](../images/inline-block-list.png)
+- _Home_
+- _Dashboard_
+- _About_
+- _Contact Us_
 
-When we want to make this a horizontal menu on the top of our page, we can do this:
+Let's say we want to use a list, but create a horizontal menu on the top of our page. We could use the following CSS:
 
 ``` css
 #nav-menu{
@@ -93,57 +115,68 @@ When we want to make this a horizontal menu on the top of our page, we can do th
 }
 ```
 
-Now it looks like this:
+Now we'd see:
 
-![Inline Block List 2](../images/inline-block-list2.png)
+_Home_ _Dashboard_ _About_ _Contact Us_
 
-**Inline-block:**
+### Using inline-block
 
-Consider the following example:
+`inline-block` is a combination of `inline` and `block` as you might expect. Each element remains a `block`, but similar to `inline` only takes up the width necessary to display the information. This is probably best explained through the use of an example.
 
-![Inline Block](../images/inlineBlock-1.jpg)
-
-Recall that `<p>` tags are block elements by default. When we display them as inline the two flow together into a single paragraph.
-
-![Inline-Block-Example-Two](../images/Inline-Block-Example-Two.png)
+Let's start with the following HTML (which will use for all examples):
 
 ``` html
-      <p>Lorem ipsum dolor sit amet...</p>
-      <p>Lorem ipsum dolor sit amet...</p>
+<p>Lorem ipsum dolor sit amet...</p>
+<p>Lorem ipsum dolor sit amet...</p>
 ```
 
-```css
-      p {
-        font-size: 14px;
-        background: #eee;
-        display: inline;
-      }
-```
-
-We've now lost all ability to set our width and height since the two paragraphs are completely integrated.
-
-The same paragraphs with inline-block:
-
-![Inline Block example 6a](../images/inlineBlock-6a.jpg)
+Let's set some colors just for display purposes.
 
 ``` css
 p {
-        width: 180px;
-        margin:10px;
-        padding:20px;
-        font-size: 14px;
-        background: #eee;
-        display: inline-block;
-      }
+  padding: 20px;
+  margin: 20px;
+  width: 350px;
+  font-size: 14px;
+  background: #eee;
+}
 ```
 
-What's happening here is that we're telling the browser to display the paragraphs inline, but allow them to retain their block-level characteristics. This means we can set a width and height manually and have the two elements remain distinct, but also have them appear next to each other in the document flow.
+This will display two separate blocks because `p` is `block` by default.
 
-## Vertical Align
+![Inline Block](../images/inlineBlock-1.jpg)
 
-When we start utilizing inline-block, we might notice that the vertical positioning of the blocks can start to behave differently than we might expect, particularly when the blocks have different heights. The default is for elements to be aligned to the lowest edge of the blocks within the line. To adjust this behavior, we can use the CSS property ````vertical-align````, which has values like top and middle.
+If we change the display to `inline` we'll simply get two paragraphs running together, not really what we want.
 
-![Vertical Align Example](../images/verticalalign.png)
+``` css
+p {
+  padding: 20px;
+  margin: 20px;
+  width: 350px;
+  font-size: 14px;
+  background: #eee;
+  display: inline;
+}
+```
+
+![Two paragraphs running together](../images/Inline-Block-Example-Two.png)
+
+Let's see if we can get them to display side-by-side. This is where `inline-block` comes into play. Each paragraph will remain as a `block`, so will display separately. However, any horizontal space left on the browser will be free to be used by other `inline-block` elements, thus behaving like `inline` as well.
+
+``` css
+p {
+  padding: 20px;
+  margin: 20px;
+  width: 350px;
+  font-size: 14px;
+  background: #eee;
+  display: inline-block;
+}
+```
+
+![Two paragraphs side by side](../images/inlineBlock-6a.jpg)
+
+Pretty cool, huh? What's happening here is that we're telling the browser to display the paragraphs inline, but allow them to retain their block-level characteristics. This means we can set a width and height manually and have the two elements remain distinct, but also have them appear next to each other in the document flow.
 
 ## What you learned
 

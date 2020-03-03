@@ -2,7 +2,7 @@
 
 This is such an important concept to understand for the rest of your development life that we will be reviewing the last activity together.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,7 +17,7 @@ This is such an important concept to understand for the rest of your development
 
 By analyzing our HTML, we notice that we have an opening HTML tag on our second line that does not close till the end of our HTML document. This means every single element inside of those HTML tags should be indented over once as they are all children elements of the HTML tag. The same is applied for the title tag which is nested in the head element. Likewise, for the h1 tag and the p tag, they are both children elements of the body tag and grandchildren of the HTML tag. Now let's cover the second example.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>
