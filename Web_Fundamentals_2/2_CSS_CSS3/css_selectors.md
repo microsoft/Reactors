@@ -23,7 +23,7 @@ p{
 
 For an element with the id "important", make the font size 36px.
 
-```css
+``` css
 #important{
   font-size: 36px;
 }
@@ -31,7 +31,7 @@ For an element with the id "important", make the font size 36px.
 
 For all elements with the class "info", make the background green and add a 1px wide black border.
 
-```css
+``` css
 .info{
   background-color: green;
   border: 1px solid black;

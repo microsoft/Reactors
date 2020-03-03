@@ -36,7 +36,7 @@ Ex: Inline links by default
       <a href="#">Five</a>
 ```
 
-```css
+``` css
 a {
         margin: 10px;
         background: #eee;
@@ -57,7 +57,7 @@ Turning them into block elements:
       <a href="#">Five</a>
 ```
 
-```css
+``` css
       a {
         margin: 10px;
         background: #eee;
@@ -112,7 +112,7 @@ Recall that `<p>` tags are block elements by default. When we display them as in
       <p>Lorem ipsum dolor sit amet...</p>
 ```
 
-```css
+``` css
       p {
         font-size: 14px;
         background: #eee;

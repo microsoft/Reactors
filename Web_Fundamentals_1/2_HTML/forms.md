@@ -37,7 +37,7 @@ The textbox is ubiquitous. As you would expect, it allows someone to type in som
 
 The password type allows you to request, as you might expect, a password.
 
-> **NOTE**: The password field **does not** automatically encrypt the password. It will shield the value from being displayed, but will not protect it while being sent over the internet. To ensure security, you will need to make sure your page is accessed using [TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+> **NOTE**: The password field **does not** automatically encrypt the password. It will shield the value from being displayed, but will not protect it while being sent over the internet. To ensure security, you will need to make sure your page is accessed using [TLS/SSL](#securing-forms).
 
 ``` html
 <label for="password">Password</label>

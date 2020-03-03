@@ -78,7 +78,7 @@ div{
 
 is equivalent to:
 
-```css
+``` css
 div{
   padding: 25px 50px;
 }
@@ -86,7 +86,7 @@ div{
 
 And
 
-```css
+``` css
 div{
   padding-top: 25px;
   padding-right: 25px;
@@ -97,7 +97,7 @@ div{
 
 is equivalent to:
 
-```css
+``` css
 div{
   padding: 25px;
 }
@@ -126,7 +126,7 @@ HTML:
 
 CSS:
 
-```css
+``` css
 #box-1, #box-2, #box-3{
   height: 100px;
   width: 100px;
