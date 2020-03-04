@@ -1,15 +1,16 @@
 # Part 3. JavaScript
 
+JavaScript is the programming language of browsers. It's how you can incorporate interactivity into your pages, respond to user input, and communicate with the server. It's also one of the best programming languages to start with, since you can build many types of applications with JavaScript, and many of the programming constructs you'll learn are similar to other languages.
+
 1. [Start Here: Javascript Overview](./javascript_overview.md)
-2. [Running Javascript Code](./running_js.md)
-3. [ECMAScript and ES6](./es6.md)
-4. [Javascript Basic Functions](./basic_functions_1.md)
-5. [Javascript Foundations 1](./javascript_foundations_1.md)
-6. [Javascript Objects](./javascript_objects.md)
-7. [The DOM](./the_dom.md)
-8. [Fat Arrow Functions](./fat_arrow_functions.md)
-9. [Using the Fetch API](./fetch.md)
-10. [Javascript Libraries](./javascript_libraries.md)
+1. [Running Javascript Code](./running_js.md)
+1. [ECMAScript and ES6](./es6.md)
+1. [Variables and names](./variables_names.md)
+1. [JavaScript data types](./data_types.md)
+1. [Javascript Basic Functions](./basic_functions.md)
+1. [The DOM](./the_dom.md)
+1. [Fat arrow functions](./fat_arrow_functions.md)
+1. [Javascript Libraries](./javascript_libraries.md)
 
 NEXT: [Part 4. JQuery + APIs](../4_JQuery_APIs)
 
