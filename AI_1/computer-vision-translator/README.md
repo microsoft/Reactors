@@ -7,7 +7,7 @@ In this module we'll examine building a web application like this - a website we
 To build the website, you'll perform the following tasks:
 
 1. [Explore app.py](./explore-app-py.md), the core of our application
-2. [Create keys](./create-computer-vision-keys.md) for Computer Vision and Translator Text
+2. [Create keys](./create-azure-resources.md) for Computer Vision and Translator Text
 3. [Call Computer Vision API](./computer-vision.md) to extract text from photos
 4. [Call the Translator Text API](./translator.md) to translate text from extracted photos
 5. [Deploy the application](./deploy.md) to Azure

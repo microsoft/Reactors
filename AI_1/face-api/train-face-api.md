@@ -6,7 +6,7 @@ In order to recognize people in an image you need to first train up your model. 
 
 ## Managing the key
 
-As we've seen, in order to us a Cognitive Service we need to have a key. You can create an [All-in-One](https://portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne) key, which will give you access to almost every Cognitive Service, or create a key for each separate service. The advantage to the latter (creating a key for each service) is there is a free pricing tier available. We're going to use the key we created with [az hack create](../computer-vision-translator/create-computer-vision-keys.md#resource-creation).
+As we've seen, in order to us a Cognitive Service we need to have a key. You can create an [All-in-One](https://portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne) key, which will give you access to almost every Cognitive Service, or create a key for each separate service. The advantage to the latter (creating a key for each service) is there is a free pricing tier available. We're going to use the key we created with [az hack create](../computer-vision-translator/create-azure-resources.md#resource-creation).
 
 > **NOTE:** If you lost the information from the initial run of `az hack create`, you can open a terminal or command window (if runing the Azure CLI locally) or open [Cloud Shell](https://shell.azure.com) and execute `az hack show <name>`, where **\<name\>** is the name of the application
 
