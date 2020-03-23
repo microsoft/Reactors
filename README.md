@@ -13,7 +13,7 @@ For more information about the Microsoft Reactors and for other Microsoft and Co
 
 ## Existing Content
 
-We currently have seven workshops that we run throughout each of our Reactor locations around the world.  
+We currently have several workshops that we run at each of our Reactor locations around the world. 
 
 | Workshop | Description | Learning Resource | Slides |
 | -------- | ----------- | ----------------- | ------ |
