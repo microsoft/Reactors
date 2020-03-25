@@ -68,3 +68,4 @@ You can find a [CodePen example on attribute filters here](https://codepen.io/Ge
 [Psuedo-Classes](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100)  
 [Psuedo-Elements](https://codepen.io/GeekTrainer/pen/oNXMzJb?editors=1100)  
 [Attribute Filters](https://codepen.io/GeekTrainer/pen/KKpBNYw?editors=1100)  
+[From the Stream](https://codepen.io/sguthals/pen/MWwPXXL?editors=1100)
