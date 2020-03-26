@@ -8,7 +8,14 @@ To learn most effectively throughout this Learning Path, we recommend that you s
 1. Download and install [VS Code](https://code.visualstudio.com/). This is free and works on Windows, Mac, and Linux. 
 2. Download and install the [Python extension for Visual Studio code](https://marketplace.visualstudio.com/items?itemName=ms-python.python). This will include first installing a supported version of Python.
 3. Activate the [Anaconda environment in VS Code](https://code.visualstudio.com/docs/python/jupyter-support) to be able to run Jupyter notebooks.
-4. 
+4. Clone TBD
 
 ## Test your Environment
-If you have successfully setup your environment with VS Code, Python, and Anaconda you should be able to run a Jupyter notebook inside of Python
+If you have successfully setup your environment with VS Code, Python, and Anaconda you should be able to run a Jupyter notebook inside of VS Code.
+
+Open the cloned repo TBD
+
+*Embedded Video Goes Here*
+
+## Working through this Learning Path
+As you're working through this Learning Path you will be encouraged to try out code. Use the files you cloned to do this.
