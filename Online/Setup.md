@@ -13,7 +13,9 @@
   - Run: `pip install notebook`
 - Anaconda
   - Install conda from Anaconda distribution: https://docs.anaconda.com/anaconda/install/
-  - Run `conda install -c conda-forge notebook`
+  - Run: `conda install -c conda-forge notebook`
+- Numpy and Pandas
+  - Install Numpy and Pandas in VSCode
 
 ## Python extension for VS Code
 - Open up Extensions inside of VS Code
