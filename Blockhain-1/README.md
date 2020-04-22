@@ -7,10 +7,10 @@ This workshop will introduce attendees to Blockchain technologies and how Micros
 |Hour|Topic
 |---|---|
 |10:00 |Blockchain introduction
-|10:45 |Building and testing smart contracts locally
+|11:00 |Building and testing smart contracts locally
 |12:15 |Lunch + Survey
-|1:00 |Deploying and publishing smart contracts to the cloud
-|2:30 |Selling and transfering assets
+|1:00 |Building and testing smart contracts locally pt 2
+|2:30 |Publishing and using smart contracts in the cloud
 |3:45 |Wrap-up Next Steps
 
 ## Workshop requirements
