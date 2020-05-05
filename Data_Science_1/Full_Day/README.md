@@ -22,6 +22,6 @@ The primary source of content will be relatively bare Azure Notebooks where the 
 | 3:30 - 4:00pm | Wrap Up and Next Steps |
 
 ## Tips and Tricks
-Azure Notebooks is still in Preview. This means that there are some times when it will fail. Here are some tips for avoiding losing your work:
+Azure Notebooks is still in Preview. This means that there are some times when it will fail. Here are some tips to avoid losing your work:
 - Ensure their work is being saved. In the Jupyter Notebook there is always one of two messages to the right of the title of the notebook: `(autosaved)` or `(unsaved changes)`. Make sure you're noticing that your work is being saved. You should consider checking every 10 minutes or so. 
 - Sometimes Notebooks get into a state where the Kernel cannot be started. Sometimes re-starting the kernel will work. But often you will have to somepletely sign out of Azure Notebooks and then sign back in. 
