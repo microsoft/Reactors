@@ -105,11 +105,6 @@ contract('Bank', (accounts) => {
         result = await c.getBalance(accounts[2], {from: accounts[2]});
         assert.equal(200, result.toNumber(),
            "Account 2 has 200 and Account 2 can check it");        
-        
-        console.log(returnValue1); */
-
-        // Write an assertion below to check the return value of ResponseMessage.
-        assert.equal('something', 'something', 'A correctness property about ResponseMessage of HelloBlockchain');
     });
 
     it('testing of disallowed actions in Bank', async () => {
