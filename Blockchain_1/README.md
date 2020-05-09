@@ -7,26 +7,26 @@ This workshop will introduce attendees to Blockchain, Ethereum, and Solidity. Le
 ## Schedule
 
 **Full Day**
-|Hour|Topic
+|Time (min) |Topic
 |---|---|
-|10:00 |[Part 1. Blockchain + Ethereum Introduction](Part_1_Blockchain_and_Ethereum)
-|11:00 |[Part 2. Solidity Introduction](Part_2_Solidity_Introduction)
-|11:45 |[Part 3. Blockchain Ideas](Part_3_Blockchain_Ideas)
-|12:15 |Lunch + Survey
-|1:00 |[Part 4. Using Azure Blockchain Development Kit](Part_4_Using_Azure_Blockchain_Dev_Kit)
-|2:00 |[Part 5. Building smart contracts for Blockopoly](Part_5_Building_Smart_Contracts_For_Blockopoly)
-|3:00 |[Part 6. Deploying to the Cloud](Part_6_Deploying_to_Azure_Blockchain_Services)
-|3:45 |Wrap-up Next Steps
+|60 |[Part 1. Blockchain + Ethereum Introduction](Part_1_Blockchain_and_Ethereum)
+|45 |[Part 2. Solidity Introduction](Part_2_Solidity_Introduction)
+|30 |[Part 3. Blockchain Ideas](Part_3_Blockchain_Ideas)
+|45 |Lunch + Survey
+|60 |[Part 4. Using Azure Blockchain Development Kit](Part_4_Using_Azure_Blockchain_Dev_Kit)
+|60 |[Part 5. Building smart contracts for Blockopoly](Part_5_Building_Smart_Contracts_For_Blockopoly)
+|45 |[Part 6. Deploying to the Cloud](Part_6_Deploying_to_Azure_Blockchain_Services)
+|15 |Wrap-up Next Steps
 
 **Half Day**
-|Hour|Topic
+|Time (min) |Topic
 |---|---|
-|10:00 |[Part 1. Blockchain + Ethereum Introduction](Part_1_Blockchain_and_Ethereum)
-|10:30 |[Part 2. Solidity Introduction](Part_2_Solidity_Introduction)
-|11:15 |[Part 3. Blockchain Ideas](Part_3_Blockchain_Ideas)
-|11:30 |[Part 4. Using Azure Blockchain Development Kit](Part_4_Using_Azure_Blockchain_Dev_Kit)
-|12:00 |[Part 5. Building smart contracts for Blockopoly](Part_5_Building_Smart_Contracts_For_Blockopoly)
-|1:45 |Wrap-up Next Steps
+|30 |[Part 1. Blockchain + Ethereum Introduction](Part_1_Blockchain_and_Ethereum)
+|30 |[Part 2. Solidity Introduction](Part_2_Solidity_Introduction)
+|15 |[Part 3. Blockchain Ideas](Part_3_Blockchain_Ideas)
+|30 |[Part 4. Using Azure Blockchain Development Kit](Part_4_Using_Azure_Blockchain_Dev_Kit)
+|60 |[Part 5. Building smart contracts for Blockopoly](Part_5_Building_Smart_Contracts_For_Blockopoly)
+|15 |Wrap-up Next Steps
 
 START HERE: [**Part 1. Blockchain + Ethereum Introduction**](Part_1_Blockchain_and_Ethereum)
 
@@ -36,9 +36,8 @@ Pre-requisites:
 - [VS Code](https://code.visualstudio.com/)
 - [npms and Node.js](https://www.npmjs.com/get-npm)
 - [Truffle](https://www.trufflesuite.com/truffle)
-- [Ganache-CLI](https://github.com/trufflesuite/ganache-cli/blob/master/README.md)
-
-## Tips and Tricks
+- [Ganache](https://www.trufflesuite.com/ganache)
+- [Azure Blockchain Development Kit](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain)
 
 
 ## Reference Material
