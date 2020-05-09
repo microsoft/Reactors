@@ -2,28 +2,32 @@
 
 **THIS DIRECTORY IS INTENTIONALLY LEFT BLANK.**
 
-The instructions for this exercise are available in the slides, but
-are copied here for your convenience.
+### Goal
+This directory contains the steps to complete the Bank contract Follow the steps to create the contract, migration and tests.
 
-* Use either ‘truffle init’ or VS Code to create a new Solidity
+### Steps
+- Use either `truffle init` or VS Code to create a new Solidity
   project in this directory
 
-* You can use a text editor and truffle develop or VS Code and Ganache
+- You can use a text editor and truffle develop or VS Code and Ganache
   to deploy the contracts
 
-* Add the Bank contract from the below in the contracts directory
+- Add the Bank contract from the below in the contracts directory
 
-* Add a migration for the Bank contract to the migrations directory
+- Add a migration for the Bank contract to the migrations directory
 
-* Add a test to test this contract in the test directory (you can copy
-  the test from the slides if necessary)
+- Add the test from below to test this contract in the test directory
 
-* You can use either ’truffle test’ or ‘truffle develop’ (and then run
+- You can use either `truffle test` or `truffle develop` (and then run
   ‘test’ from the workspace)
 
-* If you get stuck, you can find a working version in the AssetManager
-  directory (or the Completed_Solutions directory) but try to make it
+- If you get stuck, you can find a working version in the [AssetManagerContract](../AssetManagerContract)
+  directory (or the [Completed_Solutions directory](../../../Completed_Solutions)) but try to make it
   work before looking in those places.
+
+  - Solutions exists in [BankerContract](../BankerContract/) or in the [Completed_Solutions directory](../../../Completed_Solutions)
+
+- When you are ready, move on to complete the [AssetManager contract](../AssetManagerContract/README.md).  
   
 ## Contract
 
