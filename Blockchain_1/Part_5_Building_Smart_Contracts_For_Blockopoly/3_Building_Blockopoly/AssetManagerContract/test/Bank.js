@@ -19,14 +19,6 @@ contract('Bank', (accounts) => {
         assert.equal(200, result.toNumber(),
            "Account 2 has 200 and Account 2 can check it");        
         
-        //truffleAssert.eventEmitted(result, 'GameStarted');
-        /*var returnValue1;
-        returnValue1 = await HelloBlockchainInstance.ResponseMessage.call();
-
-        console.log(returnValue1); */
-
-        // Write an assertion below to check the return value of ResponseMessage.
-        assert.equal('something', 'something', 'A correctness property about ResponseMessage of HelloBlockchain');
     });
 
     it('testing of disallowed actions in Bank', async () => {
