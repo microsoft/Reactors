@@ -16,7 +16,7 @@ This exercise is designed to help you get comfortable with the Azure Blockchain 
 - Install the Azure Blockchain Development Kit
 
 - Through the Command Palette, create a **New Solidity Project** in the
-  2_Get_started_with_Azure_Blockchain_Development_Kit/ directory.
+  Get_started_with_Azure_Blockchain_Development_Kit/ directory.
     - Select **Create basic project**
     - Create **New Folder** and name the folder
     - Finish createing project

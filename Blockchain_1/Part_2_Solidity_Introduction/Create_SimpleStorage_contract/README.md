@@ -9,7 +9,7 @@ of building, deploying and testing Ethereum contracts.
 ### Steps
 - Install [Truffle](https://www.trufflesuite.com/truffle) if you have not
 
-- Initialize the 1_Create_SimpleStorage_contract directory as a truffle project using `truffle init`
+- Initialize the Create_SimpleStorage_contract directory as a truffle project using `truffle init`
 
 - Inspect the directory structure. Look for location of
   - Contracts

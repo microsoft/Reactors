@@ -8,4 +8,4 @@ tools and conveniences such as Solidity syntax highlighting to make
 you more productive and successful with Blockchain solutions even if
 you do not plan to deploy them to Azure Blockchain Services.
 
-Complete the exercise to explore [Azure Blockchain Development Kit with Solidity and Ganache](2_Get_started_with_Azure_Blockchain_Development_Kit/README.md).
+Complete the exercise to explore [Azure Blockchain Development Kit with Solidity and Ganache](Get_started_with_Azure_Blockchain_Development_Kit/README.md).
