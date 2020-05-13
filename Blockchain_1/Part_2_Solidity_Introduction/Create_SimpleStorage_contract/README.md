@@ -7,28 +7,32 @@ This exercise is designed to help you get comfortable with the basics
 of building, deploying and testing Ethereum contracts.
 
 ### Steps
-- Install [Truffle](https://www.trufflesuite.com/truffle) if you have not
+- Install [Truffle](https://www.trufflesuite.com/truffle) if you have not using the command: `npm install -g truffle`
+
+- Install [Ganache CLI](https://www.npmjs.com/package/ganache-cli) if you have not using the command: `npm install -g ganache-cli`
 
 - Initialize the Create_SimpleStorage_contract directory as a truffle project using `truffle init`
 
 - Inspect the directory structure. Look for location of
   - Contracts
-  -  Migrations
+  - Migrations
   - Tests
 
 - Add the SimpleStorage contract from down below.
 
 - Add a migration for the contract from down below.
 
-- Use `truffle develop` to compile, deploy and interact with the
-  SimpleStorage contract
+- Use `truffle develop` to start up a local ethereum client. From there, run `compile` and `migrate` to interact with the SimpleStorage contract. 
 
-- Add a test that gets the current value from the SimpleStorage
-  contract, changes it to a new value and then fetches the new
-  value. Add assertions after the two get calls to ensure you are
-  getting what you expect. Feel free to use the test down below.
+- Add a test that gets the current value from the SimpleStorage contract, changes it to a new value and then fetches the new value. 
+  - Add assertions after the two get calls to ensure you are
+  getting what you expect.
+  - Feel free to use the test down below.
 
-- Run your tests with `truffle test` from the command line.
+- Run your tests with either:
+  - `test` from the development ethereum client
+  - `truffle test` from the command line with ganache-cli running. 
+  - **Note**: you might need to update the port in **truffle-config.js** to match the ethereum client running.
 
 ## Contract
 
