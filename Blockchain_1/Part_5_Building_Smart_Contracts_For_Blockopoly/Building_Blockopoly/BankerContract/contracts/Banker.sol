@@ -94,7 +94,6 @@ contract Banker {
         // TODO: Add a requirement that no one can join the game if it is
         // full. This is presently defined as the number of players equaling
         // six.
-	
         require(!names[_name], "Name is already taken");
         require(!isPlayerInGame(msg.sender), "Same address is not already joined");
 
@@ -159,7 +158,7 @@ contract Banker {
 	// owner for the price of the property. Make sure you get the
 	// order correct! Check the Bank contract to see what order the
 	// parameters should be in.
-	
+
  	// TODO: Use the AssetManager instance created in the
  	// constructor to transfer the asset from the owner to the
  	// msg.sender. Specify the name of the asset and indicate that it
