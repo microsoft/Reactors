@@ -1,4 +1,8 @@
-# Part 3. CSS & CSS3
+# Part 3. Cascading Stylesheets (CSS)
+
+HTML is used to define the structure of the information you're displaying on your page. Cascading Stylesheets (CSS) is used to indicate how everything should be displayed. This separation of concerns enables greater flexibility and accessibility for your pages.
+
+We're going to explore how CSS works, how items are selected, and the most important lesson about CSS - boxes.
 
 1. [Start Here: CSS Overview](./introduction_to_css.md)
 2. [CSS Selectors](./css_selectors.md)

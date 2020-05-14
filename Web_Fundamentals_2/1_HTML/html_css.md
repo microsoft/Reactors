@@ -42,7 +42,7 @@ Now, you may have noticed that we didn't add any tags to our text. To see how th
 
 We're currently interested in the **Elements** tab. When you click on it, you should see:
 
-```html
+``` html
 <html>
     <head></head>
     <body>Hello World!</body>
@@ -68,7 +68,7 @@ The hierarchy that rises from **nesting** is called **DOM** - Document Object Mo
 **Commenting**
 The format for commenting in an HTML file is as follows:
 
-```html
+``` html
 <p> Some paragraph content. </p>
 <!-- This is a comment in HTML -->
 ```

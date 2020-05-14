@@ -2,37 +2,31 @@
 
 It's time to learn about the most common tags that you'll be using inside the body tag. Recall that when we were doing the overview, we talked about the common elements that you might want to place on a webpage, which are:
 
-* Headings and paragraphs of text
-* Images
-* Links
-* Lists
-* Tables
-* Forms
+- Headings and paragraphs of text
+- Images
+- Links
+- Lists
+- Tables
+- Forms
 
 ## Headings
 
-A heading is a section title, which means that often (but not always!) each section (```<div>```) will have a heading. There are 6 levels of headings that you can use (named ```<h1>``` through ```<h6>```) each indicating the importance of its section.
+A heading is a section title, which means that often (but not always!) each section will have a heading. There are 6 levels of headings that you can use (named `<h1>` through `<h6>`), allowing you to indicate sections and subsections.
 
-Let's look at this page for examples. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an ```<h1>``` tag, written as...
-
-```<h1>Common Body Tags</h1>```
-
-...and is the main heading for the whole page.
+Let's look at this page for examples. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an `<h1>` tag, written as `<h1>Common Body Tags</h1>` and is the main heading for the whole page.
 
 ## Paragraphs
 
-Any chunk of text is a paragraph and, therefore, needs to be encapsulated in paragraph ```<p>``` tags.
+Any chunk of text is a paragraph and, therefore, needs to be encapsulated in paragraph `<p>` tags. Here's an example of how to use `<p>` tags:
 
-Here's an example of how to use ```<p>``` tags:
-
-```html
+``` html
 <p>
  velit lectus, ut congue ligula molestie nec. Fusce a facilisis risus. Nullam
  id magna semper, semper eros quis, varius velit. Duis sagittis porta enim ac
  mattis. Cum sociis natoque penatibus et magnis dis parturient montes, nascet
  ur ridiculus mus. Donec sodales lorem id orci blandit, ac tincidunt lorem po
  rta. Sed euismod a arcu sed mollis.
- </p>
+</p>
 
 <p>
  Maecenas imperdiet risus at nisl aliquet, eu ullamcorper enim imperdiet. Sed
@@ -43,46 +37,88 @@ Here's an example of how to use ```<p>``` tags:
  s nulla, pellentesque sit amet erat eu, pretium sagittis mi. Fusce rhoncus i
  mperdiet eros, ac porta ligula ullamcorper in. Suspendisse nulla urna, facil
  isis non nunc ut, faucibus condimentum leo.
- </p>
-
+</p>
+```
 
 ## Images
 
 There are two ways that we use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed), or as background images (this is covered in CSS section).
 
-For embedding images as page elements you use the ```<img>``` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". ```<img src="[location of the image goes here]" alt="[This is a description of the image]">```
+For embedding images as page elements you use the `<img>` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". `<img src="[location of the image goes here]" alt="[This is a description of the image]">`
 
-It has two required attributes: ```src``` and ```alt```.  The ```src``` attribute stands for source. This is the link to where the image is residing. The alt attribute stands for alternate. This is a few words of text to describe the image, in case it fails to load. This text will show up where the image should be in case the image fails to load.
+It has two required attributes: `src` and `alt`.  The `src` attribute stands for source. This is the link to where the image is residing. The alt attribute stands for alternate. This is a few words of text to describe the image, in case it fails to load. This text will show up where the image should be in case the image fails to load.
 
-## Special Note About the `alt` tag
+### About the `alt` attribute
 
-There are several reasons for using the `alt` tag (attribute) when using images in your webpages. Using the tag with your images is required to make your website 508 compliant, the US government's laws about providing accessibility to disabled people. It's also important to mention that using `alt` tags is considered best practices for SEO so that search engines can know something about the images in our content.
+The `alt` attribute indicates to the browser what to display in the event the image is not available, or while it's loading on a slow connection. More importantly, though, it's the information which will be read by a [screen reader](https://en.wikipedia.org/wiki/Screen_reader), an assistive application used by those who are vision impared.
 
-`alt` tags are read by screen readers in place of images allowing the content and function of the image to be accessible to those with visual or certain cognitive disabilities.
+As a result, in order to ensure your page is accessible, it's imperitive to use `alt` attributes on **all images**. The University of Minnesota has a [fantastic set of resources for making your page accessible to all](https://accessibility.umn.edu/), including an article on [properly describing images](https://accessibility.umn.edu/core-skills/alt-text).
 
-The text stored in the tag is displayed in place of the image in browsers if the image file is not loaded or when the user has chosen not to view images.
+Besides just making your page accessible, `alt` text is used by search engines when indexing your pages. As a result, proper `alt` text is key to [search engine optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization).
 
-`alt' tags provide a semantic meaning and description to images which can be read by search engines or be used to later determine the content of the image from page context alone.
-
-## Links
-Links are things that we click on that redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
+## Hyperlinks
+Hyperlinks, or simply links are things that we click on that redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
 
 The tag used for links is the `<a>` tag, which stands for the anchor tag. Similar to images, links also need to have an attribute that tells the browser where the link is pointing. For links, this is called the href attribute.
 
 Possible values for the href attribute are:
 
-An absolute URL - points to another website (like ```href="http://www.example.com/default.html"```)
-
-* A relative URL - points to a file within a website (like `href="default.html"`)
-* An anchor URL - points to an anchor inside a page (like `href="#top"`)
+- An absolute URL to point to another website (like `href="http://www.example.com/default.html"`)
+- A relative URL to point to a file within a website (like `href="default.html"`)
 
 Example:
 
-```html
-<a href="https://www.microsoft.com">Link Text to Visit Microsoft.com</a>
+``` html
+<a href="https://www.microsoft.com">Visit Microsoft.com</a>
 <a href="https://www.microsoft.com">
-    <img src="">
+    <img src="" alt="Descriptive text">
 </a>
+```
+
+### Link text
+
+#### Click here
+
+The text between `<a>` and `</a>` which appears "clickable" to the user is known as link text. Proper link text is key to ensuring your page is accessible, and easier to navigate in general. Consider the following:
+
+``` html
+<a href="someurl">Click here!</a>
+```
+
+**Click here** is one of the most common, yet poor, link texts. The first problem with **Click here** is it doesn't indicate where link will take the user. In addition, the user might not be clicking on the link at all, and instead might be using a screen reader, where different keys would be tapped to navigate, or of course the smartphone user would also be tapping.
+
+#### Find information here
+
+A common "solution" to this problem is to create text like this:
+
+``` html
+Find information about alpacas <a href="someurl">here</a>!
+```
+
+While the text on the screen might be describing where the link is going, there's still a problem for screen readers. Screen readers allow the user to have all links read. As such, the user would simply hear "here" without context. When we also consider the fact the sentence is a bit unnatural, we can see it's not an effective solution.
+
+#### Proper link text
+
+[Creating good link text](https://accessibility.umn.edu/core-skills/hyperlinks) is one of the core skills every web developer, if not everyone who creates content of any variety - even emails - should have. The link text should clearly describe the document being referenced in a succinct manner.
+
+``` html
+<!-- good link text -->
+<a href="https://en.wikipedia.org/wiki/Alpaca">Alpacas are a domesticated farm animal</a> commonly used for their fur.
+```
+
+Notice the text is rather short, yet clearly describes what the document will elaborate on and flows well in the sentence.
+
+### Anchors
+
+If you have a rather long page, such as an [frequently asked questions (FAQ) page](https://en.wikipedia.org/wiki/FAQ), you may want to allow users to quickly access a part of the page farther down on the screen, such as the answer to the question being posted. You can enable this by creating an **anchor**. (I bet you were wondering where **anchor** came from - now you know!) To create the target, you will use the `id` attribute on any tag you like. You will then create a link to the target by using `#` in front of the ID you've identified.
+
+``` html
+Q: <a href="#bite">Do alpacas bite?</a>
+
+<p id="bite">
+    <div>Do alpacas bite?</div>
+    <div>Alpacas rarely bite humans.</div>
+</p>
 ```
 
 ## Lists
@@ -91,17 +127,15 @@ How we think of lists in HTML is a little different from how we think of them in
 
 What kind of stuff do we normally consider as lists?
 
-* Shopping lists
-* Chapter/topic names
-* etc..
+- Shopping lists
+- Chapter/topic names
+- Rosters
 
-So what's a list for our HTML scripting purposes?
-
-It is any collection of elements that are of the same type. The most common use for lists in HTML is for navigation links.
+When creating a page, we may display a collection of elements that are of the same type. The most common use for lists in HTML is for navigation links.
 
 There are two types of HTML lists: ordered lists (lists that are numbered) and unordered lists. Ordered lists use the `<ol>` tag, and unordered lists use the `<ul>` tag. Both lists use the `<li>` tag to describe each list item.
 
-```html
+``` html
 <ul>
     <li>
         <a href="home.html">Home</a>
@@ -130,7 +164,7 @@ So the tags we need are:
 
 Example:
 
-```html
+``` html
 <table>
     <thead>
         <tr>

@@ -1,5 +1,7 @@
 # Part 2. Hypertext Markup Language
 
+Hyptertext Markup Language (HTML) is the lingua franca of the web. HTML is used to structure, or mark up, the information you wish to display to the user. It's the first language all web developers learn, and it's where we're going to start in our exploration.
+
 1. [Start Here: HTML and CSS](./html_css.md)
 2. [The parent, child relationship in HTML](./parent_child_relationship.md)
 3. [Indentation Practice](./indentation_practice.md)

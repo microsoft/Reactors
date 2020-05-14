@@ -2,57 +2,110 @@
 
 Forms are one of the most important HTML tags you will learn. They are responsible for all the data exchange between the user (front-end) and the server (back-end). So it's very important that you have a good understanding of how to build them.
 
-A form's job is to take in user input and send it to the back-end to be processed. A form is declared by using the `<form>` tag, which will have attributes action and method that decide where the form information gets sent, and how it gets sent respectively. [Learn more about forms and attributes here.](https://www.w3schools.com/htmL/html_forms.asp)
+A form's job is to take in user input and send it to the back-end to be processed. A form is declared by using the `<form>` tag, which will have attributes action and method that decide where the form information gets sent, and how it gets sent respectively. W3Schools has a [great collection of information about forms](https://www.w3schools.com/htmL/html_forms.asp).
 
-Taking in the input is done by using input fields, usually designated by the `<input>` tag. Depending on the type of information required, the way in which we take in the information may be different. This is sometimes designated by a type attribute, and other times by a different tag. Each input will typically also have a label (`<label>`) that is the name of the field. To make sure that a specific label is linked/associated to a specific input element, we must add corresponding for attribute on the label with input's id attribute. Including a label tag around the input field is a convention that allows us to click on the label to focus on the input field.
+## Labels and inputs
 
-A name attribute also will typically go hand in hand with your input tags. They are used mainly for sending form data that the user enters in your form. You need the name attribute to reference that field in your form in other parts of your HTML.
+Collecting information is done through the use of several types of controls, including radio buttons, textboxes, and dropdown lists. One of the keys to creating a form is adding `label`s. A `label` allows you to, well, label an item. This allows someone to tap on the label text itself to interact with the control (such as a textbox). It also provides better guidance to a screen reader. Use labels whenever you're creating a form.
 
-Let's look at what input types would be used in the following circumstances:
+``` html
+<!-- Create a label for a textbox called name -->
+<label for="name">Name</label>
+<input type="text" id="name" />
+```
 
-When the user needs to enter a short amount of text, such as an email address or name.
-The appropriate input type here is text. Also notice how we can bind elements together. In the label tag we add the `for` attribute and give it the id of the input field for the value.
+## Textboxes
 
-```html
+The most basic type of information we collect from users is text information. But not all text is created the same. Sometimes we want passwords, email addresses, or simply text. Fortunately, we have several options at our disposal to ensure we're getting the right information.
+
+Almost all textboxes are indicated by using the `input` element with a different `type` attribute, where the value of `type` indicates the type of textbox we're creating.
+
+Input controls are also typically decorated with `id` and `name` attributes. `id` indicates the id of the item used by the page for [anchors](../common_body_tabs.md#anchors), CSS and JavaScript. `name` indicates the name of the item for the server when the information in the form is processed.
+
+### Text
+
+The textbox is ubiquitous. As you would expect, it allows someone to type in some amount of text. A textbox applies no rules by default, it's simply text. You indicate you wish to accept text by using the `type="text"` attribute on an `input` tag.
+
+``` html
 <label for="first_name">First Name:</label>
 <input type="text" id="first_name" name="first_name">
 <label for="last_name">Last Name:</label>
 <input type="text" id="last_name" name="last_name">
-<label for="email">Email:</label>
-<input type="text" id="email" name="email">
 ```
 
-A password field.
-The appropriate input type here is password.
+### Passwords
 
-```html
+The password type allows you to request, as you might expect, a password.
+
+> **NOTE**: The password field **does not** automatically encrypt the password. It will shield the value from being displayed, but will not protect it while being sent over the internet. To ensure security, you will need to make sure your page is accessed using [TLS/SSL](#securing-forms).
+
+``` html
 <label for="password">Password</label>
 <input type="password" id="password" name="password">
 ```
 
-When the user can choose only 1 option from a variety of options. A good example is a gender selector.
-One appropriate input type here is radio buttons.
+### Other types
 
-```html
+Because of the various types of text commonly used requested in forms, [HTML5](https://en.wikipedia.org/wiki/HTML5) includes [several options beyond simply "text"](https://www.w3schools.com/html/html_form_input_types.asp). One of the most common is `email`, which indicates you're requesting an email address.
+
+When you use the `email` type, the browser will automatically validate the input to ensure it's an email address. in addition, on-screen keyboards will automatically update to include characters like **@** to make it easier for the user to enter the appropriate value.
+
+``` html
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+```
+
+## Lists of options
+
+### Single selection
+
+If you need the user to select one item from a list of options, you can present a set of radio buttons or a dropdown list. The difference between these two controls is how they are displayed to the user.
+
+#### Radio buttons
+
+Radio buttons show all of the options to the user, allowing them to select the item they wish to choose by "putting the dot" next to the item they want. Because all choices are displayed, radio buttons are best when there's a relatively limited number of options, typically fewer than five.
+
+Radio buttons do not include text automatically; you will need to ensure text is displayed next to the radio button; this is typically done by using a `label` tag.
+
+You create the group of items from which the user can select one item by ensuring each item in the group has the same name. In our example, all items share the name of **gender**.
+
+``` html
 <label for="male">Male</label>
 <input type="radio" id="male" name="gender" value="male">
 <label for="female">Female</label>
 <input type="radio" id="female" name="gender" value="female">
 <label for="decline">Prefer not to say</label>
+<input type="radio" id="non-binary" name="gender" value="non-binary">
+<label for="decline">Prefer not to say</label>
 <input type="radio" id="decline" name="gender" value="decline">
-Another option is a dropdown menu, which uses <select> and <option> tags.
+```
 
-<select name="gender">
-    <option value="male">Male</option>
-    <option value="female">Female</option>
-    <option value="decline">Prefer not to say</option>
+#### Dropdown lists
+
+Dropdown lists also allow a choice of one from a group of items. The difference is in the display; a dropdown list will only show the available list of options when the user opens the list, typically by clicking on it. In addition, the dropdown list automatically enables paging/scrolling as necessary. As such, it's perfect for a longer list of options, such as a list of US states.
+
+``` html
+<label for="home_state">Please select your home state</label>
+<select name="home_state" id="home_state">
+    <option value="AL">Alabama</option>
+    <option value="AK">Alaska</option>
+    <option value="AZ">Arizona</option>
+    <option value="AR">Arkansas</option>
+    <option value="CA">California</option>
+    <option value="CO">Colorado</option>
+    <option value="CT">Connecticut</option>
 </select>
 ```
 
-When the user can choose multiple things from a variety of options, such as choosing their favorite 3 colors from 5 options.
-The appropriate input type here is checkboxes.
+### Multiple selection
 
-```html
+If you need to allow the user to select multiple items from the list of choices, you can use either checkboxes or multiple select lists.
+
+#### Checkboxes
+
+Checkboxes, similar to radio buttons display all the options to the user. As a result, they're also best if the list of options is relatively short. But, unlike radio buttons, checkboxes allow the user to choose multiple items.
+
+``` html
 <label for="blue">Blue</label>
 <input type="checkbox" id="blue" name="color" value="blue">
 <label for="green">Green</label>
@@ -65,99 +118,45 @@ The appropriate input type here is checkboxes.
 <input type="checkbox" id="purple" name="color" value="purple">
 ```
 
-When the user might want to enter longer text. This can be used in forums for comments, or for user profile descriptions.
-In this case we use the ```<textarea>``` tag.
+#### Multiple select list
 
-```<textarea name="description"></textarea>```
+While a dropdown list offered paging and scrolling for longer lists, it only allows the selection of one item. If you wish to allow the user to select multiple items, you can add the `multiple` attribute to the `select` element we saw previously. By default, the first four items will be displayed, and scrolling enabled for the remainder of the items.
 
-When a form needs to submit more than just user input.
-Input type hidden is similar to text fields, except they do not show on the page and users can not enter anything into them. This is useful for the back-end authentication and passing data.
+When using a multiple select, it's best to let the user know they can select multiple items by using the Control or Command key, as it's not always clear how to interact with the element.
 
-```html
-<input type="hidden" name="id" value="7">
+``` html
+<label for="home_state">Please select your home state</label>
+<select name="home_state" id="home_state" multiple="multiple">
+    <option value="AL">Alabama</option>
+    <option value="AK">Alaska</option>
+    <option value="AZ">Arizona</option>
+    <option value="AR">Arkansas</option>
+    <option value="CA">California</option>
+    <option value="CO">Colorado</option>
+    <option value="CT">Connecticut</option>
+</select>
 ```
 
-Finally, to create a submit button:
-The appropriate input type is submit.
+> **NOTE**: Why the `multiple="multiple"`? Some variations of HTML want attributes to be a key/value pair. As a result, you will see many HTML developers use syntax such as `multiple="multiple"`. It's worth noting the core HTML specification allows you to just add `multiple`.
 
-```html
+## Buttons
+
+When the user is ready to send the information for processing, they usually click on a button. There's two main ways to create a button to send the information to the server for processing, `<input type="submit">` or `<button type="submit">`. While the syntax is a little different between the two tags, there is no difference in what's being created. You may find you like the `button` tag since it's a little more intuitive.
+
+The core difference in syntax is in how you indicate the text to be displayed to the user. If you're using an `input` tag, the text to be displayed is held inside the `value` attribute. If you're using a `button` tag, the text to be displayed is between the two tags.
+
+``` html
 <input type="submit" value="Submit">
+<button type="submit">Submit</button>
 ```
 
-Let's look at a sample full registration form:
+## Securing forms
 
-```html
-<body>
-  <form action="process.php" method="post">
-    <p>Please Register</p><label for="first_name">First Name:</label><input name=
-    "first_name" type="text" /><label for="last_name">Last Name:</label><input name=
-    "last_name" type="text" /><label for="email">Email:</label><input name="email" type=
-    "text" />
+As highlighted when we were talking about passwords, information is sent across the internet in clear text. Not only does this mean the information can be read by others, it could also be modified. As such, there's a compelling argument to be made [all traffic should be encrypted](https://blog.codinghorror.com/lets-encrypt-everything/).
 
-    <p>Select your gender:</p><label for="male">Male</label><input name="gender" type=
-    "radio" value="male" /><label for="female">Female</label><input name="gender" type=
-    "radio" value="female" /><label for="decline">Prefer not to say</label><input name=
-    "gender" type="radio" value="decline" />
+Encryption is handled seamlessly through the use of Transport Layer Security, or TLS. TLS is the successor to Secure Sockets Layer or SSL. You will frequently see web encryption indicated as TLS/SSL or just SSL, even though TSL is the standard and what is almost always being used.
 
-    <p>Select 3 of your favorite colors:</p><label for="blue">Blue</label><input name=
-    "color" type="checkbox" value="blue" /><label for="green">Green</label><input name=
-    "color" type="checkbox" value="green" /><label for="red">Red</label><input name=
-    "color" type="checkbox" value="red" /><label for="black">Black</label><input name=
-    "color" type="checkbox" value="black" /><label for=
-    "purple">Purple</label><input name="color" type="checkbox" value="Purple" />
-
-    <p>Say a few words about yourself:</p><label for=
-    "password">Password:</label><input name="password" type="password" /><label for=
-    "pw_confirm">Password Confirmation:</label><input name="password_confirmation" type=
-    "password" /><input type="submit" value="Register Now" />
-  </form>
-</body>
-```
-
-Other label-input Declaration
-Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairing shown above, but you may encounter a different format on how the label-input set is being declared. Below is an example:
-
-```html
-<body>
-  <form>
-    <p>Please Register</p><label>Name:<input type="text" name="name" /></label>
-
-    <p>Select your gender:</p><label>Male<input type="radio" name="gender" value=
-    "male" /></label> <label>Female<input type="radio" name="gender" value=
-    "female" /></label> <label>Prefer not to say<input type="radio" name="gender" value=
-    "decline" /></label>
-
-    <p>For security, enter your password.</p><label>Password:<input type="password" name=
-    "password" /></label> <input type="submit" value="Register Now" />
-  </form>
-</body>
-```
-
-Notice that the input element is now nested inside the label element and we no longer need to link the two using the label's for attribute and the input's id attribute.
-
-## SSL (Secure Socket Layer) and Forms
-
-The SSL encryption protocol secures communication over the Internet. SSL encryption makes all the information sent through your forms unreadable for any person or robot trying to intercept it. When SSL is enabled for your forms, their URLs start with https:// instead of http://.
-
-If you want to embed your form on a webpage you own, it is highly recommended that you also secure the webpage with an SSL encryption. Check with your web hosting provider to learn more about securing your forms on your websites.
-
-## HTML5 Elements
-
-HTML5 provides us with 13 new input type for use in creating our forms. You should use these whenever you can as they will reduce the amount of time you need to develop your forms and they will give our users an improved experience. While we won't go into detail on using these input types, [you can read more about each one of these fields in this article.](http://html5doctor.com/html5-forms-input-types/)
-
-* `search`
-* `email`
-* `url`
-* `tel`
-* `number`
-* `range`
-* `date`
-* `month`
-* `week`
-* `time`
-* `datetime`
-* `datetime-local`
-* `color`
+When SSL is enabled for your forms, their URLs start with **https://** instead of **http://**. All forms should be encrypted with SSL, if not your entire site. If you are using [Azure to host your website](https://azure.microsoft.com/services/app-service/), you have the ability to use SSL for all shared domains (yourname.azurewebsites.net), or can upload a certificate for custom domains.
 
 ## What you've learned
 

@@ -12,7 +12,7 @@ The course does assume you are familiar with a programming language, such as Jav
 
 We make no assumptions about your level of knowledge when it comes to AI or ML. This course is built assuming you're curious about this emerging technology, but haven't necessarily experienced it first hand. Or maybe you're already using similar services on another cloud provider and want to explore Microsoft's offerings.
 
-## Workshop requirements
+## Setup
 
 If you wish to follow along, there's a few steps you'll need to complete to configure your system. We've got a full [setup guide](./setup.md) for you to use!
 

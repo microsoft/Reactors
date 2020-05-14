@@ -5,7 +5,7 @@ The following are some of the most common text style properties utilized. This i
 ```color:```
 The text color is specified using the color property. The value of the color property can be expressed using hex, RGB or semantic code.
 
-```css
+``` css
   p {
     color: #ffffff;
   }
@@ -20,7 +20,7 @@ The text color is specified using the color property. The value of the color pro
 ```text-align:```
 This property is used to set the horizontal alignment of any text. Text can be centered, or aligned to the left or right, or justified. This property will only work if the property is also display block.
 
-```css
+``` css
   h1 {
     text-align: center;
   }
@@ -29,7 +29,7 @@ This property is used to set the horizontal alignment of any text. Text can be c
 ```text-decoration:```
 The text-decoration property is used to add and remove underlines, overlines, and line-throughs.
 
-```css
+``` css
   a {
     text-decoration: none;
   }
@@ -40,7 +40,7 @@ The text-decoration property is used to add and remove underlines, overlines, an
 ```font-family:```
 The font-family property specifies the font style to use for an element. There are two types of font family names:
 
-```css
+``` css
 named-family - Examples "times", "courier", "arial"
 generic-family - Examples "serif", "sans-serif", "cursive", "fantasy", "monospace"
 ```
@@ -49,7 +49,7 @@ generic-family - Examples "serif", "sans-serif", "cursive", "fantasy", "monospac
 
 There are fonts that are installed on pretty much all systems and so are termed web safe fonts because you can with some certainty know it will look the same regardless of the system the user has. Some of these are; ```Verdana, Arial, Trebuchet MS, Times New Roman, Georgia, Andale Mono, Courier New, Comic Sans, and Impact```.
 
-```css
+``` css
   p {
     font-family: "helvetica neue", arial, verdana, sans-serif;
   }
@@ -68,7 +68,7 @@ Note that fonts with more than one word in their name need surrounding in quotes
 ```font-size:```
 The font-size property values can be expressed in four different units pt, px, em, %. pt and px (point and pixel) are considered static sizing and will not adjust properly when resizing your page. em and % (responsive measure and percent) however will resize and are what most developers recommend using. Below is a drop-down chart showing the approximate equivalents between the four units.
 
-```css
+``` css
   h3 {
     font-size: 10pt;
   }
@@ -86,7 +86,7 @@ The font-size property values can be expressed in four different units pt, px, e
 ```font-style```
 This property controls the slanted emphasis of the text. Some text may have an italic property built into the font and so selecting italic would be fine. For fonts that do not have an italic style, the value oblique can be used to mimic italicized text.
 
-```css
+``` css
   span {
     font-style: italic;
   }
@@ -95,7 +95,7 @@ This property controls the slanted emphasis of the text. Some text may have an i
 ```font-weight```
 This property defines the thickness of a character line. normal is often the default value. The values can be set numerically or semantically.
 
-```css
+``` css
   p {
     font-weight: bold;
   }
@@ -116,7 +116,7 @@ However if you wanted World to show up in the same line, you could instead do:
 ```<h1>Hello <span>World</span> </h1>```
 Then in the css, you could have done something like this to just highlight the word 'World':
 
-```css
+``` css
 h1 span {
    font-weight: bold;
    color: blue;

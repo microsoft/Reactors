@@ -13,7 +13,7 @@ Let's look at what input types would be used in the following circumstances:
 When the user needs to enter a short amount of text, such as an email address or name.
 The appropriate input type here is text. Also notice how we can bind elements together. In the label tag we add the `for` attribute and give it the id of the input field for the value.
 
-```html
+``` html
 <label for="first_name">First Name:</label>
 <input type="text" id="first_name" name="first_name">
 <label for="last_name">Last Name:</label>
@@ -25,7 +25,7 @@ The appropriate input type here is text. Also notice how we can bind elements to
 A password field.
 The appropriate input type here is password.
 
-```html
+``` html
 <label for="password">Password</label>
 <input type="password" id="password" name="password">
 ```
@@ -33,7 +33,7 @@ The appropriate input type here is password.
 When the user can choose only 1 option from a variety of options. A good example is a gender selector.
 One appropriate input type here is radio buttons.
 
-```html
+``` html
 <label for="male">Male</label>
 <input type="radio" id="male" name="gender" value="male">
 <label for="female">Female</label>
@@ -52,7 +52,7 @@ Another option is a dropdown menu, which uses <select> and <option> tags.
 When the user can choose multiple things from a variety of options, such as choosing their favorite 3 colors from 5 options.
 The appropriate input type here is checkboxes.
 
-```html
+``` html
 <label for="blue">Blue</label>
 <input type="checkbox" id="blue" name="color" value="blue">
 <label for="green">Green</label>
@@ -73,20 +73,20 @@ In this case we use the ```<textarea>``` tag.
 When a form needs to submit more than just user input.
 Input type hidden is similar to text fields, except they do not show on the page and users can not enter anything into them. This is useful for the back-end authentication and passing data.
 
-```html
+``` html
 <input type="hidden" name="id" value="7">
 ```
 
 Finally, to create a submit button:
 The appropriate input type is submit.
 
-```html
+``` html
 <input type="submit" value="Submit">
 ```
 
 Let's look at a sample full registration form:
 
-```html
+``` html
 <body>
   <form action="process.php" method="post">
     <p>Please Register</p><label for="first_name">First Name:</label><input name=
@@ -117,7 +117,7 @@ Let's look at a sample full registration form:
 Other label-input Declaration
 Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairing shown above, but you may encounter a different format on how the label-input set is being declared. Below is an example:
 
-```html
+``` html
 <body>
   <form>
     <p>Please Register</p><label>Name:<input type="text" name="name" /></label>

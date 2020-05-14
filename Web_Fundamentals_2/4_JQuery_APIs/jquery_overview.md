@@ -1,12 +1,12 @@
 # What is jQuery
 
-jQuery is a JavaScript library. What this means for us is that it allows every browser to read JavaScript code. In the same manner, browser compatibility is a big issue when working on the front-end. This means that the jQuery code you write is suited for use by all browsers without change. Javascript is interpreted differently in some browsers. We don't want to have to write different versions of our code for different browsers, so cross-browser compatibility is important. All of the jQuery's functions work the same way regardless of which browser the user is running.
+jQuery is a JavaScript library. What this means for us is that it allows every browser to read JavaScript code. In the same manner, browser compatibility is a big issue when working on the front-end. The jQuery code you write is suited for use by all browsers without change. Javascript is interpreted differently in some browsers. We don't want to have to write different versions of our code for different browsers, so cross-browser compatibility is important. All of the jQuery's functions work the same way regardless of which browser the user is running.
 
 JQuery also converts what would have been a long block of code into just a few lines. As a developer, you should always practice the DRY method (Don't Repeat Yourself) which a group of developers discovered when they wrote the same lines of code over and over again (and it was a good amount of code too!). So, why not cut down many lines of code by making a library, and also by simplifying it for everyone? It sounds like a great idea!
 
 ## Overview of basic jQuery functions
 
-```html
+``` html
 <head>
 <script>
    $(document).ready(function() {
@@ -18,7 +18,7 @@ JQuery also converts what would have been a long block of code into just a few l
 
 Other developers don't want jQuery to wait for the document to be fully ready, and insert their jQuery codes just before the ```</body>``` tag ends.
 
-```html
+``` html
 <script>
   // your jquery codes here
 </script>

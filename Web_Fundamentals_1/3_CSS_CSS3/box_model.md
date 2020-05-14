@@ -1,12 +1,12 @@
-# Box Model - Margin, Border, Padding
+# Box model
 
-All web layouts are accomplished with block elements. Designers use blocks, most often `<div>` elements, to create rectangular areas into which all content fits. There are only three rules:
+All web layouts are accomplished with block elements. Designers use blocks, most commonly `<div>` elements, to create rectangular areas into which all content fits. There are only three rules:
 
-* **Total area**: the space an element occupies _and_ affects.
-* **Float, clear and overflow**
-* **Nested elements**
+- **Total area**: the space an element occupies _and_ affects.
+- **Float, clear and overflow**
+- **Nested elements**
 
-## **Total Area**
+## Total Area
 
 Total width is how much horizontal space a block occupies. This includes the block's margin, border, and padding. Calculating width, padding, and margin is often the biggest headache for designers, but it's easy to see how they work if you use the **box model**.
 
@@ -78,7 +78,7 @@ div{
 
 is equivalent to:
 
-```css
+``` css
 div{
   padding: 25px 50px;
 }
@@ -86,7 +86,7 @@ div{
 
 And
 
-```css
+``` css
 div{
   padding-top: 25px;
   padding-right: 25px;
@@ -97,7 +97,7 @@ div{
 
 is equivalent to:
 
-```css
+``` css
 div{
   padding: 25px;
 }
@@ -126,7 +126,7 @@ HTML:
 
 CSS:
 
-```css
+``` css
 #box-1, #box-2, #box-3{
   height: 100px;
   width: 100px;
@@ -144,20 +144,22 @@ CSS:
 ```
 
 You might think that this will look like this:
+
 ![Vertical Box Model Diagram](../images/vertical-uncollapsed-03.gif)
 
 But this code will actually result in this:
+
 ![Collapse Box Model](../images/vertical-collapsed-03.gif)
 
 When the vertical margins of two elements are touching, **only the margin of the element with the largest margin value will be honored**, while the margin of the element with the smaller margin value will be collapsed to zero.
 
 There are other situations where elements do not have their margins collapsed:
 
-* floated elements
-* absolutely positioned elements
-* inline-block elements
-* elements with overflow property set to anything other than visible (They do not collapse margins with their children.)
-* cleared elements (They do not collapse their top margins with their parent block's bottom margin.)
+- floated elements
+- absolutely positioned elements
+- inline-block elements
+- elements with overflow property set to anything other than visible (They do not collapse margins with their children.)
+- cleared elements (They do not collapse their top margins with their parent block's bottom margin.)
 
 ## What you learned
 

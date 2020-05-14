@@ -4,7 +4,7 @@
 
 Using the PokeAPI, create a page that shows the first 151 Pokemon sprite images. You can build out 151 images by hand or you can use a for-loop in JavaScript and your jQuery knowledge to produce the image tags in the body of your HTML.  If the images load slowly, consider only loading 15 images.
 
-```html
+``` html
     <!-- add http:// before the website name -->
     <img src="raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png">
     <img src="raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png">
@@ -22,7 +22,7 @@ Add a click function to each of the Pokemon you rendered in the last PokeAPI ass
 
 How do you know which Pokemon was clicked? Maybe we can give each Pokemon a unique id that corresponds with their number in the URL?
 
-```html
+``` html
 <img id="2" src="raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png">
 <!-- add http:// before the website name -->
 ```

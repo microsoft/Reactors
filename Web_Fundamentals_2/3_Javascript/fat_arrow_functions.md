@@ -1,179 +1,117 @@
-# Arrow Functions
+# Anonymous functions
 
-Understanding and utilizing anonymous functions is important to becoming a skilled JavaScript developer. ES6 introduces a new shortened syntax for writing anonymous functions that is the focus of this section.
+In the [prior example](./the_dom.md), we saw how we could create a function and make it an event handler. Commonly, this is short-handed by using an anonymous function. An anonymous function is a function which doesn't have a name.
 
-## Function Keyword
+## Creating an anonymous function
 
-Consider a simple sayHello function assigned to a variable.
+Let's bring back the full page we were using previously:
 
-```javascript
-var sayHello = function(name) {
-  console.log('Hello ' + name);
-};
-```
-
-Utilizing ES6 arrow functions, colloquially fat arrow functions, we can rewrite as such:
-
-```javascript
-const sayHello = (name) => {
-  console.log(`Hello ${name}`);
-};
-```
-
-Notice we've ommitted the function keyword and now have an arrow(=>) pointing to the function body. Interesting, but what benefits does this provide other than less typing?
-
-For simple methods we can refine this example further. Single parameters don't need parenthesis and with the function body being a single statement we can remove the curly braces.
-
-```javascript
-const sayHello = name => console.log(`Hello ${name}`);
-```
-
-Concise. More complex functions will need a more complete body ({}), and multiple parameters will require parenthesis. Another benefit of utilizing arrow functions for simple expressions is implicit returns. Let's create a new example.
-
-```javascript
-var square = function(n) {
-  return n * n;
-};
-```
-
-will become
-
-```javascript
-const square = n => n * n;
-```
-
-Traditional functions require explicit returns, such as in the first square. With arrow function the result of our expressions, n * n, is implicitly returned to the caller. As you might expect this can be chained.
-
-```javascript
-const multiplyThrice = x => y => z => x * y * z;
-multiplyThrice(2)(4)(6);
-// => 48
-```
-
-The multiplyThrice variable contains a function that accepts a single parameter and returns another arrow function, which does the same, until the final function multiplies the three passed in numbers. Comparing this to an ES5- implementation
-
-```javascript
-var multiplyThrice = function(x) {
-  return function(y) {
-    return function(z) {
-      return x * y * z;
-    };
-  };
-};
-```
-
-it is significantly more concise, but potentially much less readable. Also of note, if you're returning an object literal you may not implicitly return that content. The Javascript interpreter will view that as a function body. Reusing our nest function from the Enhanced Object Literals section you might expect to do this:
-
-```javascript
-function nest(array, insert) {
-  return array
-    .reduceRight((accumulator, key) =>
-      {
-        [key]: accumulator
-      }
-    , insert);
-}
-```
-
-Resulting in this error: SyntaxError: Unexpected token :. What used to be the body of the returned object is now the body of our function, so [key]: accumulator is standalone and invalid. Proper usage is with an explicit return.
-
-```javascript
-function nest(array, insert) {
-  return array
-    .reduceRight((accumulator, key) => {
-      return {
-        [key]: accumulator
-      }
-    }, insert);
-}
-```
-
-Or you may wrap your object in parentheses.
-
-```javascript
-function nest(array, insert) {
-  return array.reduceRight((accumulator, key) => ({ [key]: accumulator }), insert);
-}
-```
-
-## Context
-
-Fancy syntax isn't the only change with arrow functions. They also inherit context from the parent scope. To demonstrate this let's bring back our Deck class.
-
-```javascript
-class Deck {
-  initialize() {
-    const suits = ['Diamond', 'Heart', 'Spade', 'Club'];
-    ="keyword from-rainbow">const faces = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'];
-    const deck = [];
-    for (const suit of suits) {
-      for (const face of faces) {
-        deck.push(this.createCard(suit, face));
-      }
+``` html
+<html>
+<head>
+  <title>Demo page</title>
+<body>
+  <button type="button">Button One</button>
+  <button type="button">Button Two</button>
+  <button type="button">Button Three</button>
+  <div id="output"></output>
+  <script>
+    function handleButtonClick() {
+      console.log('Button was clicked!');
+      this.style.color = 'red';
+      buttonText = this.innerText;
+      message = 'You clicked ' + buttonText;
+      document.getElementById('output').innerText = message;
     }
-    this.deck = deck;
-  }
+
+    const buttons = document.getElementsByTagName('button');
+    for(button of buttons) {
+      button.addEventListener('click', handleButtonClick);  
+    }
+  </script>
+</body>
+</html>
+```
+
+Our `handlebuttonClick` was only ever used inside the event handler. Let's make our code a little more succinct by creating the function right inside of `addEventListener`. The way we do this is by using the syntax of `function() { }`, and put the same logic inside of the `{ }`:
+
+``` javascript
+// Replace the contents of the script block
+const buttons = document.getElementsByTagName('button');
+for(button of buttons) {
+  button.addEventListener('click', function() {
+    console.log('Button was clicked!');
+    this.style.color = 'red';
+    buttonText = this.innerText;
+    message = 'You clicked ' + buttonText;
+    document.getElementById('output').innerText = message;
+  });  
 }
 ```
 
-We'll start refactoring for a more functional approach using forEach, but continue using traditional anonymous functions.
+If you save the page and run it again you'll notice we see the same behavior as before.
 
-```javascript
-initialize() {
-    const suits = ['Diamond', 'Heart', 'Spade', 'Club'];
-    const faces = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'];
-    const deck = [];
-    suits.forEach(function(suit) {
-      faces.forEach(function(face) {
-        deck.push(this.createCard(suit, face));
-      });
-    });
-    this.deck = deck;
-  }
-```
+### Fat arrow functions
 
-Creating a new Deck will now result in a TypeError: TypeError: Cannot read property 'createCard' of undefined, because this in our anonymous functions don't have the same context as our loops. Pre-ES6 the solution was to save context to a variable.
+ES6 introduced a new shorthand syntax for anonymous functions known as a **fat arrow function**. A fat arrow is represented as `=>`. We create a fat arrow function by leaving off the word `function`, and instead using the syntax of `() => { }`, where our code is placed inside of the `{ }`. Let's update our code one last time:
 
-```javascript
-initialize() {
-  ...
-  var self = this;
-  suits.forEach(function(suit) {
-    faces.forEach(function(face) {
-      deck.push(self.createCard(suit, face));
-    });
-  });
+``` javascript
+// Replace the contents of the script block
+const buttons = document.getElementsByTagName('button');
+for(button of buttons) {
+  button.addEventListener('click', () => {
+    console.log('Button was clicked!');
+    this.style.color = 'red';
+    buttonText = this.innerText;
+    message = 'You clicked ' + buttonText;
+    document.getElementById('output').innerText = message;
+  });  
 }
 ```
 
-Capturing this, our context, into a variable called self, _this or that is pretty common in older codebases. With arrow functions this workaround is no longer necessary.
+Save the page, refresh in the browser, and you'll notice the same output!
 
-```javascript
-initialize() {
-  ...
-  suits.forEach(suit => {
-    faces.forEach(face => {
-      deck.push(this.createCard(suit, face));
-    });
-  });
+### Why use fat arrow functions
+
+When you first see a fat arrow function it looks a little weird. You might be wondering why to use it at all. Fat arrow functions allow you to create code which is more succinct, and in the long run more readable. It's especially helpful in scenarios where we might want to do something requiring a very small amount of code.
+
+Let's consider the [filter](https://www.w3schools.com/jsref/jsref_filter.asp) function of a JavaScript array. `filter` allows you to find items which meet the criteria you specify by using a function. `filter` will loop through each item, pass it into the function, and then return an array filled with all the items which match the logic you provide.
+
+Let's take the following array:
+
+``` javascript
+const names = ['Christopher', 'Justin', 'Sarah', 'Shana', 'Meaghan'];
+```
+
+Let's say we wanted to find all the names longer than 6 characters. We could do this by testing the `length` of each item to see if it's greater than 6. A function which would perform such a task would look like this:
+
+``` javascript
+function checkLength(name) {
+  return name.length > 6;
+  // return means send the result back
 }
 ```
 
-Arrow functions don't create their own context, it looks to the enclosing scope for that information. Therefore this should now refer to the Deck instance, which has a createCard method. Extraneous variables removed, let's turn this fully functional before wrapping up.
+As highlighted earlier, we'd like to avoid creating a function which is only being used in one specific instance, especially if it's only containing one line of code.
 
-```javascript
-initialize() {
-  const suits = ['Diamond', 'Heart', 'Spade', 'Club'];
-  const faces = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'];
-  this.deck = suits.map(
-    suit => faces.map(
-      face => this.createCard(suit, face)))
-    .reduce((deck, cards) => [...deck, ...cards], []);
-}
+In addition, fat arrow functions allow us to take certain shortcuts. `filter` is looking for a return value. JavaScript will help us out by performing this for us, so we can leave off the `return` statement. Our fat arrow function for the `checkLength` function would look like this:
+
+``` javascript
+(name) => name.length;
 ```
+
+If we bring this all together, we can use `filter` inline with the rest of our code, so it takes up a little less space.
+
+``` javascript
+const names = ['Christopher', 'Justin', 'Sarah', 'Shana', 'Meaghan'];
+const longNames = names.filter((name) => name.length > 6);
+console.log(longNames);
+```
+
+If you run this code in a tool like [CodePen](https://codepen.io) you'll see the new `longNames` array only contains Christopher and Meaghan.
 
 ## Conclusion
 
-Arrow functions provide a simpler syntax with implicit returns for succinct expressions. Additionally they inherit context from parent scopes. While this is great much of the time there are instances when you want context to change, so be aware of how an arrow function might affect your code.
+Arrow functions provide a syntax with implicit returns for succinct expressions. They allow for the ability to create functions "on the fly", without having to have code all over the place for short operations.
 
-NEXT: [Using the Fetch API](./fetch.md)
+But we don't have to write everything ourselves. We can always take advantage of other [libraries and frameworks](./javascript_libraries.md).

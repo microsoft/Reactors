@@ -1,19 +1,14 @@
 # CSS Selectors
 
-Selectors are used for declaring the HTML elements to which a style will apply.
+A selector is used to identify what items to modify. You can use selectors to identify an individual element, all elements of a particular type, elements with certain attributes or groupings, or even identify items based on their location in a page.
 
-## The most common selectors are
+## Declaration block
 
-* all elements with a specific HTML tag (e.g., p, h1)
-* elements specified by the following attributes:
-  * id (these are preceded by # in CSS) These must be unique and can only be used once on your page.
-  * class (these are preceded by .  in CSS) These can be used multiple times to share repeating CSS code.
-Declaration Block
 A declaration block is a list of declarations contained within braces. Each individual declaration consists of a property, a colon (":"), and a value. If a block has multiple declarations, they must be separated by a semi-colon(";").
 
-## Here are some examples
+## Selecting elements
 
-For all "p" HTML tags, make the font color blue:
+To select all elements of a particular type, such as `a`, `strong` or `div`, you simply use the name of the element. If you wanted to make all `p` elements blue, you could use the following:
 
 ``` css
 p{
@@ -21,50 +16,107 @@ p{
 }
 ```
 
-For an element with the id "important", make the font size 36px.
+## Selecting an individual element by id
 
-```css
-#important{
+HTML allows you to add IDs to elements. While we mostly focused on this behavior for [links](../2_HTML/common_body_tags.md#anchors) and [forms](../2_HTML/forms.md), you can add an ID to any element to identify it for use with CSS (or with JavaScript). We could identify an item with an ID of **heading** by using its name with a `#` in front.
+
+``` css
+#heading{
   font-size: 36px;
 }
 ```
 
-For all elements with the class "info", make the background green and add a 1px wide black border.
+## Classes
 
-```css
-.info{
-  background-color: green;
-  border: 1px solid black;
+You may wish to group items of a certain type together to ensure they're all displayed the same way. For example, you might want to bold links in a navigation pane, or ensure certain `h3` elements are blue. By using a `class` attribute you can group these items together, regardless of where they appear on a page. If you wish to add multiple classes to an item, you simply add spaces between the class names. So if we wanted a `div` to use both the `navigation` and `banner` class, we could use the following:
+
+``` html
+<div class="navigation banner">Hello, world!</div>
+```
+
+We can then create CSS to apply to classes by prepending the name of the class with a `.`.
+
+``` css
+.navigation {
+  text-weight:bold;
+}
+.banner {
+  color: blue;
 }
 ```
 
-In the above examples, ```p```, ```#important```, and ```.info``` are selectors. Color, font-size, background-color, and border are properties.
+> **NOTE**: If an element has multiple classes which match items in your stylesheet, all settings will be applied.
 
-## More on selectors
+## Scoring
 
-<http://www.webdesignerdepot.com/2013/08/10-css-selectors-you-shouldnt-code-without/>
-<http://www.w3schools.com/cssref/css_selectors.asp>
+It doesn't take long to realize you could wind up in a situation where you could have a conflict in CSS settings. Consider the following:
 
-Now that we know a little more about how to use selectors, let’s make a general list of the internal priorities for CSS:
+``` html
+<div class="header">Hello, world</div>
+```
 
-* element (1 point)
-* .class (10 points)
-* #id (100 points)
+``` css
+div{
+  color: red;
+}
+.header{
+  color: blue;
+}
+```
 
-This is the default priority order. In addition to this, specificity will also count, for example,  ul li will override li. W3C has made a decent table over how you should calculate internal weight:
+What color will **Hello, world** be? You could use a tool like [CodePen](https://codepen.io) to find out.
 
-li            {...}  /* a=0 b=0 c=1 -> specificity =   1 */
-ul li         {...}  /* a=0 b=0 c=2 -> specificity =   2 */
-ul ol li      {...}  /* a=0 b=0 c=3 -> specificity =   3 */
-li.red        {...}  /* a=0 b=1 c=1 -> specificity =  11 */
-ul ol li.red  {...}  /* a=0 b=1 c=3 -> specificity =  13 */
- list         {...}  /* a=1 b=0 c=0 -> specificity = 100 */
+CSS breaks these types of conflicts by using a scoring system. At its root level, the following values are applied:
 
-a represents the number of #id attributes in the selector
-b represents the number of class attributes
-c represents the number of tag names
+- element (1 point)
+- .class (10 points)
+- #id (100 points)
 
-Combining these into a number will give you the actual weight. This means that  li #list will have the same weight as ul #list. This is probably one of the most confusing things about the cascade scheme, but it’s actually simpler than you might think: **it’s all about counting**.
+In a nutshell, the scoring is used to identify how specific of a reference to the item was made.
+
+So in our example, the class entry of `div` would have a score of **1**, and the class of `header` **10**. Thus, the color would be red.
+
+## Getting more specific
+
+The three selectors listed above are the most common. However, there are [many more selectors](https://www.w3schools.com/cssref/css_selectors.asp) offering you quite a bit of power for identifying specific items in a page.
+
+However, even with those three we can still get more specific. Here's just a few possibilities
+
+``` css
+div{
+  /* all div elements */
+  color: red;
+}
+div.header{
+  /* only div elements with a class of header */
+  color: blue;
+}
+div a{
+  /* only a elements inside a div */
+  color: green;
+}
+div a.navigation{
+  /* only a elements with a class of navigation inside a div */
+  color: purple;
+}
+```
+
+### Exercise
+
+What color will the items in this HTML page be displayed?
+
+``` html
+<div>div</div>
+<div class="header">div with header</div>
+<div class="navigation">div with navigation</div>
+<a>anchor</a>
+<a class="navigation">anchor with navigation</a>
+<div>
+  <a class="navigation">anchor in div with navigation</a>
+  <br />
+  <a>anchor in div</a>
+</div>
+```
 
 ## What you learned
 
