@@ -21,24 +21,6 @@ contract Banker {
         Piece piece;
     }
 
-    struct Set {
-        uint[] values;
-        mapping (uint => bool) is_in;
-    }
-
-    Set my_set;
-
-    function add(uint a) private {
-        if (!my_set.is_in[a]) {
-            my_set.values.push(a);
-            my_set.is_in[a] = true;
-        }
-    }
-
-    function pieceClaimed(uint num) private view returns (bool) {
-        return my_set.is_in[num];
-    }
-
     mapping(string => bool) public names;
     mapping(address => Player) public addrPlayerMapping;
 
@@ -70,7 +52,7 @@ contract Banker {
         assetManager.addAsset("New York Reactor", "Property", 100, banker);
         assetManager.addAsset("Toronto Reactor", "Property", 100, banker);
         assetManager.addAsset("London Reactor", "Property", 100, banker);
-        assetManager.addAsset("Sao Paolo Reactor", "Property", 100, banker);
+        assetManager.addAsset("Sao Paulo Reactor", "Property", 100, banker);
         assetManager.addAsset("Tel Aviv Reactor", "Property", 100, banker);
         assetManager.addAsset("Stockholm Reactor", "Property", 100, banker);
         assetManager.addAsset("Abu Dhabi Reactor", "Property", 100, banker);
@@ -112,7 +94,6 @@ contract Banker {
         // TODO: Add a requirement that no one can join the game if it is
         // full. This is presently defined as the number of players equaling
         // six.
-	
         require(!names[_name], "Name is already taken");
         require(!isPlayerInGame(msg.sender), "Same address is not already joined");
 
@@ -177,7 +158,7 @@ contract Banker {
 	// owner for the price of the property. Make sure you get the
 	// order correct! Check the Bank contract to see what order the
 	// parameters should be in.
-	
+
  	// TODO: Use the AssetManager instance created in the
  	// constructor to transfer the asset from the owner to the
  	// msg.sender. Specify the name of the asset and indicate that it
