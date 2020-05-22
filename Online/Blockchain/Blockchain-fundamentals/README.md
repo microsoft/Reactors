@@ -43,8 +43,8 @@ contract Coin {
   }
 
   function send(address receiver, address sender, uint amount) public {
-    require(amount <= balances[msg.sender], "Not enough money");
-    balances[msg.sender] -= amount;
+    require(amount <= balances[sender], "Not enough money");
+    balances[sender] -= amount;
     balances[receiver] += amount;
     emit Sent(msg.sender, receiver, amount);
   }
@@ -63,20 +63,18 @@ const Coin = artifacts.require("Coin");
 const truffleAssert = require('truffle-assertions');
 
 contract('Coin', (accounts) => {
-  it('testing of Coin', async() => {
-    const c = await Coin.deployed();
+  it('should mint and send coins', async() => {
+    let c = await Coin.deployed();
     await c.mint(accounts[1], 1000);
-    var result = await c.send(accounts[2], 200);
+    let result = await c.send(accounts[2], accounts[1], 200);
     truffleAssert.eventEmitted(result, 'Sent');
   });
 });
 ```
 6. Start up the Ethereum client by running `ganache-cli` in a terminal window.
 
-7. In your editor, open up `truffle-config.js` and update it so it looks like this with the host and port pointing to your ganache-cli client:
+7. In your editor, open up `truffle-config.js` and replace the contents so it looks like this with the host and port pointing to your ganache-cli client:
 ``` javascript
-const HDWalletProvider = require("truffle-hdwallet-provider");
-const fs = require("fs");
 module.exports = {
   networks: {
     development: {
@@ -87,8 +85,8 @@ module.exports = {
   }
 };
 ```
-8. Go back to your terminal, open up a new window and compile the contract by running `truffle compile` in the terminal.
+8. Go back to your terminal, open up a new window, and then compile the contract by running `truffle compile` in the terminal.
 
-9. Migrate your contract by running `truffle migrate`.
+9. Then migrate your contract by running `truffle migrate`.
 
-10. Test your contract by running `truffle test`.
+10. Now, it's time to test your contract. First run `npm install truffle-assertions` to install that package for this project. You will see warnings that there is no **package.json** file, but that's okay. Then run the test with `truffle test`.
