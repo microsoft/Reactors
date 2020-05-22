@@ -1,4 +1,4 @@
-# Blockchain foundations
+# Blockchain Fundamentals
 
 This directory has the demo used during the Blockchain foundations livestream on Twitch.
 
