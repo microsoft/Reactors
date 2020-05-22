@@ -25,27 +25,27 @@ The purpose of this demo is to get started with building and testing your own bl
 pragma solidity >= 0.5.0 < 0.7.0;
 
 contract Coin {
-address public minter;
-mapping (address => uint) public balances;
+  address public minter;
+  mapping (address => uint) public balances;
 
-event Sent(address from, address to, uint amount);
+  event Sent(address from, address to, uint amount);
 
-constructor() public {
-minter = msg.sender;
-}
+  constructor() public {
+    minter = msg.sender;
+   }
 
-function mint(address receiver, uint amount) public {
-require(msg.sender == minter, "Sender must be minter");
-require(amount < 1e60, "Amount must be less");
-balances[receiver] += amount;
-}
+  function mint(address receiver, uint amount) public {
+    require(msg.sender == minter, "Sender must be minter");
+    require(amount < 1e60, "Amount must be less");
+    balances[receiver] += amount;
+  }
 
-function send(address receiver, address sender, uint amount) public {
-require(amount <= balances[msg.sender], "Not enough money");
-balances[msg.sender] -= amount;
-balances[receiver] += amount;
-emit Sent(msg.sender, receiver, amount);
-    }
+  function send(address receiver, address sender, uint amount) public {
+    require(amount <= balances[msg.sender], "Not enough money");
+    balances[msg.sender] -= amount;
+    balances[receiver] += amount;
+    emit Sent(msg.sender, receiver, amount);
+  }
 }
 ```
 4. Add a new migration called: **2_deploy_contracts.js**
@@ -61,12 +61,12 @@ const Coin = artifacts.require("Coin");
 const truffleAssert = require('truffle-assertions');
 
 contract('Coin', (accounts) => {
-it('testing of Coin', async() => {
-const c = await Coin.deployed();
-await c.mint(accounts[1], 1000);
-var result = await c.send(accounts[2], 200);
-truffleAssert.eventEmitted(result, 'Sent');
-});
+  it('testing of Coin', async() => {
+    const c = await Coin.deployed();
+    await c.mint(accounts[1], 1000);
+    var result = await c.send(accounts[2], 200);
+    truffleAssert.eventEmitted(result, 'Sent');
+  });
 });
 ```
 6. Start up the Ethereum client by running `ganache-cli` in a terminal window.
