@@ -17,10 +17,11 @@ The purpose of this demo is to get started with building and testing your own bl
 
 ## Demo steps
 1. Run `truffle init` in the directory where you want to create your new truffle project. Then open up the directory in VS Code.
-2. Inspect the directory structure. Look for location of
-  - Contracts
-  - Migrations
-  - Tests
+2. Inspect the directory structure that truffle created. Look for location of:
+  - Contracts/
+  - Migrations/
+  - Tests/
+  - truffle-config.js
 3. Add a new contract called: **Coin.sol**.
 ``` c
 pragma solidity >= 0.5.0 < 0.7.0;
