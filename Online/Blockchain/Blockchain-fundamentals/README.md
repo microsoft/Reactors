@@ -16,7 +16,7 @@ The purpose of this demo is to get started with building and testing your own bl
   - [ganache-cli](https://github.com/trufflesuite/ganache-cli) as the Ethereum client for testing and development
 
 ## Demo steps
-1. Run `truffle init` in the directory where you want to create your new Solidity project.
+1. Run `truffle init` in the directory where you want to create your new truffle project. Then open up the directory in VS Code.
 2. Inspect the directory structure. Look for location of
   - Contracts
   - Migrations
