@@ -4,15 +4,16 @@ This directory has the demo used during the Blockchain foundations livestream on
 
 The purpose of this demo is to get started with building and testing your own blockchain for the Ethereum.
 
-## Pre-reqs
-- [VS Code](https://code.visualstudio.com/) if necessary
-- [npms and Node.js](https://www.npmjs.com/get-npm)
-- The example here uses:
-  - [truffle](https://www.trufflesuite.com/truffle) as the development framework for Ethereum - [ganache-cli](https://github.com/trufflesuite/ganache-cli) as the Ethereum client for testing and development
-
 ## Resources
 - [Ethereum website](https://ethereum.org/)
 - [Solidity docs](https://solidity.readthedocs.io/en/latest/index.html)  
+
+## Pre-reqs to complete demo
+- [VS Code](https://code.visualstudio.com/)
+- [npms and Node.js](https://www.npmjs.com/get-npm)
+- The example here uses:
+  - [truffle](https://www.trufflesuite.com/truffle) as the development framework for Ethereum 
+  - [ganache-cli](https://github.com/trufflesuite/ganache-cli) as the Ethereum client for testing and development
 
 ## Demo steps
 1. Run `truffle init` in the directory where you want to create your new Solidity project.
@@ -90,5 +91,3 @@ module.exports = {
 9. Migrate your contract by running `truffle migrate`.
 
 10. Test your contract by running `truffle test`.
-
-11.
