@@ -1,8 +1,8 @@
 # Blockchain Fundamentals
 
-This directory has the demo used during the Blockchain foundations livestream on Twitch.
+This directory has the demo used during the Blockchain Fundamentals livestream on Twitch. 
 
-The purpose of this demo is to get started with building and testing your own blockchain for the Ethereum.
+The purpose of this demo is to get started with building and testing your own blockchain for Ethereum.
 
 ## Resources
 - [Ethereum website](https://ethereum.org/)
