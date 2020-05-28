@@ -31,9 +31,9 @@ The code to the demo has been completed. To use the smart contracts:
 3. Start the Ganache UI client and create a new workspace. Select **Add Project** and link the `truffle-config.js` file to the workspace. The **Save Project**.
 4. Update the `truffle-config.js` file if needed to set the port to `7545` to point to the Ganache client.
 5. From the terminal, run:
-  - `truffle compile`
-  - `truffle migrate`
-  - `truffle test`
+    - `truffle compile`
+    - `truffle migrate`
+    - `truffle test`
 6. From VSCode, right-click on a contract and select `Deploy contracts`. Deploy to the local server.
 7. Inspect the Ganache UI to see the transactions, blocks, events and more.
 
