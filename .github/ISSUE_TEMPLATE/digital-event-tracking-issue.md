@@ -29,9 +29,9 @@ Additional Resources:
 # Event Checklist
 
 ## 10 Weeks Prior
-- [x] RCT and Speaker discuss details of the event in the comments of this issue. 
-- [x] RCT and Speaker complete the table above
-- [x] RCT adds a _confirmed-event_ label and either _global-twitch-event_ or _local-teams-event_ tag to the issue and adds event to the __Global Live Streams__ project or the __Local Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
+- [ ] RCT and Speaker discuss details of the event in the comments of this issue. 
+- [ ] RCT and Speaker complete the table above
+- [ ] RCT adds a _confirmed-event_ label and either _global-twitch-event_ or _local-teams-event_ tag to the issue and adds event to the __Global Live Streams__ project or the __Local Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
 
 ## 8 Weeks Prior
 - [ ] RCT provides speaker with assets (e.g. slides, overlays) and the survey data for the event
