@@ -39,6 +39,7 @@ assignees: ''
 # Event Information
 | Category | Details |
 |-----------|---------|
+| Reactor Topic | <Topic from one of the 9 Reactor topics> |
 | Monthly Topic (if applicable) | <Topic taken from [Azure Dev Marketing](https://aka.ms/DevEdCalFY21H1) |
 | Weekly Topic (if applicable) | <Topic decided by RCT if relevant> |
 | Stream Topic | <2-5 words describing the topic> |
