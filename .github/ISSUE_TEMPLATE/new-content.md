@@ -7,6 +7,20 @@ assignees: ''
 
 ---
 
+# Content Information
+| Category | Details |
+|-----------|---------|
+| Reactor Topic | <Topic from one of the 9 Reactor topics> |
+| Title | <150 characters or less > |
+| Description | <500 characters or less> |
+| PreReqs | <Describe what prior knowledge attendees should have> |
+| Relevant Resources | <Include links to other relevant resources> |
+| Author | <Name or GitHub alias> |
+
+Outline:
+<Please include an outline of the content>
+
+
 # Content Checklist
 ## Proposal: [Due: INSERT DEADLINE DATE HERE]
 - [ ] Reactor Content Team (RCT) or Writer opens a new issue for an upcoming content filling in the Content Information table. 
@@ -37,17 +51,3 @@ assignees: ''
 - [ ] RCT adds the new content to the Content README (Coming soon) 
 - [ ] RCT informs Reactor Program Management and Reactor Marketing Teams of new content
 - [ ] RCT plans pilot event for this content
-
-
-# Content Information
-| Category | Details |
-|-----------|---------|
-| Reactor Topic | <Topic from one of the 9 Reactor topics> |
-| Title | <150 characters or less > |
-| Description | <500 characters or less> |
-| PreReqs | <Describe what prior knowledge attendees should have> |
-| Relevant Resources | <Include links to other relevant resources> |
-| Author | <Name or GitHub alias> |
-
-Outline:
-<Please include an outline of the content>
