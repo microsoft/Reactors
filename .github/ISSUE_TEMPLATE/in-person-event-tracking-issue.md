@@ -1,11 +1,30 @@
 ---
 name: In-Person Event Tracking Issue
-about: For a Local in-person Reactor Events
-title: Month - Topic - Location
+about: For a single Local in-person Reactor Events
+title: Date - Topic - Location
 labels: 'in-person-local-event'
 assignees: ''
 
 ---
+
+# Event Information
+| Category | Details |
+|-----------|---------|
+| Reactor Topic | <Topic from one of the 9 Reactor topics> |
+| Monthly Topic (if applicable) | <Topic taken from [Azure Dev Marketing](https://aka.ms/DevEdCalFY21H1)> |
+| Weekly Topic (if applicable) | <Topic decided by RCT if relevant> |
+| Stream Topic | <2-5 words describing the topic> |
+| Stream Date | <Month ##, ###> | 
+| Stream Time | <12h Local Time> | 
+| Stream Duration | <minutes> | 
+| Location | <Reactor Location> |
+| Title | <150 characters or less > |
+| Description | <500 characters or less> |
+| Speaker | <Name or GitHub alias> |
+
+Additional Resources:  
+<Additional resources that can be linked from social media for promotion>
+
 
 # Event Checklist
 
@@ -34,22 +53,3 @@ assignees: ''
 ## During and After Stream
 - [ ] Speaker runs the event
 - [ ] RCT moves issue to the __Event Complete__ column
-
-
-# Event Information
-| Category | Details |
-|-----------|---------|
-| Reactor Topic | <Topic from one of the 9 Reactor topics> |
-| Monthly Topic (if applicable) | <Topic taken from [Azure Dev Marketing](https://aka.ms/DevEdCalFY21H1)> |
-| Weekly Topic (if applicable) | <Topic decided by RCT if relevant> |
-| Stream Topic | <2-5 words describing the topic> |
-| Stream Date | <Month ##, ###> | 
-| Stream Time | <12h Local Time> | 
-| Stream Duration | <minutes> | 
-| Location | <Reactor Location> |
-| Title | <150 characters or less > |
-| Description | <500 characters or less> |
-| Speaker | <Name or GitHub alias> |
-
-Additional Resources:  
-<Additional resources that can be linked from social media for promotion>
