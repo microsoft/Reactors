@@ -25,10 +25,10 @@ assignees: ''
 ### Draft Review: [Due: INSERT DEADLINE DATE HERE]
 - [ ] Writer adds a _ready-for-review_ label (keeping the _draft_ label) to the PR and tags the reviewer in the comments
 - [ ] RCT conducts review
-- [ ] Writer removes both the _draft_ and _ready-for-review labels and incorporates feedback
+- [ ] Writer removes both the _draft_ and _ready-for-review_ labels and incorporates feedback
 
 ### Final Review: [Due: INSERT DEADLINE DATE HERE]
-- [ ] Writer adds a _readyfor-review_ label to the PR and tags the reviewer in the comments
+- [ ] Writer adds a _ready-for-review_ label to the PR and tags the reviewer in the comments
 - [ ] Writer conducts an overview pilot of content for RCT
 - [ ] RCT conducts review (if back and forth needs to happen, it does)
 - [ ] RCT approves and merges PR
