@@ -7,9 +7,7 @@ contract Banker {
     // The keyword "public" makes variables
     // accessible from other contracts
     address public banker;
-
     Bank public bank;
-
     AssetManager public assetManager;
 
     enum Piece {Unassigned, Bitcoin, Ethereum, Monero, ZCash, YCash, Stellar}
@@ -90,7 +88,6 @@ contract Banker {
     function joinGame(string memory _name) public {
         require(players.length < 6, "Game is full");
         require(!names[_name], "Name is already taken");
-        require(!isPlayerInGame(msg.sender), "Same address is not already joined");
 
         Player memory p = Player({
             addr: msg.sender,
@@ -106,41 +103,11 @@ contract Banker {
         emit PlayerJoined(msg.sender, _name);
     }
 
-    function getBalance(address account) public view returns (uint) {
-        require(msg.sender == account || msg.sender == banker,
-           "You cannot get a balance on someone else's account");
-        return bank.getBalance(account);
-    }
-
-    function isPropertyAvailable(string memory _name) public view returns (bool) {
-        return assetManager.isAvailable(_name, "Property");
-    }
-
-    function getPropertyOwner(string memory _name) public view returns (address) {
-        return assetManager.getOwner(_name, "Property");
-    }
-
-    function getPropertyManager() public view returns (address) {
-        return assetManager.getManager();
-    }
-
-    function getNumberOfPlayers() public view returns (uint) {
-        return players.length;
-    }
-
-    function isPlayerInGame(address _addr) public view returns (bool) {
-       Player memory p = addrPlayerMapping[_addr];
-       return p.taken;
-    }
-
     function buyProperty(string memory _name) public {
-        require(isPropertyAvailable(_name), "Property is available");
         require(started, "Game is started");
-        Player memory p = addrPlayerMapping[msg.sender];
-        require(p.taken, "Address is in game");
 
         address owner = assetManager.getOwner(_name, "Property");
-        uint price = assetManager.getPrice(_name, "Property");
+        uint price = 100;
 
         require(owner != msg.sender, "Player can't already own the property");
         require(bank.getBalance(msg.sender) >= price, "Player can afford property");

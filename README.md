@@ -5,7 +5,7 @@
 - [Reactor Meetup page](https://www.meetup.com/pro/microsoft-reactor)
 - [Reactor Twitter](https://twitter.com/msftreactor)
 
-Welcome to Microsoft's Reactor Workshop Content Repo!
+Welcome to Microsoft's Reactor Workshop Content Repository!
 
 In this repo you will find various resources for workshops that Microsoft runs around the world in each of the Reactor locations. If you find any errors or have ideas for improvements, we welcome you to contribute to this repo by opening a PR.
 
