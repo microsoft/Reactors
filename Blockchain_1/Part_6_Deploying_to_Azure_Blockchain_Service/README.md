@@ -1,9 +1,11 @@
 # Part 6. Deploying to Azure Blockchain Service
 
+### Goal
 In addition to providing tools to help developers have fun and be succesful, Microsoft has built a platform based upon Ethereum in the cloud. [Azure Blockchain Service](https://azure.microsoft.com/services/blockchain-service/) can host your contracts and allow you to interact with your data, other services and more.
 
 The main difference is that you will need to have an Azure account and go through the process to use the Azure Blockchain Service.
 
+### Steps
 1. Start by [Creating your Azure Blockchain Service member](https://docs.microsoft.com/azure/blockchain/service/create-member).
 2. Install the [Azure Blockchain Development Kit](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain) if you have not already done so.
 3. Connect your Azure Blockchain Development Kit to your [Azure Blockchain Service Consortium](https://docs.microsoft.com/azure/blockchain/service/connect-vscode).
