@@ -31,8 +31,6 @@ contract Banker {
 
     event PlayerJoined(address player, string name);
 
-    //event RandomNumber(uint num);
-
     bool public started;
     bool public ended;
 
