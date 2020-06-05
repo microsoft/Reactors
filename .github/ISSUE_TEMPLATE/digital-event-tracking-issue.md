@@ -29,11 +29,13 @@ Additional Resources:
 # Event Checklist
 
 ## 10 Weeks Prior
-- [ ] RCT and Speaker discuss details of the event in the comments of this issue. 
-- [ ] RCT and Speaker complete the table above
-- [ ] RCT adds a _confirmed-event_ label and either _global-twitch-event_ or _local-teams-event_ tag to the issue and adds event to the __Global Live Streams__ project or the __Local Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
+- [ ] Reactor Content Team (RCT) or Speaker opens a new issue for an upcoming stream filling in the Event Information table. Both RCT and Speaker are marked as assignees.
+- [ ] RCT and Speaker discuss details of the event in the comments of this issue. RCT adds a _confirmed-event_ label and either _global-twitch-event_ or _local-teams-event_ tag to the issue and adds event to the __Global Live Streams__ project or the __Local Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
 
 ## 8 Weeks Prior
+- [ ] RCT does a review of title and description
+- [ ] RCT moves the issue to the __Ready for Marketing__ column
+- [ ] RCT informs the Reactor Marketing Team of the new event information
 - [ ] RCT provides speaker with assets (e.g. slides, overlays) and the survey data for the event
 - [ ] RCT moves the issue to the __Stream Preparation In Progress__ column
 
@@ -51,4 +53,3 @@ Additional Resources:
 - [ ] Speaker and Moderator run the stream
 - [ ] RCT submits recording to be uploaded to the Reactor YouTube and to be made available on LearnTV
 - [ ] RCT moves issue to the __Stream Complete__ column
-
