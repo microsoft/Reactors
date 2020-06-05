@@ -1,11 +1,30 @@
 ---
 name: Digital Event Tracking Issue
-about: For a Local or Global Digital Reactor Event
-title: Month - Topic
+about: For a single Local or Global Digital Reactor Event
+title: Date - Title
 labels: ''
 assignees: ''
 
 ---
+
+# Event Information
+| Category | Details |
+|-----------|---------|
+| Reactor Topic | <Topic from one of the 9 Reactor topics> |
+| Monthly Topic (if applicable) | <Topic taken from [Azure Dev Marketing](https://aka.ms/DevEdCalFY21H1)> |
+| Weekly Topic (if applicable) | <Topic decided by RCT if relevant> |
+| Stream Topic | <2-5 words describing the topic> |
+| Stream Date | <Month ##, ###> | 
+| Stream Time | <12h PT> | 
+| Stream Duration | <minutes> | 
+| Title | <150 characters or less > |
+| Description | <500 characters or less> |
+| Speaker | <Name or GitHub alias> |
+| Moderator | <Name or GitHub alias> |
+
+Additional Resources:  
+<Additional resources that can be linked from social media for promotion or added to the description of VOD>
+
 
 # Event Checklist
 
@@ -34,22 +53,3 @@ assignees: ''
 - [ ] Speaker and Moderator run the stream
 - [ ] RCT submits recording to be uploaded to the Reactor YouTube and to be made available on LearnTV
 - [ ] RCT moves issue to the __Stream Complete__ column
-
-
-# Event Information
-| Category | Details |
-|-----------|---------|
-| Reactor Topic | <Topic from one of the 9 Reactor topics> |
-| Monthly Topic (if applicable) | <Topic taken from [Azure Dev Marketing](https://aka.ms/DevEdCalFY21H1)> |
-| Weekly Topic (if applicable) | <Topic decided by RCT if relevant> |
-| Stream Topic | <2-5 words describing the topic> |
-| Stream Date | <Month ##, ###> | 
-| Stream Time | <12h PT> | 
-| Stream Duration | <minutes> | 
-| Title | <150 characters or less > |
-| Description | <500 characters or less> |
-| Speaker | <Name or GitHub alias> |
-| Moderator | <Name or GitHub alias> |
-
-Additional Resources:  
-<Additional resources that can be linked from social media for promotion or added to the description of VOD>
