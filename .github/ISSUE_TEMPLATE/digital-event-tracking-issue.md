@@ -32,7 +32,7 @@ Additional Resources:
 ## 10 Weeks Prior
 - [ ] Reactor Content Team (RCT) or Speaker opens a new issue for an upcoming stream filling in the Event Information table. Both RCT and Speaker are marked as assignees.
 - [ ] RCT and Speaker discuss details of the event in the comments of this issue. RCT adds a _confirmed-event_ label and either _global-twitch-event_ or _local-teams-event_ tag to the issue and adds event to the __Global Live Streams__ project or the __Local Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
-- [ ] Speaker adds a _ready_for_marketing_edit_ label so the RCT can review title and description
+- [ ] Speaker adds a _ready-for-marketing-edit_ label so the RCT can review title and description
 
 ## 8 Weeks Prior
 - [ ] RCT does a review of title and description
