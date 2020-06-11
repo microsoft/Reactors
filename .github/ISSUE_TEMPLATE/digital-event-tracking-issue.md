@@ -2,7 +2,7 @@
 name: Digital Event Tracking Issue
 about: For a single Local or Global Digital Reactor Event
 title: Date - Title
-labels: ''
+labels: 'global-twitch-event'
 assignees: ''
 
 ---
@@ -21,6 +21,7 @@ assignees: ''
 | Description | <500 characters or less> |
 | Speaker | <Name or GitHub alias> |
 | Moderator | <Name or GitHub alias> |
+| SharePoint ID | |  
 
 Additional Resources:  
 <Additional resources that can be linked from social media for promotion or added to the description of VOD>
