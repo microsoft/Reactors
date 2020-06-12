@@ -33,7 +33,7 @@ Web development is an iterative process that is repeated throughout the lifetime
 
 ### Design
 
-Depending on the size of the team, the developer can also play the role of the designer. In larger teams is usually a dedicated designer for the product.
+Depending on the size of the team, the developer can also play the role of the designer. In some larger teams there is a dedicated designer for the product.
 
 - [ ] gather requirements and assets (wireframe)
 - [ ] ask questions if something is unclear before writing code
