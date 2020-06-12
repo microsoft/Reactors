@@ -2,7 +2,6 @@
 name: Digital Event Tracking Issue
 about: For a single Local or Global Digital Reactor Event
 title: Date - Title
-labels: 'global-twitch-event'
 assignees: ''
 
 ---
