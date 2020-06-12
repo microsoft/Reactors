@@ -1,0 +1,92 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Page Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set max with for content */
+nav,
+section,
+footer > div {
+  max-width: 1024px;
+  /* center content */
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  padding: 1em;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+/* Find Section */
+section#find {
+  text-align: center;
+  background-image: url("../images/neighbors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+section#find #find-my-location {
+  padding: 1em;
+  font-size: 1em;
+  background-color: aqua;
+  border: 1px solid aqua;
+  border-radius: 15px;
+  margin: 2em;
+  color: black;
+}
+
+section#find #status {
+  font-size: 1.2em;
+}
+/* Bulletin Section */
+section#bulletin {
+  height: calc(100vh - 31em);
+  overflow: scroll;
+  text-align: center;
+  padding-top: 1em;
+}
+
+section#bulletin p {
+  margin: 1em 0;
+}
+
+section#bulletin span {
+  color: blue;
+}
+
+/* Footer */
+footer {
+  padding: 3em;
+  background-color: orange;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}
