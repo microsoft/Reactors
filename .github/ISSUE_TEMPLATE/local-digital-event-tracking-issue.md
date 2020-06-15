@@ -39,7 +39,7 @@ assignees: ''
 
 ## 4 weeks Prior
 - [ ] Speaker opens a PR with the new content for the workshop, adds it to the same project chosen above, and adds the _content-development_ and either _global-twitch-event_ or _local-teams-event_ tag to the PR. PR will appear in the __Content Preparation In Progress__ column. 
-- [ ] Speaker adds to the same PR modification to the [Streaming README](https://github.com/microsoft/Reactors/tree/master/Online) 
+- [ ] Speaker adds to the same PR modification to the [Streaming README](https://github.com/microsoft/Reactors/tree/main/Online) 
 - [ ] Speaker adds the RCT assigned to the issue as the reviewer when it is ready for review/merge
 - [ ] RCT reviews, approves, and merges the changes and the PR moves to the __Ready to Stream__ column
 - [ ] Content shared with to vendor
