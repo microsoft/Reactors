@@ -2,6 +2,7 @@
 name: Digital Event Tracking Issue
 about: For a single Local or Global Digital Reactor Event
 title: Date - Title
+labels: 'global-twitch-event'
 assignees: ''
 
 ---
@@ -30,7 +31,7 @@ Additional Resources:
 
 ## 10 Weeks Prior
 - [ ] Reactor Content Team (RCT) or Speaker opens a new issue for an upcoming stream filling in the Event Information table. Both RCT and Speaker are marked as assignees.
-- [ ] RCT and Speaker discuss details of the event in the comments of this issue. RCT adds a _confirmed-event_ label and either _global-twitch-event_ or _local-teams-event_ tag to the issue and adds event to the __Global Live Streams__ project or the __Local Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
+- [ ] RCT and Speaker discuss details of the event in the comments of this issue. RCT adds a _confirmed-event_ label and _global-twitch-event_ tag to the issue and adds event to the __Global Live Streams__ project. Issue will appear in the __Upcoming Streams__ column
 - [ ] Speaker adds a _ready-for-marketing-edit_ label so the RCT can review title and description
 
 ## 8 Weeks Prior
@@ -41,7 +42,7 @@ Additional Resources:
 - [ ] RCT moves the issue to the __Stream Preparation In Progress__ column
 
 ## 2 Weeks Prior
-- [ ] Speaker opens a PR with the new content for the stream, adds it to the same project chosen above, and adds the _content-development_ and either _global-twitch-event_ or _local-teams-event_ tag to the PR. PR will appear in the __Stream Preparation In Progress__ column. 
+- [ ] Speaker opens a PR with the new content for the stream, adds it to the same project chosen above, and adds the _content-development_ and _global-twitch-event_ tag to the PR. PR will appear in the __Stream Preparation In Progress__ column. 
 - [ ] Speaker adds to the same PR a modification to the [Streaming README](https://github.com/microsoft/Reactors/tree/master/Online) 
 - [ ] Speaker adds the RCT assigned to the issue as the reviewer when it is ready for review/merge
 - [ ] RCT reviews, approves, and merges the changes and the PR moves to the __Stream Complete__ column
