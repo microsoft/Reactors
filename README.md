@@ -1,7 +1,6 @@
 # Updated Main Branch Name
-Please note that the main branch is now titled `main`. Please make sure all of your pull requests are targeting `main` and that you are pulling from `main`.
 
-For more information about changing your own repo, or about getting your local environment setup for targeting `main`, [reference Scott Hanselman's blog post here](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx).
+Please note that the main branch is now titled `main`. Please make sure all of your pull requests are targeting `main` and that you are pulling from `main`. You can reference Scott Hanselman's blog for [more information about using a main branch with Git and GitHub](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx).
 
 # Microsoft Reactor Workshops
 
