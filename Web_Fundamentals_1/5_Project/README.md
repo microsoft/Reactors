@@ -2,7 +2,7 @@
 
 ## Background
 
-Besty offers high resolution 3D printing services. They are able to print custom designs in a variety of materials and finishes. Customers only need to upload a file, customize the order, add shipping and payment information to place an order. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
+Besty offers high resolution 3D printing services. The company is able to print custom designs in a variety of materials and finishes. Customers only need to upload a file, customize the order, add shipping and payment information to place an order. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
 
 ## Key Concepts
 
@@ -41,18 +41,20 @@ Depending on the size of the team, the developer can also play the role of the d
 
 ### Develop
 
-Create a good foundation by focusing on the structural html before apply any CSS. HTML is equivalent to the bones in our body in the sense that it helps hold everything together, without it we cannot hold form. CSS can then be applied on top of solid HTML foundation to add the final touches. A common developer mistake is too try to fix layout issues with CSS first, which can lead more difficult to maintain code.
+Create a good foundation by focusing on the structural html before apply any CSS. HTML is equivalent to the bones in our body in the sense that it helps hold everything together, without it we cannot hold form. CSS can then be applied on top of a solid HTML foundation to add the final touches. A common developer mistake is too try to fix layout issues with CSS first, which can lead more difficult to maintain code.
 
 - [ ] idenify layout and repeating patterns (to be used for clasification)
 - [ ] create the necessary files (index.html, main.css)
-- [ ] create section by section focusing on the html structure first
-- [ ] add style to get layout to match mockup
-- [ ] continue down page
+- [ ] code section by section focusing on the html structure first using common body tags as duscussed in [Part 2. HTML: Common Body Tags](../2_HTML/common_body_tags.md) and form from [Part 2. HTML: Forms](../2_HTML/forms.md)
+- [ ] add style to get layout to match mockup using CSS Selectors as disccussed in [Part 3. CSS: CSS Selectors](../3_CSS_CSS3/css_selectors.md)
+- [ ] continue building the page by styling elements or text, as discussed in [Part 3. CSS: Styling Elements](../3_CSS_CSS3/styling_elements.md) and [Part 3. CSS: Styling Text](../3_CSS_CSS3/styling_text.md)
 
 ### Deploy
 
+What does it mean to deploy code? In summary, our code is to be copied to a server and will be sent to clients as discussed in [Part 1. Web Basics: The Request and Response Cycle](../1_Web_Basics/req_resp.md)
+
 - [Checkout a live version of the site](https://reactor1.z5.web.core.windows.net)
-- [Deployment Instructions](../4_Capstone_Deployment/deploy.md)
+- Follow deployment instructions from [Part 4. Capstone Deployment](../4_Capstone_Deployment/deploy.md)
 
 ### Iterate
 
