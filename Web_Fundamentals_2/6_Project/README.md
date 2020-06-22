@@ -2,7 +2,7 @@
 
 ## Background
 
-Find My Neighbors is a community building platform that provides a virtual bullet board that is viewable within a set radius from the user. The company seeks to bring communities closer together by improving communication and visibility within communities. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
+Job Fairy is an on demand job searching platform that provides a list of available jobs at the click of a button. The company's mission is to empower people by brining jobs to the users with a single touch. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
 
 ## Key Concepts
 
@@ -15,10 +15,8 @@ Find My Neighbors is a community building platform that provides a virtual bulle
 
 Here are some questions to think about:
 
-- When should we ask a user for their location? (right when they get to the site or only when necessary)
-- What is the privacy concern when prompting users to use their location?
-- How could this data be used to identify a particular individual?
-- How will the company manage the information that users are posting to the virtual bulletin board?
+- How should you filters and order the data that is returned from the API?
+- How will Job Fairy manage the information that companies post on the platform?
 
 ---
 
@@ -44,22 +42,21 @@ Depending on the size of the team, the developer can also play the role of the d
 
 ### Develop
 
-Create a good foundation by focusing on the structural html before apply any CSS. HTML is equivalent to the bones in our body in the sense that it helps hold everything together, without it we cannot hold form. CSS can then be applied on top of solid HTML foundation to add the final touches. A common developer mistake is too try to fix layout issues with CSS first, which can lead more difficult to maintain code. Lastly improve the functionality by make the page dynamic through use of Javascript.
+Create a good foundation by focusing on the structural html before apply any CSS. HTML is equivalent to the bones in our body in the sense that it helps hold everything together, without it we cannot hold form. CSS can then be applied on top of a solid HTML foundation to add the final touches. A common developer mistake is too try to fix layout issues with CSS first, which can lead more difficult to maintain code. Lastly improve the functionality by make the page dynamic through use of Javascript.
 
 - [ ] Idenify layout and repeating patterns (to be used for clasification)
 - [ ] Create the necessary files and folders (index.html, assets/css/main.css, assets/js/main.js)
-- [ ] Create section by section focusing on the html structure first
-- [ ] Add style to get layout to match mockup
-- [ ] If relevant, hardcode some data onto page before using Javascript to fetch data to continue to focus on styling
-- [ ] Create event listeners for button clicks
-- [ ] Find the users location
-- [ ] Fetch relevant data
+- [ ] Code section by section focusing on the html structure first using common body tags as duscussed in [Part 1. HTML: Common Body Tags](../1_HTML/common_body_tags.md) and forms from [Part 1. HTML: Forms](../1_HTML/forms.md)
+- [ ] Add style to get layout to match mockup using CSS Selectors as disccussed in [Part 2. CSS: CSS Selectors](../2_CSS_CSS3/css_selectors.md)
+- [ ] If relevant, hardcode some data onto page before using Javascript to fetch data to continue to focus on html and css
+- [ ] Create DOM event listeners for button clicks as discussed in [Part 3. Javascript: The DOM](../3_Javascript/the_dom.md)
+- [ ] Fetch relevant data from an api as discussed in [Part 4. JQuery + APIs: API](../4_JQuery_APIs/api.md)
 - [ ] Loop through data to add content to page
 
 ### Deploy
 
 - [Checkout a live version of the site](https://reactor2.z22.web.core.windows.net/)
-- [Deployment Instructions](../5_Capstone_Web_Publishing/deploy.md)
+- Follow deployment instructions from [Part 5. Capstone Web Publishing](../5_Capstone_Web_Publishing/deploy.md)
 
 ### Iterate
 
@@ -79,9 +76,8 @@ Depending on the length of the project a developer might also get the task of ma
 
 ## Bonus
 
-- [ ] Add a form to allow neighbors to communicate with eachother (posting to the bulletin)
-- [ ] Disable the button when finding my location
-- [ ] Enable to button after location is found
+- [ ] Sort the job postings by title
+- [ ] Add a form for the user to type in so they can filter the job postings
 
 ## Resources
 

@@ -34,7 +34,6 @@ header a {
 
 /* Find Section */
 section#find {
-  text-align: center;
   background-image: url("../images/neighbors.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -46,33 +45,43 @@ section#find {
   color: white;
 }
 
-section#find #find-my-location {
+section#find #find-jobs {
   padding: 1em;
-  font-size: 1em;
-  background-color: aqua;
-  border: 1px solid aqua;
+  font-size: 1.2em;
+  background-color: red;
   border-radius: 15px;
   margin: 2em;
-  color: black;
+  color: white;
 }
 
-section#find #status {
-  font-size: 1.2em;
-}
-/* Bulletin Section */
-section#bulletin {
+/* Postings Section */
+section#postings {
   height: calc(100vh - 31em);
   overflow: scroll;
-  text-align: center;
   padding-top: 1em;
 }
 
-section#bulletin p {
-  margin: 1em 0;
+/* Select multiple elements by separating them with a comma */
+section#postings h2,
+section#postings #tip {
+  text-align: center;
 }
 
-section#bulletin span {
-  color: blue;
+section#postings #tip {
+  color: red;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+section#postings .job-post {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid grey;
+}
+
+/* Try out the pseudo class `:last-of-type` */
+section#postings .job-post p:last-of-type {
+  margin-top: 1em;
 }
 
 /* Footer */
