@@ -45,7 +45,7 @@ Create a good foundation by focusing on the structural html before apply any CSS
 
 - [ ] idenify layout and repeating patterns (to be used for clasification)
 - [ ] create the necessary files (index.html, main.css)
-- [ ] code section by section focusing on the html structure first using common body tags as duscussed in [Part 2. HTML: Common Body Tags](../2_HTML/common_body_tags.md) and form from [Part 2. HTML: Forms](../2_HTML/forms.md)
+- [ ] code section by section focusing on the html structure first using common body tags as duscussed in [Part 2. HTML: Common Body Tags](../2_HTML/common_body_tags.md) and forms from [Part 2. HTML: Forms](../2_HTML/forms.md)
 - [ ] add style to get layout to match mockup using CSS Selectors as disccussed in [Part 3. CSS: CSS Selectors](../3_CSS_CSS3/css_selectors.md)
 - [ ] continue building the page by styling elements or text, as discussed in [Part 3. CSS: Styling Elements](../3_CSS_CSS3/styling_elements.md) and [Part 3. CSS: Styling Text](../3_CSS_CSS3/styling_text.md)
 
