@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Welcome to sample!!</title>
+        <link href="{{ url_for('static', filename='site.css')}}" rel="stylesheet" />
+    </head>
+    <body>
+        {% if dog_found %}
+        <h2>There's a dog in the picture!!</h2>
+        {% else %}
+        <h2>There's no dog. How sad.</h2>
+        {% endif %}
+    </body>
+</html>
