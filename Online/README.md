@@ -7,6 +7,6 @@ to watch on demand.
 
 | Date | Title | Learning Resources | Speaker | 
 |------|-------|--------------------|---------|
-| May 26, 2020 | Blockchain Fundamentals | [Blockchain Fundamentals README](https://github.com/microsoft/Reactors/tree/master/Online/Blockchain/Blockchain_Fundamentals) | @meaghanlewis |
-| May 28, 2020 | Blockchain Smart Contract | [Blockchain Smart Contract README](https://github.com/microsoft/Reactors/tree/master/Online/Blockchain/Build_Smart_Contracts) | @meaghanlewis |
+| May 26, 2020 | Blockchain Fundamentals | [Blockchain Fundamentals README](https://github.com/microsoft/Reactors/tree/main/Online/Blockchain/Blockchain_Fundamentals) | @meaghanlewis |
+| May 28, 2020 | Blockchain Smart Contract | [Blockchain Smart Contract README](https://github.com/microsoft/Reactors/tree/main/Online/Blockchain/Build_Smart_Contracts) | @meaghanlewis |
 

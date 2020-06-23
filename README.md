@@ -1,3 +1,7 @@
+# Updated Main Branch Name
+
+Please note that the main branch is now titled `main`. Please make sure all of your pull requests are targeting `main` and that you are pulling from `main`. You can reference Scott Hanselman's blog for [more information about using a main branch with Git and GitHub](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx).
+
 # Microsoft Reactor Workshops
 
 **Update:** Due to the concerns surrounding the COVID-19 outbreak, we have temporarily suspended programming and events in all Reactor locations as the health and safety of our community and employees is our top priority. We are now offering online learning opportunities for our current content. For more information about online events refer to:
