@@ -1,3 +1,6 @@
+# Node
+node_modules
+
 # vs code settings
 .vscode
 
@@ -105,6 +108,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-
-# Powerpoint slides
-*.pptx
