@@ -2,7 +2,7 @@
 
 ## Background
 
-Job Fairy is an on demand job searching platform that provides a list of available jobs at the click of a button. The company's mission is to empower people by brining jobs to the users with a single touch. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
+Contoso is an on demand job searching platform that provides a list of available jobs at the click of a button. The company's mission is to empower people by brining jobs to the users with a single touch. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
 
 ## Key Concepts
 
@@ -16,7 +16,7 @@ Job Fairy is an on demand job searching platform that provides a list of availab
 Here are some questions to think about:
 
 - How should you filters and order the data that is returned from the API?
-- How will Job Fairy manage the information that companies post on the platform?
+- How will Contoso manage the information that companies post on the platform?
 
 ---
 
