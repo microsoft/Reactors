@@ -2,12 +2,25 @@
 
 ## Background
 
-Besty offers high resolution 3D printing services. The company is able to print custom designs in a variety of materials and finishes. Customers only need to upload a file, customize the order, add shipping and payment information to place an order. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
+Contoso offers high resolution 3D printing services. The company is able to print custom designs in a variety of materials and finishes. Customers only need to upload a file, customize the order, add shipping and payment information to place an order. As a member of the development team, a designer has supplied a mock up to be implemented by you, the web developer.
 
 ## Key Concepts
 
 - Web Development Process
 - Identify page layouts by breaking down page into sections
+
+## Accessiblity
+
+The web was designed to be avilable for everyone regardless of their condition. Not everyone can access the web the same way. Depending on the situation, a user could have a permanent, temporary, or conditional disability. A user could be accessing the web through various devices, connection speeds, and locations that could affect their experience on the web. In some cases accessibility for all is required by law. In order to provide equal access and equal opportunity to people with diverse abilities, it is important as developers to keep accessibility in mind when developing applications. It is up to you the developer to make the web an accessible place.
+
+Some tips to get started on building a more accessible web:
+
+- Use semantic html
+- Use alt tags to describe an image `<img src="" alt="Image description goes here">`
+- Add caption tags `<caption></caption>` to tables
+- Use keyboard navigation
+- Use ARIA (Accessible Rich Internet Applications) properties to define roles for objects
+- Learn more [Accessibility - University of Minnesota](https://accessibility.umn.edu/your-role/web-developers)
 
 ## Ethics
 
