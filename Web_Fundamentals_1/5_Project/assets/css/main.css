@@ -1,0 +1,154 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Page Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set max with for content */
+nav,
+section,
+footer > div {
+  max-width: 1024px;
+  /* center content */
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  padding: 1em;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url("../images/3d.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h1 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#hero .call-to-action {
+  padding: 1em;
+  border: 1px;
+  border-radius: 25px;
+  background-color: green;
+  color: white;
+  font-size: 1em;
+}
+
+/* Steps */
+.step:nth-child(even) {
+  background-color: burlywood;
+}
+
+.step {
+  padding: 5em;
+}
+
+.step h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.step > div {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.step input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid grey;
+}
+
+.step form > div {
+  margin-bottom: 1em;
+}
+
+/* Step 1 */
+#step-1 p {
+  margin-top: 0.5em;
+}
+
+/* Step 2 */
+#step-2 label {
+  display: inline-block;
+  width: 4em;
+}
+
+/* Step 3 */
+#step-3 label {
+  display: block;
+}
+
+#step-3 .address-third {
+  display: inline-block;
+  width: 32.5%;
+}
+
+/* Step 4 */
+#step-4 .card-half {
+  display: inline-block;
+  width: 49.3%;
+}
+
+/* Step 5 */
+
+#step-5 > div {
+  text-align: center;
+}
+
+#step-5 button {
+  padding: 1em;
+  border: 1px;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  font-size: 1em;
+}
+
+/* Footer */
+footer {
+  padding: 3em;
+  background-color: darkcyan;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Success */
+#success h1 {
+  text-align: center;
+  padding: 3em;
+}
