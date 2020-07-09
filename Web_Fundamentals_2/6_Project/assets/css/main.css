@@ -1,0 +1,101 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Page Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set max with for content */
+nav,
+section,
+footer > div {
+  max-width: 1024px;
+  /* center content */
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  padding: 1em;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+/* Find Section */
+section#find {
+  background-image: url("../images/neighbors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+section#find #find-jobs {
+  padding: 1em;
+  font-size: 1.2em;
+  background-color: red;
+  border-radius: 15px;
+  margin: 2em;
+  color: white;
+}
+
+/* Postings Section */
+section#postings {
+  height: calc(100vh - 31em);
+  overflow: scroll;
+  padding-top: 1em;
+}
+
+/* Select multiple elements by separating them with a comma */
+section#postings h2,
+section#postings #tip {
+  text-align: center;
+}
+
+section#postings #tip {
+  color: red;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+section#postings .job-post {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid grey;
+}
+
+/* Try out the pseudo class `:last-of-type` */
+section#postings .job-post p:last-of-type {
+  margin-top: 1em;
+}
+
+/* Footer */
+footer {
+  padding: 3em;
+  background-color: orange;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}

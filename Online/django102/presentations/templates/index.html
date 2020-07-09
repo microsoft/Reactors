@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="list-group">
+    {% for presentation in presentations %}
+    <a class="list-group-item" href="{% url 'detail' presentation.pk %}">{{ presentation }}</a>
+    {% endfor %}
+</section>
+{% endblock %}

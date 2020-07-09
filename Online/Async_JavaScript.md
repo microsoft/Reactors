@@ -45,4 +45,4 @@ Performing long running operations, like calling external endpoints, shouldn't b
 - [Javascript.info on callbacks](https://javascript.info/callbacks)
 - [MDN docs on promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 - [MDN docs on async/await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
-- [Reactors web fundamentals 2 course](https://github.com/microsoft/Reactors/tree/master/Web_Fundamentals_2)
+- [Reactors web fundamentals 2 course](https://github.com/microsoft/Reactors/tree/main/Web_Fundamentals_2)
