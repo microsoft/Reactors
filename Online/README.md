@@ -14,5 +14,5 @@ to watch on demand.
 |July 9, 2020 | Using IoT Hub with Xamarin | https://github.com/xamcat/XamTrack | @Sweekriti91 @BenBtg |
 | July 13, 2020 | Developer's Introduction to Data Science | [GitHub](https://github.com/microsoft/c9-dev-intro-data-science) and [Slides](https://slidedecks.blob.core.windows.net/livestreamfy21q1/DevIntroToDS_Francesca_ReactorStreaming.pptx) | @sarahguthals and @FrancescaLazzeri |
 | July 14, 2020 | Coding Optional: Using Azure Machine Learning Designer | TBD | @cassieview |
-| July 15, 2020 | Get More Instagram Likes with Machine Learning | TBD | @shwars |
+| July 15, 2020 | Get More Instagram Likes with Machine Learning | [GitHub Repo](http://github.com/CloudAdvocacy/LikesLearning) and [Slides](https://speakerdeck.com/shwars/get-more-instagram-likes-with-machine-learning) | @shwars |
 | July 16, 2020 | From Raw Data to Well-Cooked Answers: A Financial Data Science Lifecyle | TBD | @sguthals |
