@@ -14,12 +14,12 @@ mkdir contoso
 cd contoso
 ```
 
-## Download the starter site
+### Download the starter site
 
 1. If Git isn’t installed on your computer, go to the [Git website](https://git-scm.com/) and install it now. Versions are available for Windows, macOS, and Linux.
 2. In a command window or terminal, use `cd` to switch to the project directory you created in the previous subsection. Then use the following command to clone the GitHub repo containing the starter files for the website:
 
-# Using Git
+## Using Git
 
 To download the starter and solution files, you will [clone](https://help.github.com/en/articles/cloning-a-repository) a repository from [GitHub](https://github.com) using git. Git is a distributed source code management system.
 
@@ -72,6 +72,7 @@ Install the packages listed in requirements.txt by using pip
 ``` console
 pip install -r requirements.txt
 ```
+
 7. Confirm the site starts
 
 ``` console
