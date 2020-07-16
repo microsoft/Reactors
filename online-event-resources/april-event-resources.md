@@ -1,0 +1,13 @@
+# Resources for April Online Events
+
+| Date | Title | Learning Resources | Speaker | Video | 
+|------|-------|--------------------|---------|-------|
+| April 2, 2020 | How to Manipulate and Clean Your Data in Jupyter Notebooks | [Setup.md](/online-event-resources/data-science-and-machine-learning/data-science-basics/Setup.md), [Cleaning_and_Manipulating_Data.ipynb](/online-event-resources/data-science-and-machine-learning/data-science-basics/Cleaning_and_Manipulating_Data.ipynb) | @sguthals | [55:24 minute YouTube recording](https://www.youtube.com/watch?v=BNE-x3h642g) |
+| April 7, 2020 | Getting started with Computer Vision | [Computer Vision Demo Repo](https://github.com/geektrainer/computer-vision-demo) | @geektrainer | [53:50 minute YouTube recording](https://www.youtube.com/watch?v=06oSW_HLqWg) |
+| April 9, 2020 | Build A Bot With QnA Maker | [QnA Maker](https://www.qnamaker.ai/) | @geektrainer | [62:09 minute YouTube recoring](https://www.youtube.com/watch?v=TO1IYQRXJpo) |
+| April 14, 2020 | Azure Notebooks and Machine Learning Studio | [AzureMLStudio.ipynb](/online-event-resources/data-science-and-machine-learning/machine-learning-with-sarah/AzureMLStudio.ipynb), [forestfires.csv](/online-event-resources/data-science-and-machine-learning/machine-learning-with-sarah/Data/forestfires.csv) | @sguthals | [40:57 minute YouTube recording](https://www.youtube.com/watch?v=20xp7KRPGXE) |
+| April 16, 2020 | Predict values with regression | [Regression.ipyng](/online-event-resources/data-science-and-machine-learning/regression/Regression.ipynb) | @meaghanlewis | [54:27 minute YouTube recording](https://www.youtube.com/watch?v=FWmdMkvWqAU) |
+| April 21, 2020 | Getting Started with Django | [Django 101](/online-event-resources/web-development/django101) | @geektrainer | [65:11 minute YouTube recording](https://www.youtube.com/watch?v=yVyzA9GseI4) |
+| April 23, 2020 | Building and Deploying a Django App | [Django 102](/online-event-resources/web-development/django102) | @geektrainer | [2 hour 17:30 minute YouTube recording](https://www.youtube.com/watch?v=ZyxCtEdgsXA) |
+| April 28, 2020 | Predict Values with Regression Using Azure Machine Learning | [Regression_Azure_ML.ipynb](/online-event-resources/data-science-and-machine-learning/regression/Regression_Azure_ML.ipynb) | @meaghanlewis | [62:06 minute YouTube Recording](https://www.youtube.com/watch?v=wkdcQy8fFSc) |
+| April 30, 2020 | Exploring Linear Regression | TBD | TBD |
