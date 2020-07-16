@@ -5,11 +5,11 @@ What happens when you encounter large data sets that are more nuanced than a set
 You do not need any prior experience with data science to attend this workshop. You are likely someone who is interested in data science, and has 1-2 years coding in Python, or another programming language and feel comfortable enough with Python to be able to code in it during the workshop. You are interested in learning about how to prepare your data for advanced machine learning models using Python and specific Python libraries.
 
 ## Resources
-[Machine Learning 2 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Machine_Learning_2.pptx)
-[Workshop Materials](\workshop-materials)
-[Stocks Extension Project](\stock-project)
-[Wine Analysis Extension Project](\wine-project)
-[Bioscience Project](\bioscience-project)
+[Machine Learning 2 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Machine_Learning_2.pptx)  
+[Workshop Materials](/workshop-resources/data-science-and-machine-learning/Machine_Learning_2/workshop-materials)  
+[Stocks Extension Project](/workshop-resources/data-science-and-machine-learning/Machine_Learning_2/stock-project)  
+[Wine Analysis Extension Project](/workshop-resources/data-science-and-machine-learning/Machine_Learning_2/wine-project)  
+[Bioscience Project](/workshop-resources/data-science-and-machine-learning/Machine_Learning_2/bioscience-project)  
 
 ## Suggested Schedule
 
