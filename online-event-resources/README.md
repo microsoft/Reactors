@@ -38,3 +38,7 @@ to watch on demand.
 | July 14, 2020 | Coding Optional: Using Azure Machine Learning Designer | TBD | @cassieview | |
 | July 15, 2020 | Get More Instagram Likes with Machine Learning | [GitHub Repo](http://github.com/CloudAdvocacy/LikesLearning) and [Slides](https://speakerdeck.com/shwars/get-more-instagram-likes-with-machine-learning) | @shwars | |
 | July 16, 2020 | From Raw Data to Well-Cooked Answers: A Financial Data Science Lifecyle | TBD | @sguthals | [Register Now](https://www.meetup.com/Microsoft-Reactor-Redmond/events/271087239/) |
+| July 20, 2020 | Interview with an Expert: Azure Machine Learning | TBD | @FrancescaLazzeri, Stephanie Lindsey, and Mehrnoosh Sameki | [Register Now](https://www.meetup.com/Microsoft-Reactor-Redmond/events/271107547/) |
+| July 21, 2020 | Do It All with Azure Machine Learning | TBD | @FrancescaLazzeri | [Register Now](https://www.meetup.com/Microsoft-Reactor-Redmond/events/271107999/) |
+| July 22, 2020 | How Automated Machine Learning Reduces Time to Insights | TBD | @amynic | [Register Now](https://www.meetup.com/Microsoft-Reactor-Redmond/events/271108300/) |
+| July 23, 2020 | 8 Machine Learning Examples | TBD | @sguthals | [Register Now](https://www.meetup.com/Microsoft-Reactor-Redmond/events/271108337/) |
