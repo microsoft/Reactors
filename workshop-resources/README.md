@@ -2,7 +2,7 @@
 
 Microsoft Reactors run a number of workshops that are all-day events where you will get a deep dive with hands on learning on a particular topic. We have focused on four main topic areas:
 - Artificial Intelligence
-  - [Artificial Intelligence Workshop](\ai-services\AI_1)
+  - [Artificial Intelligence Workshop](/ai-services/AI_1)
 - Data Science and Machine Learning 
   - [Introduction to Python for Data Science](\data-science-and-machine-learning\Data_Science_1)
   - [Beginners Data Science for Python Developers](\data-science-and-machine-learning\Data_Science_2)
