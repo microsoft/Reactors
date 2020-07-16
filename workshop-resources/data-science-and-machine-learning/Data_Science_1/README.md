@@ -12,8 +12,8 @@ to digest large data sets.
 
 ## Resources
 [Data Science 1 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Data_Science_1.pptx)  
-[Workshop Materials](\workshop-materials)  
-[Loan Application Extension Project](\loan-project)  
+[Workshop Materials](/workshop-resources/data-science-and-machine-learning/Data_Science_1/workshop-materials)  
+[Loan Application Extension Project](/workshop-resources/data-science-and-machine-learning/Data_Science_1/loan-project)  
 [Crytocurrency Extension Project](/workshop-resources/data-science-and-machine-learning/Data_Science_1/cryptocurrency-project)  
 [Bioscience Project](/workshop-resources/data-science-and-machine-learning/Data_Science_1/bioscience-project)  
 
