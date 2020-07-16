@@ -6,7 +6,7 @@ If you see past events you're interested in watching, check out the [Microsoft R
 to watch on demand.
 
 | Date | Title | Learning Resources | Speaker | Video | 
-|------|-------|--------------------|---------|
+|------|-------|--------------------|---------|-------|
 |  | Introduction to Python | [Python.ipynb](/data-science-and-mahine-learning/Python.ipynb) | @meaghanlewis | [58:10 minute YouTube recording](https://www.youtube.com/watch?v=34mQwmhnC1w) | 
 |  | Joining and Cleaning datasets with Python and Pandas | [Joining_Datasets.ipynb](/data-science-and-mahine-learning/Joining_Datasetse.ipynb), [USDA-nndb.csv](\data-science-and-machine-learning\USDA-nndb.csv), [USDA-nndb-combined.csv](\data-science-and-machine-learning\USDA-nndb-combined.csv) | @meaghanlewis | [57:53 minute YouTube recording](https://www.youtube.com/watch?v=Dd19zTCPiPw) | 
 | | Introduction to CSS Selectors | [CSS_Selectors.md](\web-development\CSS_Selectors.md) | @sguthals | [50:38 minute YouTube recording](https://www.youtube.com/watch?v=VOUh1kgNY-4) |
