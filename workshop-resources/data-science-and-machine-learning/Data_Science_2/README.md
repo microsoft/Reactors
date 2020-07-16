@@ -9,6 +9,7 @@ You do not need any prior experience with data science to attend this workshop. 
 [Workshop Materials](\workshop-materials)
 [Human Behavior Extension Project](\human-behavior-project)
 [Stock Data Extension Project](\stock-project)
+[Bioscience Project](\bioscience-project)
 
 ## Suggested Schedule
 | Timing | T| opic |

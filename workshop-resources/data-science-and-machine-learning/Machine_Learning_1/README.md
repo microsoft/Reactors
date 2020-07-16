@@ -9,6 +9,7 @@ You do not need any prior experience with data science to attend this workshop. 
 [Workshop Materials](\workshop-materials)
 [Financial Extension Project](\financial-project)
 [Health Extension Project](\health-project)
+[Bioscience Project](\bioscience-project)
 
 ## Suggested Schedule
 

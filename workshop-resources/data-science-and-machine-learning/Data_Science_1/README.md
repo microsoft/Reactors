@@ -15,6 +15,7 @@ to digest large data sets.
 [Workshop Materials](\workshop-materials)
 [Loan Application Extension Project](\loan-project)
 [Crytocurrency Extension Project](\cryptocurrency-project)
+[Bioscience Project](\bioscience-project)
 
 ## Suggested Schedule
 | Time | Topic |
