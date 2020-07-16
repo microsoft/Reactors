@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if messages %}
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  {% for message in messages %}
+  <div><strong>{{ message }}</strong></div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<script>
+  $(".alert").alert();
+</script>
+
+<section>
+    <section class="row">
+        <div class="col-md-3">
+            <strong>Title</strong>
+        </div>
+        <div class="col-md-9">
+            {{ presentation.title }}
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-md-3">
+            <strong>Track</strong>
+        </div>
+        <div class="col-md-9">
+            {{ presentation.track }}
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-md-3">
+            <strong>Abstract</strong>
+        </div>
+        <div class="col-md-9">
+            {{ presentation.abstract }}
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-md-3">
+            <strong>Speaker</strong>
+        </div>
+        <div class="col-md-9">
+            {{ presentation.speaker }}
+        </div>
+    </section>
+</section>
+{% endblock %}

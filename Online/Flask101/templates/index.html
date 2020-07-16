@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Welcome to sample!!</title>
+        <link href="{{ url_for('static', filename='site.css')}}" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>Hello, world!!</h2>
+        <ul>
+            <a href="{{ url_for('index') }}">Home</a>
+        </ul>
+        <ul>
+            <a href="{{ url_for('is_dog') }}">Is there a dog in the picture?</a>
+        </ul>
+    </body>
+</html>
