@@ -29,6 +29,9 @@ This workshop can be completed online however we do suggest all participants use
 - [Part 3. CSS: Selectors, Styling, and Display](3_CSS_CSS3)
 - [Part 4. Capstone + Deployment with Azure](4_Capstone_Deployment)
 
+## Resources
+[Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Web_Dev_1.pptx)
+
 ## Learning Pathways
 
 If you'd like to explore more topics related to Azure and Web Development check out these other Microsoft
