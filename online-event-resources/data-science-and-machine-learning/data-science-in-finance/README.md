@@ -1,6 +1,6 @@
 # A Financial Data Lifecyle
 
-The code in this folder follows the stream from July 16th, 2020 ([YouTube recording here](https://www.youtube.com/watch?v=7F6iPiNegP4&t=2s). 
+The code in this folder follows the stream from July 16th, 2020 ([YouTube recording here](https://www.youtube.com/watch?v=7F6iPiNegP4&t=2s)). 
 
 # Resources
 During the stream, we built a notebook using some stock data:
