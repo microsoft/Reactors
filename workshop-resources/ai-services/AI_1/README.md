@@ -21,3 +21,6 @@ If you wish to follow along, there's a few steps you'll need to complete to conf
 1. [Overview of Artificial Intelligence](./overview.md)
 2. [Using Computer Vision and Translator Text](./computer-vision-translator/README.md)
 3. [Face Identification with Face API](./face-api/README.md)
+
+## Resources
+[AI 1 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Artificial_Intelligence.pptx) 
