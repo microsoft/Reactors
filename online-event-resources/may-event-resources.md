@@ -1,9 +1,8 @@
-# Resources for April Online Events
+# Resources for May Online Events
 
 | Date | Title | Learning Resources | Speaker | Video | 
 |------|-------|--------------------|---------|-------|
 | May 5, 2020 | Exploring Genomics Data in VSCode | [genome.ipynb](/online-event-resources/data-science-and-machine-learning/machine-learning-with-genomics/genome.ipynb), [genome.txt](/online-event-resources/data-science-and-machine-learning/machine-learning-with-genomics/Data/genome.txt) | @sguthals | [70:20 minute YouTube recording](https://www.youtube.com/watch?v=AB71rH3A4xc) |
-| | Machine Learning with Sarah: Using Datasets to Evaluate the Quality of Wine | [ML_Sarah.ipynb](/online-event-resources/data-science-and-machine-learning/machine-learning-with-sarah/ML_Sarah.ipynb), [Data](/online-event-resources/data-science-and-machine-learning/machine-learning-with-sarah/Data) | @sguthals | [1 hour 48:10 minute YouTube recording](https://www.youtube.com/watch?v=YiWVVyASg6I) |
 | May 7, 2020 | Discover Something New in Genomics Data | [genomics_2.ipynb](/online-event-resources/data-science-and-machine-learning/machine-learning-with-genomics/genomics_2.ipynb), [Data](/online-event-resources/data-science-and-machine-learning/machine-learning-with-genomics/Data) | @sguthals | [2 hour 8:15 minute YouTube recording](https://www.youtube.com/watch?v=vlZjmjOj7_w) |
 | May 12, 2020 | Getting Started With TypeScript | [TypeScript 101](\web-development\typescript101) | @geektrainer | [65:37 minute YouTube recording](https://www.youtube.com/watch?v=FpXTBbubgzM) |
 | May 14, 2020 | Create Your First Chatbot with TypeScript |  [TypeScript 101](/online-event-resources/web-development/typescript101) | @geektrainer | [2 hour 17:15 minute YouTube recording](https://www.youtube.com/watch?v=MzruSnbNVoc) |
