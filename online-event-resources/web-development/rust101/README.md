@@ -1,7 +1,7 @@
 # Rust 101
 
 Here you can find learning material for the Intro to Rust workshop.
-- [Slides](Intro to Rust.pptx)
+- [Slides](Intro-to-Rust.pptx)
 - [Guessing game app code](src/main.rs)
 
 ## Installation steps
