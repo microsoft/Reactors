@@ -1,0 +1,10 @@
+[package]
+name = "new_guessing_game"
+version = "0.1.0"
+authors = ["meaghanlewis <molewis@microsoft.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
