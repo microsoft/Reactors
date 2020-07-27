@@ -1,23 +1,23 @@
-## VS Code
+## Visual Studio Code:
 - Go to: https://code.visualstudio.com/download
-- Select the installation for your operating system
+- Select the installation specific to your operating system.
 
-## Python
+## Python:
 - Go to: https://www.python.org/downloads/
-- Select the latest version for your operating system
+- Select the latest version for your operating system.
 
-## Jupyter package
-- Install using either the Python package installer (i.e., pip) by running or using conda package manager
-- Pip
+## Jupyter package:
+- Install using the Python package installer (i.e., pip) by running or using conda package manager.
+- Pip:
   - Install pip: https://pip.pypa.io/en/stable/installing/
   - Run: `pip install notebook`
-- Anaconda
+- Anaconda:
   - Install conda from Anaconda distribution: https://docs.anaconda.com/anaconda/install/
   - Run: `conda install -c conda-forge notebook`
-- Numpy and Pandas
-  - Install Numpy and Pandas in VSCode
+- Numpy and pandas:
+  - Install Numpy and pandas in Visual Studio Code.
 
-## Python extension for VS Code
-- Open up Extensions inside of VS Code
-- Search for **Python** extension created by Microsoft
-- Select to `install` and restart VS Code if necessary
+## Python extension for Visual Studio Code:
+- Open Extensions inside Visual Studio Code.
+- Search for **Python** extension created by Microsoft.
+- Select `install`. If necessary, restart Visual Studio Code.
