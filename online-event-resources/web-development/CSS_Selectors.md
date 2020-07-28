@@ -1,71 +1,71 @@
 # CSS Selectors
-CSS (Cascading Style Sheets) apply style, formatting, and layout to a page. Items to style are identified by a selector. 
+Cascading Style Sheets (CSS) apply style, formatting, and layout to a page. Items to style are identified by a selector. 
 
-## Common Selectors
+## Common Selectors:
 The three common selectors are:
 - Element
 - Class name
 - ID
 
-You can find a [CodePen example on common selectors here](https://codepen.io/GeekTrainer/pen/OJVwXgL?editors=1100).
+Here is a [CodePen example on common selectors](https://codepen.io/GeekTrainer/pen/OJVwXgL?editors=1100).
 
-## Scoring
+## Scoring:
 But what happens when multiple selectors try to apply to one element?
 
 `Tag Name < Class Name < ID Else last write`
 
-You can find a [CodePen example on scoring here](https://codepen.io/sguthals/pen/xxGyzab?editors=1100)
+Here is a [CodePen example on scoring](https://codepen.io/sguthals/pen/xxGyzab?editors=1100).
 
-## Combinators
-You can make style changes to elements based on the hierarchy of the HTML too, with combinators. This includes:  
-`parent child` - All children  
-`parent > child`- Only a direct child  
-`sibling1 ~ sibling2` - Any sibling   
-`sibling1 + sibling2`- Only an adjascent sibling  
+## Combinators:
+You can make style changes to elements based on the hierarchy of the HTML with combinators. This includes:  
+`parent child`: All children  
+`parent > child`: Only a direct child  
+`sibling1 ~ sibling2`: Any sibling   
+`sibling1 + sibling2`: Only an adjacent sibling  
 
-You can find a [CodePen example on combinators here](https://codepen.io/GeekTrainer/pen/eYNjdZj?editors=1100)
+Here is a [CodePen example on combinators](https://codepen.io/GeekTrainer/pen/eYNjdZj?editors=1100).
 
-## Psuedo Classes
+## Pseudo classes:
 Style is applied to elements based on the state or location of the element. The style for this is:  
 `element:psuedo-class`  
 
 And some examples include:  
-`a:visited` - style applied to links that have been visited by this person before  
-`a:hover` - style applied to links that are hovered over  
+`a:visited`: Style applied to links that have been visited by this person before.  
+`a:hover`: Style applied to links that are hovered over.  
 
-You can find a [CodePen example on psuedo-classes here](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100)
+Here is a [CodePen example on psuedo-classes](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100).
 
-## Psuedo Elements
+## Pseudo elements:
 Style is applied to elements based on their content. The style for this is:  
-`element::psuedo-element`  
+`element::pseudo-element`  
 
 And some examples include:  
-`p::first-letter` - style applied to the first letter of any paragraph  
-`p::selection` - style applied to text that is selected by the user  
+`p::first-letter`: Style applied to the first letter of any paragraph.  
+`p::selection`: Style applied to text that is selected by the user.  
 
-You can find a [CodePen example on psuedo-elements here](https://codepen.io/GeekTrainer/pen/oNXMzJb?editors=1100)
+Here is a [CodePen example on pseudo-elements](https://codepen.io/GeekTrainer/pen/oNXMzJb?editors=1100).
 
-## Attribute Filters
+## Attribute filters:
 Style is applied to elements based on the values. This style for this is:  
 `element[attribute=value]`
 
 And some examples inlude:  
-`a[href$="pdf"]` - any link that ends in ".pdf"  
-`a[href^="https"]` - any link that starts with "https"  
+`a[href$="pdf"]`: Any link that ends in ".pdf".  
+`a[href^="https"]`: Any link that starts with "https".  
 
-You can find a [CodePen example on attribute filters here](https://codepen.io/GeekTrainer/pen/KKpBNYw?editors=1100)
+Here is a [CodePen example on attribute filters](https://codepen.io/GeekTrainer/pen/KKpBNYw?editors=1100).
 
-# Resources
+# Resources:
 [CSS Wikipedia Page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 [CSS Combinators W3 Schools Page](https://www.w3schools.com/css/css_combinators.asp)  
-[CSS Psuedo-Classes W3 Schools Page](https://www.w3schools.com/css/css_combinators.asp)  
-[CSS Psuedo-Elements W3 Schools Page](https://www.w3schools.com/css/css_pseudo_elements.asp)  
+[CSS Pseudo-Classes W3 Schools Page](https://www.w3schools.com/css/css_combinators.asp)  
+[CSS Pseudo-Elements W3 Schools Page](https://www.w3schools.com/css/css_pseudo_elements.asp)  
 
-## CodePen examples
+## CodePen examples:
 [Common Selectors](https://codepen.io/GeekTrainer/pen/OJVwXgL?editors=1100)   
 [Scoring](https://codepen.io/sguthals/pen/xxGyzab?editors=1100)  
 [Combinators](https://codepen.io/GeekTrainer/pen/eYNjdZj?editors=1100)  
-[Psuedo-Classes](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100)  
-[Psuedo-Elements](https://codepen.io/GeekTrainer/pen/oNXMzJb?editors=1100)  
+[Pseudo-Classes](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100)  
+[Pseudo-Elements](https://codepen.io/GeekTrainer/pen/oNXMzJb?editors=1100)  
 [Attribute Filters](https://codepen.io/GeekTrainer/pen/KKpBNYw?editors=1100)  
 [From the Stream](https://codepen.io/sguthals/pen/MWwPXXL?editors=1100)
