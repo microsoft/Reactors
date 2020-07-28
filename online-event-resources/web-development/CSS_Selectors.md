@@ -27,13 +27,13 @@ Here is a [CodePen example on combinators](https://codepen.io/GeekTrainer/pen/eY
 
 ## Pseudo classes:
 Style is applied to elements based on the state or location of the element. The style for this is:  
-`element:psuedo-class`  
+`element:pseudo-class`  
 
 And some examples include:  
 `a:visited`: Style applied to links that have been visited by this person before.  
 `a:hover`: Style applied to links that are hovered over.  
 
-Here is a [CodePen example on psuedo-classes](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100).
+Here is a [CodePen example on pseudo-classes](https://codepen.io/GeekTrainer/pen/abOjmVr?editors=1100).
 
 ## Pseudo elements:
 Style is applied to elements based on their content. The style for this is:  
