@@ -1,22 +1,22 @@
 # Blockchain Fundamentals
 
-This directory has the demo used during the Blockchain Fundamentals livestream on Twitch. 
+This directory has the demo used during the Blockchain Fundamentals livestream on Twitch (now available on demand from [YouTube](https://www.youtube.com/watch?v=_Lv4AlO9fdw&t=120s).
 
 The purpose of this demo is to get started with building and testing your own blockchain for Ethereum.
 
-## Resources
-- [Ethereum website](https://ethereum.org/)
-- [Solidity docs](https://solidity.readthedocs.io/en/latest/index.html)  
+## Resources:
+- [Ethereum Website](https://ethereum.org/)
+- [Solidity Docs](https://solidity.readthedocs.io/en/latest/index.html)
 
-## Pre-reqs to complete demo
-- [VS Code](https://code.visualstudio.com/)
-- [npms and Node.js](https://www.npmjs.com/get-npm)
-- The example here uses:
-  - [truffle](https://www.trufflesuite.com/truffle) as the development framework for Ethereum 
-  - [ganache-cli](https://github.com/trufflesuite/ganache-cli) as the Ethereum client for testing and development
+## Pre-reqs to complete demo:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Npms and Node.js](https://www.npmjs.com/get-npm)
+- The example uses:
+  - [Truffle](https://www.trufflesuite.com/truffle) as the development framework for Ethereum.
+  - [Ganache-cli](https://github.com/trufflesuite/ganache-cli) as the Ethereum client for testing and development.
 
-## Demo steps
-1. Run `truffle init` in the directory where you want to create your new truffle project. Then open up the directory in VS Code.
+## Demo steps:
+1. Run `truffle init` in the directory where you want to create your new truffle project. Then, open up the directory in Visual Studio Code.
 2. Inspect the directory structure that truffle created. Look for location of:
   - Contracts/
   - Migrations/
@@ -50,7 +50,7 @@ contract Coin {
   }
 }
 ```
-4. Add a new migration called: **2_deploy_contracts.js**
+4. Add a new migration called: **2_deploy_contracts.js**.
 ``` javascript
 var Coin = artifacts.require("Coin");
 module.exports = deployer => {
@@ -71,9 +71,9 @@ contract('Coin', (accounts) => {
   });
 });
 ```
-6. Start up the Ethereum client by running `ganache-cli` in a terminal window.
+6. Start the Ethereum client by running `ganache-cli` in a terminal window.
 
-7. In your editor, open up `truffle-config.js` and replace the contents so it looks like this with the host and port pointing to your ganache-cli client:
+7. In your editor, open `truffle-config.js` and replace the contents so it looks like this with the host and port pointing to your ganache-cli client:
 ``` javascript
 module.exports = {
   networks: {
@@ -85,8 +85,8 @@ module.exports = {
   }
 };
 ```
-8. Go back to your terminal, open up a new window, and then compile the contract by running `truffle compile` in the terminal.
+8. Go back to your terminal, open a new window, and compile the contract by running `truffle compile` in the terminal.
 
-9. Then migrate your contract by running `truffle migrate`.
+9. Migrate your contract by running `truffle migrate`.
 
-10. Now, it's time to test your contract. First run `npm install truffle-assertions` to install that package for this project. You will see warnings that there is no **package.json** file, but that's okay. Then run the test with `truffle test`.
+10. Now, it's time to test your contract. First, run `npm install truffle-assertions` to install that package for this project. You will see warnings that there is no **package.json** file, but that's okay. Then, run the test with `truffle test`.
