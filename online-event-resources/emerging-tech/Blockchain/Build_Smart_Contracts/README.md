@@ -1,20 +1,20 @@
-# Build smart contracts
-Use the code in this directory to build multiple smart contracts, test and deploy them.
+# Build Smart Contracts
+Use the code in this directory to build, test, and deploy multiple smart contracts.
 
 
-## Pre-reqs to complete demo
+## Pre-reqs to complete demo:
 
 - To write and run code:
-  - [VS Code](https://code.visualstudio.com/)
-  - [npms and Node.js](https://www.npmjs.com/get-npm)
+  - [VIsual Studio Code](https://code.visualstudio.com/)
+  - [Npms and Node.js](https://www.npmjs.com/get-npm)
 
-- To develop, test and deploy the contracts:
+- To develop, test, and deploy the contracts:
   - [Truffle](https://www.trufflesuite.com/truffle)
   - [Ganache](https://www.trufflesuite.com/ganache)
   - [Blockchain Development Kit for Ethereum]()
-    - **Note:** Additional dependencies for the development kit include: Python, Git
+    - **Note:** Additional dependencies for the development kit include Python and Git.
 
-## Other helpful tools
+## Other helpful tools:
 - To write and deploy secure contracts:
   - [Remix Ethereum IDE](https://remix.ethereum.org/)
   - [OpenZeppelin](https://openzeppelin.com/)  
@@ -22,20 +22,20 @@ Use the code in this directory to build multiple smart contracts, test and deplo
   - [Azure Blockchain Service](https://azure.microsoft.com/services/blockchain-service/)
   - [Azure Blockchain Workbench](https://azure.microsoft.com/features/blockchain-workbench/)
 
-## Demo steps
+## Demo steps:
 
 ### Local development and deployment
 The code to the demo has been completed. To use the smart contracts:
 1. Download or clone the Reactors repository.
 2. Navigate to this directory.
-3. Start the Ganache UI client and create a new workspace. Select **Add Project** and link the `truffle-config.js` file to the workspace. The **Save Project**.
-4. Update the `truffle-config.js` file if needed to set the port to `7545` to point to the Ganache client.
+3. Start the Ganache UI client and create a new workspace. Select **Add Project** and link the `truffle-config.js` file to the workspace. Then, select **Save Project**.
+4. If needed, update the `truffle-config.js` file to set the port to `7545` to point to the Ganache client.
 5. From the terminal, run:
     - `truffle compile`
     - `truffle migrate`
     - `truffle test`
-6. From VSCode, right-click on a contract and select `Deploy contracts`. Deploy to the local server.
-7. Inspect the Ganache UI to see the transactions, blocks, events and more.
+6. From Visual Studio Code, right-click a contract and select `Deploy contracts`. Deploy to the local server.
+7. Inspect the Ganache UI to see the transactions, blocks, events, and more.
 
 ### Cloud deployment
 1. You can choose to deploy the contracts to services like:
