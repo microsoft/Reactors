@@ -23,7 +23,7 @@ A face location is the coordinates of where a face has been identified in an ima
 
 ### Landmarks
 
-Face landmarks are the detailed points on a face. Collections of these points, such as the chart below, provide rough sketches of individual human faces. These landmarks identify common facial elements--such as a pupil, nose, or eyebrow--by using pixel coordinates. Face API can return up to 27 landmarks for each identified face, all of which can be used for analysis.
+Face landmarks are the detailed points on a face. Collections of these points, as shown in the chart below, provide rough sketches of individual human faces. These landmarks identify common facial elements--such as a pupil, nose, or eyebrow--by using pixel coordinates. Face API can return up to 27 landmarks for each identified face, all of which can be used for analysis.
 
 ![Diagram of a face identifying the location of all landmarks, such as lips and eyes](../images/face_landmarks.png)
 
