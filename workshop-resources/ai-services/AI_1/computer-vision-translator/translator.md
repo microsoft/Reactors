@@ -1,8 +1,8 @@
-# Use Azure Cognitive Services to translate text
+# Use Azure Cognitive Services to Translate Text
 
-[Prerequisites: Add Computer Vision](./computer-vision.md)
+[Prerequisite: Add Computer Vision](./computer-vision.md)
 
-The [Translator Text API](https://azure.microsoft.com/services/cognitive-services/translator-text-api/) is the component of Azure Cognitive Services that translates text from one language to another. It relies on state-of-the-art [Neural Machine Translation (NMT)](https://www.microsoft.com/translator/business/machine-translation/#nmt) to work its magic and supports [more than 60 languages](https://docs.microsoft.com/azure/cognitive-services/translator/language-support).
+The [Translator Text API](https://azure.microsoft.com/services/cognitive-services/translator-text-api/) is the component of Azure Cognitive Services that translates text from one language to another. It relies on state-of-the-art [neural machine translation (NMT)](https://www.microsoft.com/translator/business/machine-translation/#nmt) to work its magic and supports [more than 60 languages](https://docs.microsoft.com/azure/cognitive-services/translator/language-support).
 
 Like the Computer Vision API, the Translator Text API is invoked using REST calls over the Internet. Unlike the Computer Vision API, the Translator Text API currently has no Python SDK available. That doesn’t mean that you can’t use it from a Python application. It means that you must invoke the API by using raw HTTPS requests and write code to parse the JSON payloads that are returned.
 
@@ -57,7 +57,7 @@ def translate_text(lines, target_language, key, region):
 uri = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=" + target_language
 ```
 
-We start by setting the URI for the translator service and specifying our language in the query string. We don't need to specify the source language as it will be automatically detected by the service.
+We start by setting the URI for the translator service and specifying our language in the query string. We don't need to specify the source language, as it will be automatically detected by the service.
 
 ``` python
 headers = {
@@ -90,9 +90,9 @@ for result in results:
 return translated_lines
 ```
 
-We then use [Requests](https://2.python-requests.org/en/master/), the de facto standard for Python for making HTTP(S) calls. `post` indicates a POST call, and we specify the `uri` to call, our `headers`, which contains the key, and `json`, which is the text we wish to have translated. We specify we want errors to be raised if we don't receive a 200 response by calling `raise_for_status()`. Finally, we retrieve the results by calling `json()`.
+We then use [Requests](https://2.python-requests.org/en/master/), the standard in Python for making HTTP(S) calls. `post` indicates a POST call, and we specify the `uri` to call our `headers` (which contains the key) and `json` (which is the text we wish to have translated). We specify we want errors to be raised if we don't receive a 200 response by calling `raise_for_status()`. Finally, we retrieve the results by calling `json()`.
 
-Similar to before, we loop through the results and append them to a list called `translated_lines`, and return the value.
+Similar to before, we loop through the results and append them to a list called `translated_lines` and return the value.
 
 ### Update translate to call our new helper function
 
@@ -105,11 +105,11 @@ With the helper function created, let's update `translate()` to call the new `tr
 
 > **NOTE:** The tab at the beginning of the line of code is required. Python uses tab levels to identify enclosures, and we want to put the call to `extract_text_from_message` inside `index`. It should be in line with the existing comment.
 
-We pass in the lines of code we wish to translate, which is stored in `messages`, and then the code of the language we want to target for translation. As mentioned before, the source language will be detected automatically.
+We pass in the lines of code we wish to translate (which is stored in `messages`), and then the code of the language we want to target for translation. As mentioned before, the source language will be detected automatically.
 
 ## Test the site
 
-The last (and best?) step is to test our changes! From the home page select **Translate a sign** or navigate to **http://localhost:5000/translate**. It should look something like this:
+The last (and best?) step is to test our changes! From the home page, select **Translate a sign** or navigate to **http://localhost:5000/translate**. It should look something like this:
 
 ![Screenshot of updated page with language dropdown](../images/vision_added_translate.png)
 
@@ -119,6 +119,6 @@ Select the target language for translation (the language you want to translate *
 
 ## Summary and next steps
 
-Congratulations! You've now built a fully function translation site!
+Congratulations! You've now built a fully-functioning translation site!
 
-You may notice some of the translations aren't as accurate as one might like. Performing translations is a challenging problem. Various idioms aren't always picked up well by automated services, and context is often lacking. But the service should provide a serviceable translation. One we should be willing to [deploy and share](./deploy.md)!
+You may notice some of the translations aren't as accurate as one might like. Performing translations is a challenging problem. Various idioms aren't always picked up well by automated services, and context is often lacking. But the service should provide a serviceable translation--one we should be willing to [deploy and share](./deploy.md)!
