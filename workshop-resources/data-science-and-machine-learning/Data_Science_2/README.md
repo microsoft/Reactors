@@ -5,6 +5,7 @@ Every day new data is created. New parts are made and shipped from factories, pe
 You do not need any prior experience with data science to attend this workshop. You are likely someone who has ~1 year experience coding, preferrably in Python, but not a requirement. You are interested in learning how to use Python libraries to call machine learning models and make predictions on your data.
 
 ## Resources
+[Learn Learning Path](https://docs.microsoft.com/en-us/learn/paths/beginners-python-data-science/)  
 [Data Science 2 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Data_Science_2_Full_Day.pptx)  
 [Workshop Materials](/workshop-resources/data-science-and-machine-learning/Data_Science_2/workshop-materials)  
 [Human Behavior Extension Project](/workshop-resources/data-science-and-machine-learning/Data_Science_2/human-behavior-project)  
