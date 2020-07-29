@@ -1,6 +1,6 @@
-# Exploring app.py
+# Exploring App.py
 
-To help focus attention on calling Cognitive Services, we've provided a starter file for your use during the workshop. Some of the work has already been done, and we'll be adding the code to perform tasks like translating text and detecting faces. Let's walk through **app.py** to better understand the structure and what we'll be updating.
+To help focus our attention on calling Azure Cognitive Services, we've provided a starter file that you can use during the workshop. Some of the work has already been done, but we'll be adding the code to perform tasks like translating text and detecting faces. Let's walk through **app.py** to better understand the structure and what we'll be updating.
 
 ## Initial import statements
 
@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 
-[dotenv](https://pypi.org/project/python-dotenv/) is a common package across multiple frameworks and languages which simplify the management of environmental variables. Rather than constantly setting keys via the command line, or hard-coding them into the application, dotenv allows you to create a file named **.env** where you store your key/value pairs. Then the library is imported, and `load_dotenv()` will read the values and store them into environmental variables for execution of the application. When deployed to production, you specify the environmental variables like you normally would, like setting [App Settings](https://docs.microsoft.com/azure/app-service/configure-common) in App Services.
+[dotenv](https://pypi.org/project/python-dotenv/) is a common package across multiple frameworks and languages which simplifies the management of environmental variables. Rather than constantly setting keys via the command line, or hard-coding them into the application, dotenv allows you to create a file named **.env** where you store your key/value pairs. Then the library is imported, and `load_dotenv()` will read the values and store them into environmental variables for execution of the application. When deployed to production, you specify the environmental variables as you normally would, like setting [app settings](https://docs.microsoft.com/azure/app-service/configure-common) in App Services.
 
 ## Configure index route
 
@@ -33,7 +33,7 @@ def index():
     return render_template("index.html")
 ```
 
-`@app.route` is a [decorator](https://www.python.org/dev/peps/pep-0318/) which adds additional meaning to a component immediately following its declaration. In this case, we're specifying `index` will be executed in response to a **GET** call to a route of **/**. In other words, if our site was hosted at **www.contoso.com**, and somone visited **www.contoso.com/** `index` would be executed in response to it. [Routing in Flask](https://flask.palletsprojects.com/en/1.1.x/api/?highlight=route#url-route-registrations) is extremely powerful, and you can both limit and expand how matches are detected, and how to retrieve values the user specifies in the URL.
+`@app.route` is a [decorator](https://www.python.org/dev/peps/pep-0318/) which adds additional meaning to a component immediately following its declaration. In this case, we're specifying `index` will be executed in response to a **GET** call to a route of **/**. In other words, if our site was hosted at **www.contoso.com**, and someone visited **www.contoso.com/,** `index` would be executed in response to it. [Routing in Flask](https://flask.palletsprojects.com/en/1.1.x/api/?highlight=route#url-route-registrations) is extremely powerful, and you can both limit and expand how matches are detected, as well as how to retrieve values the user specifies in the URL.
 
 ## Translate
 
@@ -62,9 +62,9 @@ def translate():
     return render_template("translate.html", image_uri=image.uri, target_language=target_language, messages=messages)
 ```
 
-## translate, train and detect
+## translate, train, and detect
 
-In the middle of **app.py** you'll notice there's a set of three routes and functions - `translate`, `train`, and `detect`. These are the functions you'll be updating as you add AI functionality to the application. We'll hold off on explaining what's in these functions until we need them.
+In the middle of **app.py**, you'll notice there's a set of three routes and functions--`translate`, `train`, and `detect`. These are the functions you'll be updating as you add AI functionality to the application. We'll hold off on explaining what's in these functions until we need them.
 
 ## Helper function
 
@@ -77,7 +77,7 @@ def get_image(request):
         return Image()
 ```
 
-Down at the bottom of **app.py** you'll notice a function titled `get_image`. When working with images in our application we'll need to perform two tasks - obtain a URI to allow us to display the uploaded image in the page, and to send the image to Cognitive Services. To avoid code duplication, we've created a helper function which uses a helper class `Image`. The code looks to see if there's a file in `request.files`, which is where Flask gives access to files stored in a form. If there is, then it creates an `Image` object with the uploaded file. Otherwise, it simply uses the default.
+At the bottom of **app.py**, you'll notice a function titled `get_image`. When working with images in our application, we'll need to perform two tasks: 1. obtain a URI to allow us to display the uploaded image in the page and 2. send the image to Azure Cognitive Services. To avoid code duplication, we've created a helper function which uses a helper class `Image`. The code checks if there's a file in `request.files`, which is where Flask gives access to files stored in a form. If there is, then it creates an `Image` object with the uploaded file. Otherwise, it simply uses the default.
 
 ## Image helper class
 
@@ -117,8 +117,8 @@ class Image:
         return self._blob
 ```
 
-Inside of **image.py** is our `Image` helper class. `Image` exposes a `uri` property, which will either return the default placeholder image, or convert the uploaded image into a stream for display on the page. `blob` provides the blob of the image, and will be used to upload the image to Cognitive Services. `seek(0)` is used to reset the stream back to the beginning.
+Inside of **image.py** is our `Image` helper class. `Image` exposes a `uri` property, which will either return the default placeholder image or convert the uploaded image into a stream for display on the page. `blob` provides the blob of the image and will be used to upload the image to Azure Cognitive Services. `seek(0)` is used to reset the stream to the beginning.
 
 ## Summary and next steps
 
-**app.py** represents a small Flask application. From this base structure we will add our functionality. To begin using Cognitive Services, we need to [create the resources we'll be using on Azure](./create-azure-resources.md).
+**app.py** represents a small Flask application. From this base structure, we will add our functionality. To begin using Azure Cognitive Services, we need to [create the resources we'll be using on Azure](./create-azure-resources.md).
