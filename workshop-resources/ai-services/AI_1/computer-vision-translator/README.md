@@ -1,4 +1,4 @@
-# Computer Vision API and Text Analytics
+# Computer Vision and Text Analytics APIs
 
 As we've discussed, AI is a useful tool that spans the practical and inspirational. We can sometimes see its capabilities even within a single app. For example, consider an application which could translate signage in a foreign language. Such an application would be useful for tourists on vacation, or could even help doctors save lives as they travel to foreign countries to stop an epidemic, such as ebola, before it can spread.
 
