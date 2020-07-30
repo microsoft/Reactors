@@ -1,14 +1,14 @@
-# Flask fundamentals
+# Flask Fundamentals
 
 > **NOTE:** If you want to follow along with the class, you'll need to [install Python](./install-python.md) and [the starter site](./install-starter.md).
 
-[Prerequisite: Python fundamentals](./intro-python.md)
+[Prerequisite: Python Fundamentals](./intro-python.md)
 
-To quote the [creators](https://palletsprojects.com/p/flask/):
+To quote the [creators of Flask](https://palletsprojects.com/p/flask/):
 
 > "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks."
 
-Flask is a perfect framework for quickly creating web front ends. Unlike a framework like [Django](https://www.djangoproject.com/) which, while powerful, is rather [opinionated](https://stackoverflow.com/questions/802050/what-is-opinionated-software), Flask is lightweight and designed to allow developers to focus on their solution code rather than the framework. Put simply, Flask just gets out of your way. :-)
+Flask is a perfect framework for quickly creating web front ends. Unlike a framework like [Django](https://www.djangoproject.com/)--which, while powerful, is rather [opinionated](https://stackoverflow.com/questions/802050/what-is-opinionated-software)--Flask is lightweight and designed to let developers focus on their solution code rather than the framework. Put simply, Flask gets out of your way. :-)
 
 ## Introducing Flask
 
@@ -29,15 +29,15 @@ def index():
     return "<h1>Hello, world</h1>"
 ```
 
-The first statement imports a class named `Flask` from the `flask` package installed with `pip`. The second statement instantiates that class to create a `Flask` app and assigns it to the variable named `app`.
+The first statement imports a class named `Flask` from the `flask` package installed with `pip`. The second statement instantiates this class to create a `Flask` app and assigns it to the variable named `app`.
 
-The fourth and fifth statements define a function that’s called when the user requests the site’s home page—for example, *http://www.contoso.com/*. The preceding statement - `@app.route("/")` is a decorator which will map the route */* (or the root) to the function. The function name is unimportant, but index is commonly used as the name for the function that renders the site’s home page.
+The fourth and fifth statements define a function that’s called when the user requests the site’s home page--for example, *http://www.contoso.com/*. The preceding statement-- `@app.route("/")`--is a decorator which will map the route */* (or the root) to the function. The function name is unimportant, but index is commonly used as the name for the function that renders the site’s home page.
 
 > **Note:** By default, Flask will look for a file named `app.py` when starting. If you wish to use a different starter file, you can indicate this by setting an environment variable named `FLASK_APP`.
 
 ## Routing in Flask
 
-Suppose that your website contains several pages rather than just one. You can use `@app.route()` to map all of the routes that the site supports to functions that render the corresponding pages:
+Suppose that your website contains several pages rather than one. You can use `@app.route()` to map the site-supported routes to functions that render the corresponding pages:
 
 ``` python
 from flask import Flask
@@ -66,13 +66,13 @@ If the app is hosted at www.contoso.com, it now supports the following URLs:
 - www.contoso.com/about
 - www.contoso.com/contact
 
-You can continue adding routes and functions until all of the pages that your site supports are accessible by URL. To reiterate, the function names are unimportant; it’s the routes that really count.
+You can continue adding routes and functions until the pages that your site supports are accessible by URL. To reiterate, the function names are unimportant; it’s the routes that really count.
 
 ## HTML templates
 
 You typically don’t want to include inline HTML in the functions that render your site’s pages. Instead, you want to define those pages in HTML files.
 
-Flask contains a function named `render_template()` that looks for HTML files in a subdirectory named “templates” and renders them out to the page. The following example produces the exact same output as the previous example. It assumes that the directory in which `app.py` is located has a subdirectory named “templates” containing HTML files named `index.html`, `about.html`, and `contact.html`:
+Flask contains a function named `render_template()` that looks for HTML files in a subdirectory named “templates” and renders them on the page. The following example produces the same output as the previous example. It assumes that the directory in which `app.py` is located has a subdirectory named “templates” containing HTML files named `index.html`, `about.html`, and `contact.html`:
 
 ``` python
 from flask import Flask, render_template
@@ -124,7 +124,7 @@ def contact():
     return render_template("master.html", message="This is the Contact Us page")
 ```
 
-Flask uses the [Jinja template engine](https://jinja.palletsprojects.com/en/2.10.x/templates/) for dynamically rendering pages, such as the `{{ message }}` example above. Jinja supports additional syntax for creating powerful dynamic pages.
+Flask uses the [Jinja template engine](https://jinja.palletsprojects.com/en/2.10.x/templates/) for dynamically rendering pages, as in the `{{ message }}` example above. Jinja supports additional syntax for creating powerful dynamic pages.
 
 ### Control flow expressions in Jinja
 
@@ -167,7 +167,7 @@ And inside **index.html**:
 {% endwith %}
 ```
 
-This example assumes that just one error message was flashed, but you can call `flash()` multiple times to queue up several messages and enumerate them with a `{%` for message in messages `%}` statement. For more information on message flashing in Flask, see [Message Flashing](http://flask.pocoo.org/docs/1.0/patterns/flashing/).
+This example assumes that one error message was flashed, but you can call `flash()` multiple times to queue several messages and enumerate them with a `{%` for message in messages `%}` statement. For more information on message flashing in Flask, see [Message Flashing](http://flask.pocoo.org/docs/1.0/patterns/flashing/).
 
 ### Static files
 
@@ -191,4 +191,4 @@ One benefit of using `url_for()` is that the resulting URLs are absolute, which 
 
 ## Summary and next steps
 
-Flask is a lightweight web framework whose greatest strength is simply getting out of the way and allowing you as a developer to focus on the problems you wish to solve. You can create both proof-of-concept and enterprise level applications with Flask, and everything in between.
+Flask is a lightweight web framework whose greatest strength is simply getting out of the way and allowing you as a developer to focus on solving problems. You can create both proof-of-concept and enterprise-level applications with Flask, and everything in between.
