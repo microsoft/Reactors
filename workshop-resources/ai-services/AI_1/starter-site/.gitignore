@@ -14,7 +14,7 @@ instance/*
 !instance/.gitignore
 .webassets-cache
 
-### Flask.Python Stack ###
+### Flask.Python stack ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -23,7 +23,7 @@ __pycache__/
 # C extensions
 *.so
 
-# Distribution / packaging
+# Distribution/packaging
 .Python
 build/
 develop-eggs/
@@ -45,8 +45,8 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  These files are usually written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other info into it.
 *.manifest
 *.spec
 
@@ -54,7 +54,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit test/coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -85,7 +85,7 @@ target/
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   However, in cases of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 #Pipfile.lock
@@ -124,19 +124,19 @@ dmypy.json
 
 # C extensions
 
-# Distribution / packaging
+# Distribution/packaging
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  These files are usually written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other info into it.
 
 # Installer logs
 
-# Unit test / coverage reports
+# Unit test/coverage reports
 
 # Translations
 
-# Scrapy stuff:
+# Scrapy stuff
 
 # Sphinx documentation
 
