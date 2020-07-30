@@ -44,7 +44,7 @@ def translate():
     if request.form and "target_language" in request.form:
         target_language = request.form["target_language"]
 
-    # If it"s a GET, just return the form
+    # If it's a GET, just return the form
     if request.method == "GET":
         return render_template("translate.html", image_uri=image.uri, target_language=target_language)
 
@@ -64,7 +64,7 @@ def train():
     # Load image or placeholder
     image = get_image(request)
 
-    # If it"s a GET, just return the form
+    # If it's a GET, just return the form
     if request.method == "GET":
         return render_template("train.html", image_uri=image.uri)
 
@@ -86,7 +86,7 @@ def detect():
     # Load image or placeholder
     image = get_image(request)
 
-    # If it"s a GET, just return the form
+    # If it's a GET, just return the form
     if request.method == "GET":
         return render_template("detect.html", image_uri=image.uri)
 
@@ -210,7 +210,7 @@ def detect_people(client: FaceClient, person_group_id, image):
     results = []
     # Loop through each identified face
     for face in identified_faces:
-        # Get all candidates - who might this face be?
+        # Get all candidates--who might this face be?
         candidates = face.candidates
 
         # If no candidates, continue
