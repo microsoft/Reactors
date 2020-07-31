@@ -5,7 +5,7 @@ pragma solidity >=0.5.0 <0.7.0;
 
 contract Banker {
     // The keyword "public" makes variables
-    // accessible from other contracts
+    // accessible from other contracts.
     address public banker;
 
     Bank public bank;
@@ -35,7 +35,7 @@ contract Banker {
     bool public ended;
 
     // Constructor code is only run when the contract
-    // is created
+    // is created.
     constructor() public {
         banker = msg.sender;
         bank = new Bank();
@@ -67,7 +67,7 @@ contract Banker {
 
         uint length = players.length;
 
-	// TODO: Add a requirement that there need to be at least two
+	// TODO: Add a requirement that there needs to be at least two
 	// players. Don't forget to add a string message.
 
         for(uint i = 0; i < length; i++) {
@@ -156,8 +156,8 @@ contract Banker {
 
 	// TODO: Use the bank to send money from the msg.sender to the
 	// owner for the price of the property. Make sure you get the
-	// order correct! Check the Bank contract to see what order the
-	// parameters should be in.
+	// order correct! Check the Bank contract to see in what order the
+	// parameters should be.
 
  	// TODO: Use the AssetManager instance created in the
  	// constructor to transfer the asset from the owner to the
