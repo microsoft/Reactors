@@ -11,13 +11,13 @@ contract('Banker', (accounts) => {
     it('testing stopping an unstarted game of Banker', async() => {
         const c = await Banker.deployed();
 
-        // This will fail because the game hasn't started yet
+        // This will fail because the game hasn't started yet.
         await truffleAssert.fails(c.stopGame());
     });
 
     it('testing starting an unstarted game of Banker', async () => {
         const c = await Banker.deployed();
-        // Can't start a game with less than two players
+        // Can't start a game with less than two players.
         await truffleAssert.fails(c.startGame());
 
         // We'll add two players to the game and then we should be 
@@ -104,7 +104,7 @@ contract('Banker', (accounts) => {
         });
 
         // There is no Frankfurt Reactor so this property should not
-        // exists but shouldn't cause any trouble.
+        // exist but shouldn't cause any trouble.
 
         available = await c.isPropertyAvailable("Frankfurt Reactor");
         assert.equal(false, available, 
@@ -114,7 +114,7 @@ contract('Banker', (accounts) => {
         // you can't buy property from yourself.
         await truffleAssert.fails(c.buyProperty("Redmond Reactor"));
         
-        // Make sure all of the players we are expecting to be there are
+        // Make sure all expected players are there.
         var numPlayers = await c.getNumberOfPlayers();
         assert.equal(6, numPlayers.toNumber(), "There are six players");
         
@@ -125,7 +125,7 @@ contract('Banker', (accounts) => {
 
         var result = await c.buyProperty("Redmond Reactor", {from: accounts[1]});
 
-        // At this point, accounts[1] should be the owner of the property
+        // At this point, accounts[1] should be the owner of the property.
         
         var owner = await c.getPropertyOwner("Redmond Reactor");
         assert.equal(owner, accounts[1], "Property Transfer Occurred");
@@ -134,7 +134,7 @@ contract('Banker', (accounts) => {
     it('testing stopping a game on Banker', async() => {
         const c = await Banker.deployed();
 
-        // Stop the game we have been using
+        // Stop the game we have been using.
         var result = await c.stopGame();
         truffleAssert.eventEmitted(result, 'GameStopped');
         await truffleAssert.fails(c.stopGame());
