@@ -23,7 +23,7 @@ contract('Bank', (accounts) => {
 
     it('testing of disallowed actions in Bank', async () => {
         const c = await Bank.deployed();
-        // TODO: Add a check for non-bankers sending transfers
+        // TODO: Add a check for non-bankers sending transfers.
         await truffleAssert.fails(c.mint(accounts[1], 1000, {from: accounts[1]}));
         await truffleAssert.fails(c.getBalance(accounts[1], {from: accounts[2]}));
         var result = await c.getBalance(accounts[1]);
