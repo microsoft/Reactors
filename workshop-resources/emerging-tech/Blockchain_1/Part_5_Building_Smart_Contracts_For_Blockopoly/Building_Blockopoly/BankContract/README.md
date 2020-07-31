@@ -3,31 +3,27 @@
 **THIS DIRECTORY IS INTENTIONALLY LEFT BLANK.**
 
 ### Goal
-This directory contains the steps to complete the Bank contract Follow the steps to create the contract, migration and tests.
+Follow the steps to create the Bank contract, migration, and tests.
 
 ### Steps
-- Use either `truffle init` or VS Code to create a new Solidity
-  project in this directory
+1. To create a new Solidity
+  project in this directory, use either `truffle init` or Visual Studio Code. 
 
-- You can use a text editor and truffle develop or VS Code and Ganache
-  to deploy the contracts
+2. To deploy the contracts, you can either use a text editor and truffle develop, or Visual Studio Code and Ganache.
 
-- Add the Bank contract from the below in the contracts directory
+3. Add the Bank contract from below in the contracts directory.
 
-- Add a migration for the Bank contract to the migrations directory
+4. Add a migration for the Bank contract to the migrations directory.
 
-- Add the test from below to test this contract in the test directory
+5. Add the test below to test this contract in the test directory.
 
-- You can use either `truffle test` or `truffle develop` (and then run
-  ‘test’ from the workspace)
+6. Use `truffle test` or `truffle develop`, and then run ‘test’ from the workspace.
 
-- If you get stuck, you can find a working version in the [AssetManagerContract](../AssetManagerContract)
-  directory (or the [Completed_Solutions directory](../../../Completed_Solutions)) but try to make it
-  work before looking in those places.
+  - If you get stuck, you can find a working version in the [AssetManagerContract directory](../AssetManagerContract) or the [Completed_Solutions directory](../../../Completed_Solutions), but try truffle before using these options.
 
-  - Solutions exists in [BankerContract](../BankerContract/) or in the [Completed_Solutions directory](../../../Completed_Solutions)
+Solutions exist in [BankerContract](../BankerContract/) or in the [Completed_Solutions directory](../../../Completed_Solutions).
 
-- When you are ready, move on to complete the [AssetManager contract](../AssetManagerContract/README.md).  
+7. When you are finished, you are ready to complete the [AssetManager contract](../AssetManagerContract/README.md).  
   
 ## Contract
 
@@ -36,12 +32,12 @@ pragma solidity >=0.5.0 <0.7.0;
 
 contract Bank {
     // The keyword "public" makes variables
-    // accessible from other contracts
+    // accessible from other contracts.
     address public minter;
     mapping (address => uint) public balances;
 
     // Events allow clients to react to specific
-    // contract changes you declare
+    // contract changes you declare.
     event Sent(address from, address to, uint amount);
 
     // Constructor code is only run when the contract
@@ -50,8 +46,8 @@ contract Bank {
         minter = msg.sender;
     }
 
-    // Sends an amount of newly created coins to an address
-    // Can only be called by the contract creator
+    // Sends an amount of newly-created coins to an address.
+    // Can only be called by the contract creator.
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter, "Sender == Minter");
         require((amount < 1e60), "Amount isn't too big");
@@ -60,7 +56,7 @@ contract Bank {
     }
 
     // Sends an amount of existing coins
-    // from any caller to an address
+    // from any caller to an address.
     function sendMoney(address receiver, address sender, uint amount) public {
         require(msg.sender == minter, "Only the banker can authorize transfers");
         require(amount <= balances[sender], "Insufficient balance.");
