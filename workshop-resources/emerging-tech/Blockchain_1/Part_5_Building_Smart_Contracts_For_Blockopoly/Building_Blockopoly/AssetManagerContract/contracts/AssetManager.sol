@@ -17,12 +17,12 @@ contract AssetManager {
     event AssetTransfer(address sender, address from, address to, string name, string assetType);
 
     // Constructor code is only run when the contract
-    // is created
+    // is created.
 
     constructor() public {
       // TODO: The account that publishes the contract should be
       // considered the manager. We have a variable above to store this
-      // account which is made available via the runtime as
+      // account, which is available via the runtime as
       // msg.sender. Capture this variable in the manager variable. We
       // will use it in assertions below.
     }
@@ -43,7 +43,7 @@ contract AssetManager {
 
         assets[assetId] = a;
 
-	// TODO: Emit an AssetAdded event. Make sure to fill it in
+	// TODO: Emit an AssetAdded event. Make sure to complete it
         // properly. To see how to emit a different event, you can look below
         // at the AssetTransfer event.
     }
