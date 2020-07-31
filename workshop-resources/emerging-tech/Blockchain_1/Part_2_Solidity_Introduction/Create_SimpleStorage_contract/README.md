@@ -30,7 +30,7 @@ of building, deploying, and testing Ethereum contracts.
 9. Run your tests with either:
   - `test` from the development ethereum client
   - `truffle test` from the command line with ganache-cli running
-  - **Note**: You might need to update the port in **truffle-config.js** to match the ethereum client running.
+**Note**: You might need to update the port in **truffle-config.js** to match the ethereum client running.
 
 ## Contract
 
