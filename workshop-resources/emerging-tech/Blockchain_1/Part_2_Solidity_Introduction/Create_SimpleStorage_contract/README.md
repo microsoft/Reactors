@@ -11,7 +11,7 @@ of building, deploying, and testing Ethereum contracts.
 
 2. Install [Ganache CLI](https://www.npmjs.com/package/ganache-cli) by using the command `npm install -g ganache-cli`.
 
-3. Initialize the Create_SimpleStorage_contract directory as a truffle project using `truffle init`
+3. Initialize the Create_SimpleStorage_contract directory as a truffle project using `truffle init`.
 
 4. Inspect the directory structure. Look for location of:
   - Contracts
