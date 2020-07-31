@@ -17,7 +17,7 @@ contract AssetManager {
     event AssetTransfer(address sender, address from, address to, string name, string assetType);
 
     // Constructor code is only run when the contract
-    // is created
+    // is created.
     constructor() public {
         manager = msg.sender;
     }
