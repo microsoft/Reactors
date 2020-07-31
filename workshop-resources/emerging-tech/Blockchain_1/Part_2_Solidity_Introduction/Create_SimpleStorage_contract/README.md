@@ -25,7 +25,7 @@ of building, deploying, and testing Ethereum contracts.
 7. Use `truffle develop` to start a local ethereum client. From there, run `compile` and `migrate` to interact with the SimpleStorage contract. 
 
 8. Add a test that gets the current value from the SimpleStorage contract, changes it to a new value, and then fetches the new value. 
-  - Add assertions after the two get calls to ensure you are getting what you expect(feel free to use the test below).
+  - Add assertions after the two get calls to ensure you are getting what you expect (feel free to use the test below).
 
 9. Run your tests with either:
   - `test` from the development ethereum client
