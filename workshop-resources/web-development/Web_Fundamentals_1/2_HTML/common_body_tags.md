@@ -1,6 +1,6 @@
-# Common HTML tags used in the body of webpages
+# Common HTML Tags Used in the Body of Web Pages
 
-It's time to learn about the most common tags that you'll be using inside the body tag. Recall that when we were doing the overview, we talked about the common elements that you might want to place on a webpage, which are:
+It's time to learn about the most common tags that you'll be using inside the body tag. During the overview, we talked about the common elements that you might want to place on a web page, which are:
 
 - Headings and paragraphs of text
 - Images
@@ -13,7 +13,7 @@ It's time to learn about the most common tags that you'll be using inside the bo
 
 A heading is a section title, which means that often (but not always!) each section will have a heading. There are 6 levels of headings that you can use (named `<h1>` through `<h6>`), allowing you to indicate sections and subsections.
 
-Let's look at this page for examples. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an `<h1>` tag, written as `<h1>Common Body Tags</h1>` and is the main heading for the whole page.
+Let's look at this page, for example. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an `<h1>` tag, written as `<h1>Common Body Tags</h1>` and is the main heading for the page.
 
 ## Paragraphs
 
@@ -42,29 +42,29 @@ Any chunk of text is a paragraph and, therefore, needs to be encapsulated in par
 
 ## Images
 
-There are two ways that we use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed), or as background images (this is covered in CSS section).
+There are two ways we use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed), or as background images (this is covered later in the CSS section).
 
-For embedding images as page elements you use the `<img>` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". `<img src="[location of the image goes here]" alt="[This is a description of the image]">`
+For embedding images as page elements, you use the `<img>` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". `<img src="[location of the image goes here]" alt="[This is a description of the image]">`
 
-It has two required attributes: `src` and `alt`.  The `src` attribute stands for source. This is the link to where the image is residing. The alt attribute stands for alternate. This is a few words of text to describe the image, in case it fails to load. This text will show up where the image should be in case the image fails to load.
+It has two required attributes: `src` and `alt`.  The `src` attribute stands for "source". This is the link to where the image is residing. The alt attribute stands for "alternate". This is where you can type a few words of text to describe the image, in case it fails to load. In this case, the text will appear where the image should have appeared.
 
 ### About the `alt` attribute
 
-The `alt` attribute indicates to the browser what to display in the event the image is not available, or while it's loading on a slow connection. More importantly, though, it's the information which will be read by a [screen reader](https://en.wikipedia.org/wiki/Screen_reader), an assistive application used by those who are vision impared.
+The `alt` attribute indicates to the browser what to display if the image is not available, or while it's loading on a slow connection. More importantly, it's the information read by a [screen reader](https://en.wikipedia.org/wiki/Screen_reader), an assistive application for the vision impaired.
 
-As a result, in order to ensure your page is accessible, it's imperitive to use `alt` attributes on **all images**. The University of Minnesota has a [fantastic set of resources for making your page accessible to all](https://accessibility.umn.edu/), including an article on [properly describing images](https://accessibility.umn.edu/core-skills/alt-text).
+To ensure your page is accessible, it's imperitive to use `alt` attributes on **all images**. The University of Minnesota has a [fantastic set of resources for making your page accessible to all](https://accessibility.umn.edu/), including an article on [properly describing images](https://accessibility.umn.edu/core-skills/alt-text).
 
-Besides just making your page accessible, `alt` text is used by search engines when indexing your pages. As a result, proper `alt` text is key to [search engine optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization).
+Besides making your page accessible, `alt` text is used by search engines when indexing your pages. As a result, proper `alt` text is key to [search engine optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization).
 
 ## Hyperlinks
-Hyperlinks, or simply links are things that we click on that redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
+Hyperlinks, or simply links, are items on a page that we click to redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
 
-The tag used for links is the `<a>` tag, which stands for the anchor tag. Similar to images, links also need to have an attribute that tells the browser where the link is pointing. For links, this is called the href attribute.
+The tag used for links is the `<a>` tag, which stands for "anchor". Similar to images, links must have an attribute that tells the browser where the link is pointing. For links, this is called the `href` attribute.
 
 Possible values for the href attribute are:
 
-- An absolute URL to point to another website (like `href="http://www.example.com/default.html"`)
-- A relative URL to point to a file within a website (like `href="default.html"`)
+- An absolute URL to point to another website (like `href="http://www.example.com/default.html"`).
+- A relative URL to point to a file within a website (like `href="default.html"`).
 
 Example:
 
@@ -85,7 +85,7 @@ The text between `<a>` and `</a>` which appears "clickable" to the user is known
 <a href="someurl">Click here!</a>
 ```
 
-**Click here** is one of the most common, yet poor, link texts. The first problem with **Click here** is it doesn't indicate where link will take the user. In addition, the user might not be clicking on the link at all, and instead might be using a screen reader, where different keys would be tapped to navigate, or of course the smartphone user would also be tapping.
+**Click here** is one of the most common, yet poor, link texts. The first problem with **click here** is that it doesn't indicate where the link will take the user. In addition, it makes it very difficult for those using a screen reader, where different keys would be used to navigate, or a smartphone, where the user would be tapping.
 
 #### Find information here
 
@@ -95,11 +95,11 @@ A common "solution" to this problem is to create text like this:
 Find information about alpacas <a href="someurl">here</a>!
 ```
 
-While the text on the screen might be describing where the link is going, there's still a problem for screen readers. Screen readers allow the user to have all links read. As such, the user would simply hear "here" without context. When we also consider the fact the sentence is a bit unnatural, we can see it's not an effective solution.
+While the text on the screen might be describing where the link is going, there's still a problem for screen readers. Screen readers allow the user to have all links read. As such, the user would simply hear "here" without context. When we also consider that the sentence is a bit unnatural, we can see it's not an effective solution.
 
 #### Proper link text
 
-[Creating good link text](https://accessibility.umn.edu/core-skills/hyperlinks) is one of the core skills every web developer, if not everyone who creates content of any variety - even emails - should have. The link text should clearly describe the document being referenced in a succinct manner.
+[Creating good link text](https://accessibility.umn.edu/core-skills/hyperlinks) is a core skill every web developer--if not everyone who creates content of any variety (even emails)--should have. The link text should clearly and succinctly describe the document being referenced.
 
 ``` html
 <!-- good link text -->
@@ -110,7 +110,7 @@ Notice the text is rather short, yet clearly describes what the document will el
 
 ### Anchors
 
-If you have a rather long page, such as an [frequently asked questions (FAQ) page](https://en.wikipedia.org/wiki/FAQ), you may want to allow users to quickly access a part of the page farther down on the screen, such as the answer to the question being posted. You can enable this by creating an **anchor**. (I bet you were wondering where **anchor** came from - now you know!) To create the target, you will use the `id` attribute on any tag you like. You will then create a link to the target by using `#` in front of the ID you've identified.
+If you have a rather long page, such as an [frequently asked questions (FAQ) page](https://en.wikipedia.org/wiki/FAQ), you may want to allow users to quickly access a part of the page farther down on the screen, such as the answer to the question being posted. You can enable this by creating an **anchor** (I bet you were wondering where **anchor** came from - now you know!). To create the target, you will use the `id` attribute on any tag you like. You will then create a link to the target by using `#` in front of the ID you've identified.
 
 ``` html
 Q: <a href="#bite">Do alpacas bite?</a>
@@ -123,9 +123,9 @@ Q: <a href="#bite">Do alpacas bite?</a>
 
 ## Lists
 
-How we think of lists in HTML is a little different from how we think of them in our day to day life.
+How we think of lists in HTML is different from how we think of them in our day-to-day life.
 
-What kind of stuff do we normally consider as lists?
+What categories do we normally consider appropriate for lists?
 
 - Shopping lists
 - Chapter/topic names
@@ -133,7 +133,7 @@ What kind of stuff do we normally consider as lists?
 
 When creating a page, we may display a collection of elements that are of the same type. The most common use for lists in HTML is for navigation links.
 
-There are two types of HTML lists: ordered lists (lists that are numbered) and unordered lists. Ordered lists use the `<ol>` tag, and unordered lists use the `<ul>` tag. Both lists use the `<li>` tag to describe each list item.
+There are two types of HTML lists: ordered lists (lists that are numbered) and unordered lists (ie, bulleted items). Ordered lists use the `<ol>` tag, and unordered lists use the `<ul>` tag. Both lists use the `<li>` tag to describe each list item.
 
 ``` html
 <ul>
@@ -151,9 +151,9 @@ There are two types of HTML lists: ordered lists (lists that are numbered) and u
 
 ## Tables
 
-We will often find ourselves using tables to display data. Don't be intimidated by the word "data", it just means information.
+We often find ourselves using tables to display data. Don't be intimidated by the word "data", it just means information.
 
-Tables have many tags associated with them because they are made up of many different parts. They have:
+Tables have many tags associated with them because they consist of many parts. They have:
 
 A table head (```<thead>```), which contains rows (```<tr>```) and column names (```<th>```).
 A table body (```<tbody>```), which contains rows (```<tr>```) filled with table data (```<td>```).
@@ -170,7 +170,7 @@ Example:
         <tr>
             <th>Name</th>
             <th>Email</th>
-            <th>Phone number</th>
+            <th>Phone Number</th>
         </tr>
     </thead>
     <tbody>
@@ -192,6 +192,6 @@ Copy and paste this into your code editor and see what happens!
 
 ## What you've learned
 
-We covered a lot of HTML in this section and learned how to create tables, make links, and embed images. These are just a couple of the many HTML tags that you need to know. Let's move on to another important feature of most web pages, the form. With web forms we can create surveys, contact forms, and comment boxes.
+We covered a lot of HTML in this section and learned how to create tables, make links, and embed images. These are just a few of the many HTML tags that you need to know. Let's move to another important feature of most web pages: the form. With web forms, we can create surveys, contact forms, and comment boxes.
 
 NEXT: [Forms](./forms.md)
