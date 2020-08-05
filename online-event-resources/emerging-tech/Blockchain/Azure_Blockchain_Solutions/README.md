@@ -17,9 +17,15 @@ Here are a list of resources that will help you learn to use [Azure Blockchain](
 - Code samples: https://github.com/Azure-Samples/blockchain/tree/master/blockchain-workbench
 - Azure marketplace app: https://aka.ms/tryworkbench
 
+## Ethereum Logic Apps
+- Docs: https://docs.microsoft.com/azure/blockchain/service/ethereum-logic-app
+- Ethereum Blockchain connector: https://docs.microsoft.com/en-us/connectors/blockchainethereum/
+- Generate Logic Apps: https://channel9.msdn.com/Shows/Blocktalk/Generate-Logic-Apps-and-Flows-to-Publish-Smart-Contract-Events-to-Event-Grid-and-Service-Bus  
+- Doing more with Logic Apps: https://channel9.msdn.com/Shows/Blocktalk/Doing-more-with-Logic-Apps 
+
 ## More helpful blockchain resources
 - [Microsoft Learn: Intro to Blockchain](https://docs.microsoft.com/learn/modules/intro-to-blockchain/)
 - [Blocktalk show](https://channel9.msdn.com/Shows/Blocktalk)
- - [An Introduction to Blockchain with Mark Russinovich : Build 2018](https://www.youtube.com/watch?v=cYWal114BOw)
- - [Azure Blockchain Community forum](https://techcommunity.microsoft.com/t5/blockchain/bd-p/AzureBlockchain)
- - [Azure Blockchain Blog](https://azure.microsoft.com/blog/topics/blockchain/)
+- [An Introduction to Blockchain with Mark Russinovich : Build 2018](https://www.youtube.com/watch?v=cYWal114BOw)
+- [Azure Blockchain Community forum](https://techcommunity.microsoft.com/t5/blockchain/bd-p/AzureBlockchain)
+- [Azure Blockchain Blog](https://azure.microsoft.com/blog/topics/blockchain/)
