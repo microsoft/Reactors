@@ -52,4 +52,4 @@ Localhost is the perfect tool for developers building web applications because i
 
 In this section, you learned about servers and clients and how they use a protocol called HTTP to connect. You also learned how IP addresses and URLs work together and what it means to run a localhost on your home computer. In the next section, we will discuss the HTTP Request and Response Cycle.
 
-Next: [Request and Response Cycle.](./req_resp.md)
+Next: [Request and Response Cycle](./req_resp.md)
