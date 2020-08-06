@@ -19,7 +19,7 @@ Here are a list of resources that will help you learn to use [Azure Blockchain](
 
 ## Ethereum Logic Apps
 - Docs: https://docs.microsoft.com/azure/blockchain/service/ethereum-logic-app
-- Ethereum Blockchain connector: https://docs.microsoft.com/en-us/connectors/blockchainethereum/
+- Ethereum Blockchain connector: http://aka.ms/ethlogicapp
 - Generate Logic Apps: https://channel9.msdn.com/Shows/Blocktalk/Generate-Logic-Apps-and-Flows-to-Publish-Smart-Contract-Events-to-Event-Grid-and-Service-Bus  
 - Doing more with Logic Apps: https://channel9.msdn.com/Shows/Blocktalk/Doing-more-with-Logic-Apps 
 
