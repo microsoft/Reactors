@@ -28,7 +28,7 @@ HTML allows you to add IDs to elements. While we have mostly focused on this beh
 
 ## Classes
 
-You may wish to group items of a certain type together to ensure they're displayed the similarly. For example, you might want to bold links in a navigation pane or ensure certain `h3` elements are blue. By using a `class` attribute, you can group these items together, regardless of where they appear on a page. If you wish to add multiple classes to an item, you simply add spaces between the class names. If we wanted a `div` to use both the `navigation` and `banner` class, we could use the following:
+You may wish to group items of a certain type together to ensure they're displayed similarly. For example, you might want to bold links in a navigation pane or ensure certain `h3` elements are blue. By using a `class` attribute, you can group these items together, regardless of where they appear on a page. If you wish to add multiple classes to an item, you simply add spaces between the class names. If we wanted a `div` to use both the `navigation` and `banner` class, we could use the following code:
 
 ``` html
 <div class="navigation banner">Hello, world!</div>
