@@ -1,15 +1,13 @@
 # Inspect Element
 
-Editing HTML and CSS can feel like disarming a bomb; one little change and your project goes bananas. Your greatest ally in editing is a browser tool called **Developer Tools**. It is included in nearly all modern browsers that are available.
+Editing HTML and CSS can feel like disarming a bomb; one little change and your project goes bananas. Your greatest ally in editing is a browser tool called **Developer Tools**. It is included in nearly all modern browsers available today.
 
-To access inspect element, simply right-click any element within the browser window and click **'Inspect'** and _voila!_ Inspect Element is a feature that displays all of the properties of the webpage you are currently viewing.
+To access the inspect element, right-click any element within the browser window and then click **'Inspect'** and _voila!_ The inspect element displays all properties of the web page you are viewing.
 
-Each browser has it's own way of displaying the code a page is built with. You should check your browser's documentation, or ask your instructor about this now.
-
-Here's the guide to the developer tools built into the [Edge browser.](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
+Each browser displays the page code in its own way. Check your browser's documentation, or ask your instructor how. For reference, here is the [guide to the developer tools built into the Edge browser](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
 
 ## What you learned
 
-Every browser has a method to inspect HTML elements within a website. In this lesson, we learned how to select specific elements and view them in the console. Now let’s go on to learn more about the display properly.
+In this section, you learned that every browser has a method that inspects HTML elements within a web page. You also learned how to select elements and view them within the console. Now, let’s learn about the display property.
 
 NEXT: [The Display Property](./display_property.md)
