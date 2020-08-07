@@ -48,7 +48,7 @@ Some examples of block elements include `<div>`, `<form>`, `<h1>`-`<h6>`, `<p>`,
 
 While it's valid to put inline elements inside block elements (an `a` works just fine in a `div`), block elements are **not** allowed inside inline elements (you couldn't put a `div` inside an `a`).
 
-## Controllilng the display
+## Controlling the display
 
 We can, however, change the default display style of HTML elements using CSS.
 
