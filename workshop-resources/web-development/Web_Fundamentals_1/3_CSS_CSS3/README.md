@@ -20,5 +20,5 @@ NEXT: [Part 4. Capstone Project and Deployment with Azure](../4_Capstone_Deploym
 
 * [Part 1. Web Basics](../1_Web_Basics)
 * [Part 2. Hypertext Markup Language (HTML)](../2_HTML)
-* [Part 3. CSS: Selectors, Styling, and Display](../3_CSS_CSS3)
+* [Part 3. Cascading Stylesheets (CSS)](../3_CSS_CSS3)
 * [Part 4. Capstone Project and Deployment with Azure](../4_Capstone_Deployment)
