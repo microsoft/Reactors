@@ -1,10 +1,10 @@
-# Plotting Your Blocks: Activity
+# Activity: Plotting Your Blocks
 
-Try to duplicate the image below by adjusting the CSS code provided. Use **margins** and **paddings** to adjust the spaces between divisions and use the **display** property to be able to put each block in its proper place. You may need additional CSS properties.
+Duplicate this image by adjusting the CSS code below. Use **margins** and **paddings** to adjust the spaces between divisions and use the **display** property to put each block in its proper place. You may also need to add CSS properties.
 
 ![Blocks Diagram](../images/position-blocks.png)
 
-## Here's the HTML code
+## The HTML code
 
 ``` html
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ Try to duplicate the image below by adjusting the CSS code provided. Use **margi
 </html>
 ```
 
-## And CSS
+## The CSS code
 
 ``` css
 /*CSS reset settings here*/
@@ -67,12 +67,12 @@ Try to duplicate the image below by adjusting the CSS code provided. Use **margi
 }
 ```
 
-While you do this activity, please use min-height as well as vertical align to give minimum height to the division and also to vertically align some of the inline-blocks. Also, please do NOT use float (use display:inline-block instead).
+While you complete this activity, please use min-height to give minimum height to the division. Also, use vertical align to vertically align some of the inline-blocks. Lastly, please do NOT use float; instead, use display:inline-block.
 
-[Or, you can complete the activity online at Codepen](https://codepen.io/dannyooooo/pen/100311ce217467fbcf13862a5090012b)
+[You can also complete the activity online at Codepen](https://codepen.io/dannyooooo/pen/100311ce217467fbcf13862a5090012b)
 
 ## What you learned
 
-This is one of the essential activities of the workshop. Being able to use margins, padding, and borders to layout your webpages is an important skill. If you don’t get this the first time, don’t be discouraged, keep working at it. You can keep using the pot in your box template to create the base for your other static HTML pages. We finished with the section and now will go on to Do our capstone project and deployed it on Azure.
+This activity taught you how to correctly use margins, padding, borders, and the display property to design your web pages. This is an essential activity of the workshop. If you don’t get this the first time, don’t be discouraged, keep working at it. You can keep using the pot in your box template to create the base for other static HTML pages. Now it is time to create our capstone project and deploy it on Azure.
 
- NEXT: [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)
+ NEXT: [Part 4. Capstone Project and Deployment with Azure](../4_Capstone_Deployment)
