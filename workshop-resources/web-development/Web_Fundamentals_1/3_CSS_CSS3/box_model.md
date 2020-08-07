@@ -103,7 +103,7 @@ div{
 }
 ```
 
-Note: The order flows clockwise, top -> right -> bottom -> left.
+Note: The order flows clockwise: top -> right -> bottom -> left.
 
 Now, according to the box model, **the total width of an element is:**
 
@@ -163,4 +163,4 @@ There are other situations where elements do not have their margins collapsed:
 
 Understanding how the box model works and how to use margins, padding, and borders is challenging. The best way to learn this new concept is to practice. Remember to use the outline property along with your CSS resets so that you can see all your elements with a one pixel border around them. This will help you troubleshoot problems you have with your layout. In the next section, we have an activity that will teach you how to layout a simple web page using the box model. You can do this using margin, padding, and borders.
 
-NEXT:[Activity: Plotting Your Blocks](./plotting_your_blox.md)
+NEXT: [Activity: Plotting Your Blocks](./plotting_your_blox.md)
