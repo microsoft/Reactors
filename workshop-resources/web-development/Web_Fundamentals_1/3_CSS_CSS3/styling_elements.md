@@ -1,14 +1,14 @@
-# Styling elements
+# Styling Elements
 
-Now that we know how to select items, let's explore what we can do with them. As you might expect, the list of options are almost limitless. We're going to walk you through a few of the common ones.
+Now that we know how to select items, let's explore what we can do with them. As you might expect, the list of options is almost limitless. We're going to walk through a few of the common ones.
 
-## width and height
+## Width and height
 
-Probably the most basic property you can configure is the height and width of an item. Each item is a [box](box_model.md), and the `height` and `width` identify how large that box will be.
+Probably the most basic property you can configure is the height and width of an item. Each item is a [box](box_model.md), and the `height` and `width` define the size of that box.
 
-The values are commonly expressed in pixels (`px`) and percentage (`%`). When working with static content using px is suitable as you will be defining your page to not change. If you are working with responsive design, you may want to use `%`.
+The values are commonly expressed in pixels (`px`) and percentage (`%`). When working with static content, using px is suitable as you will be defining your page to not change. If you are working with responsive design, you may want to use `%`.
 
-Be careful when setting your height property as this will determine how much content the element can hold. If you leave it unset, your element will expand to fit the content it holds. If you set it and you have more content than can be displayed then you will need to either manually adjust the height each time you change the content or utilize the [overflow](#overflow) property.
+Be careful when setting your height property, as this will determine how much content the element can hold. If you leave it unset, your element will expand to fit the content it holds. If you define it and you have more content than can be displayed, then you will need to either manually adjust the height each time you change the content or utilize the [overflow](#overflow) property:
 
 ``` css
 a {
@@ -23,9 +23,9 @@ img {
 }
 ```
 
-## overflow
+## Overflow
 
-`overflow` determines what should happen when the content inside of a container is too much for the container size. You can set the container to `hide` the additional information that does not fit, `show` the information no matter what, or have a `scroll` bar added to the element so the content is contained but still viewable.
+`overflow` determines what should happen when the content is larger than the container that holds it. You can either set the container to `hide` the additional information that does not fit, `show` the information regardless, or add a `scroll` bar so the content is contained but still viewable:
 
 ``` css
 div {
@@ -33,9 +33,9 @@ div {
 }
 ```
 
-## background
+## Background
 
-`background` can modify the background of an element all in one line. This is a shorter version than splitting each property on its own line of code. The color can be defined using hex, rgb or semantic code.
+`background` can modify the background of an element in one line. This is a shorter solution than splitting each property into its own line of code. The color can be defined using hex, rgb, or semantic code:
 
 ``` css
 p {
@@ -45,11 +45,11 @@ p {
 
 ### Breaking down background
 
-You'll notice we specified multiple properties for `background` in one go. Some properties, like `background` have sub-properties which can be set. In the case of `background`, we could specify an image (`background-image`) or position (`background-position`). For `background`, the values are in this order:
+You'll notice we specified multiple properties for `background`. Some properties, like `background`, have sub-properties which can be set. In the case of `background`, we could specify an image (`background-image`) or position (`background-position`). For `background`, the values are in this order:
 
 `background-color | background-image | background-position | background-size | background-repeat`
 
-The above CSS could be broken down into smaller components.
+The above CSS could also be broken into smaller components:
 
 ``` css
 div {
@@ -61,13 +61,13 @@ div {
 }
 ```
 
-> **Discussion point**: You will notice there are often multiple ways to accomplish the same thing in HTML, CSS and JavaScript. Oftentimes, the choosing one is little more than a personal preference. You may decide for something like `background`, where the order of application isn't overly clear, to break things down. However for [`border`](#border) you might decide to go with the "all-in-one" approach.
+> **Discussion point**: Notice there are multiple ways to accomplish the same thing in HTML, CSS, and JavaScript. Oftentimes, choosing one is little more than a personal preference. You may decide to break things down for something like `background`, where the order of application isn't clear. However, for [`border`](#border), you might decide to take an "all-in-one" approach.
 
-## border
+## Border
 
-`border` allows you to set the border of a box. The first value is the border thickness. The second value is the border type. The third value is the border color. The color can be hex, rgb or semantic code.
+`border` allows you to set the border of a box. The first value is the border thickness. The second value is the border type. The third value is the border color. The color can be hex, rgb, or semantic code.
 
-The border property can also be broken down into separate lines using border-width, border-style and border color. Additionally, you can select very specifically which border you want to style by using ```border-top, border-bottom, border-right, border-left```.
+The border property can also be broken down into separate lines using border-width, border-style, and border color. Additionally, you can be specific about which border you want to style by using ```border-top, border-bottom, border-right, border-left```.
 
 ``` css
 button {
@@ -82,9 +82,9 @@ p {
 }
 ```
 
-## border-radius
+## Border-radius
 
-This property allows the corners of your border to be given a rounded appearance. The values can be set using `px` or `%`.
+This property allows the corners of your border to have a rounded appearance. The values can be set using `px` or `%`:
 
 ``` css
 button {
@@ -92,10 +92,10 @@ button {
 }
 ```
 
-> **NOTE**: CSS is an ever-changing standard. In fact, even using the word standard here might be a little generous, as browser creators have a long history of adding their own capabilities. `border-radius` is an attribute which is relatively newly supported broadly. You may notice sometimes the setting you wish to use works in Chrome, but not in Edge, or vice versa.
+> **NOTE**: CSS is an ever-changing standard. In fact, even using the word "standard" might be generous, as browser creators have a long history of adding their own capabilities. `border-radius` is an attribute which is only recently supported broadly. You may sometimes notice that the setting you wish to use works in Chrome, but not in Edge, or vice versa.
 
 ## What you learned
 
-We learned how to add style to elements in HTML. Remember that now we should be using only external CSS style sheets rather than trying to do inline styling. If we do too much inline styling, if we have to make changes later, it will become challenging because we will have to make changes at every place we’ve used inline styling. In the next section, we will focus on styling text.
+You learned how to add style to elements in HTML. For this workshop, remember that we are only using external CSS style sheets rather than inline styling. In the case of inline styling, if we have to make changes later, it will become challenging to change every instance where it occurs. In the next section, we will focus on styling text.
 
 NEXT: [Styling Text](./styling_text.md)
