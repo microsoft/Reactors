@@ -1,10 +1,10 @@
 # Activity: Dojo Diner
 
-## Welcome to the CSS Dojo Diner
+## Welcome to the CSS Dojo Diner!
 
-The goal of this activity is to get you familiar with how CSS works and so you can see what CSS can do.
+The goal of this activity is to get familiar with how CSS works and see what it can do.
 
-To do this activity you must add the CSS code to select the elements that each panel asks you to select. There is also a help button you can reference if you need a hint to get the right CSS code in to select the element each level asks you to manipulate.
+To do this activity, add the CSS code necessary to select the elements that each panel asks you to select. There is a help button you can use if you need assistance finding the right CSS element that each level asks you to change.
 
 ![Dojo Diner Image](../images/diner.png "Dojo Diner")
 
@@ -14,6 +14,6 @@ Complete this activity with a partner!
 
 ## What you learned
 
-In this activity we learned how to select HTML elements in a variety of different ways. Good job for doing this optional activity.
+In this activity, you learned how to select HTML elements in different ways. Good job for completing this optional activity!
 
-NEXT: [Part 4. Capstone + Deployment with Azure](../4_Capstone_Deployment)
+NEXT: [Part 4. Capstone Project and Deployment with Azure](../4_Capstone_Deployment)
