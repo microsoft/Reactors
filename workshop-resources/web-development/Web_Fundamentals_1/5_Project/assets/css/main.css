@@ -1,4 +1,4 @@
-/* Basic CSS Reset */
+/* Basic CSS reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Set max with for content */
+/* Set max width for content */
 nav,
 section,
 footer > div {
@@ -32,7 +32,7 @@ header a {
   color: black;
 }
 
-/* Hero Section */
+/* Hero section */
 #hero {
   background-image: url("../images/3d.jpg");
   background-repeat: no-repeat;
