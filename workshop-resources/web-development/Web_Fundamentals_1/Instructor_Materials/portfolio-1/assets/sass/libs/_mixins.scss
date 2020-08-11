@@ -1,7 +1,7 @@
-/// Makes an element's :before pseudoelement a FontAwesome icon.
+/// Makes an element's :before a FontAwesome icon.
 /// @param {string} $content Optional content value to use.
 /// @param {string} $category Optional category to use.
-/// @param {string} $where Optional pseudoelement to target (before or after).
+/// @param {string} $where Optional pseudo element to target (before or after).
 @mixin icon($content: false, $category: regular, $where: before) {
 
 	text-decoration: none;
@@ -40,7 +40,7 @@
 /// Applies padding to an element, taking the current element-margin value into account.
 /// @param {mixed} $tb Top/bottom padding.
 /// @param {mixed} $lr Left/right padding.
-/// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
+/// @param {list} $pad Optional extra padding (in the following order: top, right, bottom, left)
 /// @param {bool} $important If true, adds !important.
 @mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
 
