@@ -1,12 +1,12 @@
 // breakpoints.scss v1.0 | @ajlkn | MIT licensed */
 
-// Vars.
+// Vars
 
 	/// Breakpoints.
 	/// @var {list}
 	$breakpoints: () !global;
 
-// Mixins.
+// Mixins
 
 	/// Sets breakpoints.
 	/// @param {map} $x Breakpoints.
@@ -32,7 +32,7 @@
 
 		// Determine operator, breakpoint.
 
-			// Greater than or equal.
+			// Greater than or equal
 				@if (str-slice($query, 0, 2) == '>=') {
 
 					$op: 'gte';
@@ -40,7 +40,7 @@
 
 				}
 
-			// Less than or equal.
+			// Less than or equal
 				@elseif (str-slice($query, 0, 2) == '<=') {
 
 					$op: 'lte';
@@ -48,7 +48,7 @@
 
 				}
 
-			// Greater than.
+			// Greater than
 				@elseif (str-slice($query, 0, 1) == '>') {
 
 					$op: 'gt';
@@ -56,7 +56,7 @@
 
 				}
 
-			// Less than.
+			// Less than
 				@elseif (str-slice($query, 0, 1) == '<') {
 
 					$op: 'lt';
@@ -64,7 +64,7 @@
 
 				}
 
-			// Not.
+			// Not
 				@elseif (str-slice($query, 0, 1) == '!') {
 
 					$op: 'not';
@@ -72,7 +72,7 @@
 
 				}
 
-			// Equal.
+			// Equal
 				@else {
 
 					$op: 'eq';
@@ -80,18 +80,18 @@
 
 				}
 
-		// Build media.
+		// Build media
 			@if ($breakpoint and map-has-key($breakpoints, $breakpoint)) {
 
 				$a: map-get($breakpoints, $breakpoint);
 
-				// Range.
+				// Range
 					@if (type-of($a) == 'list') {
 
 						$x: nth($a, 1);
 						$y: nth($a, 2);
 
-						// Max only.
+						// Max only
 							@if ($x == null) {
 
 								// Greater than or equal (>= 0 / anything)
@@ -126,7 +126,7 @@
 
 							}
 
-						// Min only.
+						// Min only
 							@else if ($y == null) {
 
 								// Greater than or equal (>= x)
@@ -161,7 +161,7 @@
 
 							}
 
-						// Min and max.
+						// Min and max
 							@else {
 
 								// Greater than or equal (>= x)
@@ -198,7 +198,7 @@
 
 					}
 
-				// String.
+				// String
 					@else {
 
 						// Missing a media type? Prefix with "screen".
@@ -215,7 +215,7 @@
 
 			}
 
-		// Output.
+		// Output
 	        @media #{$media} {
 				@content;
 			}
