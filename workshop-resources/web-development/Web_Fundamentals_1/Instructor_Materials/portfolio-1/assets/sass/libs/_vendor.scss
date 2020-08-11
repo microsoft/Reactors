@@ -1,8 +1,8 @@
 // vendor.scss v1.0 | @ajlkn | MIT licensed */
 
-// Vars.
+// Vars
 
-	/// Vendor prefixes.
+	/// Vendor prefixes
 	/// @var {list}
 	$vendor-prefixes: (
 		'-moz-',
@@ -12,11 +12,11 @@
 	);
 
 	/// Properties that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
+	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org.
 	/// @var {list}
 	$vendor-properties: (
 
-		// Animation.
+		// Animation
 			'animation',
 			'animation-delay',
 			'animation-direction',
@@ -27,27 +27,27 @@
 			'animation-play-state',
 			'animation-timing-function',
 
-		// Appearance.
+		// Appearance
 			'appearance',
 
-		// Backdrop filter.
+		// Backdrop filter
 			'backdrop-filter',
 
-		// Background image options.
+		// Background image options
 			'background-clip',
 			'background-origin',
 			'background-size',
 
-		// Box sizing.
+		// Box sizing
 			'box-sizing',
 
-		// Clip path.
+		// Clip path
 			'clip-path',
 
-		// Filter effects.
+		// Filter effects
 			'filter',
 
-		// Flexbox.
+		// Flexbox
 			'align-content',
 			'align-items',
 			'align-self',
@@ -61,18 +61,18 @@
 			'justify-content',
 			'order',
 
-		// Font feature.
+		// Font feature
 			'font-feature-settings',
 			'font-language-override',
 			'font-variant-ligatures',
 
-		// Font kerning.
+		// Font kerning
 			'font-kerning',
 
-		// Fragmented borders and backgrounds.
+		// Fragmented borders and backgrounds
 			'box-decoration-break',
 
-		// Grid layout.
+		// Grid layout
 			'grid-column',
 			'grid-column-align',
 			'grid-column-end',
@@ -84,11 +84,11 @@
 			'grid-template-columns',
 			'grid-template-rows',
 
-		// Hyphens.
+		// Hyphens
 			'hyphens',
 			'word-break',
 
-		// Masks.
+		// Masks
 			'mask',
 			'mask-border',
 			'mask-border-outset',
@@ -104,7 +104,7 @@
 			'mask-repeat',
 			'mask-size',
 
-		// Multicolumn.
+		// Multicolumn
 			'break-after',
 			'break-before',
 			'break-inside',
@@ -119,115 +119,115 @@
 			'column-width',
 			'columns',
 
-		// Object fit.
+		// Object fit
 			'object-fit',
 			'object-position',
 
-		// Regions.
+		// Regions
 			'flow-from',
 			'flow-into',
 			'region-fragment',
 
-		// Scroll snap points.
+		// Scroll snap points
 			'scroll-snap-coordinate',
 			'scroll-snap-destination',
 			'scroll-snap-points-x',
 			'scroll-snap-points-y',
 			'scroll-snap-type',
 
-		// Shapes.
+		// Shapes
 			'shape-image-threshold',
 			'shape-margin',
 			'shape-outside',
 
-		// Tab size.
+		// Tab size
 			'tab-size',
 
-		// Text align last.
+		// Text align last
 			'text-align-last',
 
-		// Text decoration.
+		// Text decoration
 			'text-decoration-color',
 			'text-decoration-line',
 			'text-decoration-skip',
 			'text-decoration-style',
 
-		// Text emphasis.
+		// Text emphasis
 			'text-emphasis',
 			'text-emphasis-color',
 			'text-emphasis-position',
 			'text-emphasis-style',
 
-		// Text size adjust.
+		// Text size adjust
 			'text-size-adjust',
 
-		// Text spacing.
+		// Text spacing
 			'text-spacing',
 
-		// Transform.
+		// Transform
 			'transform',
 			'transform-origin',
 
-		// Transform 3D.
+		// Transform 3D
 			'backface-visibility',
 			'perspective',
 			'perspective-origin',
 			'transform-style',
 
-		// Transition.
+		// Transition
 			'transition',
 			'transition-delay',
 			'transition-duration',
 			'transition-property',
 			'transition-timing-function',
 
-		// Unicode bidi.
+		// Unicode bidi
 			'unicode-bidi',
 
-		// User select.
+		// User select
 			'user-select',
 
-		// Writing mode.
+		// Writing mode
 			'writing-mode',
 
 	);
 
 	/// Values that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
+	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org.
 	/// @var {list}
 	$vendor-values: (
 
-		// Cross fade.
+		// Cross fade
 			'cross-fade',
 
-		// Element function.
+		// Element function
 			'element',
 
-		// Filter function.
+		// Filter function
 			'filter',
 
-		// Flexbox.
+		// Flexbox
 			'flex',
 			'inline-flex',
 
-		// Grab cursors.
+		// Grab cursors
 			'grab',
 			'grabbing',
 
-		// Gradients.
+		// Gradients
 			'linear-gradient',
 			'repeating-linear-gradient',
 			'radial-gradient',
 			'repeating-radial-gradient',
 
-		// Grid layout.
+		// Grid layout
 			'grid',
 			'inline-grid',
 
-		// Image set.
+		// Image set
 			'image-set',
 
-		// Intrinsic width.
+		// Intrinsic width
 			'max-content',
 			'min-content',
 			'fit-content',
@@ -235,19 +235,19 @@
 			'fill-available',
 			'stretch',
 
-		// Sticky position.
+		// Sticky position
 			'sticky',
 
-		// Transform.
+		// Transform
 			'transform',
 
-		// Zoom cursors.
+		// Zoom cursors
 			'zoom-in',
 			'zoom-out',
 
 	);
 
-// Functions.
+// Functions
 
 	/// Removes a specific item from a list.
 	/// @author Hugo Giraudel
@@ -319,7 +319,7 @@
 
 	}
 
-// Mixins.
+// Mixins
 
 	/// Wraps @content in vendorized keyframe blocks.
 	/// @param {string} $name Name.
