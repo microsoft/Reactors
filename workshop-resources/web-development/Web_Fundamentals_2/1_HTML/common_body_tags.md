@@ -1,6 +1,6 @@
-# Common HTML tags used in the body of webpages
+# Common HTML Body Tags
 
-It's time to learn about the most common tags that you'll be using inside the body tag. Recall that when we were doing the overview, we talked about the common elements that you might want to place on a webpage, which are:
+It's time to learn about the most common tags that you'll be using inside the body tag. You might recall from the overview that we talked about the common elements that you might place on a web page, including:
 
 * Headings and paragraphs of text
 * Images
@@ -11,13 +11,13 @@ It's time to learn about the most common tags that you'll be using inside the bo
 
 ## Headings
 
-A heading is a section title, which means that often (but not always!) each section (```<div>```) will have a heading. There are 6 levels of headings that you can use (named ```<h1>``` through ```<h6>```) each indicating the importance of its section.
+A heading is a section title, which means that often (but not always!) each section on a page (```<div>```) will have a heading. There are 6 levels of headings that you can use (named ```<h1>``` through ```<h6>```), each indicating the importance of its section.
 
-Let's look at this page for examples. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an ```<h1>``` tag, written as...
+Let's look at this page for examples. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an ```<h1>``` tag, written as:
 
 ```<h1>Common Body Tags</h1>```
 
-...and is the main heading for the whole page.
+H1 is the main heading for the page.
 
 ## Paragraphs
 
@@ -48,33 +48,30 @@ Here's an example of how to use ```<p>``` tags:
 
 ## Images
 
-There are two ways that we use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed), or as background images (this is covered in CSS section).
+There are two ways to use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed) or as background images (this is covered in the [CSS](../2_CSS_CSS3) module).
 
-For embedding images as page elements you use the ```<img>``` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". ```<img src="[location of the image goes here]" alt="[This is a description of the image]">```
+To embed images as page elements, you use the ```<img>``` tag. This tag is unique because it does not require a closing tag like other tags. It's considered a "self-closing tag": ```<img src="[location of the image goes here]" alt="[This is a description of the image]">```.
 
-It has two required attributes: ```src``` and ```alt```.  The ```src``` attribute stands for source. This is the link to where the image is residing. The alt attribute stands for alternate. This is a few words of text to describe the image, in case it fails to load. This text will show up where the image should be in case the image fails to load.
+The ```<img>``` tag has two required attributes: ```src``` and ```alt```.  The ```src``` attribute stands for "source". This is the link where the image resides. The alt attribute stands for "alternate". This will include text that describes the image. This text appears in place of the image if the image fails to load.
 
-## Special Note About the `alt` tag
+### About the `alt` attribute
 
-There are several reasons for using the `alt` tag (attribute) when using images in your webpages. Using the tag with your images is required to make your website 508 compliant, the US government's laws about providing accessibility to disabled people. It's also important to mention that using `alt` tags is considered best practices for SEO so that search engines can know something about the images in our content.
+There are a couple reasons to use the `alt` attribute in images on your web pages:
+- It makes your website 508-compliant, a requirement by the US government to provide accessibility to disabled people. 
+- Using `alt` attributes is considered a best practice for search engine optimization (SEO) so that search engines can know something about the images within the content.
 
-`alt` tags are read by screen readers in place of images allowing the content and function of the image to be accessible to those with visual or certain cognitive disabilities.
-
-The text stored in the tag is displayed in place of the image in browsers if the image file is not loaded or when the user has chosen not to view images.
-
-`alt' tags provide a semantic meaning and description to images which can be read by search engines or be used to later determine the content of the image from page context alone.
+`alt` attributes are read by screen readers (images are not), allowing the meaning and function of the image to be conveyed to those with visual or certain cognitive disabilities. They can also be read by search engines to identify the content of the image and display it in search results.
 
 ## Links
-Links are things that we click on that redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
+Links are clickable items that redirect us to another page. Usually, links are in text format, but you can also turn an image into a link.
 
-The tag used for links is the `<a>` tag, which stands for the anchor tag. Similar to images, links also need to have an attribute that tells the browser where the link is pointing. For links, this is called the href attribute.
+The tag used for links is the `<a>` tag, which stands for "anchor". Similar to images, links must have an attribute that tells the browser where the link is pointing. For links, this is called the `href` attribute.
 
-Possible values for the href attribute are:
+Possible values for the `href` attribute are:
 
-An absolute URL - points to another website (like ```href="http://www.example.com/default.html"```)
-
-* A relative URL - points to a file within a website (like `href="default.html"`)
-* An anchor URL - points to an anchor inside a page (like `href="#top"`)
+* Absolute URL: Points to another website (```href="http://www.example.com/default.html"```)
+* Relative URL: Points to a file within a website (`href="default.html"`)
+* Anchor URL:  Points to an anchor inside a page (`href="#top"`)
 
 Example:
 
@@ -87,13 +84,13 @@ Example:
 
 ## Lists
 
-How we think of lists in HTML is a little different from how we think of them in our day to day life.
+How we think of lists in HTML is different from how we think of them in our day-to-day life.
 
-What kind of stuff do we normally consider as lists?
+What kinds of topics do we normally consider as lists?
 
-* Shopping lists
+* Shopping items
 * Chapter/topic names
-* etc..
+* Rosters
 
 So what's a list for our HTML scripting purposes?
 
@@ -117,9 +114,9 @@ There are two types of HTML lists: ordered lists (lists that are numbered) and u
 
 ## Tables
 
-We will often find ourselves using tables to display data. Don't be intimidated by the word "data", it just means information.
+We often find ourselves using tables to display data. Don't be intimidated by the word "data"; it just means information.
 
-Tables have many tags associated with them because they are made up of many different parts. They have:
+Tables have many tags associated with them because they consist of many parts. They have:
 
 A table head (```<thead>```), which contains rows (```<tr>```) and column names (```<th>```).
 A table body (```<tbody>```), which contains rows (```<tr>```) filled with table data (```<td>```).
