@@ -9,9 +9,9 @@ Contoso offers high resolution 3D printing services. The company prints custom d
 - Web development process
 - Identify page layouts by breaking page into sections
 
-## Accessiblity
+## Accessibility
 
-The web was designed to be avilable for everyone regardless of their condition. Not everyone can access the web the same way. Depending on the situation, a user could have a permanent, temporary, or conditional disability. A user could be accessing the web through various devices, connection speeds, and locations that could affect their experience on the web. In some cases, accessibility for all is required by law. To provide equal access and opportunity to people with diverse abilities, it is important as developers to keep accessibility in mind when developing applications. It is up to you the developer to make the web an accessible place.
+The web was designed to be available for everyone regardless of their condition. Not everyone can access the web the same way. Depending on the situation, a user could have a permanent, temporary, or conditional disability. A user could be accessing the web through various devices, connection speeds, and locations that could affect their experience on the web. In some cases, accessibility for all is required by law. To provide equal access and opportunity to people with diverse abilities, it is important as developers to keep accessibility in mind when developing applications. It is up to you the developer to make the web an accessible place.
 
 Some tips to get started on building a more accessible web:
 
@@ -33,7 +33,7 @@ Here are some questions to think about:
 
 ---
 
-## The web development proccess
+## The web development process
 
 Web development is an iterative process throughout the lifetime of a product. The process can be broken into the following steps:
 
@@ -42,7 +42,7 @@ Web development is an iterative process throughout the lifetime of a product. Th
 1. Design: Generate a blueprint for the work to be done.
 2. Develop: Write necessary code to implement the design.
 3. Deploy: Push code to a server to be viewed by anyone.
-4. Iterate: Repeat as necessary.
+4. Iterate: Repeat, as necessary.
 
 ### Design
 
@@ -54,9 +54,9 @@ Depending on the size of the team, the developer can also play the role of the d
 
 ### Develop
 
-Create a good foundation by focusing on the structural HTML before applying CSS. HTML is equivalent to the bones in our body in the sense that it holds everything together; without it, we cannot hold the form of the website together. CSS can be applied on top of a solid HTML foundation to add the final touches. A common developer mistake is too try to fix layout issues with CSS first, which can make it more difficult to maintain code. Some guidelines for the development stage:
+Create a good foundation by focusing on the structural HTML before applying CSS. HTML is equivalent to the bones in our body in the sense that it holds everything together; without it, we cannot hold the form of the website together. CSS can be applied on top of a solid HTML foundation to add the final touches. A common developer mistake is to try to fix layout issues with CSS first, which can make it more difficult to maintain code. Some guidelines for the development stage:
 
-- [ ] Idenify layout and repeating patterns (to be used for clasification).
+- [ ] Identify layout and repeating patterns (to be used for classification).
 - [ ] Create the necessary files (index.html, main.css).
 - [ ] Code section by section, focusing on the HTML structure first, and using common body tags and forms as discussed in [Part 2. HTML: Common Body Tags](../2_HTML/common_body_tags.md) and [Part 2. HTML: Forms](../2_HTML/forms.md).
 - [ ] Add style to match layouts to the mockups by using CSS Selectors, as discussed in [Part 3. CSS: CSS Selectors](../3_CSS_CSS3/css_selectors.md).
@@ -66,16 +66,16 @@ Create a good foundation by focusing on the structural HTML before applying CSS.
 
 What does it mean to deploy code? In short, our code will be copied to a server and sent to clients, as discussed in [Part 1. Web Basics: The Request and Response Cycle](../1_Web_Basics/req_resp.md). When thinking about deployment:
 
-- [Check out a live version of the site](https://reactor1.z5.web.core.windows.net).
-- Follow the deployment instructions from [Part 4. Capstone Deployment](../4_Capstone_Deployment/deploy.md).
+- [ ] [Check out a live version of the site](https://reactor1.z5.web.core.windows.net).
+- [ ] Follow the deployment instructions from [Part 4. Capstone Deployment](../4_Capstone_Deployment/deploy.md).
 
 ### Iterate
 
 Depending on the length of the project, a developer might also be responsible for maintaining the application over a period of time. During this maintenance, you can expect to tackle the following tasks:
 
-- Add new features.
-- Add new pages.
-- A/B test different colors/user flows.
+- [ ] Add new features.
+- [ ] Add new pages.
+- [ ] A/B test different colors/user flows.
 
 ---
 
@@ -84,11 +84,11 @@ Depending on the length of the project, a developer might also be responsible fo
 - Review requirements before coding.
 - Break pages into manageable sections.
 
-## Bonus
+## Value-added features
 
 - Improve user experience by breaking steps into multiple pages so users don't have to scroll.
-- Add cost calculation to order.
-- Add about and contact pages.
+- Add cost calculations to orders.
+- Add About and Contact pages.
 
 ## Resources
 
