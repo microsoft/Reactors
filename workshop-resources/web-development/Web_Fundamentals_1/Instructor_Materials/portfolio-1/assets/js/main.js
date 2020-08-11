@@ -8,7 +8,7 @@
 		$panels = $main.children('.panel'),
 		$nav = $('#nav'), $nav_links = $nav.children('a');
 
-	// Breakpoints.
+	// Breakpoints
 		breakpoints({
 			xlarge:  [ '1281px',  '1680px' ],
 			large:   [ '981px',   '1280px' ],
@@ -24,7 +24,7 @@
 			}, 100);
 		});
 
-	// Nav.
+	// Nav
 		$nav_links
 			.on('click', function(event) {
 
@@ -45,9 +45,9 @@
 
 			});
 
-	// Panels.
-
-		// Initialize.
+	// Panels
+	
+		// Initialize
 			(function() {
 
 				var $panel, $link;
@@ -83,7 +83,7 @@
 
 			})();
 
-		// Hashchange event.
+		// Hashchange event
 			$window.on('hashchange', function(event) {
 
 				var $panel, $link;
@@ -122,7 +122,7 @@
 						.css('max-height', $main.height() + 'px')
 						.css('min-height', $main.height() + 'px');
 
-				// Delay.
+				// Delay
 					setTimeout(function() {
 
 						// Hide all panels.
@@ -139,7 +139,7 @@
 						// Reset scroll.
 							$window.scrollTop(0);
 
-						// Delay.
+						// Delay
 							window.setTimeout(function() {
 
 								// Activate target panel.
@@ -150,10 +150,10 @@
 										.css('max-height', '')
 										.css('min-height', '');
 
-								// IE: Refresh.
+								// IE: refresh
 									$window.triggerHandler('--refresh');
 
-								// Unlock.
+								// Unlock
 									locked = false;
 
 							}, (breakpoints.active('small') ? 0 : 500));
@@ -162,7 +162,7 @@
 
 			});
 
-	// IE: Fixes.
+	// IE: fixes
 		if (browser.name == 'ie') {
 
 			// Fix min-height/flexbox.
