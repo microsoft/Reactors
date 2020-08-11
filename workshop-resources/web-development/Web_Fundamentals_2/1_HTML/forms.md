@@ -1,17 +1,18 @@
 # Forms
 
-Forms are one of the most important HTML tags you will learn. They are responsible for all the data exchange between the user (front-end) and the server (back-end). So it's very important that you have a good understanding of how to build them.
+Forms are one of the most important HTML tags you will learn. They are responsible for the data exchange between the user (front end) and the server (back end). So it's very important that you have a good understanding of how to build them.
 
-A form's job is to take in user input and send it to the back-end to be processed. A form is declared by using the `<form>` tag, which will have attributes action and method that decide where the form information gets sent, and how it gets sent respectively. [Learn more about forms and attributes here.](https://www.w3schools.com/htmL/html_forms.asp)
+A form's job is to accept user input and send it to the back end to be processed. A form is declared by using the `<form>` tag, which will have `action` and `method` attributes that decide where and how the form's information is sent, respectively. W3Schools has a [great collection of information about forms](https://www.w3schools.com/htmL/html_forms.asp).
 
-Taking in the input is done by using input fields, usually designated by the `<input>` tag. Depending on the type of information required, the way in which we take in the information may be different. This is sometimes designated by a type attribute, and other times by a different tag. Each input will typically also have a label (`<label>`) that is the name of the field. To make sure that a specific label is linked/associated to a specific input element, we must add corresponding for attribute on the label with input's id attribute. Including a label tag around the input field is a convention that allows us to click on the label to focus on the input field.
+Form input is received using input fields--usually designated by the `<input>` tag. Depending on the type of information required, the way the information is received may be different. This is sometimes designated by a type attribute, and other times by a different tag. Each input will also typically have a `<label>` tag that is the name of a given field. To make sure that a specific label is linked/associated to a specific input element, we must connect the corresponding attribute on the label tag with input's ID attribute. Including a label tag around the input field allows us to click the label to put focus on that input field.
 
-A name attribute also will typically go hand in hand with your input tags. They are used mainly for sending form data that the user enters in your form. You need the name attribute to reference that field in your form in other parts of your HTML.
+A name attribute will typically be matched with your input tags. They are mainly used to send form data that the user enters in your form. You will need the name attribute to reference that field in your form in other parts of your HTML.
 
+## Input types in action
 Let's look at what input types would be used in the following circumstances:
 
-When the user needs to enter a short amount of text, such as an email address or name.
-The appropriate input type here is text. Also notice how we can bind elements together. In the label tag we add the `for` attribute and give it the id of the input field for the value.
+1. When the user needs to enter a short amount of text, such as an email address or name.
+The appropriate input type here is text. Also notice how we can bind elements together. In the label tag, we add the `for` attribute and give it the ID of the input field for the value.
 
 ``` html
 <label for="first_name">First Name:</label>
@@ -22,7 +23,7 @@ The appropriate input type here is text. Also notice how we can bind elements to
 <input type="text" id="email" name="email">
 ```
 
-A password field.
+2. A password field.
 The appropriate input type here is password.
 
 ``` html
@@ -30,7 +31,7 @@ The appropriate input type here is password.
 <input type="password" id="password" name="password">
 ```
 
-When the user can choose only 1 option from a variety of options. A good example is a gender selector.
+3. When the user can only choose 1 option from a list of options. A good example is a gender selector.
 One appropriate input type here is radio buttons.
 
 ``` html
@@ -49,7 +50,7 @@ Another option is a dropdown menu, which uses <select> and <option> tags.
 </select>
 ```
 
-When the user can choose multiple things from a variety of options, such as choosing their favorite 3 colors from 5 options.
+4. When the user can choose multiple items from a list, such as choosing their favorite 3 colors from 5 options.
 The appropriate input type here is checkboxes.
 
 ``` html
@@ -65,19 +66,19 @@ The appropriate input type here is checkboxes.
 <input type="checkbox" id="purple" name="color" value="purple">
 ```
 
-When the user might want to enter longer text. This can be used in forums for comments, or for user profile descriptions.
-In this case we use the ```<textarea>``` tag.
+5. When the user wants to enter longer text. This can be used in forums for comments, or for user profile descriptions.
+In this case, we would use the ```<textarea>``` tag.
 
 ```<textarea name="description"></textarea>```
 
-When a form needs to submit more than just user input.
-Input type hidden is similar to text fields, except they do not show on the page and users can not enter anything into them. This is useful for the back-end authentication and passing data.
+6. When a form needs to submit more than just user input.
+The input type is hidden. It is similar to text fields, except it does not appear on the page and users cannot enter text into it. This is useful for back end authentication and passing data.
 
 ``` html
 <input type="hidden" name="id" value="7">
 ```
 
-Finally, to create a submit button:
+7. Finally, to create a submit button.
 The appropriate input type is submit.
 
 ``` html
@@ -114,8 +115,8 @@ Let's look at a sample full registration form:
 </body>
 ```
 
-Other label-input Declaration
-Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairing shown above, but you may encounter a different format on how the label-input set is being declared. Below is an example:
+## Other label-input declarations
+Most CSS frameworks (especially on Twitter Bootstrap) use the label-input pairing shown above, but you may encounter a different format for the label-input set that is being declared. Below is an example:
 
 ``` html
 <body>
@@ -135,15 +136,15 @@ Most CSS frameworks (especially on Twitter Bootstrap), use the label-input pairi
 
 Notice that the input element is now nested inside the label element and we no longer need to link the two using the label's for attribute and the input's id attribute.
 
-## SSL (Secure Socket Layer) and Forms
+## Secure Socket Layer (SSL) and forms
 
-The SSL encryption protocol secures communication over the Internet. SSL encryption makes all the information sent through your forms unreadable for any person or robot trying to intercept it. When SSL is enabled for your forms, their URLs start with https:// instead of http://.
+The SSL encryption protocol secures communication over the internet. SSL encryption makes the information sent through your forms unreadable for any person or robot trying to intercept it. When SSL is enabled for your forms, the URLs begin with https:// instead of http://.
 
-If you want to embed your form on a webpage you own, it is highly recommended that you also secure the webpage with an SSL encryption. Check with your web hosting provider to learn more about securing your forms on your websites.
+If you want to embed your form on a web page you own, it is highly recommended that you also secure the web page with an SSL encryption. To learn more about securing your forms on your website, check your web hosting provider.
 
-## HTML5 Elements
+## HTML5 elements
 
-HTML5 provides us with 13 new input type for use in creating our forms. You should use these whenever you can as they will reduce the amount of time you need to develop your forms and they will give our users an improved experience. While we won't go into detail on using these input types, [you can read more about each one of these fields in this article.](http://html5doctor.com/html5-forms-input-types/)
+HTML5 provides 13 input types for creating forms. You should use these when you can, as they will reduce the time developing your forms and they will give users an improved experience. While this workshop doesn't discuss using these input types, [you can read more about each one of these fields in this article](http://html5doctor.com/html5-forms-input-types/).
 
 * `search`
 * `email`
