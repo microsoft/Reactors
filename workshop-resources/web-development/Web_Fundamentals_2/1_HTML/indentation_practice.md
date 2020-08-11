@@ -2,20 +2,20 @@
 
 Checkpoint:
 
-* If you haven't installed [Visual Studio Code please install it now](https://code.visualstudio.com/download).
-* [You can also perform this exercise here.](https://codepen.io/dannyooooo/pen/RwNyYXr)
+- If you haven't [installed Visual Studio Code](https://code.visualstudio.com/download), please install it now.
+- [You can also perform this exercise here.](https://codepen.io/dannyooooo/pen/RwNyYXr)
 
 Automatic code formatting is available in Visual Studio Code through the following shortcuts:
 
-* On Windows: Shift + Alt + F
-* On Mac: Shift + Option + F
-* On Ubuntu: Ctrl + Shift + I
+- On Windows: Shift + Alt + F
+- On Mac: Shift + Option + F
+- On Ubuntu: Ctrl + Shift + I
 
-**Let's Start coding!**
+**Let's start coding!**
 
 Please fix this very ugly code!
 
-Create a new file called ```indentation.html``` in Visual Studio Code and copy and paste the code below, from there you will beautify the code by adding proper identation:
+In Visual Studio Code, create a file called ```indentation.html```, then copy and paste the code below. From there you will beautify the code by adding proper indentation.
 
 ``` html
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ I love HTML!
 </html>
 ```
 
-Please note that most of the tags in the code below have not been discussed yet. But at this point, you already know what opening and closing tags look like. **Without knowing the HTML tags, determine what the parents, children, and siblings are by properly indenting the code below**:
+Please note that most tags in the code below have not been discussed yet. But at this point, you already know what opening and closing tags look like. **Without knowing the HTML tags, determine what the parents, children, and siblings are by properly indenting the code below**:
 
 ``` html
 <!DOCTYPE html>
@@ -75,4 +75,4 @@ Please note that most of the tags in the code below have not been discussed yet.
 </html>
 ```
 
-NEXT: [Review this activity in the next section here](./indentation_review.md)
+NEXT: [Review this activity in the next section](./indentation_review.md)
