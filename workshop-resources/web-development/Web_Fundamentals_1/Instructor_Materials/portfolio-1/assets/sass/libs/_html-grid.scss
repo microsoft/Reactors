@@ -1,18 +1,18 @@
 // html-grid.scss v1.0 | @ajlkn | MIT licensed */
 
-// Mixins.
+// Mixins
 
 	/// Initializes the current element as an HTML grid.
 	/// @param {mixed} $gutters Gutters (either a single number to set both column/row gutters, or a list to set them individually).
 	/// @param {mixed} $suffix Column class suffix (optional; either a single suffix or a list).
 	@mixin html-grid($gutters: 1.5em, $suffix: '') {
 
-		// Initialize.
+		// Initialize
 			$cols: 12;
 			$multipliers: 0, 0.25, 0.5, 1, 1.50, 2.00;
 			$unit: 100% / $cols;
 
-			// Suffixes.
+			// Suffixes
 				$suffixes: null;
 
 				@if (type-of($suffix) == 'list') {
@@ -22,7 +22,7 @@
 					$suffixes: ($suffix);
 				}
 
-			// Gutters.
+			// Gutters
 				$guttersCols: null;
 				$guttersRows: null;
 
@@ -39,18 +39,18 @@
 
 				}
 
-		// Row.
+		// Row
 			display: flex;
 			flex-wrap: wrap;
 			box-sizing: border-box;
 			align-items: stretch;
 
-			// Columns.
+			// Columns
 				> * {
 					box-sizing: border-box;
 				}
 
-			// Gutters.
+			// Gutters
 				&.gtr-uniform {
 					> * {
 						> :last-child {
@@ -59,7 +59,7 @@
 					}
 				}
 
-			// Alignment.
+			// Alignment
 				&.aln-left {
 					justify-content: flex-start;
 				}
@@ -95,14 +95,14 @@
 						$suffix: '';
 					}
 
-				// Row.
+				// Row
 
 					// Important.
 						> .imp#{$suffix} {
 							order: -1;
 						}
 
-					// Columns, offsets.
+					// Columns, offsets
 						@for $i from 1 through $cols {
 							> .col-#{$i}#{$suffix} {
 								width: $unit * $i;
@@ -116,7 +116,7 @@
 					// Step through multipliers.
 						@each $multiplier in $multipliers {
 
-							// Gutters.
+							// Gutters
 								$class: null;
 
 								@if ($multiplier != 1) {
@@ -131,7 +131,7 @@
 										padding: ($guttersRows * $multiplier) 0 0 ($guttersCols * $multiplier);
 									}
 
-									// Uniform.
+									// Uniform
 										&.gtr-uniform {
 											margin-top: $guttersCols * $multiplier * -1;
 
