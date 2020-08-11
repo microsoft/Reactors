@@ -15,7 +15,7 @@ Automatic code formatting is available in Visual Studio Code through the followi
 
 Please fix this very ugly code!
 
-In Visual Studio Code, create a new file called ```indentation.html```, then copy and paste the code below. From there you will beautify the code by adding proper indentation.
+In Visual Studio Code, create a file called ```indentation.html```, then copy and paste the code below. From there you will beautify the code by adding proper indentation.
 
 ``` html
 <!DOCTYPE html>
