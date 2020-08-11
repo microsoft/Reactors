@@ -12,7 +12,9 @@ HyperText Markup Language (HTML) is the main markup language for all web pages. 
 
 ### What is HTML?
 
-HTML is the language of the web. Its purpose is to use a browser to let us communicate the meaning of the content that we place on a web page. To achieve this, HTML defines a number of **tags** or **elements** that we can wrap the contents with, including:
+Hypertext Markup Language (HTML) is the language of the web. 
+
+Its purpose is to use a browser to let us communicate the meaning of the content that we place on a web page. To achieve this, HTML defines a number of **tags** or **elements** that we can wrap the contents with, including:
 
 - Headings and paragraphs of text
 - Images
@@ -27,7 +29,7 @@ HTML tags describe the content they contain. For example, there are paragraph ta
 
 ### Why HTML and CSS?
 
-The HTML and Cascading Stylesheets (CSS) sections are designed to take you through the theoretical components of the web as well as the first step in creating a web application (building out the client-side). When building a web application, we believe it is best to always start with a clickable prototype involving only HTML, CSS, and Javascript so it is only natural to teach these technologies first.
+The HTML and Cascading Stylesheets (CSS) sections are designed to take you through the theoretical components of the web as well as the first step in creating a web application (building out the client side). When building a web application, it is best to start with a clickable prototype involving only HTML, CSS, and JavaScript. Thus, it is only natural to teach these technologies first.
 
 ### Create a simple HTML document
 
