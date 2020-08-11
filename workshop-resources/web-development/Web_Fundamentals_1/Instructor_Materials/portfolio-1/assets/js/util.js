@@ -98,9 +98,9 @@
 				if (typeof config.target != 'jQuery')
 					config.target = $(config.target);
 
-		// Panel.
+		// Panel
 
-			// Methods.
+			// Methods
 				$this._hide = function(event) {
 
 					// Already hidden? Bail.
@@ -115,10 +115,10 @@
 
 						}
 
-					// Hide.
+					// Hide
 						config.target.removeClass(config.visibleClass);
 
-					// Post-hide stuff.
+					// Post-hide stuff
 						window.setTimeout(function() {
 
 							// Reset scroll position.
@@ -135,7 +135,7 @@
 
 				};
 
-			// Vendor fixes.
+			// Vendor fixes
 				$this
 					.css('-ms-overflow-style', '-ms-autohiding-scrollbar')
 					.css('-webkit-overflow-scrolling', 'touch');
@@ -177,7 +177,7 @@
 
 				}
 
-			// Event: Touch stuff.
+			// Event: touch stuff
 				$this.on('touchstart', function(event) {
 
 					$this.touchPosX = event.originalEvent.touches[0].pageX;
@@ -249,12 +249,12 @@
 
 				});
 
-			// Event: Prevent certain events inside the panel from bubbling.
+			// Event: prevent certain events inside the panel from bubbling.
 				$this.on('click touchend touchstart touchmove', function(event) {
 					event.stopPropagation();
 				});
 
-			// Event: Hide panel if a child anchor tag pointing to its ID is clicked.
+			// Event: hide panel if a child anchor tag that is pointing to its ID is clicked.
 				$this.on('click', 'a[href="#' + id + '"]', function(event) {
 
 					event.preventDefault();
@@ -264,14 +264,14 @@
 
 				});
 
-		// Body.
+		// Body
 
 			// Event: Hide panel on body click/tap.
 				$body.on('click touchend', function(event) {
 					$this._hide(event);
 				});
 
-			// Event: Toggle.
+			// Event: toggle
 				$body.on('click', 'a[href="#' + id + '"]', function(event) {
 
 					event.preventDefault();
@@ -281,9 +281,9 @@
 
 				});
 
-		// Window.
+		// Window
 
-			// Event: Hide on ESC.
+			// Event: hide on ESC
 				if (config.hideOnEscape)
 					$window.on('keydown', function(event) {
 
@@ -320,10 +320,10 @@
 
 			}
 
-		// Vars.
+		// Vars
 			var $this = $(this);
 
-		// Text, TextArea.
+		// Text, textarea
 			$this.find('input[type=text],textarea')
 				.each(function() {
 
@@ -363,7 +363,7 @@
 
 				});
 
-		// Password.
+		// Password
 			$this.find('input[type=password]')
 				.each(function() {
 
@@ -430,7 +430,7 @@
 
 				});
 
-		// Events.
+		// Events
 			$this
 				.on('submit', function() {
 
@@ -521,7 +521,7 @@
 	/**
 	 * Moves elements to/from the first positions of their respective parents.
 	 * @param {jQuery} $elements Elements (or selector) to move.
-	 * @param {bool} condition If true, moves elements to the top. Otherwise, moves elements back to their original locations.
+	 * @param {bool} condition, if true, moves elements to the top. Otherwise, moves elements to their original locations.
 	 */
 	$.prioritize = function($elements, condition) {
 
@@ -551,7 +551,7 @@
 						// Get placeholder (which will serve as our point of reference for when this element needs to move back).
 							$p = $e.prev();
 
-							// Couldn't find anything? Means this element's already at the top, so bail.
+							// Couldn't find anything? It means this element is already at the top, so bail.
 								if ($p.length == 0)
 									return;
 
@@ -572,7 +572,7 @@
 
 						$p = $e.data(key);
 
-						// Move element back to its original location (using our placeholder).
+						// Move element to its original location (using our placeholder).
 							$e.insertAfter($p);
 
 						// Unmark element as moved.
