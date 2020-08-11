@@ -1,6 +1,6 @@
-# Common HTML Tags Used in the Body of Web Pages
+# Common HTML Body Tags 
 
-It's time to learn about the most common tags that you'll be using inside the body tag. During the overview, we talked about the common elements that you might want to place on a web page, which are:
+It's time to learn about the most common tags that you'll be using inside the body tag. You might recall from the overview that we talked about the common elements that you might place on a web page, including:
 
 - Headings and paragraphs of text
 - Images
@@ -11,13 +11,19 @@ It's time to learn about the most common tags that you'll be using inside the bo
 
 ## Headings
 
-A heading is a section title, which means that often (but not always!) each section will have a heading. There are 6 levels of headings that you can use (named `<h1>` through `<h6>`), allowing you to indicate sections and subsections.
+A heading is a section title, which means that often (but not always!) each section on a page (```<div>```) will have a heading. There are 6 levels of headings that you can use (named ```<h1>``` through ```<h6>```), each indicating the importance of its section.
 
-Let's look at this page, for example. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an `<h1>` tag, written as `<h1>Common Body Tags</h1>` and is the main heading for the page.
+Let's look at this page for examples. At the top of the page, you see "Common Body Tags" in large and bold letters. This is an ```<h1>``` tag, written as:
+
+```<h1>Common Body Tags</h1>```
+
+H1 is the main heading for the page.
 
 ## Paragraphs
 
-Any chunk of text is a paragraph and, therefore, needs to be encapsulated in paragraph `<p>` tags. Here's an example of how to use `<p>` tags:
+Any chunk of text is a paragraph and, therefore, needs to be encapsulated in paragraph `<p>` tags. 
+
+Here's an example of how to use `<p>` tags:
 
 ``` html
 <p>
@@ -42,11 +48,11 @@ Any chunk of text is a paragraph and, therefore, needs to be encapsulated in par
 
 ## Images
 
-There are two ways we use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed), or as background images (this is covered later in the CSS section).
+There are two ways we use images on a web page: as page elements (such as album art on your favorite music sharing site, or the photos in your LinkedIn feed), or as background images (this is covered in the [CSS](..3_CSS_CSS3) module).
 
-For embedding images as page elements, you use the `<img>` tag. This tag is special and does not require a closing tag like other tags. It's considered a "self-closing tag". `<img src="[location of the image goes here]" alt="[This is a description of the image]">`
+To embed images as page elements, you use the ```<img>``` tag. This tag is unique because it does not require a closing tag like other tags. It's considered a "self-closing tag": ```<img src="[location of the image goes here]" alt="[This is a description of the image]">```.
 
-It has two required attributes: `src` and `alt`.  The `src` attribute stands for "source". This is the link to where the image is residing. The alt attribute stands for "alternate". This is where you can type a few words of text to describe the image, in case it fails to load. In this case, the text will appear where the image should have appeared.
+The ```<img>``` tag has two required attributes: ```src``` and ```alt```.  The ```src``` attribute stands for "source". This is the link where the image resides. The alt attribute stands for "alternate". This will include text that describes the image. This text appears in place of the image if the image fails to load.
 
 ### About the `alt` attribute
 
@@ -57,14 +63,15 @@ To ensure your page is accessible, it's imperitive to use `alt` attributes on **
 Besides making your page accessible, `alt` text is used by search engines when indexing your pages. As a result, proper `alt` text is key to [search engine optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization).
 
 ## Hyperlinks
-Hyperlinks, or simply links, are items on a page that we click to redirect us to another page. Usually, links are in text format, but you can also use an image as a link.
+Hyperlinks, or simply links, are clickable items that redirect us to another page. Usually, links are in text format, but you can also turn an image into a link.
 
 The tag used for links is the `<a>` tag, which stands for "anchor". Similar to images, links must have an attribute that tells the browser where the link is pointing. For links, this is called the `href` attribute.
 
 Possible values for the href attribute are:
 
-- An absolute URL to point to another website (like `href="http://www.example.com/default.html"`).
-- A relative URL to point to a file within a website (like `href="default.html"`).
+* Absolute URL: Points to another website (```href="http://www.example.com/default.html"```)
+* Relative URL: Points to a file within a website (`href="default.html"`)
+* Anchor URL:  Points to an anchor inside a page (`href="#top"`)
 
 Example:
 
@@ -125,11 +132,11 @@ Q: <a href="#bite">Do alpacas bite?</a>
 
 How we think of lists in HTML is different from how we think of them in our day-to-day life.
 
-What categories do we normally consider appropriate for lists?
+What kinds of topics do we normally consider as lists?
 
-- Shopping lists
-- Chapter/topic names
-- Rosters
+* Shopping items
+* Chapter/topic names
+* Rosters
 
 When creating a page, we may display a collection of elements that are of the same type. The most common use for lists in HTML is for navigation links.
 
@@ -151,7 +158,7 @@ There are two types of HTML lists: ordered lists (lists that are numbered) and u
 
 ## Tables
 
-We often find ourselves using tables to display data. Don't be intimidated by the word "data", it just means information.
+We often find ourselves using tables to display data. Don't be intimidated by the word "data"; it just means information.
 
 Tables have many tags associated with them because they consist of many parts. They have:
 
