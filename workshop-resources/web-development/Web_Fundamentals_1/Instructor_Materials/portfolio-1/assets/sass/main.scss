@@ -8,7 +8,7 @@
 @import url('fontawesome-all.min.css');
 
 
-// Breakpoints.
+// Breakpoints
 
 	@include breakpoints((
 		xlarge:  ( 1281px,  1680px ),
@@ -18,7 +18,7 @@
 		xsmall:  ( null,    360px  )
 	));
 
-// Reset.
+// Reset
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
