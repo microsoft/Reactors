@@ -9,7 +9,7 @@ products:
 
 # HTML Hello World
 
-This sample demonstrates a tiny Hello World HTML app for [App Service](https://docs.microsoft.com/azure/app-service).
+The sample above demonstrates a tiny Hello World HTML app for [App Service](https://docs.microsoft.com/azure/app-service).
 
 # Contribution
 
