@@ -1,8 +1,8 @@
-# Part 3. Cascading Stylesheets (CSS)
+# Part 3. Cascading Style Sheets (CSS)
 
-HTML is used to define the structure of the information you're displaying on your page. Cascading Stylesheets (CSS) is used to indicate how that information should be displayed. This separation of focus areas enables greater flexibility and accessibility for your pages.
+HTML is used to define the structure of the information you're displaying on your page. Cascading Style Sheets (CSS) are used to indicate how that information should be displayed. This separation of focus areas enables greater flexibility and accessibility for your pages.
 
-In this module, we'll explore how CSS works, how items are selected, and the most important lesson about CSS: boxes. Here are the lessons we will discuss in this module:
+In this module, you'll explore how CSS works, how items are selected, and the most important lesson about CSS: boxes. Here are the lessons discussed in this module:
 
 1. [Start Here: What Is CSS?](./introduction_to_css.md)
 2. [CSS Selectors](./css_selectors.md)
@@ -20,5 +20,5 @@ NEXT: [Part 4. Capstone Project and Deployment with Azure](../4_Capstone_Deploym
 
 * [Part 1. Web Basics](../1_Web_Basics)
 * [Part 2. Hypertext Markup Language (HTML)](../2_HTML)
-* [Part 3. Cascading Stylesheets (CSS)](../3_CSS_CSS3)
+* [Part 3. Cascading Style Sheets (CSS)](../3_CSS_CSS3)
 * [Part 4. Capstone Project and Deployment with Azure](../4_Capstone_Deployment)
