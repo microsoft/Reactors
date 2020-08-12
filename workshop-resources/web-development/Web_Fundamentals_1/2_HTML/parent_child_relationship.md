@@ -1,6 +1,6 @@
-# Indentation and Parent, Child, Sibling Relationships
+# Indentation in Parent, Child, and Sibling Relationships
 
-In this subsection, we will be covering two very important concepts: indentation and the parent, child, sibling relationships.
+In this subsection, you will learn two very important concepts: indentation and the parent, child, sibling relationships.
 
 Consider the following example:
 
@@ -9,7 +9,7 @@ Bacon ipsum dolor amet tail salami ball tip leberkas venison. Pig pork loin shou
 
 In the code example below, notice how the header is centered in the middle of the page. Also notice that the first word at the beginning of the paragraph is indented.
 
-As programmers, we want our fellow programmers to distinguish where one `code block` ends and the next begins. Applying this concept to HTML, our "Bacon Ipsum" paragraph should be coded like this:
+As a programmer, you want your fellow programmers to distinguish where one `code block` ends and the next begins. Applying this concept to HTML, the "Bacon Ipsum" paragraph should be coded like this:
 
 ``` html
 <!DOCTYPE html>
@@ -48,13 +48,13 @@ Simple answer: **NO.**
 
 ![Pic of Frustrated Man](../images/what.jpeg)
 
-Remember, we don't indent our code by our website's **content**, we indent it using the HTML tag's **parent, child, sibling relationships**. So how did we get the title centered? Good question! That will require some CSS that we will cover in part three of the workshop. For now, just understand that indentation is determined by the parent, child, sibling relationships, **not** by how we want the HTML to be visually-rendered in the browser.
+Remember, you don't indent code by the website's **content**; rather, you indent it using the HTML tag's **parent, child, sibling relationships**. So how do you get the title centered? Good question! That will require some CSS that will be covered in part three of the workshop. For now, just understand that indentation is determined by the parent, child, sibling relationships, **not** by how you want the HTML to be visually-rendered in the browser.
 
 ## HTML and parent, child, sibling relationships
 
 The parent, child, sibling relationships reference is a term to describe the relationship between tags and elements inside an HTML document.
 
-To know the relationship between tags, we must first determine the parents, children, and siblings within our HTML document.
+To know the relationship between tags, you must first determine the parents, children, and siblings within the HTML document.
 
 For example:
 
@@ -97,17 +97,17 @@ and:
 
 It's not required, but it is highly recommended because:
 
-- Beautiful-looking code can make you happy, and one way to make them look beautiful is to properly indent them.
-- Properly indented code leads to less time spent troubleshooting. Imagine struggling to solve a coding problem, perhaps even cursing the inventor of HTML--only to find out that you missed a closing tag. You were not able to see it quickly because you did not properly indent!
+- Beautiful-looking code can make you happy, and one way to make it beautiful is through proper indentation.
+- Properly-indented code leads to less time spent troubleshooting. Imagine struggling to solve a coding problem, perhaps even cursing the inventor of HTML--only to find out that you missed a closing tag. You were not able to see it quickly because you did not properly indent!
 - It's easy to browse your own code. With a glance, you know right away which part is the header and which is the footer.
 - It's a good coding habit. Popular programming languages such as PHP, Java, or Ruby recommend proper code indentation. Python even enforces it.
 
-### **How to indent**
+### How to indent
 
-Tap the Tab key. One tab is equal to four spaces. Some people use two spaces and you can change this option within your text editor's settings. We recommend that you are consistent and do your best to make your code readable and clear.
+Tap the Tab key. One tab is equal to four spaces. Some people use two spaces and you can change this option within your text editor's settings. It's recommended that you remain consistent in making your code readable and clear.
 
 ## What you learned
 
 In the section, you learned about indentation and how different HTML elements are nested within each other. You learned that because of this, nesting has a parent-child relationship. Similarly, children of parent elements in HTML are called siblings. HTML is recursive, and siblings can also have children.  
 
-NEXT: We will [practice how to indent our HTML code](./indentation_practice.md).
+NEXT: You will [practice how to indent HTML code](./indentation_practice.md).
