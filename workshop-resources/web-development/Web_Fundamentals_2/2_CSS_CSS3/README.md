@@ -1,22 +1,26 @@
-# Part 2. CSS & CSS3
+# Part 2. Cascading Style Sheets (CSS)
 
-1. [Start Here: CSS Overview](./introduction_to_css.md)
+HTML is used to define the structure of the information you're displaying on your page. Cascading Style Sheets (CSS) are used to indicate how that information should be displayed. This separation of focus areas enables greater flexibility and accessibility for your pages.
+
+In this module, you'll explore how CSS works, how items are selected, and the most important lesson about CSS: boxes. Here are the lessons discussed in this module:
+
+1. [Start Here: What Is CSS?](./introduction_to_css.md)
 2. [CSS Selectors](./css_selectors.md)
 3. [Activity: Dojo Diner](./dojo-diner.md)
 4. [Styling Elements](./styling_elements.md)
 5. [Styling Text](./styling_text.md)
-6. [Using the Inspect Tool](./inspect_element.md)
+6. [Using the Inspect Element](./inspect_element.md)
 7. [The Display Property](./display_property.md)
 8. [Box Model](./box_model.md)
-9. [Position Practice](./position_practice.md)
-10. [Activity: Portfolio Activity](./portfolio_activity.md)
+9. [The Position Property](./position_practice.md)
+10. [Activity: Portfolio Page](./portfolio_activity.md)
 
-NEXT: [Part 3. Javascript](../3_Javascript)
+NEXT: [Part 3. JavaScript](../3_Javascript)
 
-## Course modules
+## All course modules
 
-* [Part 1. HTML: Hypertext Markup Language](../1_HTML)
+* [Part 1. Hypertext Markup Language (HTML)](../1_HTML)
 * [Part 2. CSS: Selectors, Styling, and Display](../2_CSS_CSS3)
-* [Part 3. Javascript](../3_Javascript)
-* [Part 4. JQuery + APIs](../4_JQuery_APIs)
-* [Part 5. Capstone + Deployment with Azure](../5_Capstone_Web_Publishing)
+* [Part 3. JavaScript](../3_Javascript)
+* [Part 4. JQuery and APIs](../4_JQuery_APIs)
+* [Part 5. Capstone Project and Deployment with Azure](../5_Capstone_Web_Publishing)
