@@ -1,10 +1,10 @@
 # Activity: Dojo Diner
 
-## Welcome to the CSS Dojo Diner
+## Welcome to the CSS Dojo Diner!
 
-The goal of this activity is to get you familiar with how CSS works and so you can see what CSS can do.
+The goal of this activity is to get familiar with how CSS works and see what it can do.
 
-To do this activity you must add the CSS code to select the elements that each panel asks you to select. There is also a help button you can reference if you need a hint to get the right CSS code in to select the element each level asks you to manipulate.
+To do this activity, add the CSS code necessary to select the elements that each panel asks for. There is a help button you can use if you need assistance finding the right CSS element for each level.
 
 ![Dojo Diner Image](../images/diner.png "Dojo Diner")
 
