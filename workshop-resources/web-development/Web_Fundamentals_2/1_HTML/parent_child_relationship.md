@@ -1,16 +1,15 @@
-# Parent, Child, Sibling Relationship
+# Indentation in Parent, Child, and Sibling Relationships
 
-In this chapter, we will be covering 2 very important concepts: Indentation and the Parent, Child, Sibling Relationship.
+In this subsection, you will learn two very important concepts: indentation and the parent, child, sibling relationships.
 
 Consider the following example:
 
 > **Bacon Ipsum, Dolor Amet?**
 Bacon ipsum dolor amet tail salami ball tip leberkas venison. Pig pork loin shoulder pork fatback corned beef chuck shank drumstick cow doner cupim capicola. Swine beef ground round, kielbasa meatball doner jowl rump chuck pastrami venison spare ribs turducken sirloin sausage. Sausage venison doner brisket, andouille pork pastrami strip steak drumstick tri-tip cupim.
 
-Notice how the header is centered in the middle of the page. Also notice that the first word at the beginning of the paragraph is indented a few spaces over. As programmers, we also want our co-programmers to distinguish where our
- ```code block``` ends and the next begins.
+In the code example below, notice how the header is centered in the middle of the page. Also notice that the first word at the beginning of the paragraph is indented.
 
- Applying this concept to coding, our "Bacon Ipsum" paragraph should be translated like this in HTML:
+As a programmer, you want your fellow programmers to distinguish where one `code block` ends and the next begins. Applying this concept to HTML, the "Bacon Ipsum" paragraph should be coded like this:
 
 ``` html
 <!DOCTYPE html>
@@ -49,16 +48,16 @@ Simple answer: **NO.**
 
 ![Pic of Frustrated Man](../images/what.jpeg)
 
-Remember, we don't indent our code by our website's
-  _content,_ we indent them via the HTML tag's **parent, child, sibling relationship**. So how did we get the title centered? Good question! That'll require some CSS that we will be going over in part three of the workshop. For now, just understand that indentation is determined by the PCS relationship, _not_by how we want the HTML to be visually rendered on the browser.
+Remember, you don't indent code by the website's **content**; rather, you indent it using the HTML tag's **parent, child, sibling relationships**. So how do you get the title centered? Good question! That will require some CSS that will be covered in part three of the workshop. For now, just understand that indentation is determined by the parent, child, sibling relationships, **not** by how you want the HTML to be visually-rendered in the browser.
 
-## HTML PCS Relationship
+## HTML and parent, child, sibling relationships
 
-The PCS relationship is just a term to describe the relationship between tags/elements inside an HTML document.
+The parent, child, sibling relationships reference is a term to describe the relationship between tags and elements inside an HTML document.
 
-To know the relationship between tags, we must first determine the parents, children, and siblings within our HTML document.
+To know the relationship between tags, you must first determine the parents, children, and siblings within the HTML document.
 
-Example:
+
+For example:
 
 ``` html
 <!DOCTYPE html>
@@ -95,19 +94,20 @@ and:
 * <head> and <body> are siblings
 ```
 
-## Is it really required to indent HTML code
+### Is it required to indent HTML code?
 
-It's not required, but it is _highly recommended_, and here are the reasons why:
+It's not required, but it is highly recommended because:
 
-* Beautiful-looking code can make you happy, and one way to make them look beautiful is to properly indent them.
-* Properly indented code leads to less time spent on troubleshooting. Imagine being stuck with a problem, and you curse the inventor of HTML (damn you, Tim Berners-Lee!) -- only to find out that you just missed a closing tag. You were not able to quickly see it because you did not properly indent!
-* It's easy to browse through your own code. With a glance, you know right away which part is the header part, and which part is the footer.
-* It's a good coding habit. Popular programming languages such as PHP, Java, or Ruby recommend proper code indentation. Python even enforces it.
+- Beautiful-looking code can make you happy, and one way to make it beautiful is through proper indentation.
+- Properly-indented code leads to less time spent troubleshooting. Imagine struggling to solve a coding problem, perhaps even cursing the inventor of HTML--only to find out that you missed a closing tag. You were not able to see it quickly because you did not properly indent!
+- It's easy to browse your own code. With a glance, you know right away which part is the header and which is the footer.
+- It's a good coding habit. Popular programming languages such as PHP, Java, or Ruby recommend proper code indentation. Python even enforces it.
 
-### **How to Indent**
 
-* Just tap the tab key. One tab is equal to four spaces. Some people like two spaces and you can change this option within the settings in your favorite text editor. We recommend you to be consistent and do your best to make your code readable and clear.
+### How to indent
 
-At this point, you may not appreciate the significance of HTML PCSrelationship -- and that's okay. Just know that as early as the HTML course, you will be dealing with them (through properly indenting your code), but will not be directly working on them (target, and manipulate related elements via CSS and or jQuery).
+Tap the Tab key. One tab is equal to four spaces. Some people use two spaces and you can change this option within your text editor's settings. It's recommended that you remain consistent in making your code readable and clear.
+
+At this point, you may not appreciate the significance of HTML parent, child, and sibling relationships--and that's okay. Just know that today you will be dealing with them (through properly indenting your code) but will not be directly working on them (by targeting and manipulating related elements via CSS or jQuery).
 
 NEXT: [Activity: Indentation Practice](./indentation_practice.md)
