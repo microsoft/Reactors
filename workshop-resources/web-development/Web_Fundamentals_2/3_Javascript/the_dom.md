@@ -1,4 +1,4 @@
-# The Document Object Model
+# The Document Object Model (DOM)
 
 When an HTML file is interpreted by a browser, it generates what we call the Document Object Model (DOM) – a representation of the entire page as objects. We can manipulate these objects with JavaScript. While there are [several methods and properties for the DOM](http://www.w3schools.com/jsref/dom_obj_document.asp), we're going to focus on some of the most common.
 
