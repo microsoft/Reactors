@@ -1,12 +1,12 @@
 # Important Tips To Avoid Headaches
 
-HTML is a language that allows poor code to execute and render to varying levels of accuracy. Successful rendering, however, does not mean that our code is correct or that it guarantees it will validate as compliant with standards. Poor code is unpredictable, and you can't be certain what you're going to get when it renders. We have to pay close attention when writing HTML and be sure to nest/indent and close all elements correctly and to always validate our code.
+HTML is a language that allows poor code to execute and render to varying levels of accuracy. Successful rendering, however, does not mean that your code is correct or that it guarantees it will validate as compliant with standards. Poor code is unpredictable, and you can't be certain what you're going to get when it renders. You must pay close attention when writing HTML and be sure to nest/indent, close all elements correctly, and validate your code.
 
 ## Use proper document structure
 
 Pages will render without the use of the ```<!DOCTYPE html>``` doctype or ```<html>, <head>, and <body>``` elements. However, without the doctype and structural elements, pages will not render properly in every browser.
 
-Bad code:
+Example of bad code:
 
 ``` html
 <html>
@@ -15,7 +15,7 @@ Bad code:
 </html>
 ```
 
-Good code:
+Example of good code:
 
 ``` html
 <!DOCTYPE html>
@@ -38,9 +38,7 @@ HTML validation services, such as the free [W3C Markup Validation Service](https
 
 ### Organize HTML syntax
 
-As your HTML gets bigger, managing it can become quite a task. Below are quick rules that can help you keep your syntax clean and organized:
-
-Use lowercase letters within element names, attributes, and values.
+As your HTML gets bigger, managing it can become quite a task. One quick rule that can help you keep your syntax clean and organized is to use lowercase letters within element names, attributes, and values.
 
 ### Indent nested elements
 
@@ -53,9 +51,9 @@ Use double quotes, not single or no quotes, to store values for HTML attributes.
 
 ### Avoid using too many divs
 
-When writing HTML, it is easy to get carried away adding ```<div>``` elements here and there to develop necessary styles. While this works, it can add bloat to a page, and before too long we're not sure what each ```<div>``` element does.
+When writing HTML, it is easy to get carried away adding ```<div>``` elements here and there to develop necessary styles. While this works, it can add bloat to a page, and before too long you're not sure what each ```<div>``` element does.
 
-Bad code:
+Example of bad code:
 
 ``` html
 <div class="container">
@@ -65,7 +63,7 @@ Bad code:
 </div>
 ```
 
-Good code:
+Example of good code:
 
 ``` html
 <div class="container">
@@ -79,12 +77,12 @@ Good code:
 
 Deciding which elements to use to describe content types may be difficult, but these elements are the backbone of semantics.
 
-> Note: Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in web pages rather than merely to define its presentation or look.
+> Note: Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in web pages rather than merely to define its look.
 (Source: ["Semantic HTML" on Wikipedia](en.wikipedia.org/wiki/Semantic_HTML))
 
 In this example, the HTML doesn't use the proper heading and paragraph elements; instead, it uses meaningless elements to group content.
 
-Bad code:
+Example of bad code:
 
 ``` html
 <span class="heading"><strong>Welcome Back</span></strong>
@@ -92,7 +90,7 @@ Bad code:
 
 It has been a while. What have you been up to lately?
 
-Good code:
+Example of good code:
 
 ``` html
 <h1>Welcome Back</h1>
@@ -115,13 +113,13 @@ Having said that, the best practice is to keep all tags lowercase.
 
 Using meaningful alt attributes with `<img>` elements is a must for writing valid and semantic code. The alt information is helpful for a user who cannot view your image--whether due to a connection issue, a missing image, or if the user is using a screen reader.
 
-Bad code:
+Example of bad code:
 
 ``` html
 <img id="logo" src="images/logo.png" alt="logo.png">
 ```
 
-Good code:
+Example of good code:
 
 ``` html
 <img id="logo" src="images/logo.png" alt="My First Website's logo">
