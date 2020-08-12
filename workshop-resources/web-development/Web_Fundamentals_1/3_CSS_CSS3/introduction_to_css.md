@@ -16,4 +16,4 @@ There are three ways of attaching CSS to a document:  inline, internal, and exte
 
 In this section, you learned the definition of CSS. You also learned the three ways of attaching CSS to a file and which of those ways (external) are used in this class. This is just the beginning of your CSS education. Remember that we're only using external style sheets. This way, you’ll learn how to connect CSS style sheets that you create or that are created by others. The next section will discuss the most important part of CSS: the selector.
 
-NEXT:[CSS Selectors](./css_selectors.md)
+NEXT: [CSS Selectors](./css_selectors.md)
