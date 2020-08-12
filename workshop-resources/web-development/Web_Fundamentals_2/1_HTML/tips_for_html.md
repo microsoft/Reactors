@@ -1,12 +1,12 @@
 # Important Tips To Avoid Headaches
 
-HTML is a language that allows poor code to execute and render to varying levels of accuracy. Successful rendering, however, does not mean that our code is correct or guarantee that it will validate as standards compliant. Poor code is unpredictable, and you can't be certain what you're going to get when it renders. We have to pay close attention when writing HTML and be sure to nest/indent and close all elements correctly and to always validate our code.
+HTML is a language that allows poor code to execute and render to varying levels of accuracy. Successful rendering, however, does not mean that your code is correct or that it guarantees it will validate as compliant with standards. Poor code is unpredictable, and you can't be certain what you're going to get when it renders. You must pay close attention when writing HTML and be sure to nest/indent, close all elements correctly, and validate your code.
 
-## Use Proper Document Structure
+## Use proper document structure
 
-Pages will render without the use of the ```<!DOCTYPE html>``` doctype or ```<html>, <head>, and <body>``` elements. However, without the doctype and these structural elements, pages will not render properly in every browser.
+Pages will render without the use of the ```<!DOCTYPE html>``` doctype or ```<html>, <head>, and <body>``` elements. However, without the doctype and structural elements, pages will not render properly in every browser.
 
-Bad Code
+Example of bad code:
 
 ``` html
 <html>
@@ -15,7 +15,7 @@ Bad Code
 </html>
 ```
 
-Good Code
+Example of good code:
 
 ``` html
 <!DOCTYPE html>
@@ -30,32 +30,30 @@ Good Code
 </html>
 ```
 
-### Constantly Validate Your Code
+### Constantly validate your code
 
-While writing HTML, make a habit to validate frequently; this will save you from issues that are harder to pinpoint (or redo) once your work is completed and lengthier.
+While writing HTML, make it a habit to validate frequently; this will save you from issues that are harder to pinpoint (or redo) once your work is completed and lengthy.
 
-HTML validation services such as the free  W3C Markup Validation Service are useful debuggers that help you identify rendering errors.
+HTML validation services, such as the free [W3C Markup Validation Service](https://validator.w3.org/) are useful debuggers that help you identify rendering errors.
 
-### Organize HTML Syntax
+### Organize HTML syntax
 
-As your HTML gets bigger, managing it can become quite a task. Below are quick rules that can help you keep your syntax clean and organized:
-
-Use lowercase letters within element names, attributes, and values.
+As your HTML gets bigger, managing it can become quite a task. One quick rule that can help you keep your syntax clean and organized is to use lowercase letters within element names, attributes, and values.
 
 ### Indent nested elements
 
-Use double quotes, not single or completely omitted quotes to store in values for HTML attributes. Good example:
+Use double quotes, not single or no quotes, to store values for HTML attributes. A good example:
 
 ``` html
 <h1 id="page_title">My First Website!</h1>
 <p class="sub_title">This is <span class="emphasize">Cool!</span></p>
 ```
 
-### Avoid Using Too Many divs
+### Avoid using too many divs
 
-When writing HTML, it is easy to get carried away adding ```<div>``` elements here and there to build out necessary styles. While this works, it can add quite a bit of bloat to a page, and before too long we're not sure what each ```<div>``` element does.
+When writing HTML, it is easy to get carried away adding ```<div>``` elements here and there to develop necessary styles. While this works, it can add bloat to a page, and before too long you're not sure what each ```<div>``` element does.
 
-Bad Code
+Example of bad code:
 
 ``` html
 <div class="container">
@@ -65,7 +63,7 @@ Bad Code
 </div>
 ```
 
-Good Code
+Example of good code:
 
 ``` html
 <div class="container">
@@ -75,16 +73,16 @@ Good Code
 </div>
 ```
 
-### Make Use of Semantic Elements
+### Make use of semantic elements
 
-Deciding which elements to use to describe different content may be difficult, but these elements are the backbone of semantics.
+Deciding which elements to use to describe content types may be difficult, but these elements are the backbone of semantics.
 
-> Note: Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages rather than merely to define its presentation or look.
-via:  en.wikipedia.org/wiki/Semantic_HTML
+> Note: Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in web pages rather than merely to define its look.
+(Source: ["Semantic HTML" on Wikipedia](en.wikipedia.org/wiki/Semantic_HTML))
 
-Here the HTML doesn't use the proper heading and paragraph elements; instead, it uses meaningless elements to group content.
+In this example, the HTML doesn't use the proper heading and paragraph elements; instead, it uses meaningless elements to group content.
 
-Bad Code
+Example of bad code:
 
 ``` html
 <span class="heading"><strong>Welcome Back</span></strong>
@@ -92,14 +90,14 @@ Bad Code
 
 It has been a while. What have you been up to lately?
 
-Good Code
+Example of good code:
 
 ``` html
 <h1>Welcome Back</h1>
 <p> It has been a while. What have you been up to lately?</p>
 ```
 
-### Keep Your Tag Names Lowercase
+### Keep your tag names lowercase
 
 Technically, you can get away with capitalizing your tag names.
 
@@ -111,17 +109,17 @@ Technically, you can get away with capitalizing your tag names.
 
 Having said that, the best practice is to keep all tags lowercase.
 
-### Use alt Attribute With Images
+### Use alt attribute with images
 
-Using meaningful alt attributes with `<img>` elements is a must for writing valid and semantic code. The alt information is helpful for when a user cannot view your image - whether due to a connection issue, a missing image, or because the user is utilizing a screen reader.
+Using meaningful alt attributes with `<img>` elements is a must for writing valid and semantic code. The alt information is helpful for a user who cannot view your image--whether due to a connection issue, a missing image, or if the user is using a screen reader.
 
-Bad Code
+Example of bad code:
 
 ``` html
 <img id="logo" src="images/logo.png" alt="logo.png">
 ```
 
-Good Code
+Example of good code:
 
 ``` html
 <img id="logo" src="images/logo.png" alt="My First Website's logo">
