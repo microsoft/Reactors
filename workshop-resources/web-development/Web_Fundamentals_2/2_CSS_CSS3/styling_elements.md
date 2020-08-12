@@ -1,12 +1,13 @@
 # Styling Elements
 
-Below are some of the most common styling properties that will affect all elements. This is not a definitive list and you should try doing a search for other properties that can help you to add style to your documents.
-```width | height:```
-The width and height properties are used to determine the size of your elements. The values can be expressed in pixels (```px```) and percentage (```%```). When working with static content using px is suitable as you will be defining your page to not change. If you are working with responsive design, you will want to use ```%```.
+Below are some of the common styling properties that will affect all elements. This is not a definitive list and you should search for other properties that can help you add style to your documents.
 
-Be careful when setting your height property as this will determine how much content the element can hold. If you leave it unset, your element will expand to fit the content it holds. If you set it and you have more content than can be displayed then you will need to either manually adjust the height each time you change the content or utilize the overflow property.
+## Width and height
+The values are commonly expressed in pixels (`px`) and percentage (`%`). When working with static content, using `px` is suitable as you will be defining your page to not change. If you are working with responsive design, you may want to use `%`.
 
-When you want your element to resize ie: images, you can size just one property (width or height) and the other will adjust appropriately to keep the relative dimensions of the image.
+Be careful when setting your height property, as this will determine how much content the element can hold. If you leave it unset, your element will expand to fit the content it holds. If you define it and you have more content than can be displayed, then you will need to either manually adjust the height each time you change the content or utilize the [overflow](##overflow) property:
+
+When you want your element to resize, you can size just one property--width or height--and the other will adjust appropriately to keep the relative dimensions of the image.
 
 ``` css
   a {
@@ -21,8 +22,8 @@ When you want your element to resize ie: images, you can size just one property 
   }
 ```
 
-```overflow:```
-This property determines what should happen when the content inside of a container is too much for the container size. You can set the container to hide the additional information that does not fit, show the information no matter what, or have a scroll bar added to the element so the content is contained but still viewable.
+## Overflow
+`overflow` determines what should happen when the content is larger than the container that holds it. You can set the container to `hide` the additional information that does not fit, `show` the information regardless, or add a `scroll` bar so the content is contained but still viewable:
 
 ``` css
   div {
@@ -30,8 +31,8 @@ This property determines what should happen when the content inside of a contain
   }
 ```
 
-```background:```
-The background property can modify the background of an element all in one line. This is a shorter version than splitting each property on its own line of code. The color can be defined using hex, rgb or semantic code.
+## Background
+`background` can modify the background of an element in one line. This is a shorter solution than splitting each property into its own line of code. The color can be defined using hex, rgb, or semantic code:
 
 ``` css
   p {
@@ -39,8 +40,13 @@ The background property can modify the background of an element all in one line.
   }
  ```
 
-```background-color | background-image | background-position | background-size | background-repeat```:
-These background properties adjust the background by property type. Like background, background-color can be defined using hex, rgb or semantic code.
+### Background sub-properties
+
+You'll notice we specified multiple properties for `background`. Some properties, like `background`, have sub-properties which can be set. In the case of `background`, you could specify an image (`background-image`) or position (`background-position`). For `background`, the values are in this order:
+
+```background-color | background-image | background-position | background-size | background-repeat```
+
+These background properties adjust the background by property type. Like background, background-color can be defined using hex, rgb or semantic code:
 
 ``` css
   p {
@@ -54,10 +60,10 @@ These background properties adjust the background by property type. Like backgro
   }
 ```
 
-```border:```
-This property adjusts all border elements in one line. The first value is the border thickness. The second value is the border type. The third value is the border color. The color can be hex, rgb or semantic code.
+## Border
+`border` allows you to set the border of a box. The first value is the border thickness. The second value is the border type. The third value is the border color. The color can be hex, rgb, or semantic code.
 
-The border property can also be broken down into separate lines using border-width, border-style and border color. Additionally, you can select very specifically which border you want to style by using ```border-top, border-bottom, border-right, border-left```.
+The border property can also be broken down into separate lines using border-width, border-style, and border color. Additionally, you can be specific about which border you want to style by using ```border-top, border-bottom, border-right, border-left```.
 
 ``` css
   button {
@@ -72,8 +78,8 @@ The border property can also be broken down into separate lines using border-wid
   }
 ```
 
-```border-radius```
-This property allows the corners of your border to be given a rounded appearance. The values can be set using ```px``` or ```%```.
+## Border-radius
+This property allows the corners of your border to have a rounded appearance. The values can be set using `px` or `%`:
 
 ``` css
   button {
