@@ -1,12 +1,12 @@
 # Styling Elements
 
-Now that we know how to select items, let's explore what we can do with them. As you might expect, the list of options is almost limitless. We're going to walk through a few of the common ones.
+Now that you know how to select items, let's explore what you can do with them. As you might expect, the list of options is almost limitless. You're going to walk through a few of the common ones.
 
 ## Width and height
 
 Probably the most basic property you can configure is the height and width of an item. Each item is a [box](box_model.md), and the `height` and `width` define the size of that box.
 
-The values are commonly expressed in pixels (`px`) and percentage (`%`). When working with static content, using px is suitable as you will be defining your page to not change. If you are working with responsive design, you may want to use `%`.
+The values are commonly expressed in pixels (`px`) and percentage (`%`). When working with static content, using `px` is suitable as you will be defining your page to not change. If you are working with responsive design, you may want to use `%`.
 
 Be careful when setting your height property, as this will determine how much content the element can hold. If you leave it unset, your element will expand to fit the content it holds. If you define it and you have more content than can be displayed, then you will need to either manually adjust the height each time you change the content or utilize the [overflow](#overflow) property:
 
@@ -25,7 +25,7 @@ img {
 
 ## Overflow
 
-`overflow` determines what should happen when the content is larger than the container that holds it. You can either set the container to `hide` the additional information that does not fit, `show` the information regardless, or add a `scroll` bar so the content is contained but still viewable:
+`overflow` determines what should happen when the content is larger than the container that holds it. You can set the container to `hide` the additional information that does not fit, `show` the information regardless, or add a `scroll` bar so the content is contained but still viewable:
 
 ``` css
 div {
@@ -43,9 +43,9 @@ p {
 }
  ```
 
-### Breaking down background
+### Background sub-properties
 
-You'll notice we specified multiple properties for `background`. Some properties, like `background`, have sub-properties which can be set. In the case of `background`, we could specify an image (`background-image`) or position (`background-position`). For `background`, the values are in this order:
+You'll notice we specified multiple properties for `background`. Some properties, like `background`, have sub-properties which can be set. In the case of `background`, you could specify an image (`background-image`) or position (`background-position`). For `background`, the values are in this order:
 
 `background-color | background-image | background-position | background-size | background-repeat`
 
@@ -96,6 +96,6 @@ button {
 
 ## What you learned
 
-You learned how to add style to elements in HTML. For this workshop, remember that we are only using external CSS style sheets rather than inline styling. In the case of inline styling, if we have to make changes later, it will become challenging to change every instance where it occurs. In the next section, we will focus on styling text.
+You learned how to add style to elements in HTML. For this workshop, remember that you are only using external CSS rather than inline styling. In the case of inline styling, if you have to make changes later, it will become challenging to change every instance where it occurs. In the next section, you will focus on styling text.
 
 NEXT: [Styling Text](./styling_text.md)
