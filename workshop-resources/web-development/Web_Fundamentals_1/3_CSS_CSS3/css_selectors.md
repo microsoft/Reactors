@@ -1,6 +1,6 @@
 # CSS Selectors
 
-A selector is used to identify what items to modify. You can use selectors to identify an individual element, all elements of a particular type, elements with certain attributes or groupings, or even identify items based on their location on a page.
+A selector is used to identify what items to modify. You can use selectors to identify an individual element, all elements of a particular type, elements with certain attributes or groupings, or even items based on their page location.
 
 ## Declaration block
 
@@ -8,7 +8,7 @@ A declaration block is a list of declarations contained within braces. Each decl
 
 ## Selecting elements
 
-To select all elements of a particular type, such as `a`, `strong`, or `div`, you simply use the name of the element. If you want to make all `p` elements blue, you could use the following:
+To select all elements of a particular type, such as `a`, `strong`, or `div`, you use the name of the element. If you want to make all `p` elements blue, you could code the following:
 
 ``` css
 p{
@@ -16,9 +16,9 @@ p{
 }
 ```
 
-## Selecting an individual element by ID
+## Selecting an element by ID
 
-HTML allows you to add IDs to elements. While we have mostly focused on this behavior for [links](../2_HTML/common_body_tags.md#anchors) and [forms](../2_HTML/forms.md), you can add an ID to any element to use it with CSS (or with JavaScript). We could identify an item with an ID of **heading** by using its name with a `#` in front.
+HTML allows you to add IDs to elements. While you have mostly focused on this behavior for [links](../2_HTML/common_body_tags.md#anchors) and [forms](../2_HTML/forms.md), you can add an ID to any element in CSS (or with JavaScript). We could identify an item with an ID of **heading** by using its name preceded with `#`.
 
 ``` css
 #heading{
