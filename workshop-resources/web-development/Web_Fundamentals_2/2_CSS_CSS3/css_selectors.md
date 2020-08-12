@@ -68,7 +68,7 @@ Combining these into a number will provide their actual weight. This means that 
 Check out these useful CSS selector resources:
 
 * [10 CSS Selectors You Shouldn't Code Without](http://www.webdesignerdepot.com/2013/08/10-css-selectors-you-shouldnt-code-without/)
-*[CSS Selector Reference Guide](http://www.w3schools.com/cssref/css_selectors.asp)
+* [CSS Selector Reference Guide](http://www.w3schools.com/cssref/css_selectors.asp)
 
 
 Next: [Activity: Dojo Diner](./dojo-diner.md)
