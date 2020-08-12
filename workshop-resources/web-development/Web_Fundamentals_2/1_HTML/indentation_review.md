@@ -1,6 +1,6 @@
 # Indentation Review
 
-This is such an important concept to understand for the rest of your development life that we will be reviewing the last activity together.
+We will review the last activity together because this is an important concept to understand for your development work.
 
 ``` html
 <!DOCTYPE html>
@@ -15,7 +15,7 @@ This is such an important concept to understand for the rest of your development
 </html>
 ```
 
-By analyzing our HTML, we notice that we have an opening HTML tag on our second line that does not close till the end of our HTML document. This means every single element inside of those HTML tags should be indented over once as they are all children elements of the HTML tag. The same is applied for the title tag which is nested in the head element. Likewise, for the h1 tag and the p tag, they are both children elements of the body tag and grandchildren of the HTML tag. Now let's cover the second example.
+By analyzing the HTML, you'll notice that there is an opening HTML tag on the second line that does not close until the end of the HTML document. This means that every element inside of those HTML tags should be indented once, as they are children elements of the HTML tag. The same is true for the title tag, which is nested in the head element. Likewise, the H1 tag and the p tag are children elements of the body tag and grandchildren of the HTML tag. Now let's look at the second example:
 
 ``` html
 <!DOCTYPE html>
@@ -53,6 +53,6 @@ By analyzing our HTML, we notice that we have an opening HTML tag on our second 
 </html>
 ```
 
-Review this code and apply the parent, sibling and child relationships to understand this content a little easier.
+Review this code and apply the parent, sibling, and child relationships to understand this content a little easier.
 
-NEXT: [After you've completed this activity go on to the next section, "Common Body Tags"](./common_body_tags.md)
+NEXT: After you've completed this activity, go to the next section called [Common HTML Body Tags](./common_body_tags.md).
