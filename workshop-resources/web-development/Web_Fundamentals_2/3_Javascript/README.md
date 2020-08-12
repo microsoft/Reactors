@@ -3,15 +3,15 @@
 JavaScript is the programming language of browsers. It's how you can incorporate interactivity into your pages, respond to user input, and communicate with the server. It's also one of the best programming languages to begin with because you can build many types of applications with it, and many of the programming constructs you'll learn are similar to other languages.
 
 Topics in this module:
-1. [Start Here: Javascript Overview](./javascript_overview.md)
-2. [Running Javascript Code](./running_js.md)
+1. [Start Here: What Is JavaScript](./javascript_overview.md)
+2. [Running JavaScript](./running_js.md)
 3. [ECMAScript and ES6](./es6.md)
-4. [Variables and names](./variables_names.md)
-5. [JavaScript data types](./data_types.md)
-6. [Javascript Basic Functions](./basic_functions.md)
-7. [The DOM](./the_dom.md)
-8. [Fat arrow functions](./fat_arrow_functions.md)
-9. [Javascript Libraries](./javascript_libraries.md)
+4. [Names and Variables](./variables_names.md)
+5. [Data Types in JavaScript](./data_types.md)
+6. [Basic Functions](./basic_functions.md)
+7. [Document Object Model (DOM)](./the_dom.md)
+8. [Anonymous Functions](./fat_arrow_functions.md)
+9. [Javascript Libraries and Frameworks](./javascript_libraries.md)
 
 
 All modules in this workshop:
