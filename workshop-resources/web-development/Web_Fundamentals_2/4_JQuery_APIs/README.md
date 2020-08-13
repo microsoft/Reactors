@@ -10,7 +10,7 @@ NEXT: [Part 5. Capstone Project and Deployment with Azure](../5_Capstone_Web_Pub
 ## Optional course materials
 
 1. [Recommended Function Tags](./learn_these_tags.md)
-2. [$(this)](./this.md)
+2. [Streamline Code with `$(this)`](./this.md)
 3. [Advanced jQuery](./advanced_jquery.md)
 4. [Application Programming Interface (API)](./api.md)
 5. [URL Types and Usages](./serviceable_urls.md)
