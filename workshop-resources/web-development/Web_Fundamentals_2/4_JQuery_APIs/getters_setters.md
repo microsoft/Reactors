@@ -1,6 +1,6 @@
 # Getter and Setter Functions
 
-Certain jQuery functions can behave differently depending on whether or not you run them with parameters. To demonstrate this, let's use the following code:
+Certain jQuery functions can behave differently depending on whether you run them with parameters. To demonstrate this, look at the following code:
 
 ```javascript
 <script>
@@ -13,7 +13,7 @@ Certain jQuery functions can behave differently depending on whether or not you 
 </body>
 ```
 
-Notice that _myParagraph's_ text will stay the same, even though you know `.text()`can be used to change the text value of HTML elements. This is because when you call the function `.text()` without a parameter, the function will behave as a **getter** function. **A getter function is a function that _gets_ the value of a particular item and returns it**. This function returns the value of the text of the paragraph called _myParagraph_. To illustrate this, run the following code:
+Notice that _myParagraph's_ text will stay the same, even though you know `.text()` can be used to change the text value of HTML elements. This is because when you call the function `.text()` without a parameter, the function will behave as a **getter** function. **A getter function is a function that _gets_ the value of a particular item and returns it**. In this example, the function returns the value of the text of the paragraph called _myParagraph_. To illustrate this, run the following code:
 
 ```javascript
 <script>
