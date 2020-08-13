@@ -1,4 +1,4 @@
-# Getters/setters
+# Getter and Setter Functions
 
 Certain jQuery functions can behave differently depending on whether or not you run them with parameters. To demonstrate this, let's use the following code:
 
@@ -13,7 +13,7 @@ Certain jQuery functions can behave differently depending on whether or not you 
 </body>
 ```
 
-Notice that _myParagraph's_ text will stay the same, even though we know `.text()`can be used to change the text value of HTML elements. This is because when we call the function `.text()` without a parameter, the function will behave as what is called a **getter** function. This function will actually return the value of the text of the paragraph called _myParagraph_. To illustrate this, let's run the following code:
+Notice that _myParagraph's_ text will stay the same, even though you know `.text()`can be used to change the text value of HTML elements. This is because when you call the function `.text()` without a parameter, the function will behave as a **getter** function. **A getter function is a function that _gets_ the value of a particular item and returns it**. This function returns the value of the text of the paragraph called _myParagraph_. To illustrate this, run the following code:
 
 ```javascript
 <script>
@@ -27,9 +27,9 @@ Notice that _myParagraph's_ text will stay the same, even though we know `.text(
 </body>
 ```
 
-When you load this page now, you will see the content of _myParagraph_ in a pop-up box on the screen. The use of the term 'getter function' means that the function **gets**the value of a particular item and returns it, which is why we were able to get the value of the text and assign it to the variable _myText_that we just made.
+When you load this page, you will see the content of _myParagraph_ in a pop-up box on the screen. Because the function _gets_ the value of a particular item and returns it, you can get the value of the text and assign it to the variable _myText_ that you made.
 
-The other way to use the `.text()` function is as a **setter** function. You will probably find yourself using **`.text()`**in this capacity more so than as a **`getter`**. To demonstrate the use of `.text()` as a setter, look at the following code:
+Another way to use the `.text()` function is as a **setter function, which allows you to set the value of an attribute**. You will probably find yourself using `.text()` in this capacity more so than as a `getter` function. To demonstrate the use of `.text()` as a setter, look at the following code:
 
 ```javascript
 <script>
@@ -45,4 +45,4 @@ The other way to use the `.text()` function is as a **setter** function. You wil
 </body>
 ```
 
-See the difference? By running **`.text()`** with a value inside of the parentheses, we **`set`**the value of the selected attribute. This is the difference between using**`.text()`**as a getter and a setter. Use the jQuery documentation to figure out if a particular function behaves differently depending on the parameters you execute it with!
+See the difference? By running `.text()` with a value inside of the parentheses, you **set** the value of the selected attribute. This is the difference between using `.text()` as a getter vs. a setter. Use the jQuery documentation to determine if a particular function behaves differently depending on the parameters you choose.
