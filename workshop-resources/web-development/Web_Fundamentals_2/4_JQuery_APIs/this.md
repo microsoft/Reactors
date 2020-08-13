@@ -1,6 +1,6 @@
-# $(this)
+# Streamline Code with `$(this)`
 
-Consider the following HTML codes:
+Consider the following HTML code:
 
 ``` html
 <img src="image1.jpg" />
@@ -10,9 +10,9 @@ Consider the following HTML codes:
 <img src="image5.jpg" />
 ```
 
-Let's say that you want to make your app work such that when the user clicks an image, that particular image disappears. How would you do this?
+Let's say that you want your app to remove an image when a user clicks on it. How would you do this?
 
-One way is to change your HTML so that we add a unique ID for each image and add a jQuery code like below:
+One way is to change your HTML by adding a unique ID for each image and a jQuery code as shown below:
 
 ``` html
 <html>
@@ -47,7 +47,7 @@ One way is to change your HTML so that we add a unique ID for each image and add
 </body>
 ```
 
-But the above code is redundant! What if there is a way we can choose the particular element within the selector that triggered the event? And there is! It's called $(this). $(this) selects that particular element that triggered that event. Using this, we can clean up the above code like below:
+But the above code is redundant! What if there is a way to choose the element within the selector that triggered the event? And there is! It's called `$(this)`. `$(this)` selects the element that triggered that event. Using this, element, you can clean up the code:
 
 ``` html
 <html>
@@ -71,4 +71,4 @@ But the above code is redundant! What if there is a way we can choose the partic
 </body>
 ```
 
-This is an example of how to streamline your jQuery code. You never have to write the same code twice. By leveraging the power of the $(this) selector, you can really cut down on the number of lines of code you have.
+This is an example of how to streamline your jQuery code and never write the same code twice. By leveraging the power of the `$(this)` selector, you can cut down the lines of code you need.
