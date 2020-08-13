@@ -1,26 +1,31 @@
 # Activity: Debugging jQuery
 
-Learning how to write correct code is important, obviously. However, learning how to spot errors and debug code is an invaluable skill as well. For this assignment, you need to [clone this Github repo](https://github.com/Codingdojo-Trey/Debugging-jQuery/tree/error_version) and find all the errors.
+Learning how to write correct code is important, obviously. However, learning how to spot errors and debug code is an invaluable skill as well. 
 
-**Note that the correct version of the code is contained in another branch of this repository.** Don't clone it or look at it unless you are really struggling. There are 5 mistakes in the jQuery/JavaScript code for you to find. When you have corrected all of the code, make sure to test the page and see if the code is working the way it should!
+## Instructions
+For this assignment, you will [clone this GitHub repo](https://github.com/Codingdojo-Trey/Debugging-jQuery/tree/error_version) and find the coding errors.
 
-The command to clone a specific branch from Github is:
+* This is a mock landing page for a pizza business. 
+* There are five mistakes in the jQuery/JavaScript code for you to find. The errors are mostly syntax errors, but there is one key piece of coding missing that specifically relates to jQuery. Find the coding error first. 
+* Check the code line by line. A few errors may be hard to spot, but that is on purpose.
+* When you have corrected all the code errors, test the page to verify the code is working the way it should.
+
+**Note:** The correct version of the code is contained in another branch of this repository. Don't clone it or look at it unless you are really struggling. 
+
+The command syntax to clone a specific branch from GitHub is:
 `git clone -b *branch name* *url to repository*`
 
-So, the command you should run to clone the error_version of this repository will be:
+So, for this activity, the command you will run to clone the error_version of this repository will be:
 `git clone -b error_version https://github.com/Codingdojo-Trey/Debugging-jQuery.git`
 
-This page is a mock landing page for a business. The errors are mostly syntax errors, but there is one key piece of coding missing that specifically relates to jQuery--you must find this error first. Once you have found the 5 errors within the jQuery portion of the code, the website should do the following:
+## Results
+Once you have located and corrected all five errors, the website should perform as follows:
 
-When the survey button is clicked, the page should alert the user with the message that is specified on the code.
+To see the finished result, go to [CodePen](https://codepen.io/dannyooooo/pen/jOEpaxR).
 
-When either one of the images is clicked, it should slide up and hide. When either one of the small headers underneath each picture is clicked, it should slide down and unhide the images.
-When any of the text within the red div is hovered on, it should turn white. This includes the list items and headers.
+* When the "Tell us!" survey button is clicked, the page displays a message box with the text specified in the code.
+* When either of the images is clicked, the image should slide up and disappear. When either of the small headers underneath each picture is clicked, the header slides down and the image reappears.
+* When the text within the red div is hovered over, it turns white. This includes the bulleted list of items and the headers.
+* When the link "Click here to order!" in the red div is clicked, the page displays a message box.
 
-When the link in the red div is clicked, an alert box should pop up containing a message.
-
-Check the code line by line--a few of the errors may be hard to spot, but that is on purpose.
-
-Do this activity at [Codepen Here](https://codepen.io/dannyooooo/pen/jOEpaxR)
-
-NEXT: [Traversing JSON + Building HTML](./json_html.md)
+NEXT: [Getting Data from an API](./json_html.md)
