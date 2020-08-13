@@ -21,7 +21,7 @@ So, for this activity, the command you will run to clone the error_version of th
 ## Results
 Once you have located and corrected all five errors, the website should perform as follows:
 
-To see the finished result, go to [CodePen](https://codepen.io/dannyooooo/pen/jOEpaxR).
+(To see the finished result, go to [CodePen](https://codepen.io/dannyooooo/pen/jOEpaxR).)
 
 * When the "Tell us!" survey button is clicked, the page displays a message box with the text specified in the code.
 * When either of the images is clicked, the image should slide up and disappear. When either of the small headers underneath each picture is clicked, the header slides down and the image reappears.
