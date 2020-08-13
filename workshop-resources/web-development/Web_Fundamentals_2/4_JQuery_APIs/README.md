@@ -13,7 +13,7 @@ NEXT: [Part 5. Capstone Project and Deployment with Azure](../5_Capstone_Web_Pub
 2. [$(this)](./this.md)
 3. [Advanced jQuery](./advanced_jquery.md)
 4. [Application Programming Interface (API)](./api.md)
-5. [Serviceable URLs and Traversing JSON](./serviceable_urls.md)
+5. [URL Types and Usages](./serviceable_urls.md)
 
 ## Course modules
 
