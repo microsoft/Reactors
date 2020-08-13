@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contoso Travel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="banner">
+        <div id="menu">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li class="selected">home</li>
+                        <li>flights</li>
+                        <li>hotels</li>
+                        <li>cars</li>
+                        <li>cruises</li>
+                        <li>passports</li>
+                        <li>visas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% block header %}{% endblock %}
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <form method="POST" enctype="multipart/form-data">
+                    <div style="display: none">
+                        <input type="file" id="upload-file" name="file" accept=".jpg,.jpeg,.png,.gif">
+                        <input type="submit" id="submit-button" value="Upload">
+                    </div>
+                    {% block optional_form %}{% endblock %}
+                    <img id="uploaded-image" src="{{ image_uri }}">
+                    <input type="button" id="upload-button" class="btn" value="Upload Photo">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    {# Modal dialog box for outputting messages #}
+    <div class="container">
+        <div class="row">
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Result</h4>
+                        </div>
+                        <div class="modal-body"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {# Script for displaying modal if messages are present #}
+    {% if messages and (messages | length) > 0 %}
+    <script type="text/javascript">
+        // If messages are queued up, show them in a modal dialog
+        var messages = {{ messages | safe }};
+        body = $(".modal-body");
+        body.empty();
+
+        for (i = 0; i < messages.length; i++) {
+            body.append("<h2>" + messages[i] + "</h2>");
+        }
+
+        $("#myModal").modal("show");
+    </script>
+    {% endif %}
+
+    {# Script for automatically uploading images #}
+    <script type="text/javascript">
+        $(function () {
+            $("#upload-button").click(function () {
+                $("#upload-file").click();
+            });
+
+            $("#upload-file").change(function () {
+                $("#submit-button").click();
+            });
+        });
+    </script>
+
+    {% block optional_scripts %}
+    {% endblock %}
+</body>
+
+</html>

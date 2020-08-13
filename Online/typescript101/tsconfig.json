@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "sourceRoot": "./src",
-        "sourceMap": true,
-        "outDir": "./lib",
-        "module": "commonjs",
-        "target": "ES2020"
-    }
-}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<div class="container text-center">
+    <h1>Contoso Travel</h1>
+    <h3>Upload a photo and tell us who the person is!</h3>
+    <h3>We can identify people for you! First, upload a picture and tell us who's in it. Then you can detect people by
+        visiting <a href="./detect">detect</a></h3>
+</div>
+{% endblock %}
+
+{% block optional_form %}
+<div class="row">
+    <strong><label class="col-sm-2" for="name">Name</label></strong>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" name="name">
+    </div>
+</div>
+{% endblock %}
+
+{% block optional_scripts %}
+<script>
+    $(function () {
+        $("#upload-button").prop('disabled', true);
+        $("#name").change(function () {
+            $("#upload-button").prop('disabled', false);
+        })
+    });
+</script>
+{% endblock %}

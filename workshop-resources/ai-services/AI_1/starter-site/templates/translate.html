@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<div class="container text-center">
+    <h1>Contoso Travel</h1>
+    <h3>Upload a photo containing signage and let us translate it for you!</h3>
+</div>
+{% endblock %}
+
+{% block optional_form %}        
+<select id="target_language" class="form-control" name="target_language">
+    <option value="en">English</option>
+    <option value="zh-Hans">Chinese (simplified)</option>
+    <option value="zh-Hant">Chinese (traditional)</option>
+    <option value="fr">French</option>
+    <option value="de">German</option>
+    <option value="it">Italian</option>
+    <option value="ja">Japanese</option>
+    <option value="ko">Korean</option>
+    <option value="pt">Portugese</option>
+    <option value="es">Spanish</option>
+</select>
+{% endblock %}
+
+{% block optional_scripts %}
+{# Reset to selected language #}
+<script>
+    $("#target_language").val("{{ target_language }}");
+</script>
+{% endblock %}
