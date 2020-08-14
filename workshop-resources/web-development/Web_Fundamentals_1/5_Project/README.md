@@ -58,7 +58,7 @@ Create a good foundation by focusing on the structural HTML before applying CSS.
 
 - [ ] Identify layout and repeating patterns (to be used for classification).
 - [ ] Create the necessary files (index.html, main.css).
-- [ ] Code section by section, focusing on the HTML structure first, and using common body tags and forms as discussed in [Part 2. HTML: Common Body Tags](../2_HTML/common_body_tags.md) and [Part 2. HTML: Forms](../2_HTML/forms.md).
+- [ ] Code section by section, focusing on the HTML structure first, and using common body tags and forms as discussed in [Part 2. HTML: Common HTML Body Tags](../2_HTML/common_body_tags.md) and [Part 2. HTML: Forms](../2_HTML/forms.md).
 - [ ] Add style to match layouts to the mockups by using CSS Selectors, as discussed in [Part 3. CSS: CSS Selectors](../3_CSS_CSS3/css_selectors.md).
 - [ ] Continue building the page by styling elements or text, as discussed in [Part 3. CSS: Styling Elements](../3_CSS_CSS3/styling_elements.md) and [Part 3. CSS: Styling Text](../3_CSS_CSS3/styling_text.md).
 
@@ -67,7 +67,7 @@ Create a good foundation by focusing on the structural HTML before applying CSS.
 What does it mean to deploy code? In short, our code will be copied to a server and sent to clients, as discussed in [Part 1. Web Basics: The Request and Response Cycle](../1_Web_Basics/req_resp.md). When thinking about deployment:
 
 - [ ] [Check out a live version of the site](https://reactor1.z5.web.core.windows.net).
-- [ ] Follow the deployment instructions from [Part 4. Capstone Deployment](../4_Capstone_Deployment/deploy.md).
+- [ ] Follow the deployment instructions from [Part 4. Capstone Deployment: Pubish/Deploy Your Files to Azure Storage](../4_Capstone_Deployment/deploy.md).
 
 ### Iterate
 
