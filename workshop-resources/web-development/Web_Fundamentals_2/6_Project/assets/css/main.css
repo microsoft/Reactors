@@ -1,4 +1,4 @@
-/* Basic CSS Reset */
+/* Basic CSS reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
   box-sizing: border-box;
 }
 
-/* Page Styles */
+/* Page styles */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Set max with for content */
+/* Set max width for content. */
 nav,
 section,
 footer > div {
@@ -32,7 +32,7 @@ header a {
   color: black;
 }
 
-/* Find Section */
+/* Find section */
 section#find {
   background-image: url("../images/neighbors.jpg");
   background-repeat: no-repeat;
@@ -54,14 +54,14 @@ section#find #find-jobs {
   color: white;
 }
 
-/* Postings Section */
+/* Postings section */
 section#postings {
   height: calc(100vh - 31em);
   overflow: scroll;
   padding-top: 1em;
 }
 
-/* Select multiple elements by separating them with a comma */
+/* Select multiple elements by separating them with a comma. */
 section#postings h2,
 section#postings #tip {
   text-align: center;
@@ -79,7 +79,7 @@ section#postings .job-post {
   border-bottom: 1px solid grey;
 }
 
-/* Try out the pseudo class `:last-of-type` */
+/* Try out the pseudo class `:last-of-type`. */
 section#postings .job-post p:last-of-type {
   margin-top: 1em;
 }
