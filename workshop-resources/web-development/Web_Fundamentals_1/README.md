@@ -10,9 +10,9 @@ Have you been looking for a way to break into the web development industry as a 
 |---|---|
 |10:00 |Web Development Keynote
 |10:30 |[Part 1. Web Basics](1_Web_Basics)
-|11:00 |[Part 2. HTML: Hypertext Markup Language](2_HTML)
+|11:00 |[Part 2. Hypertext Markup Language (HTML)](2_HTML)
 |12:00 |Lunch and Survey
-|1:00 |[Part 3. CSS: Selectors, Styling, and Display](3_CSS_CSS3)
+|1:00 |[Part 3. Cascading Style Sheets (CSS)](3_CSS_CSS3)
 |2:00 |[Part 4. Capstone Project and Deployment with Azure](4_Capstone_Deployment)
 |3:45 |Wrap-up, Next Steps
 
@@ -25,8 +25,8 @@ This workshop can be completed online; however, we do suggest all participants u
 ## Course modules
 
 - [Part 1. Web Basics](1_Web_Basics)
-- [Part 2. HTML: Hypertext Markup Language](2_HTML)
-- [Part 3. CSS: Selectors, Styling, and Display](3_CSS_CSS3)
+- [Part 2. Hypertext Markup Language (HTML)](2_HTML)
+- [Part 3. Cascading Style Sheets (CSS)](3_CSS_CSS3)
 - [Part 4. Capstone Project and Deployment with Azure](4_Capstone_Deployment)
 
 ## Resources
