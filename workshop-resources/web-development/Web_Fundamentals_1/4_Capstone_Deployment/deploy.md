@@ -68,11 +68,11 @@ Azure Storage will automatically serve your index document and any other static 
 
 14. Navigate to the web address that the extension creates. You have published your website!
 
-Congratulations! You have completed the workshop.
+**Congratulations! You have completed the workshop.**
 
 ## Course modules
 
 * [Part 1. Web Basics](../Part%201.%20Web%20Basics)
-* [Part 2. HTML: Hypertext Markup Language](../Part%202.%20HTML)
-* [Part 3. CSS: Selectors, Styling, and Display](../Part%203.%20CSS%20%26%20CSS3)
+* [Part 2. Hypertext Markup Language (HTML)](../Part%202.%20HTML)
+* [Part 3. Cascading Style Sheets (CSS)](../Part%203.%20CSS%20%26%20CSS3)
 * [Part 4. Capstone Project and Deployment with Azure](../Part%204.%20%20Capstone%20%2B%20Deployment)
