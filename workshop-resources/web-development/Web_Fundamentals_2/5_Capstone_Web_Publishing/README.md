@@ -1,6 +1,6 @@
 # Part 5. Capstone Project and Deployment with Azure
 
-1. [Start Here: Capstone Project](./capstone.md)
+1. [Start Here: Capstone Project: Create a Pokedex Page](./capstone.md)
 2. [Deployment with Azure](./deploy.md)
 
 ## Congratulations! You have completed this workshop.
