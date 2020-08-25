@@ -10,3 +10,4 @@
 | Aug 18, 2020 | Introducing the Azure Machine Learning SDK | [Configure automated ML experiments in Python](https://aka.ms/ConfigAutoMLinPython-5), [Introduction to Azure Machine Learning](https://aka.ms/IntroToAzureML5) | @drguthals | [46:15 minute YouTube Video](https://www.youtube.com/watch?v=BMbl_navbJw&feature=youtu.be)] |
 | Aug 20, 2020 | Azure API Exploration | [Deploy a Website with Azure App Services](https://aka.ms/DeployWithAzure-11) | @drguthals | [58:16 minute YouTube video](https://www.youtube.com/watch?v=AUhRYjUH2O0&feature=youtu.be) |
 | Aug 24, 2020 | Azure and Power BI | [Azure Cognitve Search and Python](https://docs.microsoft.com/en-us/azure/search/search-get-started-python) | @drguthals | [Video Coming Soon] |
+| Aug 25, 2020 | Azure Analytics | [Implement a Data Streaming Solution with Azure Streaming Analytics](https://aka.ms/AzureStreamAnalytics-5) | @drguthals | [Video Coming Soon] |
