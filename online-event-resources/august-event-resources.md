@@ -11,3 +11,4 @@
 | Aug 20, 2020 | Azure API Exploration | [Deploy a Website with Azure App Services](https://aka.ms/DeployWithAzure-11) | @drguthals | [58:16 minute YouTube video](https://www.youtube.com/watch?v=AUhRYjUH2O0&feature=youtu.be) |
 | Aug 24, 2020 | Azure and Power BI | [Azure Cognitve Search and Python](https://docs.microsoft.com/en-us/azure/search/search-get-started-python) | @drguthals | [Video Coming Soon] |
 | Aug 25, 2020 | Azure Analytics | [Implement a Data Streaming Solution with Azure Streaming Analytics](https://aka.ms/AzureStreamAnalytics-5) | @drguthals | [Video Coming Soon] |
+| Aug 26, 2020 | Getting Started with the Mixed Reality Toolkit | [Set up a mixed reality project in Unity with the Mixed Reality Toolkit](http://aka.ms/learn-mrtk) | @vogueandcode | [Video Coming Soon] |
