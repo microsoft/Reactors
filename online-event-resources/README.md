@@ -11,3 +11,4 @@ Resources by month:
 - [May 2020 Event Resources](/online-event-resources/may-event-resources.md)
 - [June 2020 Event Resources](/online-event-resources/june-event-resources.md)
 - [July 2020 Event Resources](/online-event-resources/july-event-resources.md)
+- [August 2020 Event Resources](/online-event-resources/august-event-resources.md)

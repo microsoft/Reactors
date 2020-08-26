@@ -5,6 +5,7 @@ Having complete and accurate data is a critical first step to being able to lear
 You do not need any prior experience with data science to attend this workshop. You are likely someone who is interested in data science, and has 1-2 years coding in Python, or another programming language and feel comfortable enough with Python to be able to code in it during the workshop. You are interested in learning about how to prepare your data for advanced machine learning models using Python and specific Python libraries.
 
 ## Resources
+[Learn Learning Path](https://docs.microsoft.com/en-us/learn/paths/machine-learning-three-basic-pillars/)  
 [Machine Learning 1 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Machine_Learning_1.pptx)  
 [Workshop Materials](/workshop-resources/data-science-and-machine-learning/Machine_Learning_1/workshop-materials)  
 [Financial Extension Project](/workshop-resources/data-science-and-machine-learning/Machine_Learning_1/financial-project)  

@@ -11,6 +11,7 @@ Step 1: Learn the basics of Python coding and understand how it can be used
 to digest large data sets.
 
 ## Resources
+[Learn Learning Path](https://docs.microsoft.com/en-us/learn/paths/introduction-python-data-science/)  
 [Data Science 1 Workshop Slides](https://slidedecks.blob.core.windows.net/reactorslides/Data_Science_1.pptx)  
 [Workshop Materials](/workshop-resources/data-science-and-machine-learning/Data_Science_1/workshop-materials)  
 [Loan Application Extension Project](/workshop-resources/data-science-and-machine-learning/Data_Science_1/loan-project)  
