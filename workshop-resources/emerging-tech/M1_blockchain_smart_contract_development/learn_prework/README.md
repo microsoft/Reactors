@@ -41,23 +41,7 @@ Blockchain apps have key properties and advantages of: <br>
 **Transparent:** It is publicly readable by others on the blockchain and accessible via APIs i.e. [etherscan](https://etherscan.io/) . <br>
 **Immutable:**  Once a smart contract is created it cannot be changed again. <br>
 **Distributed:**  Output of the contract is validated / verified by nodes on the network. Contract states can be publicly visible (yes in some cases even “private” variables). Even contract bytecode can be decompiled (in some cases) back into solidity. <br>
-<br>
-(Note: your solidity code is compiled to opcode and then bytecode.
-<br>
-OpCodes look like: 
-```
-PUSH1 0x80
-PUSH1 0x40
-MSTORE
-```
-<br>
 
-Bytecode looks like: 
-`0x608060405234801561001057600080fd5b50600436106100415760003560e01c80634357855e1461004657806351aa01991461007e578063d7f29c631461009c575b600080fd5b61007c6004803603604081101561005c57600080fd5b8101908080359060200190929190803590602001909291905050506100ba565b005b610086610249565b6040518082815260200191505060405180910390f35b6100a461024f565b6040518082815260200191505060405180910390f35b816005600082815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610172576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526028815260200180 …` 
-
-
-Decompilers are still rather niche and immature! But you can see an example [here](https://github.com/palkeo/panoramix)). 
-<br><br>
 Here is a small example of a smart contract that allows you to save some values in a contract.
 
 ```
@@ -467,6 +451,9 @@ Can you add to the contract and testing to not being able to ship something when
 
 
 # Best practices for smart contracts
+
+Security is the responsibility of all developers but it’s extra important to blockchain developers. Due to the immutability and the complexity it’s harder to address/fix security problems quickly, and even simple mistakes could lead to massive losses. Educating yourself and vigilance is the best defense. Let’s look at a real and famously expensive example.
+
 
 ## Known attacks 
 ### A famously expensive example: The DAO Hack
