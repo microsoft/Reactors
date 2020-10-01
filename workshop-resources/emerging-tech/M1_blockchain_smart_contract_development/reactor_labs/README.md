@@ -110,7 +110,6 @@ Remix is an online IDE (Integrated Development Environment) you can use to write
 
 Now you can test the deployed contract and its functions.
 
-<br>
 
 # What is MetaMask Plug-in?
 Metamask itself is a cryptocurrency wallet. <br>
