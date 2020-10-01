@@ -225,7 +225,7 @@ This being an important piece of the blockchain multiple teams are actively work
 * MSFT coco (more permissioned / secure, less decentralization)
 * Domain specific: i.e. augur, algorand etc...  <br><br>
 
-This technology is considered the cutting edge of the blockchain, while ChainLink is considered the current front runner and the most mature… it is still not super developer / user friendly (for example it’s very hard to debug why a certain oracle transaction failed) … but like most things in blockchain, we’ll get there :)  
+This technology is considered the cutting edge of the blockchain, while ChainLink is considered the current front runner and the most mature, it is still not super developer or user friendly. For example it’s very hard to debug why a certain oracle transaction failed, but like most things in blockchain, we’ll get there :)  
 
 <br>
 
