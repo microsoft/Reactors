@@ -102,7 +102,7 @@ Remix is an online IDE (Integrated Development Environment) you can use to write
 
 <br>
 
-# Test Remix
+# Get started with Remix
 1. Go to https://remix.ethereum.org/
 2. Create a new file and name it Shipping.sol
 3. Copy + paste the code from the Shipping contract
