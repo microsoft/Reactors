@@ -1,7 +1,7 @@
 # Content
 * [Advanced uses of data structures](#Advanced-uses-of-data-structures)
 * [What is Remix?](#What-is-Remix?)
-* [Test Remix?](#Test-Remix?)
+* [Get started with Remix](#Get-started-with-Remix)
 * [What is MetaMask Plug-in?](#What-is-MetaMask-Plug-in?)
 * [Download MetaMask](#Download-MetaMask)
 * [Add MetaMask](#Add-MetaMask)
@@ -27,6 +27,10 @@
 <br>
 
 # Advanced uses of data structures
+Hopefully you've had time to review the basic data strucutures.
+Here we review some of the more advance uses of these data structures / how they work together. 
+The focus for now is to show you how they work via examples because we will be seeing / using them for subsequent smart contracts.
+
 #### Nested mappings, mapping => structs)
 ```solidity
 pragma solidity ^0.6.0;
@@ -103,7 +107,7 @@ Remix is an online IDE (Integrated Development Environment) you can use to write
 # Get started with Remix
 1. Go to https://remix.ethereum.org/
 2. Create a new file and name it Shipping.sol
-3. Copy + paste the code from the Shipping contract
+3. Copy + paste the code from the Shipping contract (This is available in the Learn Module / Prework)[LINK TO LEARN MODULE](htttps://url_tbd.com)
 4. Compile the Shipping contract
 5. Choose Environment - JavaScript VM
 6. Deploy the Shipping contract
@@ -185,7 +189,14 @@ Faucet makes it possible for you to get test ether to use for a test network. It
 
 <br>
 
-### To request test ether go [Kovan faucet](https://faucet.kovan.network).
+# Request Kovan Ether
+* You can request Kovan Ether through your GitHub or Twitter account
+* You will need your address from MetaMask
+* You can submit your address here: https://faucet.kovan.network/ using your GitHub account.
+* You can also get Kovan Ether through Gitter by using GitLab, Twitter or GitHub as a login. [Here](https://gitter.im/kovan-testnet/faucet) you will paste your address in a chat to request ether
+* More information about Kovan Faucet can be found [here](https://github.com/kovan-testnet/faucet/blob/master/README.md) <br><br>
+
+![](https://github.com/Prtfw/MSFT_BC_M1/blob/helena/Labs/Images/account%20metamask.png)
 
 <br>
 
@@ -221,9 +232,9 @@ Faucet makes it possible for you to get test ether to use for a test network. It
 This being an important piece of the blockchain multiple teams are actively working on possible solutions: <br>
 - [Provable](https://provable.xyz/)
 - [Chainlink](https://chain.link/)
-* cosmos + band protocol
-* MSFT coco (more permissioned / secure, less decentralization)
-* Domain specific: i.e. augur, algorand etc...  <br><br>
+* [cosmos + band protocol](https://bandprotocol.com/)
+* [MSFT coco](https://azure.microsoft.com/en-us/blog/announcing-microsoft-s-coco-framework-for-enterprise-blockchain-networks/) (more permissioned / secure, less decentralization)
+* Domain specific: i.e. Augur, Algorand etc... have a oracle component as well.
 
 This technology is considered the cutting edge of the blockchain, while ChainLink is considered the current front runner and the most mature, it is still not super developer or user friendly. For example it’s very hard to debug why a certain oracle transaction failed, but like most things in blockchain, we’ll get there :)  
 
@@ -282,19 +293,6 @@ contract APIConsumer is ChainlinkClient {
 }
 
 ```
-
-<br>
-
-# Request Kovan Ether
-* You can request Kovan Ether through your GitHub or Twitter account
-* You will need your address from MetaMask
-* You can submit your address here: https://faucet.kovan.network/ using your GitHub account.
-* You can also get Kovan Ether through Gitter by using GitLab, Twitter or GitHub as a login. [Here](https://gitter.im/kovan-testnet/faucet) you will paste your address in a chat to request ether
-* More information about Kovan Faucet can be found [here](https://github.com/kovan-testnet/faucet/blob/master/README.md) <br><br>
-
-![](https://github.com/Prtfw/MSFT_BC_M1/blob/helena/Labs/Images/account%20metamask.png)
-
-<br>
 
 # MetaMask deploy using injected Web3 on Kovan Test Network
 * Copy the `APIConsumer` contract to [Remix](https://remix.ethereum.org/).
@@ -363,10 +361,16 @@ Contract address:`0xa36085F69e2889c224210F603D836748e7dC0088` <br><br>
 
 # ERC 20 Tokens
 
+## Tokens
+Tokens are like ether (ETH) but may have different design decisions, purposes and help operate different DAPPs and facilitate crypot-economics of different Blockchain ecosystems. For example Augur is a network that functions as a prediction market (you can think of it as a betting platform), and Augur has its own token (also ERC20) called REP. This is no different than you using tokens perhaps to take public transport. We have fiat/local currency, for example CAD (sometimes also comes in coins) and also TTC (Toronto Transit Commission) tokens and each TTC token allows you to take 1 subway ride. You can purchase TTC tokens using CAD (just like you can purchase REP using ETH) but they are not the same thing. TTC tokens are specifically for the eco-system of Toronto Transit. 
+There are many different types of tokens but today we will focus on the ERC20 standard. 
+(Even within ERC20 there are many different tokens for different Blockchain ecosystems. In fact the ERC20 token standard was highly correlated with the ICO craze you may remeber from ~2016-2017.)
+
 ## Defining Features of ERC20
 ERC20 standardized the commonalities of many common fungible tokens and allows other tokens to operate in a more inter-operable manner on the Ethereum chain. (ERC20 tokens are the vast majority of the ICO tokens.) <br>
 Fungible means,  there is no difference between one token vs. another. You can think of this as coins in your daily life. Each 1$ is just like any other $1 but they are not physically the same thing (you can hold 1 in left hand and 1 in the right hand). <br>
-ERC20 tokens defines mostly a interface (6 functions to be implemented by you) and also the key fields like token name. https://eips.ethereum.org/EIPS/eip-20.
+ERC20 tokens defines mostly a interface (6 functions to be implemented by you) and also the key fields like token name. 
+For more information about ERC20 tokens please see the [EIP](https://eips.ethereum.org/EIPS/eip-20.)
 
 <br>
 
@@ -385,8 +389,12 @@ We will be using OpenZepplin for our implementation because:
 
 
 ## Example ERC20 contract
+After you deploy the contract: 
+- verify that you can reward the miner
+- verify that you can transfer (notice that we are using the default transfer function proivded by OpenZepplin)
+- If you get a error related to "allowance" or "approval" (a very common error for those new to working ERC20 tokens), can you figure out why by revewing the [EIP](https://eips.ethereum.org/EIPS/eip-20)? or searching on google?
 
-```
+```solidity
 
 pragma solidity ^0.6.0;
 
