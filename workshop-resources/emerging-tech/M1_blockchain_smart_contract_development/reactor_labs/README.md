@@ -219,7 +219,7 @@ Faucet makes it possible for you to get test ether to use for a test network. It
 
 ## Current Oracle Solutions
 This being an important piece of the blockchain multiple teams are actively working on possible solutions: <br>
-* Oracelize (now called provable) considered an early pioneer
+- [Provable](https://provable.xyz/)
 * ChainLink
 * cosmos + band protocol
 * MSFT coco (more permissioned / secure, less decentralization)
