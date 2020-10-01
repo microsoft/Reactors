@@ -386,7 +386,6 @@ We will be using OpenZepplin for our implementation because:
 - saves time
 - prevents bugs
 
-<br>
 
 ## Example ERC20 contract
 
