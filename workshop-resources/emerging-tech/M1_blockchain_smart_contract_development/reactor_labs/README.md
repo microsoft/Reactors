@@ -95,7 +95,6 @@ contract AdvDataStructures {
 }
 ```
 
-<br>
 
 # What is Remix?
 Remix is an online IDE (Integrated Development Environment) you can use to write smart contracts. You can compile, test and deploy them for free. You can use Remix both online and offline.
