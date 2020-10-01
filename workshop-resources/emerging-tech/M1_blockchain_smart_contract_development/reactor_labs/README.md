@@ -384,7 +384,7 @@ They are commonly and well suited for:
 ## Implement your own ERC20 token contract
 We will be using OpenZepplin for our implementation because:
 - saves time
-- [x] prevents bugs
+- prevents bugs
 
 <br>
 
