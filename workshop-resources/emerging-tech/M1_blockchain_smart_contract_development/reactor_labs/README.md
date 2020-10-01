@@ -188,7 +188,7 @@ Faucet makes it possible for you to get test ether to use for a test network. It
 
 <br>
 
-### To request test ether go [here](https://faucet.kovan.network).
+### To request test ether go [Kovan faucet](https://faucet.kovan.network).
 
 <br>
 
