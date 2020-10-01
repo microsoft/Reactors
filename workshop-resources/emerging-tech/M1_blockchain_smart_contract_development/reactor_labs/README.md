@@ -235,7 +235,7 @@ This technology is considered the cutting edge of the blockchain, while ChainLin
 ## Example contract w oracles
 
 
-```
+```solidity
 pragma solidity ^0.6.0;
 
 import "https://raw.githubusercontent.com/smartcontractkit/chainlink/develop/evm-contracts/src/v0.6/ChainlinkClient.sol";
