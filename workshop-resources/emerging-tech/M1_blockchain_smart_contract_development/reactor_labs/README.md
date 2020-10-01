@@ -28,7 +28,7 @@
 
 # Advanced uses of data structures
 #### Nested mappings, mapping => structs)
-```
+```solidity
 pragma solidity ^0.6.0;
 
 contract AdvDataStructures {
