@@ -329,7 +329,9 @@ contract APIConsumer is ChainlinkClient {
 <br>
 
 * Click Custom Token and paste the contract address, then click next. <br>
-Contract address:`0xa36085F69e2889c224210F603D836748e7dC0088` <br><br>
+- Token Contract Address:`0xa36085F69e2889c224210F603D836748e7dC0088`
+- Token symbol: `LINK`
+- Decimals of precision: `18`
 ![](https://github.com/Prtfw/MSFT_BC_M1/blob/helena/Labs/Images/Add%20tokens%20next.png)
 
 <br>
