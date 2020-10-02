@@ -127,7 +127,7 @@ Let’s see how metamask plugin and remix work together to make smart contract d
 
 # Download MetaMask
 - Download MetaMask [here](https://metamask.io/download.html)
-* Add your browser of choice (Firefox or Chrome)
+* Add your browser of choice (Firefox or Chrome or [Brave](https://brave.com/))
 
 ![Install Metamask](Images/install%20metamask.png)
 
