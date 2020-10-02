@@ -137,7 +137,7 @@ Let’s see how metamask plugin and remix work together to make smart contract d
 * You will be redirected to add the extension. <br>
 Click on Add to Firefox (or Chrome) <br>
 
-![](https://github.com/Prtfw/MSFT_BC_M1/blob/helena/Labs/Images/add%20to%20firefox.png)
+![Add to firefox](Images/add%20to%20firefox.png)
 
 <br><br>
 
