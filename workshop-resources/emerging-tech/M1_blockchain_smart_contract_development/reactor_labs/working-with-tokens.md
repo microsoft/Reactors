@@ -1,10 +1,10 @@
 # Working with tokens
 
-- [Tokens](##tokens)
-- [Defining Features of ERC20](##defining-features-of-erc20)
-- [Common uses for ERC20](##common-uses-for-erc20)
-- [Implement your own ERC20 token contract](##implement-your-own-erc20-token-contract)
-- [Example: ERC20 contract](##example-erc20-contract)
+- [Tokens](#tokens)
+- [Defining Features of ERC20](#defining-features-of-erc20)
+- [Common uses for ERC20](#common-uses-for-erc20)
+- [Implement your own ERC20 token contract](#implement-your-own-erc20-token-contract)
+- [Example: ERC20 contract](#example-erc20-contract)
 
 ## Tokens
 
