@@ -1,57 +1,47 @@
-# Content
-
-- [Introduction to Oracles](#Introduction-to-Oracles)
-     - [What are Oracles](What-are-Oracles)
-     - [Why do they exist](Why-do-they-exist)
-     - [Main Challenges](Main-Challenges)
-     - [Current Oracle Solutions](Current-Oracle-Solutions)
-     - [Example: contract w oracles](Example-contract-w-oracles)
-- [MetaMask deploy using injected Web3 on Kovan Test Network](#MetaMask-deploy-using-injected-Web3-on-Kovan-Test-Network)
-
-
-
 # Introduction to Oracles
 
+- [What are Oracles](##What-are-Oracles)
+- [Why do they exist](##Why-do-they-exist)
+- [Main Challenges](##Main-Challenges)
+- [Current Oracle Solutions](##Current-Oracle-Solutions)
+- [Example: contract w oracles](##Example-contract-using-Oracles)
+- [MetaMask deploy using injected Web3 on Kovan Test Network](##MetaMask-deploy-using-injected-Web3-on-Kovan-Test-Network)
+
 ## What are Oracles
+
 - A connection between a blockchain (on-chain) and the external off-chain world; oracles can interact with external software as well as hardware
-     - An oracle is not a store of data, but is a layer on a separate network that queries and verifies external information before relaying it.
+- An oracle is not a store of data, but is a layer on a separate network that queries and verifies external information before relaying it.
 - Inbound: relays off-chain data from the external world to the blockchain or smart contract
-     - EG: An IOT thermometer monitors heat inside a meat-delivery truck. A safe temperature range is agreed on in advance in the smart contact. The smart contract will automatically execute payment to the delivery service as long as the truck temperature stays within the range for the trip.
-     - An inbound oracle communicates directly with the thermometer and the smart contract--only signing the smart contract for approved payment if the thermometer stays in the prespecified range.
+  - Example: An IOT thermometer monitors heat inside a meat-delivery truck. A safe temperature range is agreed on in advance in the smart contact. The smart contract will automatically execute payment to the delivery service as long as the truck temperature stays within the range for the trip.
+  - An inbound oracle communicates directly with the thermometer and the smart contract--only signing the smart contract for approved payment if the thermometer stays in the prespecified range.
 - Outbound: relays on-chain data/events from a blockchain or smart contract to the external world
-     - EG: After a hotel room’s address receives your payment, a smart contract communicates with an outbound oracle to unlock the door and turn on the electricity in your room.
-
-
+  - Example: After a hotel room’s address receives your payment, a smart contract communicates with an outbound oracle to unlock the door and turn on the electricity in your room.
 
 ## Why do they exist
+
 - Oracles are our connection between the digital world and the physical world.
 - Without oracles, smart contracts have much more limited application, especially in interfacing between our current web 2.0 world and the new web 3.0 world.
 - Oracles are a large part of the “real-time” data benefit of blockchain applications
 - If solved, this becomes a key part of the scalability solution… what can be offchain should be completed offchain, however we cannot do as much of that currently since we cannot guarantee “trust-worthiness” of the results
 
-
-
 ## Main Challenges
-- “We can trust data from oracles but that requires we trust oracles… can we?”
-- Scalability / cost: due to the complexity of operations need to verify or get multiple results (for additional validity) it’s frequently quite costly to use a oracle in production
-- Increased risks (of centralization) and attack surface (Blockchain <> Oracles <> Other APIs)
 
-
+- We should be able to trust data from oracles but that requires we trust oracles, but can we actually? This is a question that is often asked.
+- Due to the complexity of operations need to verify or get multiple results for additional validity it’s frequently quite costly to use a oracle in production
+- Increased risks of centralization and attack surface (Blockchain <> Oracles <> Other APIs)
 
 ## Current Oracle Solutions
-This being an important piece of the blockchain multiple teams are actively working on possible solutions:
+
+Multiple blockchain teams are actively working on possible Oracle solutions:
+
 - [Provable](https://provable.xyz/)
 - [Chainlink](https://chain.link/)
-- [cosmos + band protocol](https://bandprotocol.com/)
-- [MSFT coco](https://azure.microsoft.com/en-us/blog/announcing-microsoft-s-coco-framework-for-enterprise-blockchain-networks/) (more permissioned / secure, less decentralization)
-- Domain specific: i.e. Augur, Algorand etc... have a oracle component as well.
+- [Cosmos + band protocol](https://bandprotocol.com/)
+- [Microsoft Coco](https://azure.microsoft.com/blog/announcing-microsoft-s-coco-framework-for-enterprise-blockchain-networks/)
 
-This technology is considered the cutting edge of the blockchain, while ChainLink is considered the current front runner and the most mature, it is still not super developer or user friendly. For example it’s very hard to debug why a certain oracle transaction failed, but like most things in blockchain, we’ll get there :)  
+This technology is considered the cutting edge of the blockchain, while ChainLink is considered the current front runner and the most mature, it is still not super developer or user friendly. For example it’s very hard to debug why a certain Oracle transaction failed, but like most things in blockchain, we’ll get there :)  
 
-
-
-## Example contract w oracles
-
+## Example contract using Oracles
 
 ```solidity
 pragma solidity ^0.6.0;
@@ -104,67 +94,44 @@ contract APIConsumer is ChainlinkClient {
 
 ```
 
-# MetaMask deploy using injected Web3 on Kovan Test Network
+## MetaMask deploy using injected Web3 on Kovan Test Network
+
 - Copy the `APIConsumer` contract to [Remix](https://remix.ethereum.org/).
-
-
-
 - Compile the code
-![](Images/compile%20remix.png)
 
-
+![Compile Remix](Images/compile%20remix.png)
 
 - Choose **Injected Web3** as an Environment and click **Deploy**
-![](Images/injectedweb3_deploy_remix.png)
-
-
+![Deploy Remix](Images/injectedweb3_deploy_remix.png)
 
 - Your contract should now be deployed with MetaMask!
-
-
-
 - Get the testnet address
-![](Images/get%20testnet%20address.png)
-
-
+![Testnet address](Images/get%20testnet%20address.png)
 
 - Go to https://kovan.chain.link/ and paste your testnet address in the field
-![](Images/get%20chain%20link.png)
-
-
+![Chainlink](Images/get%20chain%20link.png)
 
 - Go to MetaMask and click **Add Token**
-![](Images/Add%20token.png)
-
-
+![Add token](Images/Add%20token.png)
 
 - Click Custom Token and paste the contract address, then click next.
-- Token Contract Address:`0xa36085F69e2889c224210F603D836748e7dC0088`
-- Token symbol: `LINK`
-- Decimals of precision: `18`
-![](Images/Add%20tokens%20next.png)
+  - Token Contract Address:`0xa36085F69e2889c224210F603D836748e7dC0088`
+  - Token symbol: `LINK`
+  - Decimals of precision: `18`
 
-
+![Next](Images/Add%20tokens%20next.png)
 
 - Click **Add Tokens**
-![](Images/Add%20tokens%20LINK100.png)
-
-
+![Link 100](Images/Add%20tokens%20LINK100.png)
 
 - You will see 100 LINK. Click **SEND**
-![](Images/100_link.png)
-
-
+![100 Link](Images/100_link.png)
 
 - Add your deployed contract address to the field and choose amount of 10 LINK
-![](Images/send%20tokens%20add%20address.png)
-
-
+![Add address](Images/send%20tokens%20add%20address.png)
 
 - Confirm and then wait until status is not pending.
-- Go to Remix. Click **ethereumPrice** which should be 0. Now click **requestEthereumPrice** and Confirm in MetaMask.
-![](Images/request%20etherum%20remix.png)
-
-
+- Focus your attention back to Remix. Click **ethereumPrice** which should be 0. Now click **requestEthereumPrice** and Confirm in MetaMask.
+![Request Ethereum Price](Images/request%20etherum%20remix.png)
 
 - Afterwards click **ethereumPrice**, it should now be 12!

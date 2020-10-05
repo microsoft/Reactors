@@ -1,14 +1,11 @@
-# Content
-- [Advanced uses of data structures](#Advanced-uses-of-data-structures)
-
-
-
 # Advanced uses of data structures
-Hopefully you've had time to review the basic data strucutures.
-Here we review some of the more advance uses of these data structures / how they work together.
-The focus for now is to show you how they work via examples because we will be seeing / using them for subsequent smart contracts.
 
-#### Nested mappings, mapping => structs)
+By now, you should have reviewed basic data structures in Solidity. Here, we review some of the more advanced uses of these data structures and how they work together.
+
+The focus for now is to show you how some of these advanced structures work in the example below because we will be using them for subsequent smart contracts. The example below shows how to use nested mappings.
+
+## Nested mappings
+
 ```solidity
 pragma solidity ^0.6.0;
 
