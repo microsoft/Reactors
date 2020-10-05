@@ -2,17 +2,17 @@
 
 In this section, we will focus on the following:
 
-- [What is Remix?](##what-is-remix?)
-- [Get started with Remix](##get-started-with-remix)
-- [What is MetaMask Plug-in?](##what-is-metaMask-plug-in?)
-- [Download MetaMask](##download-metaMask)
-- [Add MetaMask](##add-metaMask)
-- [Get Started with MetaMask](##get-started-with-metaMask)
-- [Create a Wallet](##create-a-wallet)
-- [Secret Backup Phrase](##secret-backup-phrase)
-- [Why do Testnets Exist](##why-do-testnets-exist)
-- [What is a faucet and how to use the Kovan faucet](##what-is-a-faucet-and-how-to-use-the-kovan-faucet)
-- [Request Kovan Ether](##request-kovan-ether)
+- [What is Remix?](#what-is-remix?)
+- [Get started with Remix](#get-started-with-remix)
+- [What is MetaMask Plug-in?](#what-is-metaMask-plug-in?)
+- [Download MetaMask](#download-metaMask)
+- [Add MetaMask](#add-metaMask)
+- [Get Started with MetaMask](#get-started-with-metaMask)
+- [Create a Wallet](#create-a-wallet)
+- [Secret Backup Phrase](#secret-backup-phrase)
+- [Why do Testnets Exist](#why-do-testnets-exist)
+- [What is a faucet and how to use the Kovan faucet](#what-is-a-faucet-and-how-to-use-the-kovan-faucet)
+- [Request Kovan Ether](#request-kovan-ether)
 
 ## What is Remix?
 
