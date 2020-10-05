@@ -1,14 +1,14 @@
 # Working with tokens
 
-- [Tokens](##Tokens)
-- [Defining Features of ERC20](##Defining-Features-of-ERC20)
-- [Common uses for ERC20](##Common-uses-for-ERC20)
-- [Implement your own ERC20 token contract](##Implement-your-own-ERC20-token-contract)
-- [Example: ERC20 contract](##Example-ERC20-contract)
+- [Tokens](##tokens)
+- [Defining Features of ERC20](##defining-features-of-erc20)
+- [Common uses for ERC20](##common-uses-for-erc20)
+- [Implement your own ERC20 token contract](##implement-your-own-erc20-token-contract)
+- [Example: ERC20 contract](##example-erc20-contract)
 
 ## Tokens
 
-Tokens are like ether (ETH) but may have different design decisions, purposes and help operate different DAPPs and facilitate crypot-economics of different Blockchain ecosystems. For example Augur is a network that functions as a prediction market (you can think of it as a betting platform), and Augur has its own token (also ERC20) called REP. This is no different than you using tokens perhaps to take public transport. We have fiat/local currency, for example CAD (sometimes also comes in coins) and also TTC (Toronto Transit Commission) tokens and each TTC token allows you to take 1 subway ride. You can purchase TTC tokens using CAD (just like you can purchase REP using ETH) but they are not the same thing. TTC tokens are specifically for the eco-system of Toronto Transit.
+Tokens are like ether (ETH) but may have different design decisions, purposes and help operate different DAPPs and facilitate crypto-economics of different Blockchain ecosystems. For example Augur is a network that functions as a prediction market (you can think of it as a betting platform), and Augur has its own token (also ERC20) called REP. This is no different than you using tokens perhaps to take public transport. We have fiat/local currency, for example CAD (sometimes also comes in coins) and also TTC (Toronto Transit Commission) tokens and each TTC token allows you to take 1 subway ride. You can purchase TTC tokens using CAD (just like you can purchase REP using ETH) but they are not the same thing. TTC tokens are specifically for the eco-system of Toronto Transit.
 There are many different types of tokens but today we will focus on the ERC20 standard.
 (Even within ERC20 there are many different tokens for different Blockchain ecosystems. In fact the ERC20 token standard was highly correlated with the ICO craze you may remember from ~2016-2017.)
 

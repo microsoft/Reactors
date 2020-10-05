@@ -2,17 +2,17 @@
 
 In this section, we will focus on the following:
 
-- [What is Remix?](##What-is-Remix?)
-- [Get started with Remix](##Get-started-with-Remix)
-- [What is MetaMask Plug-in?](##What-is-MetaMask-Plug-in?)
-- [Download MetaMask](##Download-MetaMask)
-- [Add MetaMask](##Add-MetaMask)
-- [Get Started with MetaMask](##Get-Started-with-MetaMask)
-- [Create a Wallet](##Create-a-Wallet)
-- [Secret Backup Phrase](##Secret-Backup-Phrase)
-- [Why do Testnets Exist](##Why-do-Testnets-Exist)
-- [What is a faucet and how to use the Kovan faucet](##What-is-a-faucet-and-how-to-use-the-Kovan-faucet)
-- [Request Kovan Ether](##Request-Kovan-Ether)
+- [What is Remix?](##what-is-remix?)
+- [Get started with Remix](##get-started-with-remix)
+- [What is MetaMask Plug-in?](##what-is-metaMask-plug-in?)
+- [Download MetaMask](##download-metaMask)
+- [Add MetaMask](##add-metaMask)
+- [Get Started with MetaMask](##get-started-with-metaMask)
+- [Create a Wallet](##create-a-wallet)
+- [Secret Backup Phrase](##secret-backup-phrase)
+- [Why do Testnets Exist](##why-do-testnets-exist)
+- [What is a faucet and how to use the Kovan faucet](##what-is-a-faucet-and-how-to-use-the-kovan-faucet)
+- [Request Kovan Ether](##request-kovan-ether)
 
 ## What is Remix?
 
@@ -85,7 +85,7 @@ Metamask itself is a cryptocurrency wallet. Metamask also is a plug-in that will
 Y
 ou can choose to connect to the Main Ethereum Network as well as test networks.
 As a user you can use it as a crypto wallet to store ether, and for developers it is mainly used to deploy smart contracts. Let’s see how metamask plugin and remix work together to make smart contract development low barrier to entry and a breeze.
-> NOTE: if you use MetaMask as a wallet and as a dev tool, it’ll be more secure to make 2 separate accounts)
+> NOTE: if you use MetaMask as a wallet and as a dev tool, it’ll be more secure to make 2 separate accounts
 
 ## Download MetaMask
 

@@ -1,11 +1,11 @@
 # Introduction to Oracles
 
-- [What are Oracles](##What-are-Oracles)
-- [Why do they exist](##Why-do-they-exist)
-- [Main Challenges](##Main-Challenges)
-- [Current Oracle Solutions](##Current-Oracle-Solutions)
-- [Example: contract w oracles](##Example-contract-using-Oracles)
-- [MetaMask deploy using injected Web3 on Kovan Test Network](##MetaMask-deploy-using-injected-Web3-on-Kovan-Test-Network)
+- [What are Oracles](##what-are-oracles)
+- [Why do they exist](##why-do-they-exist)
+- [Main Challenges](##main-challenges)
+- [Current Oracle Solutions](##current-oracle-solutions)
+- [Example: contract w oracles](##example-contract-using-oracles)
+- [MetaMask deploy using injected Web3 on Kovan Test Network](##metaMask-deploy-using-injected-Web3-on-kovan-test-network)
 
 ## What are Oracles
 
