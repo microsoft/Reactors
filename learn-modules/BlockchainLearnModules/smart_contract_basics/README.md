@@ -503,3 +503,133 @@ Smart contracts cannot be changed but could be “upgraded” via a proxy contra
 - [x] Be careful with timestamps, randomness, gas on ethereum: these  may act slightly differently than in your usual context and can be manipulated / gamed
 - [x] Reuse code where possible. 
 - [x] KISS (keep it simple). Complexity hides bugs.
+
+
+### Post Work Prompt:
+ 
+
+Write a bank contract that will exchange your local currency from your bank account to tokens. 
+This is mostly in shape already in the oracle contract that was demontrated in the workshop / lab.
+
+## Some hints and considerations:
+- The contract should not make any transactions if there is not enough balance for this on the bank account or the amount to buy tokens for. 
+- Take a look at the oracle contract (see above) as you will use an API to get the token price and make the exchange. This contract is discussed in reactor workshops
+- You may want to add state variables to keep track of things like the price of the token, how much was the transaction for in bank balance etc...
+- A nested mapping may be used to represent the bank balance and token amount
+- Use msg.sender wisely to figure out who’s balance we are operating on
+- One contract address should use the contract at a time, you may want to use a lock to make sure only one msg.sender uses the contract until the previous transaction already in progress has completed
+- You can write functions to get the balance of your deposit, and make a deposit to your bank account
+- A function that will make the exchange to decrease bank account balance and increase token balance according to the oracle result on the token prices will be required as well
+- In the original oracle contract you can use the same API call to the oracle and fullfill() function. You might want to consider calling the function to exchange in the fullfill() function, as this will be fired at the end of the oracle request when you just updated the latest token price.
+
+
+## Acceptance criteria / tests you might want to consider
+
+As a user:
+
+When I deposit my local currency to my bank account
+I expect: my bank balance to increase accordingly
+
+
+When I specify an amount to buy tokens. 
+
+I expect:
+- If the amount I deposited to buy tokens is less than the price for tokens, I should not be able to do the transaction.
+- Otherwise: I expect my bank balance to decrease and my token balance to increase
+     
+     
+ ## Below is a sample Implementation
+ You should either produce your own contract first or at least try to improve this smart contract below
+ 
+ ```solidity
+ 
+ pragma solidity ^0.6.0;
+import "https://raw.githubusercontent.com/smartcontractkit/chainlink/develop/evm-contracts/src/v0.6/ChainlinkClient.sol";
+contract APIConsumer is ChainlinkClient {
+    uint256 public tokenPrice;
+    uint256 public amountToBuyTokens;
+    address private oracle;
+    bytes32 private jobId;
+    uint256 private fee;
+    address public owner;
+    address public tx_address;
+    bool public lock;
+    
+    enum BalanceType { bank, token }
+
+    event LogNewAlert(string description, uint256 purchase_amt, bool lk_status);
+    
+    constructor() public {
+        setPublicChainlinkToken();
+        oracle = 0x2f90A6D021db21e1B2A077c5a37B3C7E75D15b7e;
+        jobId = "29fa9aa13bf1468788b7cc4a500a45b8";
+        fee = 0.1 * 10 ** 18;
+        owner = msg.sender;
+    }
+
+    mapping(address => mapping(BalanceType => uint256)) balances;
+    
+        // Deposit to bank (local currency)
+    function depositToBank(uint256 _deposit) public {
+        balances[msg.sender][BalanceType.bank]+=_deposit;
+        balances[msg.sender][BalanceType.token]+=0;
+    }
+
+    function getBankBalance() public view returns(uint256){
+        return balances[msg.sender][BalanceType.bank];
+    }
+    // Withdraw from bank (local currency)
+    function withdrawFromBank(uint256 _amount) private {
+        balances[tx_address][BalanceType.bank]-=_amount;
+
+    }
+    
+    function getTokenBalance() public view returns(uint256){
+        return balances[msg.sender][BalanceType.token];
+    }
+    
+    function txBuyTokens(uint256 _amount) public{
+    if(balances[msg.sender][BalanceType.bank] >= _amount){
+            tx_address = msg.sender;
+            amountToBuyTokens = _amount;
+            lock = true;
+            LogNewAlert("tx init: buying || lock status", _amount , lock);
+            go();
+        }
+    }
+// Exchange local currency for tokens
+    function exchangeFunction() private {
+        if(balances[tx_address][BalanceType.bank] >= amountToBuyTokens && amountToBuyTokens>= tokenPrice) {
+            balances[tx_address][BalanceType.token] += amountToBuyTokens/ tokenPrice;
+            amountToBuyTokens = (balances[tx_address][BalanceType.token]* tokenPrice);
+            withdrawFromBank(amountToBuyTokens);
+    }
+    }
+    function go() private returns (bytes32 requestId) 
+    {
+        Chainlink.Request memory request = buildChainlinkRequest(jobId, address(this), this.fulfill.selector);
+        request.add("get", "https://jsonplaceholder.typicode.com/todos/12");
+        request.add("path", "id");
+        // Sends the request
+        return sendChainlinkRequestTo(oracle, request, fee);
+    }
+    /**
+     * Receive the response in the form of uint256
+     */ 
+    function fulfill(bytes32 _requestId, uint256 _price) public recordChainlinkFulfillment(_requestId)
+    {
+        tokenPrice = _price;
+        // call exchange function here
+        exchangeFunction();
+        lock = false;
+        amountToBuyTokens = 0;
+        tx_address=owner;
+        LogNewAlert("tx complete: bought || lock status", amountToBuyTokens , lock);
+
+    }
+}
+
+```
+
+
+### "Extra Credits": Implement your own [ERC721](https://docs.openzeppelin.com/contracts/3.x/erc721) contract 
