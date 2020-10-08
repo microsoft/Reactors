@@ -75,6 +75,7 @@ contract AdvDataStructures {
 
 ## Summary
 - This contract demonstrates some ways of using advanced data structure patterns
+- The goal is for you to experiment with this contract in remix
 - You will need to be familiar with these data structures for the next few topics
 - The best way to learn is to let your curiosity guide you and try to reproduce and try new examples
 
