@@ -44,7 +44,8 @@ Blockchain apps have key properties and advantages of:
 
 Here is a small example of a smart contract that allows you to save some values in a contract.
 
-```
+```solidity
+
 // We need to set the version of our compiler called pragma
 // This prevents security issues / unexpected behavior 
 pragma solidity >=0.4.22 <0.7.0;
@@ -77,7 +78,8 @@ Creates user-defined data types, based on integer values starting from 0. Their 
 Here is an example of a smart contract that uses Enums. 
 It sets the value of the variable “status” to a default value of Status.Pending
 
-```
+```solidity
+
 pragma solidity >=0.4.22 <0.7.0;
 
 contract Shipping {
@@ -100,7 +102,8 @@ Maybe each cryptoPuppy has a **ID**, a **Name** and favorite **dogPark** etc…
 These are typically used as schema or represent “records”.
 Here is an example of a struct being defined to represent vehicles.
 
-```
+```solidity
+
 struct Vehicles_Schema {
         uint256 _id; // has a id
         string _maker; // has a maker
@@ -116,7 +119,8 @@ Mappings are key value pairs that are encapsulated (packaged together) ; these a
 Here is a smart contract that uses the struct `Vehicles_Schema` and saves a list of vehicles represented by the `Vehicles_Schema` as a dictionary. This somewhat mimics a database.  
 Notice the mapping signature `uint256 => Vehicles_Schema` => this indicates that the keys are of type unsigned integer and the values are `Vechicles_Schema` structs.
  
- ```
+ ```solidity
+
     contract Vehicles {
     uint256 vehicle_id = 0;
     
@@ -141,7 +145,8 @@ Notice the mapping signature `uint256 => Vehicles_Schema` => this indicates that
 ### Global vars / Objects 
 Used to provide information about the blockchain, and live in the global scope. Some examples include: `block`, `msg` and `tx` (transactions), and now (aka block.timestamp).  
 For example, you could make sure only the contact creator can execute certain functions. Let’s modify our first contract to see how to implement this change:
-```
+```solidity
+
 pragma solidity >=0.4.22 <0.7.0;
 contract MyFirstContract2 {
         
@@ -264,7 +269,8 @@ A new tab will open called Smart Contract UI. In this UI you can interact with y
  
  
 ### Write your first smart contract
-```
+```solidity
+
 pragma solidity >=0.5.16<=0.7.0;
  
 contract Shipping
@@ -342,7 +348,8 @@ Truffle will make it possible to run tests, and Ganache will set up a Blockchain
 - Command prompt: `truffle compile` (compiles your added Shipping.sol contract)
 - Migration: To be able to deploy our smart contract to the Ethereum network we need to add another Migration file. In the command prompt type truffle create migration shipping_contract
 - Go to the Migrations folder and your newly created file. This file will have a set of numbers before the filename you created. Now add this code to the file:
-```
+```solidity
+
 const Shipping = artifacts.require("Shipping");
 module.exports = function (deployer) {
   deployer.deploy(Shipping);
@@ -351,19 +358,21 @@ module.exports = function (deployer) {
 Note that we are not adding the filename of the contract, but the contract name itself. In this case it is not that obvious since our contract and file has the same name.
 -  Now we will start our test network by opening a new terminal in Visual Studio Code and adding ganache-cli to the terminal. You will see 10 accounts added and also some other information about your test network.
 -  In Visual Studio Code go to the truffle-config.js file and add the following code under networks:
-  ```
-    networks: {
-      development:{
-      host: '127.0.0.1',
-      port: 8545,
-      network_id: '*' 
-  }
+```solidity
+
+networks: {
+     development:{
+          host: '127.0.0.1',
+          port: 8545,
+          network_id: '*' 
+     }
 }
 ```
 - In your command prompt type `truffle migrate` which will run all migrations and deploy your smart contract to the test network (in this case our Shipping contract).
 - Let’s create our first test by typing this to the command prompt: `truffle create test Shipping`
 - In our folder test a Javascript file has been created called Shipping.js. Remove the code in the file and replace it with:
-```
+```solidity
+
 const Shipping = artifacts.require("Shipping");
 contract('Shipping', () => {
   
@@ -381,7 +390,8 @@ contract('Shipping', () => {
 - We will start all our tests with it, think of it as writing a sentence describing what you want the test to do. “It should…”
 - We will go ahead and write tests to see if the status is changing, when we are calling our functions Shipped() and Delivered(). We also want to test the event we have in the Delivered() function.
 - Shipped() test:
-```
+```solidity
+
 it("should return the status Shipped", async ()=> {
 // Instance of our deployed contract
     const instance = await Shipping.deployed();
@@ -398,7 +408,8 @@ it("should return the status Shipped", async ()=> {
 ```
 - Delivered() test:
 
-```
+```solidity
+
    it("should return the status Delivered", async ()=> {
  
     // Instance of our deployed contract
@@ -419,7 +430,8 @@ it("should return the status Shipped", async ()=> {
 We will use the package truffle-assertions to help us test our events. By using this package we can assert that our events are emitted during the transaction.
 - Install: `npm install truffle-assertions`
 - Add this to the test file at the top:
-```
+```solidity
+
 const Shipping = artifacts.require("Shipping");
 const truffleAssert = require('truffle-assertions');
     
@@ -478,7 +490,7 @@ We can plan for failures!
 It’s as simple as setting up a kill switch in our smart contract. If we cannot reverse damage we can at least prevent further damage by turning off our contract.  
 
 Here is a simple implementation of the kill switch we can use in `MyFirstContract2`
-```
+```solidity
 … 
 function kill() { if (msg.sender == owner) selfdestruct(owner); }
 …
@@ -543,7 +555,7 @@ I expect:
  
  ```solidity
  
- pragma solidity ^0.6.0;
+ pragma solidity ^0.6.6;
 import "https://raw.githubusercontent.com/smartcontractkit/chainlink/develop/evm-contracts/src/v0.6/ChainlinkClient.sol";
 contract APIConsumer is ChainlinkClient {
     uint256 public tokenPrice;
@@ -622,9 +634,9 @@ contract APIConsumer is ChainlinkClient {
         // call exchange function here
         exchangeFunction();
         lock = false;
-        amountToBuyTokens = 0;
         tx_address=owner;
         LogNewAlert("tx complete: bought || lock status", amountToBuyTokens , lock);
+        amountToBuyTokens = 0;
 
     }
 }
