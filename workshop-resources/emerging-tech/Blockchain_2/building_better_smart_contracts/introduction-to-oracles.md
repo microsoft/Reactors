@@ -135,3 +135,7 @@ contract APIConsumer is ChainlinkClient {
 ![Request Ethereum Price](Images/request%20etherum%20remix.png)
 
 - Afterwards click **ethereumPrice**, it should now be 12!
+
+## Summary
+- We were able to securely use a oracle and get off chain data to a smart contract
+- This example demonstrates how to use oracles with a generic REST API 
