@@ -85,7 +85,12 @@ Metamask itself is a cryptocurrency wallet. Metamask also is a plug-in that will
 Y
 ou can choose to connect to the Main Ethereum Network as well as test networks.
 As a user you can use it as a crypto wallet to store ether, and for developers it is mainly used to deploy smart contracts. Let’s see how metamask plugin and remix work together to make smart contract development low barrier to entry and a breeze.
-> NOTE: if you use MetaMask as a wallet and as a dev tool, it’ll be more secure to make 2 separate accounts
+> NOTE: if you use MetaMask as a wallet and as a dev tool, it’ll be more secure to make 2 separate accounts.
+It's security best practice to avoid accidentally leaking your addresses / keys etc... in screenshots for example. 
+It's also helpful to avoid mistakes where you accidentally use the mainnet / real wallet / real crypto assets instead of the testnet.
+If your dev only account is compromised... no big deal... just make a new one.
+Your real wallet contains crypto assets that has monetary value etc...
+If your real address gets associated with your identity... at the very least this gives others a way to study your transaction patterns which you would want to avoid.
 
 ## Download MetaMask
 
@@ -127,7 +132,7 @@ If you are new to Metamask you will create a wallet and set a new password. Clic
 
 When we are learning how to code smart contracts, we have the option to use test nets to do transactions without paying for it.
 
-Test nets run in parallel and are in most cases identical with the main net (the real net) but the tokens used are different (even though they might work the same way i.e. monopoly money vs real money, you can still use it to buy things but not in real life :)
+Test nets run in parallel and are in most cases identical with the mainnet (the real net) but the tokens used are different (even though they might work the same way i.e. monopoly money vs real money, you can still use it to buy things but not in real life :)
 
 This means we can learn and see how it will work in real production without spending any money. This also means that we have NO EXCUSE to not test our contracts and audit them carefully.
 
