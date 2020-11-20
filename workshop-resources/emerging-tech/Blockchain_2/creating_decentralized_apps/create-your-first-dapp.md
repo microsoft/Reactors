@@ -91,27 +91,29 @@ following steps:
     Consequently, **./truffle-config.js** will require this same host
     and port address.
 
-        const path = require(\"path\");
+```javascript
+const path = require("path");
 
-        module.exports = {
+module.exports = {
 
-            // See \<http://truffleframework.com/docs/advanced/configuration\>
-            // to customize your Truffle configuration!
+    // See <http://truffleframework.com/docs/advanced/configuration>
+    // to customize your Truffle configuration!
 
-            contracts_build_directory: path.join(\_\_dirname, \"app/src/contracts\"),
+    contracts_build_directory: path.join(__dirname, "app/src/contracts"),
 
-            networks: {
+    networks: {
 
-                development: { // used to be just develop
+        development: { // used to be just develop
 
-                host: \"127.0.0.1\", // Localhost (default: none)
+        host: "127.0.0.1", // Localhost (default: none)
 
-                port: 8545, // Standard Ethereum port (default: none)
+        port: 8545, // Standard Ethereum port (default: none)
 
-                network_id: \"\*\", // Any network (default: none)
-                },
-            }
-        };
+        network_id: "*", // Any network (default: none)
+        },
+    }
+};
+```
 
 The **Truffle Drizzle-Box** comes with three contracts that use the
 drizzle components for connecting to a Dapp. The contracts directory
@@ -142,24 +144,26 @@ Using the Truffle develop console, compile these smart contracts:
 -   Take a look in the file **./migrations/2_deploy_contracts.js**
     located in the migrations folder.
 
-        const SimpleStorage = artifacts.require(\"SimpleStorage\");
+```javascript
+const SimpleStorage = artifacts.require("SimpleStorage");
 
-        const TutorialToken = artifacts.require(\"TutorialToken\");
+const TutorialToken = artifacts.require("TutorialToken");
 
-        const ComplexStorage = artifacts.require(\"ComplexStorage\");
+const ComplexStorage = artifacts.require("ComplexStorage");
 
-        const Shipping = artifacts.require(\"Shipping\");
+const Shipping = artifacts.require("Shipping");
 
-        module.exports = function(deployer) {
+module.exports = function(deployer) {
 
-            deployer.deploy(SimpleStorage);
+    deployer.deploy(SimpleStorage);
 
-            deployer.deploy(TutorialToken);
+    deployer.deploy(TutorialToken);
 
-            deployer.deploy(ComplexStorage);
+    deployer.deploy(ComplexStorage);
 
-            deployer.deploy(Shipping);
-        };
+    deployer.deploy(Shipping);
+};
+```
 
 -   From the development console, execute the command migrate to migrate
     and deploy the smart contracts.
@@ -215,156 +219,158 @@ with the front-end.
     and create a component with AccountData, ContractData and
     ContractForm called newContextComponents.
 
-        import React from "react";
+```jsx
+import React from "react";
 
-        import { newContextComponents } from "@drizzle/react-components";
+import { newContextComponents } from "@drizzle/react-components";
 
-        import logo from "./logo.png";
+import logo from "./logo.png";
 
-        const { AccountData, ContractData, ContractForm } =
-        newContextComponents;
+const { AccountData, ContractData, ContractForm } =
+newContextComponents;
 
-        export default ({ drizzle, drizzleState }) => {
-        // destructure drizzle and drizzleState from props
+export default ({ drizzle, drizzleState }) => {
+// destructure drizzle and drizzleState from props
 
-            return (
-                <div className="App">
-                    <div>
-                        <img src={logo} alt="drizzle-logo" />
-                        <h1>Drizzle Examples</h1>
-                        <p>
-                        Examples of how to get started with Drizzle in various situations.
-                        </p>
-                    </div>
+    return (
+        <div className="App">
+            <div>
+                <img src={logo} alt="drizzle-logo" />
+                <h1>Drizzle Examples</h1>
+                <p>
+                Examples of how to get started with Drizzle in various situations.
+                </p>
+            </div>
 
-                    <div className="section">
-                        <h2>Active Account</h2>
+            <div className="section">
+                <h2>Active Account</h2>
 
-                        <AccountData
-                            drizzle={drizzle}
-                            drizzleState={drizzleState}
-                            accountIndex={0}
-                            units="ether"
-                            precision={3}
-                        />
-                    </div>
+                <AccountData
+                    drizzle={drizzle}
+                    drizzleState={drizzleState}
+                    accountIndex={0}
+                    units="ether"
+                    precision={3}
+                />
+            </div>
 
-                    <div className="section">
-                        <h2>SimpleStorage</h2>
+            <div className="section">
+                <h2>SimpleStorage</h2>
 
-                        <p>
-                        This shows a simple ContractData component with no arguments, along with a form to set its value.
-                        </p>
+                <p>
+                This shows a simple ContractData component with no arguments, along with a form to set its value.
+                </p>
 
-                        <p>
-                            <strong>Stored Value: </strong>
+                <p>
+                    <strong>Stored Value: </strong>
 
-                            <ContractData
-                                drizzle={drizzle}
-                                drizzleState={drizzleState}
-                                contract="SimpleStorage"
-                                method="storedData"
-                            />
-                        </p>
+                    <ContractData
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="SimpleStorage"
+                        method="storedData"
+                    />
+                </p>
 
-                        <ContractForm drizzle={drizzle} contract="SimpleStorage"
-                        method="set" />
+                <ContractForm drizzle={drizzle} contract="SimpleStorage"
+                method="set" />
 
-                    </div>
+            </div>
 
-                    <div className="section">
-                        <h2>TutorialToken</h2>
+            <div className="section">
+                <h2>TutorialToken</h2>
 
-                        <p>
-                        Here we have a form with custom, friendly labels. Also note the token symbol will not display a loading indicator. We\'ve suppressed it with the <code>hideIndicator</code> prop because we know this variable isconstant.
-                        </p>
+                <p>
+                Here we have a form with custom, friendly labels. Also note the token symbol will not display a loading indicator. We\'ve suppressed it with the <code>hideIndicator</code> prop because we know this variable isconstant.
+                </p>
 
-                        <p>
-                            <strong>Total Supply: </strong>
+                <p>
+                    <strong>Total Supply: </strong>
 
-                            <ContractData
-                                drizzle={drizzle}
-                                drizzleState={drizzleState}
-                                contract="TutorialToken"
-                                method="totalSupply"
-                                methodArgs={[{ from: drizzleState.accounts[0]}]}
-                            />{" "}
+                    <ContractData
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="TutorialToken"
+                        method="totalSupply"
+                        methodArgs={[{ from: drizzleState.accounts[0]}]}
+                    />{" "}
 
-                            <ContractData
-                                drizzle={drizzle}
-                                drizzleState={drizzleState}
-                                contract="TutorialToken"
-                                method="symbol"
-                                hideIndicator
-                            />
-                        </p>
+                    <ContractData
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="TutorialToken"
+                        method="symbol"
+                        hideIndicator
+                    />
+                </p>
 
-                        <p>
-                            <strong>My Balance: </strong>
+                <p>
+                    <strong>My Balance: </strong>
 
-                            <ContractData
-                                drizzle={drizzle}
-                                drizzleState={drizzleState}
-                                contract="TutorialToken"
-                                method="balanceOf"
-                                methodArgs={[drizzleState.accounts[0]]}
-                            />
-                        </p>
+                    <ContractData
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="TutorialToken"
+                        method="balanceOf"
+                        methodArgs={[drizzleState.accounts[0]]}
+                    />
+                </p>
 
-                        <h3>Send Tokens</h3>
-                        <ContractForm
-                            drizzle={drizzle}
-                            contract="TutorialToken"
-                            method="transfer"
-                            labels={["To Address", "Amount to Send"]}
-                        />
-                    </div>
+                <h3>Send Tokens</h3>
+                <ContractForm
+                    drizzle={drizzle}
+                    contract="TutorialToken"
+                    method="transfer"
+                    labels={["To Address", "Amount to Send"]}
+                />
+            </div>
 
-                    <div className="section">
-                        <h2>ComplexStorage</h2>
+            <div className="section">
+                <h2>ComplexStorage</h2>
 
-                        <p>
-                        Finally this contract shows data types with additional considerations.
+                <p>
+                Finally this contract shows data types with additional considerations.
 
-                        Note in the code the strings below are converted from bytes to UTF-8 strings and the device data struct is iterated as a list.
-                        </p>
+                Note in the code the strings below are converted from bytes to UTF-8 strings and the device data struct is iterated as a list.
+                </p>
 
-                        <p>
-                            <strong>String 1: </strong>
+                <p>
+                    <strong>String 1: </strong>
 
-                            <ContractData
-                                drizzle={drizzle}
-                                drizzleState={drizzleState}
-                                contract="ComplexStorage"
-                                method="string1"
-                                toUtf8
-                            />
-                        </p>
+                    <ContractData
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="ComplexStorage"
+                        method="string1"
+                        toUtf8
+                    />
+                </p>
 
-                        <p>
-                            <strong>String 2: </strong>
+                <p>
+                    <strong>String 2: </strong>
 
-                            <ContractData
-                                drizzle={drizzle}
-                                drizzleState={drizzleState}
-                                contract="ComplexStorage"
-                                method="string2"
-                                toUtf8
-                            />
-                        </p>
+                    <ContractData
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="ComplexStorage"
+                        method="string2"
+                        toUtf8
+                    />
+                </p>
 
-                        <strong>Single Device Data: </strong>
+                <strong>Single Device Data: </strong>
 
-                        <ContractData
-                            drizzle={drizzle}
-                            drizzleState={drizzleState}
-                            contract="ComplexStorage"
-                            method="singleDD"
-                        />
-                    </div>
-                </div>
-            );
-        };
+                <ContractData
+                    drizzle={drizzle}
+                    drizzleState={drizzleState}
+                    contract="ComplexStorage"
+                    method="singleDD"
+                />
+            </div>
+        </div>
+    );
+};
+```
 
 -   **./app/src/drizzleOptions.js** is used to create an **options**
     object and pass in the desired contract artifacts for **Drizzle** to
@@ -373,27 +379,29 @@ with the front-end.
     object sets up and instantiates the Drizzle store. Note: that in
     this example, Web3 is connecting to localhost port 8545.
 
-        import Web3 from "web3";
-        
-        import ComplexStorage from "./contracts/ComplexStorage.json";
-        
-        import SimpleStorage from "./contracts/SimpleStorage.json";
-        
-        import TutorialToken from "./contracts/TutorialToken.json";
-        
-        const options = {
-            web3: {            
-            block: false,
-            customProvider: new Web3("ws://localhost:8545"),
-            },
+```javascript
+import Web3 from "web3";
 
-            contracts: [SimpleStorage, ComplexStorage, TutorialToken],
-            events: {
-                SimpleStorage: ["StorageSet"],        
-            },
-        };
-        
-        export default options;
+import ComplexStorage from "./contracts/ComplexStorage.json";
+
+import SimpleStorage from "./contracts/SimpleStorage.json";
+
+import TutorialToken from "./contracts/TutorialToken.json";
+
+const options = {
+    web3: {            
+    block: false,
+    customProvider: new Web3("ws://localhost:8545"),
+    },
+
+    contracts: [SimpleStorage, ComplexStorage, TutorialToken],
+    events: {
+        SimpleStorage: ["StorageSet"],        
+    },
+};
+
+export default options;
+```
 
 -   **App.js** contains the code for the main app. It requires importing
     React and the Drizzle libraries including the
@@ -405,36 +413,38 @@ with the front-end.
 
     -   **Const drizzle = new Drizzle (drizzleOptions);**
 
-            import React from "react";
-            import { DrizzleContext } from "@drizzle/react-plugin";
-            import { Drizzle } from "@drizzle/store";
-            import drizzleOptions from "./drizzleOptions";
-            import MyComponent from "./MyComponent";
-            import "./App.css";
-            
-            const drizzle = new Drizzle(drizzleOptions);
-            
-            const App = () => {
-                return (
-                    <DrizzleContext.Provider drizzle={drizzle}>
-                        <DrizzleContext.Consumer>
-                            {drizzleContext => {
-                                const { drizzle, drizzleState, initialized } = drizzleContext;
-                                
-                                if (!initialized) {
-                                    return "Loading..."
-                                }
-                                
-                                return (
-                                    <MyComponent drizzle={drizzle} drizzleState={drizzleState} />
-                                )
-                            }}
-                        </DrizzleContext.Consumer>
-                    </DrizzleContext.Provider>
-                );
-            }
-            
-            export default App;
+```jsx
+import React from "react";
+import { DrizzleContext } from "@drizzle/react-plugin";
+import { Drizzle } from "@drizzle/store";
+import drizzleOptions from "./drizzleOptions";
+import MyComponent from "./MyComponent";
+import "./App.css";
+
+const drizzle = new Drizzle(drizzleOptions);
+
+const App = () => {
+    return (
+        <DrizzleContext.Provider drizzle={drizzle}>
+            <DrizzleContext.Consumer>
+                {drizzleContext => {
+                    const { drizzle, drizzleState, initialized } = drizzleContext;
+                    
+                    if (!initialized) {
+                        return "Loading..."
+                    }
+                    
+                    return (
+                        <MyComponent drizzle={drizzle} drizzleState={drizzleState} />
+                    )
+                }}
+            </DrizzleContext.Consumer>
+        </DrizzleContext.Provider>
+    );
+}
+
+export default App;
+```
 
 ### Running the dapp:
 
