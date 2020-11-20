@@ -298,4 +298,4 @@ browser window.
 You should see the following. In this dapp, you can now interact with
 the contracts directly.
 
-![](media\image17.png)
+![](Images\image17.png)

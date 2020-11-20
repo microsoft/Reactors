@@ -15,7 +15,7 @@ Build your first dapp using Drizzle and VS Code
     -   Solidity - included with VS Code Solidity Extension, dependency
         of the Blockchain Development Kit Extension
 
-> ![](media\image4.png)
+> ![](Images\image4.png)
 
 -   Truffle and Ganache-cli - included with VS Code Blockchain
     Development Kit. Truffle and Ganache can be installed using npm
@@ -24,14 +24,14 @@ Build your first dapp using Drizzle and VS Code
 
     -   npm install -g truffle
 
-> ![](media\image5.png)
+> ![](Images\image5.png)
 
 -   Web3 1.0+ - check the version using "npm view web3 version"
 
 -   Web Sockets - check if web sockets are installed via the extensions
     for VS Code
 
-> ![](media\image6.png)
+> ![](Images\image6.png)
 
 [**Drizzle-box**](https://www.trufflesuite.com/boxes/drizzle)
 comes with several out of the box smart contracts to check out and a
@@ -63,25 +63,25 @@ following steps:
 
     -   truffle unbox drizzle
 
-> ![](media\image7.png)
+> ![](Images\image7.png)
 
 -   **Unboxing Drizzle** may take a few minutes and will scaffold out a
     react app project. . Open **VSCode** and the directory structure
     will look like this:
 
-> ![](media\image8.png)
+> ![](Images\image8.png)
 
 -   Unboxing drizzle has installed the node module for \@drizzle under
     the ./app/node_modules folder:
 
-> ![](media\image9.png)
+> ![](Images\image9.png)
 -   In the Terminal, run the Truffle development console which spawns a
     development blockchain. This is very useful for compiling, deploying
     and testing locally and creates a list of 10 accounts.
 
     -   truffle develop
 
-> ![](media\image10.png)
+> ![](Images\image10.png)
 
 -   From the development console for truffle, compile and migrate the
     smart contracts to the development blockchain. If desired, both
@@ -120,7 +120,7 @@ contains the files: **ComplexStorage.sol**, **SimpleStorage.sol** and
 
 Using the Truffle develop console, compile these smart contracts:
 
-> ![](media\image11.png)
+> ![](Images\image11.png)
 
 ### Deploying and Migrating Smart Contracts
 
@@ -164,9 +164,9 @@ Using the Truffle develop console, compile these smart contracts:
 -   From the development console, execute the command migrate to migrate
     and deploy the smart contracts.
 
-> ![](media\image12.png)
+> ![](Images\image12.png)
 >
-> ![](media\image13.png)
+> ![](Images\image13.png)
 
 ### Testing the Smart Contracts
 
@@ -179,7 +179,7 @@ testing the smart contract.
 In the Truffle console, test the **SimpleStorage** contract using the
 **test** command:
 
-![](media\image14.png)
+![](Images\image14.png)
 
 ### Explore and run the dapp
 
@@ -187,7 +187,7 @@ The Drizzle Box includes code using the dizzle libraries to connect the
 smart contracts to the dapp's front-end. That code exists within the
 \`app\` directory.
 
-> ![](media\image15.png)
+> ![](Images\image15.png)
 
 ### Wiring up the front-end to the smart contract
 
@@ -463,4 +463,4 @@ browser window.
 You should see the following in your browser window. In this dapp, you
 can now interact with the contracts directly.
 
-![](media\image16.png)
+![](Images\image16.png)

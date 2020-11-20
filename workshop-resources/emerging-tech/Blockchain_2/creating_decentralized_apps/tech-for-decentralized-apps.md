@@ -79,7 +79,7 @@ extension](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azur
 
 > Drizzle includes the following components:
 
--   **@drizzle/store](https://github.com/trufflesuite/drizzle/blob/develop/packages/store/README.md):**-
+-   **[@drizzle/store](https://github.com/trufflesuite/drizzle/blob/develop/packages/store/README.md):**-
     is the state manager of Drizzle. It handles the boilerplate for web3
     connection as synchronizing Smart Contract state and events.
 
@@ -109,12 +109,12 @@ extension](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azur
     a Vue adaptor and collection of html controls to support developing
     a Vue dapp.
 
-[![](media\image1.png)](https://www.trufflesuite.com/drizzle)
+[![](Images\image1.png)](https://www.trufflesuite.com/drizzle)
 
-![](media\image2.png)
+![](Images\image2.png)
 -----------------------------------------------------------------
 
 Below is a good visual representation of how Drizzle works with the dap
 and keeps track of the data.
 
-[![](media\image3.png)](https://www.trufflesuite.com/docs/drizzle/reference/how-data-stays-fresh)
+[![](Images\image3.png)](https://www.trufflesuite.com/docs/drizzle/reference/how-data-stays-fresh)
