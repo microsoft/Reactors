@@ -1,20 +1,9 @@
 Create a DApp for a shipping contract
 -------------------------------------
 
-In a previous module, the tutorial worked through a smart contract to
-capture the shipping status of an item. This example will wire it up to
-a simple DApp which lets you update the status from Pending to Shipped
-or Delivered. This contract now adds a counter that keeps track of the
-number of times the state of the shipping contract is updated and will
-display that in the front-end.
+In a previous module, the tutorial worked through a smart contract to capture the shipping status of an item. This example will wire it up to a simple DApp which lets you update the status from Pending to Shipped or Delivered. This contract now adds a counter that keeps track of the number of times the state of the shipping contract is updated and will display that in the front-end.
 
-By starting with the code which is installed from the Drizzle box from
-the last example, add **Shipping.sol** to the **./contracts** folder.
-Modify **./migrations/2_deploy_contracts.js** add a migration for the
-**Shipping** contract. This is a simple example and demonstrates linking
-the back-end to the front end. If desired, you can update the contract
-and front-end and add more functionality later such as requesting to
-ship an item, or updating an item once it's delivered.
+By starting with the code which is installed from the Drizzle box from the last example, add **Shipping.sol** to the **./contracts** folder. Modify **./migrations/2_deploy_contracts.js** add a migration for the **Shipping** contract. This is a simple example and demonstrates linking the back-end to the front end. If desired, you can update the contract and front-end and add more functionality later such as requesting to ship an item, or updating an item once it's delivered.
 
 -   **Shipping.sol -** use the Shipping contract below.
 
@@ -108,8 +97,7 @@ contract Shipping
 }
 ```
 
--   Modify **./migrations/2_deploy_contracts.js** is modified to include
-    the Shipping Contract:
+-   Modify **./migrations/2_deploy_contracts.js** is modified to include the Shipping Contract:
 
 ```javascript
         const SimpleStorage = artifacts.require("SimpleStorage");
@@ -133,8 +121,7 @@ contract Shipping
         };
 ```
 
--   Start a development server using **truffle develop**. Compile and
-    migrate the shipping contract.
+-   Start a development server using **truffle develop**. Compile and migrate the shipping contract.
 
     -   truffle develop
 
@@ -144,12 +131,9 @@ contract Shipping
 
 ### Wiring up the Front-End:
 
--   Create a loading component for the Shipping contract called
-    **./app/src/ShipComponent.js** by duplicating and renaming
-    **./app/src/MyComponents.js**.
+-   Create a loading component for the Shipping contract called **./app/src/ShipComponent.js** by duplicating and renaming **./app/src/MyComponents.js**.
 
--   Modify the loading container with the methods in the Shipping
-    contract.
+-   Modify the loading container with the methods in the Shipping contract.
 
 ```jsx
 import React from "react";
@@ -213,8 +197,7 @@ export default ({ drizzle, drizzleState }) => {
     )
 }
 ```
--   **./app/src/drizzleOptions.js** also remains largely unchanged, but
-    needs to import **Shipping.json.**
+-   **./app/src/drizzleOptions.js** also remains largely unchanged, but needs to import **Shipping.json.**
 
 ```jsx
 import Web3 from "web3";
@@ -243,8 +226,7 @@ const options = {
 export default options;
 ```
 
--   **Modify ./app/src/App.js** and replace **MyComponent** with
-    **ShipComponent**:
+-   **Modify ./app/src/App.js** and replace **MyComponent** with **ShipComponent**:
 
 ```jsx
 import React from "react";
@@ -282,9 +264,7 @@ export default App;
 
 ### Running the Shipping Example Code:
 
-The above steps walk through getting started, compiling and migrating
-the **Drizzle Box** tutorial. Open a new terminal window, and from the
-**./app** folder start up a local browser using this commands:
+The above steps walk through getting started, compiling and migrating the **Drizzle Box** tutorial. Open a new terminal window, and from the **./app** folder start up a local browser using this commands:
 
 -   cd app
 
@@ -292,19 +272,10 @@ the **Drizzle Box** tutorial. Open a new terminal window, and from the
 
 -   npm run start
 
-This command starts the web-pack dev server for React and opens up a new
-browser window for the React project which should result in the image
-below. Once this has been tested, close it by either closing the
-terminal window or \<ctrl-c\>. This confirms that react was correctly
-installed. React starts a web browser on
-[http://localhost:3000](http://localhost:3000) and automatically
-opens a browser window.
+This command starts the web-pack dev server for React and opens up a new browser window for the React project which should result in the image below. Once this has been tested, close it by either closing the terminal window or \<ctrl-c\>. This confirms that react was correctly installed. React starts a web browser on [http://localhost:3000](http://localhost:3000) and automatically opens a browser window.
 
-If you have MetaMask installed, you may need to close and re-open
-[http://localhost:3000](http://localhost:3000) from an incognito
-browser window.
+If you have MetaMask installed, you may need to close and re-open [http://localhost:3000](http://localhost:3000) from an incognito browser window.
 
-You should see the following. In this dapp, you can now interact with
-the contracts directly.
+You should see the following. In this dapp, you can now interact with the contracts directly.
 
 ![](Images\image17.png)
