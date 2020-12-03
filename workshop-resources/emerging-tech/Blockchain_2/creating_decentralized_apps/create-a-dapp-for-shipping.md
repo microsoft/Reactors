@@ -277,4 +277,4 @@ If you have MetaMask installed, you may need to close and re-open [http://localh
 
 You should see the following. In this dapp, you can now interact with the contracts directly.
 
-![](Images\image17.png)
+![](Images/image17.png)
