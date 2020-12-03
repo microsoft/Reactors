@@ -1,13 +1,12 @@
-Create a DApp for a shipping contract
--------------------------------------
+# Create a dapp for a shipping contract
 
-In a previous module, the tutorial worked through a smart contract to capture the shipping status of an item. This example will wire it up to a simple DApp which lets you update the status from Pending to Shipped or Delivered. This contract now adds a counter that keeps track of the number of times the state of the shipping contract is updated and will display that in the front-end.
+Previously, the tutorial worked through a smart contract to capture the shipping status of an item. This example will wire it up to a simple DApp which lets you update the status from Pending to Shipped or Delivered. This contract now adds a counter that keeps track of the number of times the state of the shipping contract is updated and will display that in the front-end.
 
 By starting with the code which is installed from the Drizzle box from the last example, add **Shipping.sol** to the **./contracts** folder. Modify **./migrations/2_deploy_contracts.js** add a migration for the **Shipping** contract. This is a simple example and demonstrates linking the back-end to the front end. If desired, you can update the contract and front-end and add more functionality later such as requesting to ship an item, or updating an item once it's delivered.
 
 -   **Shipping.sol -** use the Shipping contract below.
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity \>=0.4.21 <0.7.0;
@@ -129,7 +128,7 @@ contract Shipping
 
     -   truffle (develop\> migrate
 
-### Wiring up the Front-End:
+## Wire up the Front-End
 
 -   Create a loading component for the Shipping contract called **./app/src/ShipComponent.js** by duplicating and renaming **./app/src/MyComponents.js**.
 
@@ -262,7 +261,7 @@ const App = () => {
 export default App;
 ```
 
-### Running the Shipping Example Code:
+## Run the Shipping Example Code
 
 The above steps walk through getting started, compiling and migrating the **Drizzle Box** tutorial. Open a new terminal window, and from the **./app** folder start up a local browser using this commands:
 
@@ -278,4 +277,4 @@ If you have MetaMask installed, you may need to close and re-open [http://localh
 
 You should see the following. In this dapp, you can now interact with the contracts directly.
 
-![](Images\image17.png)
+![](Images/image17.png)
