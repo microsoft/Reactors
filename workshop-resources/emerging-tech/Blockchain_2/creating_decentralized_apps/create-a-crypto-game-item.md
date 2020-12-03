@@ -1,10 +1,4 @@
-2.3 Post workshop challenge:
-----------------------------
-
-[For Reactors repository:](https://github.com/microsoft/Reactors/tree/main/workshop-resources/emerging-tech)
-
-Create a GameToken using an ERC-721 Non-Fungible Token
-------------------------------------------------------
+# Post workshop challenge
 
 ### Fungible vs. Non-Fungible Tokens
 
@@ -16,8 +10,7 @@ A fungible token ([ERC-20](https://docs.openzeppelin.com/contracts/2.x/api/token
 
 **ERC-721** was the first non-fungible token standard and currently still the most popular standard for representing **non-fungible digital assets**. The most important properties for this kind of asset is to have a way to check who owns what and a way to move things around.
 
-Create a Crypto GameToken using ERC-721
----------------------------------------
+## Create a GameToken using an ERC-721 Non-Fungible Token
 
 Create a non-fungible GameToken using the [OpenZeppelin ERC-721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) libraries. To simplify the exercise, create a token that provides functions where an administrator can **mint** tokens and users can **transfer** tokens from one user to another.
 
@@ -39,21 +32,21 @@ This project assumes that **node.js** and **truffle** are already installed. In 
 
 From the terminal command line, do the following:
 
-\$ mkdir GameToken
+$ mkdir GameToken
 
-\$ cd GameToken
+$ cd GameToken
 
-\$ truffle unbox drizzle
+$ truffle unbox drizzle
 
 For this tutorial, use **ganache-cli** which listens on 127.0.0.1:8545. If using the ganache application, adjust **truffle-config.js** accordingly.
 
 Open the **GameToken** project in **VS Code**. This example will not be using the pre-installed contracts, they can be removed. The file structure looks like this:
 
-![](Images\image30.png)
+![](Images/image30.png)
 
 Next, to create the game token, create a file in the **./contracts** folder called **GameToken.sol** which uses Open Zeppelin libraries to create the ERC-721 token.
 
-```
+```solidity
 pragma solidity ^0.5.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721Full.sol";
@@ -110,7 +103,7 @@ Create three files in ./app/src for the ERC-721 functionality split between admi
 
 Create the file **./app/src/Admin.js** to represent the Administrator account which is the only account that can mint tokens. The administrator account (Account 0) needs to be connected to Metamask which will be discussed below. It checks to see if the account is Admin ("0") and if so, the mint() function is listed on the web-page:
 
-```jsx
+```javascript
 import React, { useState, useEffect } from "react";
 
 import { drizzleReactHooks } from "@drizzle/react-plugin";
@@ -178,7 +171,7 @@ export default () => {
 
 **Create ./app/src/TokenMetadata.js -** this file implements the meta-data functionality which prints out the **account id of the Administrator**, the **Owner of a token**. They are more meta-data functionality that can be implemented as well, but for this example, we are keeping it simple.
 
-```jsx
+```javascript
 import React, { useState } from "react";
 
 import { drizzleReactHooks } from "@drizzle/react-plugin";
@@ -270,7 +263,7 @@ export default () => {
 
 **Create ./app/src/TokenWallet.js** manages the functionality associated with the wallet. In this example, the **Balance** and **Transfer** functions are implemented:
 
-```jsx
+```javascript
 import React from "react";
 
 import { drizzleReactHooks } from "@drizzle/react-plugin";
@@ -336,7 +329,7 @@ export default () => {
 
 **Replace ./app/src/App.js** with the below instructions which executes the GameToken user interface to include **Admin**, **TokenMetadata** and **TokenWallet**:
 
-```jsx
+```javascript
 import React from "react";
 
 import { Drizzle } from "@drizzle/store";
@@ -422,8 +415,8 @@ function LoadingContainer({ children }) {
 export default LoadingContainer;
 ```
 
-Compiling, migrating and running the Tutorial
----------------------------------------------
+## Compile, migrate and run the Tutorial
+
 
 Open a terminal window in VS Code and start up the Ganache client (by typing ganache-cli):
 
@@ -439,10 +432,9 @@ From a second terminal window, run the following:
 
 The output will look like this:
 
-![](Images\image32.png)
+![](Images/image32.png)
 
-Starting and Running the server:
---------------------------------
+## Start and run the server
 
 Open another terminal window in VS Code, cd to the app folder and run **npm install** then **npm run start** to start the server. This will bring up the server on localhost:3000.
 
@@ -456,43 +448,40 @@ In another terminal window, **cd ./app** and start the server using the commands
 
 Don't worry if there are some warnings. These lines are just additional ERC721 functionality that isn't being used in this example:
 
-![](Images\image33.png)
+![](Images/image33.png)
 Initially, it will say GameToken Loading because the MetaMask accounts have not yet been connected.
 
-Setting up the Accounts in MetaMask
------------------------------------
+## Set up the Accounts in MetaMask
 
 Open your MetaMask browser and import the Administrator Account by copying the private key for Account (0). Open MetaMask and choose the network that ganache-cli is using: **Localhost 8545.** Then import an account for the Game Administrator on account (0) into Metamask using account (0)'s private key. In practice, you would not share this private key with anyone!
 
 First, connect Metamask Account 1 to Localhost:3000.
 
-![](Images\image34.png)
+![](Images/image34.png)
 
 Import Account (0) from the **ganache-cli** into **Metamask** using the private key for that account then connect Account 2 to localhost 3000.
 
 In this example, it will be imported into MetaMask Account 2:
 
-![](Images\image35.png)
+![](Images/image35.png)
 
-![](Images\image36.png)
+![](Images/image36.png)
 
 When you have everything connected, select the account connected to the **ganache-cli account (0), refresh the browser window** and you will see:
 
-![](Images\image38.png)
+![](Images/image38.png)
 
-Minting and Transferring Tokens
--------------------------------
+## Mint and transfer Tokens
 
 Now that the server is running on localhost:3000, mint and transfer tokens using the Administrator Account which has been imported into Metamask Account 2:
 
-![](Images\image39.png)
+![](Images/image39.png)
 
 Using the Admin Account id: 0xe4F6962dC983d69953fF16dF43650Be5c7e7cD02 mint Token \#1. Notice, the balance has been increased to 1 and when inspecting Metamask, token has been minted.
 
-![](Images\image40.png)
+![](Images/image40.png)
 
-Conclusion
-----------
+## Conclusion
 
 Continue to work with the GameItem to extend the functionality for developing other properties, minting additional tokens and transferring them between users. Import another account from ganache-cli to Metamask, connect it to the localhost:3000 network. Transfer a token from Account 2 to the new MetaMask account. Spend some time playing with the simple commands then try extending the example implementing new functionality of the ERC721 token.
 
