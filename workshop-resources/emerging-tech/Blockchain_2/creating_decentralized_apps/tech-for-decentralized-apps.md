@@ -60,11 +60,11 @@ The [Truffle Framework](https://www.trufflesuite.com/), which provides a set of 
 
 -   [**@drizzle/vue-plugin**](https://github.com/trufflesuite/drizzle/blob/develop/packages/vue-plugin/README.md):- a Vue adaptor and collection of html controls to support developing a Vue dapp.
 
-[![](Images\image1.png)](https://www.trufflesuite.com/drizzle)
+[![](Images/image1.png)](https://www.trufflesuite.com/drizzle)
 
-![](Images\image2.png)
+![](Images/image2.png)
 -----------------------------------------------------------------
 
 Below is a good visual representation of how Drizzle works with the dap and keeps track of the data.
 
-[![](Images\image3.png)](https://www.trufflesuite.com/docs/drizzle/reference/how-data-stays-fresh)
+[![](Images/image3.png)](https://www.trufflesuite.com/docs/drizzle/reference/how-data-stays-fresh)
