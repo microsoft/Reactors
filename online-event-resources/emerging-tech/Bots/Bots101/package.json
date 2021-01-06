@@ -1,11 +1,11 @@
 {
     "dependencies": {
-        "botbuilder": "^4.9.3",
+        "botbuilder": "^4.11.0",
         "dotenv": "^8.2.0",
         "restify": "^8.5.1"
     },
     "devDependencies": {
-        "nodemon": "^2.0.4"
+        "nodemon": "^2.0.6"
     },
     "scripts": {
         "start-watch": "nodemon index.js"
