@@ -22,7 +22,7 @@ Currently, the Hyperledger Besu is fully compatible with the [VS Code extension]
 
 Add the following to the configuration to truffle-config.js:
 
-<pre><code>
+```javascript
 besu: {
    network_id: "*",
    gas: 0,
@@ -32,8 +32,7 @@ besu: {
      "<besu jsonrpc endpoint>"
    ),
  },
-
-</code></pre>
+```
 
 More information about configuring and deploying can be found on the [Hyperledger Besu website.](https://besu.hyperledger.org/en/latest/Tutorials/Examples/Private-Network-Example/)
 
