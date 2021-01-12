@@ -4,7 +4,7 @@ Ethereum is a protocol with multiple independent networks that conform to this p
 
 Networks are different Ethereum environments you can access for development, testing, or production use cases. It’s helpful to have a good understanding of the different networks that Ethereum provides and how to work with the networks of your choice. For whatever solution you have, you’re going to need to choose if you will have a private or public solution and how to go from a development to test network to production network.
 
-The goal of this stream is to get more familiar with the network options, some tools you can use to interact with them, and learn how to connect and deploy to different networks.
+The goal is to get more familiar with the network options, some tools you can use to interact with them, and learn how to connect and deploy to different networks.
 
 The following sections are included:
 
