@@ -1,131 +1,108 @@
-# Overview of public [Ethereum networks](https://ethereum.org/en/developers/docs/networks/)
+# Learn about public Ethereum networks
 
-  - [Ethereum](https://ethereum.org/en/whitepaper/) is a protocol, not a network. There can be many networks conforming to the protocol which are independent and do not interact with each other. Different Ethereum networks can have different properties, uses, functionality and consensus mechanisms.
-  - There is only one public [Ethereum mainnet](https://ethereum.org/en/glossary/#mainnet).
-    - Applications that are deployed to the **Ethereum mainnet** , or **mainnet** , can interoperate and interact with one another.
-    - Once deployed, the applications can leverage the full potential of decentralized blockchain.
-    - There is no centralized authority and **mainnet** is fully decentralized.
-    - There can be different types of tokens and protocols deployed to **mainnnet**.
-    - Once deployed on the mainnet, transactions are immutable and cannot be changed. In addition, each transaction has real costs associated with it which requires actual **ETH**.
-    - Gas costs are represented most commonly by [**Gwei**](https://academy.binance.com/en/glossary/gwei) which is 10-9 ETH.
-    - All blocks on the Ethereum **mainnet** can be viewed using [Etherscan](https://etherscan.io/) which shows the latest mined blocks and transactions. All blocks can be inspected.
+The [Ethereum](https://ethereum.org/?azure-portal=true) protocol is made up of multiple public networks. Different Ethereum networks can have different properties, uses, functionality and consensus mechanisms. There are currently four different test networks, called *testnets*, and one production network, called *mainnet*.
 
-![](./Images/Etherscan_Image_1.png)
+## An overview of mainnet
 
-Below is a list of the top ERC-20 tokens on the Ethereum mainnet:
+[Mainnet](https://ethereum.org/en/glossary/#mainnet), short for "main network" is the one real public Ethereum blockchain. Applications that are deployed to the mainnet can exchange and use information and interact with one another.
 
-![](./Images/Etherscan_Image_2.png)
+Once deployed, the applications can leverage the full potential of decentralized blockchain. There is no centralized authority and mainnet is fully decentralized. There can be different types of tokens and applications deployed to mainnnet. Once deployed on the mainnet, transactions are immutable and cannot be changed. In addition, each transaction has real costs associated with it which requires actual Ether (ETH). All blocks on the Ethereum mainnet can be viewed using [Etherscan](https://etherscan.io/) which shows the latest mined blocks and transactions. All blocks can be inspected.
 
+![Screenshot showing the homepage of Etherscan](./Images/Etherscan_Image_1.png)
 
-## Ethereum Testnets, Faucets and Deployment
+## Ethereum testnets
 
-Deploying directly to **Mainnet** is not recommended and carries a large amount of associated risk. There are multiple public **Ethereum** **testnets**, each with a different deployment method and process. They are used to stage and test applications in a live public environment prior to deploying a token or application to the **Ethereum** **mainnet**. **Ethereum** networks have two identifiers, a **network ID** and a **chain ID**. Although they often have the same value, they have different uses. Peer-to-peer communication between nodes uses the **network ID**, while the transaction signature process uses the **chain ID**.
+There are four public testnets, each with a different deployment method and process. They are used to stage and test applications in a live public environment prior to deploying to the mainnet.
 
+Testnets use either  [Proof of Work (PoW)](https://www.investopedia.com/terms/p/proof-work.asp?azure-portal=true) or [Proof of Authority (PoA)](https://academy.binance.com/en/articles/proof-of-authority-explained/?azure-portal=true) consensus protocols to determine how new blocks of transactions are added to the network. A quick overview of each protocol:
 
-### Testnet Comparison
+- **PoW**: A mining rig solves a cryptographic hashing problem in order to mine a new block and decide which transactions are part of that block.
+- **PoA**: Block validators verify their identity on a network in order to decide which transactions become part of the next block in the chain.
 
-**Testnets** allow projects to be deployed in a public setting without incurring the costs and risks associated with deploying to the **Ethereum Mainnet**. Most **testnets** require that test **eth** is accessed from **faucets**. Using a **faucet** protects the **testnet** from spam attacks since the **eth** is controlled by trusted parties. This has become the primary way to acquire **eth** for a specific **testnet**. The community manages these public test networks for the benefit of developers and testing. Let’s take a look at the different [**Ethereum testnets**](https://ethereum.stackexchange.com/questions/27048/comparison-of-the-different-testnets) and associated properties.
+ And testnets require **test ether** that is free and can be accessed from what are called *faucets*. You provide faucets with an account address to receive a certain amount of test ether. This has become the primary way to acquire test ether for a specific testnet. The community manages these public test networks for the benefit of developers and testing. Using a faucet protects the testnet from spam attacks since the ether is controlled by trusted parties.
 
-[**Ropsten**](https://ropsten.etherscan.io/)
+## Testnet Comparison
 
-Proof of Work consensus protocol, closest to mainnet in functionality. Named after a Swedish subway station and has been around since 2016.
+Let’s take a look at the different [Ethereum testnets](https://ethereum.org/en/developers/docs/networks/#testnets) and associated properties.
 
-- Best reproduction of the conditions on the the **Ethereum mainnet**, and can be used with all clients.
-- **Ether** for **Ropsten** can be mined or requested from a faucet
-- Features:
-  - SupportsGeth and Parity clients
-  - Chain Id: 3
-  - Network Id: 3
-  - Block time: sub-30 seconds
-  - Faucet: [https://faucet.ropsten.be/](https://faucet.ropsten.be/)
-  - Explorer: [https://ropsten.etherscan.io/](https://ropsten.etherscan.io/)
-  - GitHub: [https://github.com/ethereum/ropsten](https://github.com/ethereum/ropsten)
+### [Ropsten](https://ropsten.etherscan.io/?azure-portal=true)
 
-[**Kovan**](https://kovan-testnet.github.io/website/)
+Ropsten is a PoW consensus protocol, closest to mainnet in functionality. It is named after a Swedish subway station and has been around since 2016. It is said to have the best reproduction of the conditions on the the mainnet.
 
-Proof of authority (PoA) testnet is named after a subway station in Singapore. Ether can't be mined. It has to be requested from the faucet and is controlled by trusted parties. Because of this property, it is immune to spam attacks.
-- Features:
-  - SupportsGeth and Parity clients
-  - Chain Id: 42
-  - Network Id: 42
+- More details:
+  - Supports: [Geth](https://geth.ethereum.org/?azure-portal=true) and [OpenEthereum](https://openethereum.github.io/?azure-portal=true) clients
+  - Block time: 30 seconds or less
+  - Faucet: [https://faucet.ropsten.be/](https://faucet.ropsten.be/?azure-portal=true)
+  - Explorer: [https://ropsten.etherscan.io/](https://ropsten.etherscan.io/?azure-portal=true)
+  - GitHub: [https://github.com/ethereum/ropsten](https://github.com/ethereum/ropsten/?azure-portal=true)
+
+### [Kovan](https://kovan-testnet.github.io/website/?azure-portal=true)
+
+This PoA testnet is named after a subway station in Singapore. It's Ether has to be requested from the faucet and is controlled by trusted parties. Because of this property, it is immune to spam attacks.
+
+- More details:
+  - Supports: OpenEthereum clients
   - Block time: 4 seconds
-  - Faucet: [https://faucet.kovan.network/](https://faucet.kovan.network/)
-  - Explorer: [https://kovan.etherscan.io/](https://kovan.etherscan.io/)
-  - GitHub: [https://github.com/kovan-testnet/proposal](https://github.com/kovan-testnet/proposal)
+  - Faucet: [https://faucet.kovan.network/](https://faucet.kovan.network/?azure-portal=true)
+  - Explorer: [https://kovan.etherscan.io/](https://kovan.etherscan.io/?azure-portal=true)
+  - GitHub: [https://github.com/kovan-testnet/proposal](https://github.com/kovan-testnet/proposal/?azure-portal=true)
+  - Website: [https://kovan-testnet.github.io/website/](https://kovan-testnet.github.io/website/?azure-portal=true)
 
-[Rinkeby](https://www.rinkeby.io/)
+### [Rinkeby](https://www.rinkeby.io/?azure-portal=true)
 
-Proof of Authority, PoA, testnet started by the Ethereum team in April 2017 is named after a metro station in Stockholm.
+PoA testnet started by the Ethereum team in April 2017 is named after a metro station in Stockholm.
 
-- Immune to spam attacks as **Ether** supply is controlled by trusted parties and cannot be mined, but needs to be requested from a **faucet**.
-- Only supported by [Geth](https://geth.ethereum.org/)
-- Doesn't fully reproduce the current production environment as it uses PoA.
-- Features:
-  - SupportsGeth and Parity clients
-  - Chain Id: 4
-  - Network Id: 4
+- More details:
+  - Supports Geth client
   - Block time: 15 seconds
-  - Faucet: [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
-  - Explorer: [https://rinkeby.etherscan.io/](https://rinkeby.etherscan.io/)
-  - GitHub: [https://github.com/ethereum/EIPs/issues/225](https://github.com/ethereum/EIPs/issues/225)
-  - Website: [https://www.rinkeby.io](https://www.rinkeby.io)
- 
+  - Faucet: [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/?azure-portal=true)
+  - Explorer: [https://rinkeby.etherscan.io/](https://rinkeby.etherscan.io/?azure-portal=true)
+  - GitHub: [https://github.com/ethereum/EIPs/issues/225](https://github.com/ethereum/EIPs/issues/225/?azure-portal=true)
+  - Website: [https://www.rinkeby.io](https://www.rinkeby.io/?azure-portal=true)
 
-[Görli](https://goerli.net/)
+### [Görli](https://goerli.net/?azure-portal=true)
 
-Proof of Authority cross-client testnet and named after a Berlin subway station. This testnet has the goal of being both widely usable across various clients and supports Clique Proof of Authority (PoA). It is robust enough to guarantee consistent availability and was started by the Goerli Initiative in 2018.
+PoA cross-client testnet and named after a Berlin subway station. This testnet has the goal of being both widely usable across various clients. It is robust enough to guarantee consistent availability and was started by the Goerli Initiative in 2018.
 
-- Features:
-  - Supports multiple clients like Geth, Pantheon, Nethermind, and Parity
-  - Chain Id: 5
-  - Network Id: 5
+- More details:
+  - Supports: Most clients including Geth, OpenEthereum, and [Nethermind](https://nethermind.io/?azure-portal=true)
   - Block time: 15 seconds on average
-  - Faucet: [https://faucet.goerli.mudit.blog/](https://faucet.goerli.mudit.blog/)(Need to request the developers)
-  - Status Dashboard: [https://stats.goerli.net/](https://stats.goerli.net/)
-  - Explorer: [https://goerli.etherscan.io/](https://goerli.etherscan.io/)
-  - GitHub: [https://github.com/goerli/testnet](https://github.com/goerli/testnet)
-  - Website: [https://www.goerli.net](https://www.goerli.net)
+  - Faucet: [https://faucet.goerli.mudit.blog/](https://faucet.goerli.mudit.blog/?azure-portal=true)
+  - Status Dashboard: [https://stats.goerli.net/](https://stats.goerli.net/?azure-portal=true)
+  - Explorer: [https://goerli.etherscan.io/](https://goerli.etherscan.io/?azure-portal=true)
+  - GitHub: [https://github.com/goerli/testnet](https://github.com/goerli/testnet/?azure-portal=true)
+  - Website: [https://www.goerli.net](https://www.goerli.net/?azure-portal=true)
 
-**Ropsten** has conditions as close as possible to **mainnet** and was historically the first major **testnet**. It has had some attacks and vulnerabilities which have been addressed (DDOS and 51% attack). **Kovan**, **Goerli** and **Rinkeby** are stable and have increased usage. Generally, prior to deploying to **mainnet**, it’s advised to deploy to and test on multiple **testnets**.
+Ropsten is said to be the testnet that is as similar to mainnet and was historically the first major testnet. Kovan, Goerli and Rinkeby are stable and have increased usage. Prior to deploying to mainnet, it’s advised to deploy to and test on multiple testnets.
 
-### [Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#clients) and API&#39;s for deploying to **Testnets** and **Mainnet**
+## Clients and API's for deploying to **Testnets** and **Mainnet**
 
 Ethereum is designed to offer different clients, developed by different teams using different programming languages. This makes the network stronger and more diverse. The ideal goal is to achieve diversity without any client dominating to reduce any single points of failure.
 
+### Clients
+
 Below is a summary of some common [Ethereum clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#clients):
 
-[**Geth Client**](https://geth.ethereum.org/)
+[**Geth Client**](https://geth.ethereum.org/?azure-portal=true)
 
 Go Ethereum (Geth for short) is one of the original implementations of the Ethereum protocol. Currently, it is the most widespread client with the biggest user base and variety of tooling for users and developers. It is written in Go, fully open source and licensed under the GNU LGPL v3.
 
-[**OpenEthereum**](https://github.com/openethereum/openethereum) (was Parity)
+[**OpenEthereum**](https://openethereum.github.io/?azure-portal=true)
 
-OpenEthereum&#39;s goal is to be the fastest, lightest, and most secure Ethereum client. We are developing OpenEthereum using the Rust programming language. OpenEthereum is licensed under the GPLv3 and can be used for all your Ethereum needs.
+OpenEthereum's goal is to be the fastest, lightest, and most secure Ethereum client. We are developing OpenEthereum using the Rust programming language. OpenEthereum is licensed under the GPLv3 and can be used for all your Ethereum needs.
 
-[Nethermind](https://nethermind.io/)
+[Nethermind](https://nethermind.io/?azure-portal=true)
 
-Nethermind provides the world&#39;s fastest .NET Ethereum Client and P2P Data Marketplace, along with consulting services for those looking to build Ethereum blockchain solutions.
+Nethermind provides the world's fastest .NET Ethereum Client and P2P Data Marketplace, along with consulting services for those looking to build Ethereum blockchain solutions.
 
-[Besu](https://besu.hyperledger.org/en/stable/)
+### APIs
 
-Hyperledger Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java. It runs on the Ethereum public network, private networks, and test networks such as Rinkeby, Ropsten, and Görli. Besu implements Proof of Work (Ethash) and Proof of Authority (IBFT 2.0 and Clique) consensus mechanisms.
+[Infura](https://infura.io/?azure-portal=true)
 
-**APIs**
+The Infura API suite provides instant access over HTTPS and WebSockets to the Ethereum and IPFS networks. It provides a simple, easy to use interface for connecting to the endpoints of all testnets. Infura supports both **Truffle Suite** and the **VS Code Blockchain Development Kit for Ethereum.**
 
-[Infura](https://infura.io/)
+[MetaMask](https://metamask.io/?azure-portal=true)
 
-The Infura API suite provides instant access over HTTPS and WebSockets to the Ethereum and IPFS networks. It provides a simple, easy to use interface for connecting to the endpoints of a testnet and supports **Ropsten** , **Gorli** , **Kovan** and **Rinkby**.
+When deploying to either a testnet or mainnet , the MetaMask client provides a robust interface and wallet for connecting to and interacting with Ethereum blockchains.
 
-![](./Images/Infura_Image1.png)
-
-Infura supports both **Truffle Suite** and the **VS Code Blockchain Development Kit for Ethereum.**
-
-![](./Images/VSCode_Blockchain_Dev_Kit.png)
-
-[**Metamask**](https://metamask.io/)
-
-If you have reviewed the previous blockchain modules in this series, you will already have a good understanding of **MetaMask** and how to use it. When deploying to either a **testnet** or **mainnet** , the metamask client provides a robust interface and wallet for connecting to and interacting with Ethereum blockchains. Be careful when using the Main Ethereum network, **mainnet**.
-
-Using **MetaMask** to send **Ether** and tokens on a **testnet** is straightforward. As we've seen in previous tutorials, the client provides an easy interface to select and use different Ethereum networks. For interacting with development networks, it's simple with **MetaMask** to connect to **Localhost 8545** or **Custom RPC** to connect with **ganache-cli** , **ganache app** and **truffle develop**. Similarly, MetaMask has predefined connections to the public testnets **Ropsten** , **Kovan** , **Rinkeby** and **Goerli**.
-
-![](./Images/MetaMask_Mainnet1.png)
+Using MetaMask to send Ether and tokens on a testnet is straightforward. As we've seen in previous tutorials, the client provides an easy interface to select and use different Ethereum networks. For interacting with development networks, it's simple with MetaMask to connect to Localhost 8545 or Custom RPC to connect with Ganache and Truffle. Similarly, MetaMask has predefined connections to the public testnets and mainnet. If connecting to mainnet, be careful to secure your private key since real Ether is being used.

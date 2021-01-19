@@ -11,9 +11,9 @@ Homebrew installation on **MacOS**:
 - Go to [www.https://brew.sh/](about:blank)
 - Follow the instructions to install Homebrew - copy the following line:
 
-	- $ /bin/bash -c &quot;$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))&quot;
+	- $ /bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))";
 
-To install on **Windows**, please review the instructions on the [Go Ethereum](https://geth.ethereum.org/docs/install-and-build/installing-geth#install-on-windows)website and review the installation instructions.
+To install on **Windows**, please review the instructions on the [Go Ethereum](https://geth.ethereum.org/docs/install-and-build/installing-geth#install-on-windows) website and review the installation instructions.
 
 - Open a terminal window, and from the command line, copy in the above command.
 - Verify that you have the latest version:

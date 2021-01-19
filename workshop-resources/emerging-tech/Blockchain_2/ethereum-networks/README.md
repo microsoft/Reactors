@@ -11,5 +11,6 @@ The following sections are included:
 1. Start with an overview of [public networks](public-networks.md) of mainnet and testnet.
 1. Then learn more about the [private networks](private-networks.md) available including development and consortiums.
 1. Learn about what is required to [prepare for and deploy to mainnet](prepare-for-mainnet.md).
-1. Then walk through an exercise to [develop a task manager todo list and deploy to the Ropsten testnet](develop-deploy-task-manager.md).
+1. Then walk through an exercise to [develop a task manager todo list and deploy to development](deploy-development.md).
+1. And then [deploy to the Ropsten network](deploy-ropsten.md).
 1. Challenge: After you've completed all the previous sections, go through an exercise to [deploy to a private Ethereum network](deploy-private-network.md).
