@@ -12,11 +12,9 @@ A fungible token ([ERC-20](https://docs.openzeppelin.com/contracts/2.x/api/token
 
 ## Create a GameToken using an ERC-721 Non-Fungible Token
 
-Create a non-fungible GameToken using the [OpenZeppelin ERC-721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) libraries. To simplify the exercise, create a token that provides functions where an administrator can **mint** tokens and users can **transfer** tokens from one user to another.
+Create a non-fungible GameToken using the [OpenZeppelin ERC-721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) libraries. To simplify the exercise, create a token that provides functions where an administrator can **mint** tokens and users can **transfer** tokens from one user to another. Because ERC-721 tokens are not interchangeable, each token has a unique token identifier.
 
-The functions required will include the **address of the administrator**, **owner** of the token and **balance** for the different users. Because ERC-721 tokens are not interchangeable, each token has a unique token identifier.
-
-To keep it simple, the GameToken requires the following functionality:
+The GameToken requires the following functionality:
 
 -   The Administrator can mint tokens.
 
@@ -30,7 +28,7 @@ To create this project, use VS Code, Truffle and Drizzle to create a simple fron
 
 This project assumes that **node.js** and **truffle** are already installed. In addition, for this project, we will be using the **MetaMask Chrome Extension**. If it isn't installed, go to https://metamask.io/ to download and install it. Once installed, walk through the steps to set up a user id and password. Use the ganache test network for localhost port **127.0.0.1:8545**. If it's not pre-configured, click on MetaMask icon, then scroll on the networks button, add a **Custom RPC**. For more information regarding getting set up with **MetaMask**, refer to: [Reactors/workshop-resources/emerging-tech/Blockchain_2/building_better_smart_contracts/getting-setup.md](https://github.com/microsoft/Reactors/blob/main/workshop-resources/emerging-tech/Blockchain_2/building_better_smart_contracts/getting-setup.md)
 
-From the terminal command line, do the following:
+From the terminal, run the following commands:
 
 $ mkdir GameToken
 
@@ -40,19 +38,18 @@ $ truffle unbox drizzle
 
 For this tutorial, use **ganache-cli** which listens on 127.0.0.1:8545. If using the ganache application, adjust **truffle-config.js** accordingly.
 
-Open the **GameToken** project in **VS Code**. This example will not be using the pre-installed contracts, they can be removed. The file structure looks like this:
+Open the **GameToken** project in **VS Code**. This example will not be using the pre-installed contracts, they can all be removed except for **Migrations.sol**. The file structure looks like this:
 
 ![](Images/image30.png)
 
-Next, to create the game token, create a file in the **./contracts** folder called **GameToken.sol** which uses Open Zeppelin libraries to create the ERC-721 token.
+Next, to create the game token, create a file in the **./contracts** folder called **GameToken.sol** which uses OpenZeppelin libraries to create the ERC-721 token.
 
 ```solidity
 pragma solidity ^0.5.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721Full.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721Mintable.sol";
 
-contract GameToken is ERC721Full, ERC721Mintable {
+contract GameToken is ERC721Full {
 
     address public admin;
     
@@ -89,6 +86,7 @@ const options = {
 
 export default options;
 ```
+
 Create three files in ./app/src for the ERC-721 functionality split between admin functionality, metadata functionality and Wallet Functionality: **Admin.js,** **TokenMetadata.j**s and **TokenWallet.j**s:
 
 Create the file **./app/src/Admin.js** to represent the Administrator account which is the only account that can mint tokens. The administrator account (Account 0) needs to be connected to Metamask which will be discussed below. It checks to see if the account is Admin ("0") and if so, the mint() function is listed on the web-page:
