@@ -48,8 +48,9 @@ Next, to create the game token, create a file in the **./contracts** folder call
 pragma solidity ^0.5.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721Full.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721Mintable.sol";
 
-contract GameToken is ERC721Full {
+contract GameToken is ERC721Full, ERC721Mintable {
 
     address public admin;
     
