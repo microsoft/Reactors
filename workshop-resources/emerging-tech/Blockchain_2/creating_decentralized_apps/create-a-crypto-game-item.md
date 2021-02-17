@@ -50,19 +50,15 @@ Next, to create the game token, create a file in the **./contracts** folder call
 pragma solidity ^0.5.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721Full.sol";
-
 import "@openzeppelin/contracts/token/ERC721/ERC721Mintable.sol";
 
 contract GameToken is ERC721Full, ERC721Mintable {
 
     address public admin;
-
+    
     constructor() ERC721Full("ERC721Token", "ERC721Token") public {
-
         admin = msg.sender;
-
     }
-
 }
 ```
 
@@ -74,9 +70,7 @@ In the migration, 2_deploy_contracts.js, modify the migration to look like the f
 const GameToken = artifacts.require("GameToken");
 
 module.exports = function(deployer) {
-
     deployer.deploy(GameToken);
-
 };
 ```
 
@@ -88,13 +82,9 @@ import GameToken from './contracts/GameToken.json';
 const options = {
 
     contracts: [GameToken],
-
-    events: {
-
-        GameToken: ['Transfer', 'Approval'],
-
-    },
-
+    events: 
+        GameToken: ['Transfer', 'Approval']
+    }
 };
 
 export default options;
@@ -105,67 +95,40 @@ Create the file **./app/src/Admin.js** to represent the Administrator account wh
 
 ```javascript
 import React, { useState, useEffect } from "react";
-
 import { drizzleReactHooks } from "@drizzle/react-plugin";
-
 import { newContextComponents } from "@drizzle/react-components";
 
 const { useDrizzle, useDrizzleState } = drizzleReactHooks;
-
 const { ContractForm } = newContextComponents;
 
 export default () => {
-
-    const [isAdmin, setIsAdmin] = useState(false);
-
+    const [isAdmin, setIsAdmin] = useState(false)
     const { drizzle } = useDrizzle();
-
     const state = useDrizzleState(state => state);
 
     useEffect(() => {
-
         const init = async () => {
-
             const admin = await drizzle.contracts.GameToken.methods.admin().call();
-
             setIsAdmin(admin.toLowerCase() === state.accounts[0].toLowerCase());
-
         }
-
         init();
-
     });
 
     if(!isAdmin) {
-
         return null;
-
     }
-
     return (
-
-        <div className="App">*
-
+        <div className="App">
             <div>
-
                 <h2>Mint</h2>
-
                 <ContractForm
-
                     drizzle={drizzle}
-
                     contract="GameToken"
-
                     method="mint"
-
                 />
-
             </div>
-
         </div>
-
     );
-
 };
 ```
 
@@ -173,91 +136,51 @@ export default () => {
 
 ```javascript
 import React, { useState } from "react";
-
 import { drizzleReactHooks } from "@drizzle/react-plugin";
-
 import { newContextComponents } from "@drizzle/react-components";
 
 const { useDrizzle, useDrizzleState } = drizzleReactHooks;
-
 const { ContractData } = newContextComponents;
 
 export default () => {
-
     const [ownerOfArg, setOwnerOfArg] = useState(undefined);
-
-    const [isApprovedForAllArgs] = useState(undefined);
-
     const { drizzle } = useDrizzle();
-
     const state = useDrizzleState((state) => state);
-
     const handleSubmitOwnerOf = (e) => {
-
         e.preventDefault();
-
         setOwnerOfArg(e.target.elements[0].value);
-
         };
 
     return (
-
         <div className="App">
-
             <div>
-
                 <h2>Admin</h2>
-
                 <ContractData
-
                     drizzle={drizzle}
-
                     drizzleState={state}
-
                     contract="GameToken"
-
                     method="admin"
-
                 />
-
             </div>
-
+            
             <div>
-
                 <h2>Owner of token</h2>
-
                 <form onSubmit={handleSubmitOwnerOf}>
-
                     <input type="text"></input>
-
-                    <button>Submit</button>
-
+                    <button>Submit</button
                 </form>
-
-                {ownerOfArg && (
-
+                {ownerOfArg && 
                     <ContractData
-
                         drizzle={drizzle}
-
-                        drizzleState={state}
-
+                        drizzleState={state
                         contract="GameToken"
-
                         method="ownerOf"
-
                         methodArgs={[ownerOfArg]}
-
                     />
-
                 )}
-
             </div>
-
         </div>
-
     );
-
 };
 ```
 
@@ -265,65 +188,37 @@ export default () => {
 
 ```javascript
 import React from "react";
-
 import { drizzleReactHooks } from "@drizzle/react-plugin";
-
 import { newContextComponents } from "@drizzle/react-components";
 
 const { useDrizzle, useDrizzleState } = drizzleReactHooks;
-
 const { ContractData, ContractForm } = newContextComponents;
 
 export default () => {
-
     const { drizzle } = useDrizzle();
-
     const state = useDrizzleState((state) => state);
-
     return (
-
         <div className="App">
-
             <div>
-
                 <h2>Balance</h2>
-
                 <ContractData
-
                     drizzle={drizzle}
-
                     drizzleState={state}
-
                     contract="GameToken"
-
                     method="balanceOf"
-
                     methodArgs={[state.accounts[0]]}
-
                 />
-
             </div>
-
             <div>
-
-                <h2>Transfer <h2>
-
+                <h2>Transfer</h2>
                 <ContractForm
-
                     drizzle={drizzle}
-
                     contract="GameToken"
-
                     method="transferFrom"
-
                 />
-
             </div>
-
         </div>
-
     );
-
 };
 ```
 
@@ -331,59 +226,34 @@ export default () => {
 
 ```javascript
 import React from "react";
-
 import { Drizzle } from "@drizzle/store";
-
 import { drizzleReactHooks } from "@drizzle/react-plugin";
-
 import drizzleOptions from "./drizzleOptions";
-
 import LoadingContainer from "./LoadingContainer.js";
-
 import TokenMetadata from "./TokenMetadata.js";
-
 import TokenWallet from "./TokenWallet.js";
-
 import Admin from "./Admin.js";
 
 const drizzle = new Drizzle(drizzleOptions);
-
 const { DrizzleProvider } = drizzleReactHooks;
 
 function App() {
-
     return (
-
         <div>
-
             <div className="container">
-
                 <center>
-
                     <h1>Game Token</h1>
-
                     <DrizzleProvider drizzle={drizzle}>
-
                         <LoadingContainer>
-
                             <Admin />
-
                             <TokenMetadata />
-
                             <TokenWallet />
-
                         </LoadingContainer>
-
                     </DrizzleProvider>
-
                 </center>
-
             </div>
-
         </div>
-
     );
-
 }
 
 export default App;
@@ -393,23 +263,16 @@ export default App;
 
 ```jsx
 import React from "react";
-
 import { drizzleReactHooks } from "@drizzle/react-plugin";
 
 const { useDrizzleState } = drizzleReactHooks;
 
 function LoadingContainer({ children }) {
-
     const drizzleStatus = useDrizzleState((state) => state.drizzleStatus);
-
     if (drizzleStatus.initialized === false) {
-
         return "Loading ...";
-
     }
-
     return <>{children}</>;
-
 }
 
 export default LoadingContainer;
