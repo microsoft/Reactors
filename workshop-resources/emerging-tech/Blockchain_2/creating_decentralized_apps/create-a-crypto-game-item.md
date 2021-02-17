@@ -80,9 +80,9 @@ import GameToken from './contracts/GameToken.json';
 const options = {
 
     contracts: [GameToken],
-    events: 
-        GameToken: ['Transfer', 'Approval']
-    }
+    events: {
+        GameToken: ['Transfer', 'Approval'],
+    },
 };
 
 export default options;
@@ -142,44 +142,44 @@ const { useDrizzle, useDrizzleState } = drizzleReactHooks;
 const { ContractData } = newContextComponents;
 
 export default () => {
-    const [ownerOfArg, setOwnerOfArg] = useState(undefined);
-    const { drizzle } = useDrizzle();
-    const state = useDrizzleState((state) => state);
-    const handleSubmitOwnerOf = (e) => {
-        e.preventDefault();
-        setOwnerOfArg(e.target.elements[0].value);
-        };
+  const [ownerOfArg, setOwnerOfArg] = useState(undefined);
+  const { drizzle } = useDrizzle();
+  const state = useDrizzleState((state) => state);
+  const handleSubmitOwnerOf = (e) => {
+    e.preventDefault();
+    setOwnerOfArg(e.target.elements[0].value);
+  };
+  return (
+    <div className="App">
+      <div>
+        <h2>Admin</h2>
+        <ContractData
+          drizzle={drizzle}
+          drizzleState={state}
+          contract="GameToken"
+          method="admin"
+        />
+      </div>
 
-    return (
-        <div className="App">
-            <div>
-                <h2>Admin</h2>
-                <ContractData
-                    drizzle={drizzle}
-                    drizzleState={state}
-                    contract="GameToken"
-                    method="admin"
-                />
-            </div>
-            
-            <div>
-                <h2>Owner of token</h2>
-                <form onSubmit={handleSubmitOwnerOf}>
-                    <input type="text"></input>
-                    <button>Submit</button
-                </form>
-                {ownerOfArg && 
-                    <ContractData
-                        drizzle={drizzle}
-                        drizzleState={state}
-                        contract="GameToken"
-                        method="ownerOf"
-                        methodArgs={[ownerOfArg]}
-                    />
-                )}
-            </div>
-        </div>
-    );
+      <div>
+        <h2>Owner of token</h2>
+        <form onSubmit={handleSubmitOwnerOf}>
+          <input type="text"></input>
+          <button>Submit</button>
+        </form>
+
+        {ownerOfArg && (
+          <ContractData
+            drizzle={drizzle}
+            drizzleState={state}
+            contract="GameToken"
+            method="ownerOf"
+            methodArgs={[ownerOfArg]}
+          />
+        )}
+      </div>
+    </div>
+  );
 };
 ```
 
