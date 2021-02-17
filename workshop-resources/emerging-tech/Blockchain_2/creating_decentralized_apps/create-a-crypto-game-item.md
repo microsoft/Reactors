@@ -130,7 +130,7 @@ export default () => {
 };
 ```
 
-**Create ./app/src/TokenMetadata.js -** this file implements the meta-data functionality which prints out the **account id of the Administrator**, the **Owner of a token**. They are more meta-data functionality that can be implemented as well, but for this example, we are keeping it simple.
+**Create ./app/src/TokenMetadata.js -** this file implements the meta-data functionality which prints out the **account id of the Administrator**, the **Owner of a token**. There are more meta-data functionality that can be implemented as well, but for this example, we are keeping it simple.
 
 ```javascript
 import React, { useState } from "react";
@@ -170,7 +170,7 @@ export default () => {
                 {ownerOfArg && 
                     <ContractData
                         drizzle={drizzle}
-                        drizzleState={state
+                        drizzleState={state}
                         contract="GameToken"
                         method="ownerOf"
                         methodArgs={[ownerOfArg]}
@@ -316,19 +316,15 @@ Initially, it will say GameToken Loading because the MetaMask accounts have not 
 
 Open your MetaMask browser and import the Administrator Account by copying the private key for Account (0). Open MetaMask and choose the network that ganache-cli is using: **Localhost 8545.** Then import an account for the Game Administrator on account (0) into Metamask using account (0)'s private key. In practice, you would not share this private key with anyone!
 
-First, connect Metamask Account 1 to Localhost:3000.
+![](Images/image35.png)
+
+Then, connect Metamask Account 1 to Localhost:3000.
 
 ![](Images/image34.png)
 
-Import Account (0) from the **ganache-cli** into **Metamask** using the private key for that account then connect Account 2 to localhost 3000.
-
-In this example, it will be imported into MetaMask Account 2:
-
-![](Images/image35.png)
-
 ![](Images/image36.png)
 
-When you have everything connected, select the account connected to the **ganache-cli account (0), refresh the browser window** and you will see:
+Follow the same process to import the next ganache-cli account into Metamask. When you have everything connected, select the account connected to the **ganache-cli account (0), refresh the browser window** and you will see:
 
 ![](Images/image38.png)
 
@@ -338,7 +334,7 @@ Now that the server is running on localhost:3000, mint and transfer tokens using
 
 ![](Images/image39.png)
 
-Using the Admin Account id: 0xe4F6962dC983d69953fF16dF43650Be5c7e7cD02 mint Token \#1. Notice, the balance has been increased to 1 and when inspecting Metamask, token has been minted.
+Using the Admin Account id: 0xe4F6962dC983d69953fF16dF43650Be5c7e7cD02 (or whatevery admin account you have) mint Token  with an identifier of 1. Notice, the balance has been increased to 1 and when inspecting Metamask, token has been minted.
 
 ![](Images/image40.png)
 
