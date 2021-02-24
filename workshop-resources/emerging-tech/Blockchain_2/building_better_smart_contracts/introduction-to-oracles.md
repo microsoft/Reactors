@@ -13,7 +13,7 @@
 - An oracle is not a store of data, but is a layer on a separate network that queries and verifies external information before relaying it.
 - Inbound: relays off-chain data from the external world to the blockchain or smart contract
   - Example: An IOT thermometer monitors heat inside a meat-delivery truck. A safe temperature range is agreed on in advance in the smart contact. The smart contract will automatically execute payment to the delivery service as long as the truck temperature stays within the range for the trip.
-  - An inbound oracle communicates directly with the thermometer and the smart contract--only signing the smart contract for approved payment if the thermometer stays in the prespecified range.
+  - An inbound oracle communicates directly with the thermometer and the smart contract--only signing the smart contract for approved payment if the thermometer stays in the pre-specified range.
 - Outbound: relays on-chain data/events from a blockchain or smart contract to the external world
   - Example: After a hotel room’s address receives your payment, a smart contract communicates with an outbound oracle to unlock the door and turn on the electricity in your room.
 
@@ -22,7 +22,7 @@
 - Oracles are our connection between the digital world and the physical world.
 - Without oracles, smart contracts have much more limited application, especially in interfacing between our current web 2.0 world and the new web 3.0 world.
 - Oracles are a large part of the “real-time” data benefit of blockchain applications
-- If solved, this becomes a key part of the scalability solution… what can be offchain should be completed offchain, however we cannot do as much of that currently since we cannot guarantee “trust-worthiness” of the results
+- If solved, this becomes a key part of the scalability solution… what can be off-chain should be completed off-chain, however we cannot do as much of that currently since we cannot guarantee “trust-worthiness” of the results
 
 ## Main Challenges
 
@@ -37,7 +37,7 @@ Multiple blockchain teams are actively working on possible Oracle solutions:
 - [Provable](https://provable.xyz/)
 - [Chainlink](https://chain.link/)
 - [Cosmos + band protocol](https://bandprotocol.com/)
-- [Microsoft Coco](https://azure.microsoft.com/blog/announcing-microsoft-s-coco-framework-for-enterprise-blockchain-networks/)
+- [Microsoft Confidential Consortium Framework](https://github.com/Microsoft/CCF/)
 
 This technology is considered the cutting edge of the blockchain, while ChainLink is considered the current front runner and the most mature, it is still not super developer or user friendly. For example it’s very hard to debug why a certain Oracle transaction failed, but like most things in blockchain, we’ll get there :)  
 
@@ -61,7 +61,7 @@ contract APIConsumer is ChainlinkClient {
         setPublicChainlinkToken();
         oracle = 0x2f90A6D021db21e1B2A077c5a37B3C7E75D15b7e;
         jobId = "29fa9aa13bf1468788b7cc4a500a45b8";
-        fee = 0.1 - 10 ** 18; // 0.1 LINK
+        fee = 10 ** 18; // 0.1 LINK
     }
 
 
@@ -97,24 +97,25 @@ contract APIConsumer is ChainlinkClient {
 ## MetaMask deploy using injected Web3 on Kovan Test Network
 
 - Copy the `APIConsumer` contract to [Remix](https://remix.ethereum.org/).
-- Compile the code
+- Compile the code (Note: this code must be compiled with compiler version > 0.6.0 and < 0.7.0)
 
 ![Compile Remix](Images/compile%20remix.png)
 
-- Choose **Injected Web3** as an Environment and click **Deploy**
+- Choose **Injected Web3** as an Environment and click **Deploy**. Then your contract will be deployed with Metamask.
+- If you don't have any test ether in your MetaMask account, head to: https://faucet.kovan.network/ or https://gitter.im/kovan-testnet/faucet to request some. Copy the account address listed in Remix (0xd6E...) and copy that over to the faucet of your choice.
 ![Deploy Remix](Images/injectedweb3_deploy_remix.png)
 
-- Your contract should now be deployed with MetaMask!
-- Get the testnet address
-![Testnet address](Images/get%20testnet%20address.png)
+- Get the contract testnet address
 
-- Go to https://kovan.chain.link/ and paste your testnet address in the field
-![Chainlink](Images/get%20chain%20link.png)
+  ![Testnet address](Images/get%20testnet%20address.png)
+
+- Go to https://kovan.chain.link/ and paste your contract testnet address in the field
+![Chainlink](Images/get%20chainlink.png)
 
 - Go to MetaMask and click **Add Token**
 ![Add token](Images/Add%20token.png)
 
-- Click Custom Token and paste the contract address, then click next.
+- Click Custom Token and paste the contract address for Kovan, then click next.
   - Token Contract Address:`0xa36085F69e2889c224210F603D836748e7dC0088`
   - Token symbol: `LINK`
   - Decimals of precision: `18`
@@ -122,6 +123,7 @@ contract APIConsumer is ChainlinkClient {
 ![Next](Images/Add%20tokens%20next.png)
 
 - Click **Add Tokens**
+
 ![Link 100](Images/Add%20tokens%20LINK100.png)
 
 - You will see 100 LINK. Click **SEND**
@@ -131,11 +133,13 @@ contract APIConsumer is ChainlinkClient {
 ![Add address](Images/send%20tokens%20add%20address.png)
 
 - Confirm and then wait until status is not pending.
-- Focus your attention back to Remix. Click **ethereumPrice** which should be 0. Now click **requestEthereumPrice** and Confirm in MetaMask.
+- Focus your attention back to Remix. Click **ethereumPrice** which should be 0. Now click **requestEthereumPrice** and confirm in MetaMask and [Etherscan](https://kovan.etherscan.io/).
 ![Request Ethereum Price](Images/request%20etherum%20remix.png)
 
 - Afterwards click **ethereumPrice**, it should now be 12!
+![Request Ethereum Price](Images/ethereumPrice12.png)
 
 ## Summary
-- We were able to securely use a oracle and get off chain data to a smart contract
-- This example demonstrates how to use oracles with a generic REST API 
+
+- We were able to integrate with Chainlink to securely use an oracle and get off chain data to a smart contract.
+- This example demonstrates how to use oracles with a generic REST API. You can get an idea of how that generic REST API can be replaced with a more interesting and realistic example.

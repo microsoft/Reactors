@@ -118,7 +118,7 @@ You will see Welcome to MetaMask when the extension is launched. Click **Get Sta
 If you are new to Metamask you will create a wallet and set a new password. Click **Create a Wallet**.
 ![Create wallet](Images/create_wallet.jpg)
 
-# Secret Backup Phrase
+## Secret Backup Phrase
 
 - Set a new password. You will now get a Secret Backup Phrase. Important! Make sure to store this Secret Backup Phrase somewhere safe since you can not get a hold of it if you do not save it.
 
