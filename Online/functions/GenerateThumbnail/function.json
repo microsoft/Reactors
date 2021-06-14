@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "input",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "samples-workitems/{name}.jpg",
+      "connection": "IMAGE_STORAGE"
+    },
+    {
+      "name": "output",
+      "type": "blob",
+      "path": "thumbnails/{name}.jpg",
+      "direction": "out",
+      "connection": "IMAGE_STORAGE"
+    }
+  ]
+}
