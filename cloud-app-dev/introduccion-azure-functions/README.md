@@ -1,16 +1,14 @@
 # Introduccion a Azure Functions
 
- Hay 4 sesiones individuales con información relacionada con cada sesión en una subcarpeta de este repositorio.
+¿Le interesa aprender de Azure Functions y como desarrollar funciones Serverless? Entonces esta serie le va a interesar. Mediante estas sesiones, vamos a cubrir cómo desarrollar, probar, y desplegar Functions. Aprenderá las diferentes opciones de triggers y bindings y como conectar otros servicios de Azure. Únete, haz preguntas y aprende mas del mundo Serverless
 
 
-Order | Title | Description | Useful Links | Date  |
----| :---     | :---        | :---   | :---
-1 | [Encadenamiento de Azure Functions mediante enlaces de entrada y salida](encadenamiento/README.md)                     | xxxx       | Here's this   | Jan 12
-2 | [Desarrollo, prueba y publicacion con Azure Functions Core Tools](desarollo/README.md)   | xxxx        | And more      | Jan 19
-3 | [Actualizaciones en tiempo real con Azure Functions y SignalR service](signalr/README.md)                 | xxxx        | And more      | Jan 26
+ Fecha | Título |  Enlace para registrarse | Grabación
+---       | :---   | :--- | :---
+Enero 12 2022 |[Encadenamiento de Azure Functions mediante enlaces de entrada y salida](encadenamiento/README.md)                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/282293807/)      | [Microsoft Reactor YouTube](https://youtu.be/-DXO1-V0tYA)
+Enero 19 2022 |[Desarrollo, prueba y publicacion con Azure Functions Core Tools](desarollo/README.md)   | [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/282293784/)        |       
+Enero 26 2022 | [Actualizaciones en tiempo real con Azure Functions y SignalR service](signalr/README.md)                 | [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/282293807/)        |      
 
-## Links relevant to series
+## Enlaces relevantes para esta serie
 
-- [Este es un enlace]()
-- [Este es un enlace]()
-- [Este es un enlace]()
+- [Azure Functions](https://azure.microsoft.com/services/functions/)
