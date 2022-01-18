@@ -1,75 +1,11 @@
 # Encadenamiento de Azure Functions mediante enlaces de entrada y salida
 
-Repositorio de una serie basada en Azure Functions. Hay 4 sesiones individuales con información relacionada con cada sesión en una subcarpeta de este repositorio.
+Con Azure Functions es más fácil integrar el código de función con datos y servicios. Gracias a la eficacia de los enlaces, solo tiene que declarar los orígenes de datos que se van a leer y escribir, y dejar que Azure Functions se ocupe del resto. En esta sesión vamos a explorar a qué tipos de orígenes de datos se puede tener acceso mediante los enlaces, leer datos desde Azure Cosmos DB mediante Azure Functions, almacenar datos en Azure Cosmos DB mediante Azure Functions, enviar mensajes a Azure Queue Storage mediante Azure Functions.
 
-## ¿Quiere aprender más?
+## Enlaces relevantes para esta sesión
 
-- [Concesión de acceso de usuario a los recursos de Azure mediante Azure Portal](https://docs.microsoft.com/azure/role-based-access-control/quickstart-assign-role-user-portal)
-- [Protección de los recursos de Azure con el control de acceso basado en roles de Azure (Azure RBAC](https://docs.microsoft.com/learn/modules/secure-azure-resources-with-rbac/)
-
-
-## ¿Cómo funciona Azure RBAC?
-
-- Otorga acceso asignando el rol de Azure adecuado (lo que puede hacer) a usuarios, grupos y aplicaciones (quién) en un determinado ámbito. (dónde)
-- El alcance de una asignación de funciones puede ser un grupo de administración, una suscripción, un grupo de recursos o un solo recurso.
-- El rol de Azure que asigne determina qué recursos puede administrar el usuario, el grupo o la aplicación dentro de ese ámbito.
-- Un rol asignado en un ámbito principal también otorga acceso a los ámbitos secundarios contenidos en él.
-
-    ![diagram of how azure ad works](1.png)
-
-# Demo
-
-## Listar accesso
-
-1. Lista de asignaciones de role para un resource group
-
-    ```sh 
-    az role assignment list --include-inherited --resource-group {resourcegroupname} --output json --query '[].{principalName:principalName, roleDefinitionName:roleDefinitionName, scope:scope}'
-    ```
-
-2. Lista de asignaciones de roles para una usuaria
-
-    ```sh
-    az role assignment list --all --assignee {objectId}
-    ```
-
-3. Enumere las asignaciones de roles para una suscripción
-
-    ```sh
-    az role assignment list --subscription {subscriptionNameOrId}
-    ```
-
-## Asignar roles de Azure mediante la CLI de Azure
+- [Encadenamiento de Azure Functions mediante enlaces de entrada y salida](https://docs.microsoft.com/es-es/learn/modules/chain-azure-functions-data-using-bindings/)
 
 
-1. Determinar quién necesita acceso
-    ```sh
-    az ad user show --id "{principalName}" --query "objectId" --output tsv
-    ```
-    Podemos guardar este valor en una variable `objectId`
-    ```sh
-    objectId=$(az ad user show --id {principalName} --query "objectId" --output tsv)
-    ```
 
-2. Crear la asignación de rol
-    ```sh
-    az role assignment create --assignee {objectId} --role reader --resource-group {resourcegroupname}
-    ```
-3. Verifique que se haya creado la asignación
-
-    ```sh
-    az role assignment list --include-inherited --resource-group {resourcegroupname}
-    ```
-
-## Quitar roles de Azure mediante la CLI de Azure
-
-1. Quitar rol a un usuario
-    ```sh
-    az role assignment delete --assignee $user --role reader --resource-group {resourcegroupname}
-    ```
-## Listar roles disponibles
-
-```sh
-az role definition list --custom-role-only false --output json --query '[].{roleName:roleName, description:description, roleType:roleType}'
-```
 
