@@ -1,14 +1,19 @@
 # this Just IN
 
-Live from Cloud City Seattle, this.Just.in. This new Microsoft Reactor series is for developers, entrepreneurs and passionate technologists that want to build tech that’s game-changing, useful or just plain interesting.
+Live from Cloud City Seattle, this Just IN! This [Microsoft Reactor](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) series is for developers, entrepreneurs and enthusiasts that want to learn what's new and notable and stay up-to-date on the tools of the trade. Featuring guest speakers across Microsoft engineering and cloud advocacy. Come share your voice in this interactive, community-focused series.
+
+Livestreaming weekly at 8AM PT / 11AM ET / 4PM GMT at [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/) and available on-demand on [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) thereafter.
 
 
- Date | Title |  Join the livestream | Watch on demand
----       | :---   | :--- | :---
-Feb 7, 2022 8AM PT / 11AM ET / 4PM GMT |[What's New(s) in Mixed Reality?](encadenamiento/README.md)                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/282293807/)      | [Microsoft Reactor YouTube](https://youtu.be/-DXO1-V0tYA)
-Enero 19 2022 |[Desarrollo, prueba y publicacion con Azure Functions Core Tools](desarollo/README.md)   | [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/282293784/)        |       
-Enero 26 2022 | [Actualizaciones en tiempo real con Azure Functions y SignalR service](signalr/README.md)                 | [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/282293807/)        |      
+ Date | Title | Livestream | On-demand |Resources
+---       | :---   | :--- | :--- | :---
+Feb 7, 2022 | <b>What's New(s) in Mixed Reality?                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/281407782/) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/)     | [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) | [Introduction to Mixed Reality](link) and [Microsoft Mesh](link) and [Windows Mixed Reality](link)
+Feb 14, 2022 | <b>What's New(s) in the Maker Community?                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283127511) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/)     | [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) | [Microsoft Garage](http://www.microsoft.com/en-us/garage) and [Microsoft MakeCode](http://www.microsoft.com/en-us/makecode)
+Feb 28, 2022 | <b>What's New(s) in Data Science & Machine Learning?                    |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283127534) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/)     | [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) | [Visual Tools for Machine Learning](https://aka.ms/ExploreVisualToolsforML) and [Microsoft Learn: Data Science for Machine Learning](https://aka.ms/UnderstandDataScienceforML)
+Mar 7, 2022 | <b>Teach Yourself (and family & friends) how to code!                   |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283127568) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/)     | [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) | [Microsoft MakeCode](https://www.microsoft.com/makecode) and [Microsoft Learn: Take your first steps with Python](https://aka.ms/PythonFirstSteps-Reactor)
+Mar 14, 2022 | <b>Uplevel your Skills: CS Degree vs. Coding Bootcamp vs. Credentials                    |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283127582) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/)     | [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) | [Microsoft Certifications](https://aka.ms/MSCertifications-Reactor) and [Microsoft Learn](https://aka.ms/MSLearn-Reactorlink) and [Microsoft Learning Events](https://aka.ms/MSEvents-ReactorLink)
+Mar 21, 2022 |<b>What's New(s) in Inclusive Design & Accessibility?                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283127807) and [LearnTV](https://docs.microsoft.com/en-us/learn/tv/)     | [YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA) | [Blog: Users with Invisible Disabilities](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283127807) and [Microsoft Learn: Accessibility Fundamentals](https://aka.ms/AccessibilityFundamentals-ReactorLink) and [Microsoft Learn: Design with Inclusivity](https://aka.ms/DesignwithInclusivity)       |      
 
-## Helpful learning links
+## About the speaker
 
-- [Azure Functions](https://azure.microsoft.com/services/functions/)
+Justin Garrett is host of this Just IN and a Principal Cloud Advocate in Cloud + AI Engineering at Microsoft. Justin works closely with learner communities to help address the skills gap in cloud development and manages a team of Cloud Advocates from around the world that do likewise. You’ll find him leading workshops at Microsoft Reactors, mentoring Student Ambassadors, and helping engineers improve Azure, GitHub and Visual Studio. Justin’s career at Microsoft also spans 16 years across Analytics, Windows, Bing search, Edge browser, Web Platform and Cloud Computing. In his spare time, he enjoys gardening and is an avid Pacific Northwest mountaineer. Follow him on [LinkedIN](https://www.linkedin.com/in/justgar/) and [Twitter](https://twitter.com/justgar).
