@@ -1,6 +1,6 @@
 # Serverless Application with Cosmos DB Triggers
 
-Are you interested in learning about Azure Functions and how to develop an event-driven application? If so, then this tutorial will interest you. Throughout this session, we will cover how to develop, test, and deploy Functions. You will learn the different trigger and binding options and how to connect them to an Azure Cosmos DB instance. Join, ask questions and learn more about the Serverless world.
+Are you interested in learning about Azure Functions and how to develop an event-driven application? If so, then this 1-off tutorial will interest you. Throughout this session, we will cover how to develop, test, and deploy Functions and an Azure Cosmos DB instance. You will learn the different trigger and binding options and how to connect them to the database instance. Join, ask questions and learn more about the Serverless world.
 
 
  Date | Title |  Registration Link | Recording
