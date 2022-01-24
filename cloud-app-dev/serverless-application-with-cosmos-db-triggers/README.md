@@ -5,8 +5,10 @@ Are you interested in learning about Azure Functions and how to develop an event
 
  Date | Title |  Registration Link | Recording
 ---       | :---   | :--- | :---
-January 21st 2022 |[Build a serverless application with Azure Cosmos DB triggers #AzureHappyHours](application/README.md)                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-London/events/282714780/)      | [Microsoft Reactor YouTube](https://youtu.be/IEACisF4cFI)     
+January 21st 2022 |Build a serverless application with Azure Cosmos DB triggers #AzureHappyHours                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-London/events/282714780/)      | [Microsoft Reactor YouTube](https://youtu.be/IEACisF4cFI)     
 
 ## Links relevant to the session
 
 - [Azure Functions](https://azure.microsoft.com/services/functions/)
+- [Demo React Application](https://github.com/liamchampton/serverless-demo-react-app)
+- [POST / GET Azure Functions Code](https://github.com/liamchampton/azure-functions-cosmos-db-demo)
