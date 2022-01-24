@@ -18,6 +18,6 @@ Feb 18 2022 |[Reconociendo objetos con Azure Machine Learning y Azure Functions]
 - [Microsoft Learn - Create Serverless Applications](https://aka.ms/CreateServerlessApps-ci)
 - [Microsoft Docs- What is Custom Vision?](https://aka.ms/CustomVision-ci)
 - [Microsoft Docs - Test and retrain a model with Custom Vision Service](https://aka.ms/CustomVisionService-ci)
-- [Microsoft Docs - Overview of image classification model by Lobe (preview)](https://docs.microsoft.com/en-us/ai-builder/lobe-overview)
-- [Microsoft Docs - Export your image classification model from Lobe to AI Builder (preview)](https://docs.microsoft.com/en-us/ai-builder/lobe-export)
+- [Microsoft Docs - Overview of image classification model by Lobe (preview)](https://docs.microsoft.com/ai-builder/lobe-overview)
+- [Microsoft Docs - Export your image classification model from Lobe to AI Builder (preview)](https://docs.microsoft.com/ai-builder/lobe-export)
 
