@@ -16,9 +16,9 @@ Coming soon ! |[Usemos Azure IoT para darle de comer a mis ardillas 🐿️. Nue
 
 ## Recursos adicionales
 
-- [Microsoft Learn - Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-us/learn/paths/power-plat-fundamentals/)
+- [Microsoft Learn - Microsoft Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)
 - [Microsoft Learn - Get started with Power Apps canvas apps](https://aka.ms/GetStartedwithPowerApps)
 - [Microsoft Learn - Get started with Power Automate](https://aka.ms/GetStartedFlows)
 - [Microsoft Learn - Create a model-driven application in Power Apps](https://aka.ms/ModelDrivenAppinPowerApps)
-- [Microsoft Docs - Introduction to developing with Microsoft Power Platform](https://docs.microsoft.com/en-us/learn/paths/intro-developing-power-platform/)
+- [Microsoft Docs - Introduction to developing with Microsoft Power Platform](https://docs.microsoft.com/learn/paths/intro-developing-power-platform/)
 - [Microsoft Docs - Add mixed reality controls to your canvas app](https://aka.ms/AddMRControlstoCanvasApp)
