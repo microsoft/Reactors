@@ -3,9 +3,9 @@
 **Date: 25th Feb 2022 </br>
 Time: 4:30 PM IST to 7:30 PM IST**
 
-The increased demand for custom software solutions in support of digital transformation has sparked the emergence of citizen developers outside of IT, which in turn has influenced the rise in low-code / no-code development platforms.
+The increased demand for custom software solutions in support of digital transformation has sparked the emergence of citizen developers outside of IT, which has influenced the rise in low-code / no-code development platforms.
 
-In this mini-conference, we will focus on: What is a low-code development platform? Benefits / limitation of low - code / no-code developer platform? Difference between low-code & no-code? What can you build with low-code platforms? When to go for it? we will learn - Power Apps, Power Automate, Power Virtual Agents, Power FX and we will also cover how to build low code apps with Microsoft Azure.
+In this mini-conference, we will focus on a low-code development platform? Benefits / limitation of low - code / no-code developer platform? Difference between low-code & no-code? What can you build with low-code platforms? When to go for it? We will learn - Power Apps, Power Automate, Power Virtual Agents, Power FX and we will also cover how to build low code apps with Microsoft Azure.
 
 Join the conversation :point_right: [**RSVP here**](https://www.meetup.com/microsoft-reactor-bengaluru/events/281500483/)
 
