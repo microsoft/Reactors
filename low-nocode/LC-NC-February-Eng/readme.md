@@ -19,6 +19,6 @@ Coming soon ! |[Using Azure IoT to feed my squirrels 🐿️. Now powered by Pow
 ## Additional Resources
 
 - [Microsoft Learn - Get started with Power Apps canvas apps](https://aka.ms/GetStartedwithPowerApps)
-- [Microsoft Learn - Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-us/learn/paths/power-plat-fundamentals/)
-- [Introduction to developing with Microsoft Power Platform](https://docs.microsoft.com/en-us/learn/paths/intro-developing-power-platform/)
+- [Microsoft Learn - Microsoft Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)
+- [Introduction to developing with Microsoft Power Platform](https://docs.microsoft.com/learn/paths/intro-developing-power-platform/)
 - [Microsoft Docs - Add mixed reality controls to your canvas app](https://aka.ms/AddMRControlstoCanvasApp)
