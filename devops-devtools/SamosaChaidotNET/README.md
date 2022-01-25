@@ -4,9 +4,11 @@ Jumpstart your experience building next-gen applications with .NET! Come learn a
 
 ## [Action for Developers](https://aka.ms/samosachaidotnet)
 
-Learn how to create independently deployable, highly scalable, and resilient services using the free and open-source .NET platform with Cloud-native tools & Azure services. Complete this challenge and take the next step in becoming a subject matter expert on microservices app development.
+1. Learn how to create independently deployable, highly scalable, and resilient services using the free and open-source .NET platform with Cloud-native tools & Azure services. Complete this challenge and take the next step in becoming a subject matter expert on microservices app development.
 
 :books:[Launch Cloud Skills Challenge](https://aka.ms/samosachaidotnet)
+
+2. Watch SamosaChaidotNET episodes on-demand 👉 [YouTube](https://www.youtube.com/watch?v=KIARCDNzK4A&list=PLmsFUfdnGr3wtJ6wDHQ4RGhXdw22bY6uJ&index=1)
 
 ## Upcoming SamosaChaidotNET episodes:
 
