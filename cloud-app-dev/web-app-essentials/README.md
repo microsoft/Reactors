@@ -19,7 +19,8 @@ Getting started in web development can seem overwhelming, since there are so man
 We'll pull all these bits of tech together in a lightweight **web app that creates custom event invitations**!. 
 *(for something a bit more special than a Facebook invite, for your next big event or online shindig)*
 
-<img src="img/invite-demo.png" alt="Children's Birthday Party themed invitation, inviting everyone to attend the Code to Cloud Stream series, starting February 3rd and 5PM (AEDT)" width="400"/>
+![Children's Birthday Party themed invitation, inviting everyone to attend the Code to Cloud Stream series, starting February 3rd and 5PM (AEDT)](img/invite-demo.png)
+
 
 We’ll build out our app with features for data entry and storage, custom themes, and RSVP tracking for  
 
