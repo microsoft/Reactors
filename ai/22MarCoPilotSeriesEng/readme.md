@@ -1,6 +1,6 @@
 # How GitHub CoPilot 🤖 is helping in my daily work at Microsoft
 
-![How GitHub CoPilot 🤖 is helping in my daily work at Microsoft](img/Slide1-450.JPG)
+![How GitHub CoPilot 🤖 is helping in my daily work at Microsoft](img/CopilotSessionSeriesHeader.gif)
 
 March is our Artificial Intelligence and Machine Learning month in the **Microsoft Reactor Network**. 
 

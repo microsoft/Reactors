@@ -1,6 +1,6 @@
 # Cómo GitHub CoPilot 🤖 me ayuda en mi día a día en Microsoft
 
-![Cómo GitHub CoPilot 🤖 me ayuda en mi día a día en Microsoft](img/header-2.jpg)
+![Cómo GitHub CoPilot 🤖 me ayuda en mi día a día en Microsoft](img/CopilotSessionSeriesHeader.gif)
 
 
 Marzo es nuestro mes de Inteligencia Artificial y Aprendizaje Automático en **Microsoft Reactor Network**.
