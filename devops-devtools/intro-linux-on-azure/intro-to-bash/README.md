@@ -4,7 +4,8 @@ Bash is the standard shell scripting language for Linux. A shell is a program th
 
 ## Resources
 
-- [Microsoft Learn Introduction to Bash](https://docs.microsoft.com/learn/modules/bash-introduction/)
+- [Instructor notes](https://github.com/madebygps/linux-notes/tree/main/english/intro-to-bash)
+- [Microsoft Learn Introduction to Bash](https://aka.ms/bashintro5/)
 - [Gwyn Pena-Siguenza Twitter](https://twitter.com/madebygps)
 
 
