@@ -25,9 +25,9 @@ Durante los meses de Febrero y Marzo, el foco de las sesiones en la red de Micro
 
 ## Speaker and Co-Host
 
-👤 **Bruno Capuano**
+👤 **[Bruno Capuano](http://aka.ms/elbruno)**
 
-* Website: https://elbruno.com
+* Blog: https://elbruno.com
 * Twitter: [@elbruno](https://twitter.com/elbruno)
 * Github: [@elbruno](https://github.com/elbruno)
 * LinkedIn: [@elbruno](https://linkedin.com/in/elbruno)

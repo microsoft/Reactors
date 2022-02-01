@@ -25,9 +25,9 @@ During both months we will host sessions focused on **Low Code** - **No Code** t
 
 ## Speaker and Co-Host
 
-👤 **Bruno Capuano**
+👤 **[Bruno Capuano](http://aka.ms/elbruno)**
 
-* Website: https://elbruno.com
+* Blog: https://elbruno.com
 * Twitter: [@elbruno](https://twitter.com/elbruno)
 * Github: [@elbruno](https://github.com/elbruno)
 * LinkedIn: [@elbruno](https://linkedin.com/in/elbruno)

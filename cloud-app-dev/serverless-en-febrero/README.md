@@ -23,9 +23,9 @@ Feb 18 2022 | **[Reconociendo objetos con Azure Machine Learning y Azure Functio
 
 ## Speaker
 
-👤 **Bruno Capuano**
+👤 **[Bruno Capuano](http://aka.ms/elbruno)**
 
-* Website: https://elbruno.com
+* Blog: https://elbruno.com
 * Twitter: [@elbruno](https://twitter.com/elbruno)
 * Github: [@elbruno](https://github.com/elbruno)
 * LinkedIn: [@elbruno](https://linkedin.com/in/elbruno)
