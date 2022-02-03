@@ -4,7 +4,8 @@ Bash es el lenguaje de programación de shell estándar para Linux. Un shell es 
 
 ## Recursos
 
-- [Microsoft Learn Introducción a Bash](https://docs.microsoft.com/learn/modules/bash-introduction/)
+- [notas de la instructora](https://github.com/madebygps/linux-notes/tree/main/espanol/intro-a-bash)
+- [Microsoft Learn Introducción a Bash](https://aka.ms/bashintro5)
 - [Gwyn Pena-Siguenza Twitter](https://twitter.com/madebygps)
 
 
