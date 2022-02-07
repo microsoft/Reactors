@@ -6,7 +6,7 @@ More than 100 Azure services offer everything you need to build and run your app
 
 In this challenge, we are covering key AI concepts and introducing the Azure AI services to help you bring capabilities like speech, vision, language, decision, and search to your app. We have provided step-by-step guidance to show how easy adding value to your applications is. Complete the modules to skill up!
 
-[Launch Cloud Skills Challenge!](https://aka.ms/AzureHappyHours)
+[**Launch Cloud Skills Challenge!**](https://aka.ms/AzureHappyHours)
 
 ## On-Demand
 
