@@ -1,4 +1,4 @@
-## [Azure AI Series](https://aka.ms/AzureHappyHours)
+## [Azure AI Series | AzureHappyHours](https://aka.ms/AzureHappyHours)
 
 Azure AI enables you to build on your terms. With Azure, you can build applications using the languages and tools of your choice and deploy your AI models anywhere. Whether you want to leverage prebuilt models, build custom models with code-first or code-free experiences, or do advanced machine learning, Azure is a great place to get started with AI.
 
