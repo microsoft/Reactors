@@ -4,8 +4,8 @@ More than 100 Azure services offer everything you need to build and run your app
 
 ## Action for Developers
 
-Launch CSC here.
+
 
 ## On-Demand
 
-Watch #AzureHappyHours On-Demand 👉 [YouTube](https://www.meetup.com/microsoft-reactor-bengaluru/events/283523270/)
+Watch **#AzureHappyHours** On-Demand 👉 [YouTube](https://www.youtube.com/watch?v=lJQv6c1I2oc&list=PLmsFUfdnGr3zCvRrMxOetO8fr_bo_hOjA)
