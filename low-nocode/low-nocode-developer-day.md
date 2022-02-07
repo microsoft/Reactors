@@ -9,6 +9,12 @@ In this mini-conference, we will focus on a low-code development platform? Benef
 
 Join the conversation :point_right: [**RSVP here**](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
 
+## [Action for Developers](https://aka.ms/reactordaysIndia)
+
+We have launched Cloud skills challenge which has modules & learn path to help you get started with Low-code / No-code development platform.
+
+:books:[Launch Cloud Skills Challenge](https://aka.ms/reactordaysIndia)
+
 ## [Low-code / No-code Developer Day - Agenda](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
 
 Hosted by: [Vivek Sridhar, Senior Cloud Advocate, Cloud + AI Engineering at Microsoft](https://twitter.com/vivek_sridhar)
@@ -23,6 +29,6 @@ Hosted by: [Vivek Sridhar, Senior Cloud Advocate, Cloud + AI Engineering at Micr
 
 Host: [Vivek Sridhar](https://twitter.com/vivek_sridhar) is a technophile and an Open-Source contributor with around 15+ years of experience in the Software Industry and works at Microsoft as a Senior Cloud Advocate, Cloud + AI engineering team. In his previous role, he has mentored startups/developers, speaker at conferences/meetups for DigitalOcean as Senior Developer Advocate, Co-Founder / Chief-Architect of NoodleNext Technology. He was also heading DevOps at BlackBuck and was a DevOps Solution Architect at HCL (Australia) in client engagement. Vivek started his career with IBM Rational (India Software Labs) as a Software Developer.
 
-Connect with Vivek 👉 [Twitter](https://twitter.com/vivek_sridhar)
+Connect with Vivek 👉 [Twitter](https://twitter.com/vivek_sridhar) for more information!
 
 
