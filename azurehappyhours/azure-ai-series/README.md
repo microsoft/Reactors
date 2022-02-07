@@ -12,13 +12,13 @@ In this challenge, we are covering key AI concepts and introducing the Azure AI 
 
 ## Upcoming Azure AI Series episodes:
 
-👉 **February 2022 episodes:**
+**February 2022 episodes:**
 
 |     Date   |    Title    | Resources | Livestream / On-Demand |
 |     :---:  | :---       | :---     | :---: |
 | 23rd Feb | [Azure AI Series: Foundational Concepts](https://www.meetup.com/microsoft-reactor-bengaluru/events/283375772/)  |  [Intro to Azure AI](https://azure.microsoft.com/resources/videos/?wt.mc_id=github_azurehappyhours_webinar_reactor) | [YouTube](https://aka.ms/Az-AISeries-23/02) |
 
-👉 **March 2022 episodes:**
+**March 2022 episodes:**
 
 |     Date   |    Title    | Resources | Livestream / On-Demand |
 |     :---:    | :---           | :---       | :---: |
