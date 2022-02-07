@@ -8,7 +8,7 @@ In this series, we'll cover key AI concepts and introduce the Azure AI services 
 
 In this challenge, we are covering key AI concepts and introducing the Azure AI services to help you bring capabilities like speech, vision, language, decision, and search to your app. We have provided step-by-step guidance to show how easy adding value to your applications is. Complete the modules to skill up!
 
-[Launch Cloud Skills Challenge!](https://aka.ms/AzureHappyHours)
+[**Launch Cloud Skills Challenge!**](https://aka.ms/AzureHappyHours)
 
 ## Upcoming Azure AI Series episodes:
 
