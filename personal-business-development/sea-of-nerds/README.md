@@ -2,13 +2,13 @@
 
 ![A pirate flag with a racoon head and crossbones](./img/sea-of-nerds.png)
 
-Arrrrrrr, ye swarthy land lubbers. Come set sail with your pirate captain, the Dread Pirate Jim and his pirate crew as we sail the seven seas to find the finest treasure in the land – knowledge!
+🏴‍☠️ Arrrrrrr, ye swarthy land lubbers. Come set sail with your pirate captain, the Dread Pirate Jim and his pirate crew as we sail the seven seas to find the finest treasure in the land – knowledge!
 
-In this series our trusty pirates set sail on the [Sea of Thieves](https://www.seaofthieves.com), and share their galleon with a range of special guests from across the tech industry. Each episode will mix sharing tales of tech quests large and small to pass the time whilst we sail, with intense piratical action as we try to claim treasure.
+💰 In this series our trusty pirates set sail on the [Sea of Thieves](https://www.seaofthieves.com), and share their galleon with a range of special guests from across the tech industry. Each episode will mix sharing tales of tech quests large and small to pass the time whilst we sail, with intense piratical action as we try to claim treasure.
 
-This is the only series from the Microsoft Reactor where you can both learn how folks have achieved greatness in their fields, whilst watching how good or terrible they are at video games.
+🎮 This is the only series from the Microsoft Reactor where you can both learn how folks have achieved greatness in their fields, whilst watching how good or terrible they are at video games.
 
-So come join our crew, bring your questions for our guests, and let's all [#BeMorePirate](https://twitter.com/hashtag/BeMorePirate?src=hashtag_click)!
+⚓️ So come join our crew, bring your questions for our guests, and let's all [#BeMorePirate](https://twitter.com/hashtag/BeMorePirate?src=hashtag_click)!
 
 ![An animated gif showing treasure in Sea of Thieves](https://media.giphy.com/media/eM1tbXIzy6vTfJlIBy/giphy.gif)
 
@@ -22,7 +22,7 @@ So come join our crew, bring your questions for our guests, and let's all [#BeMo
 
 ## Sessions
 
-### 3rd March - educators at Microsoft
+### 3rd March - educators at Microsoft 👩‍🏫
 
 A good pirate crew supports the next generation of pirates, providing them with training and opportunities to terrorize the seven seas and seize treasure. Microsoft is the same – at Microsoft there is a strong focus on the next generation of developers ensuring they have the support and opportunities to not only grow their tech skills but demonstrate these skills in ways that increase their employability or use their skills to empower their peers.
 
@@ -39,7 +39,7 @@ We will be digging up treasure whilst discussing topics including the career bac
 - [Microsoft Learn for Students](https://aka.ms/MSLearnforStudent)
 - [Microsoft Learn for Educators](https://aka.ms/MSLearnEducators)
 
-### 10th March - educators
+### 10th March - educators 🎓
 
 Pirates need to learn the ropes before they can successfully contribute to a crew, and games developers are no different!
 
@@ -56,7 +56,7 @@ As our crew quest for gold, they will be talking about topics including learning
 - [Azure PlayFab](https://aka.ms/PlayFabMSAzure)
 - [PlayFab docs](https://aka.ms/PlayFabAzureDoc)
 
-### 17th March - interns and graduates
+### 17th March - interns and graduates 👩‍🎓
 
 Every good pirate in training takes time to sail with a crew, before committing to a captain once their training is complete. Students are the same – doing internships to try out companies and jobs before they commit to their first graduate role.
 
