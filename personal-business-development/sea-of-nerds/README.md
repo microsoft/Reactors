@@ -16,9 +16,9 @@ So come join our crew, bring your questions for our guests, and let's all [#BeMo
 
 | Date/Time | Registration link |
 | --------- | ----------------- |
-| 3rd March, 9am PT |  |
-| 10th March, 9am PT |  |
-| 17th March, 9am PT |  |
+| 3rd March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812139](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812139) |
+| 10th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812213](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812213) |
+| 17th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812234](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812234) |
 
 ## Sessions
 
@@ -32,12 +32,12 @@ We will be digging up treasure whilst discussing topics including the career bac
 
 #### Show links
 
-[Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com)
-[Microsoft Reactors on GitHub](https://github.com/microsoft/Reactors)
-[Microsoft Reactors on YouTube](https://www.youtube.com/channel/UCkm6luGCS3hD25jcEhvRMIA)
-[Microsoft Imagine Cup](https://imaginecup.microsoft.com/)
-[Microsoft Learn for Students](https://docs.microsoft.com/learn/roles/student)
-[Microsoft Learn for Educators](https://docs.microsoft.com/learn/roles/educator)
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com)
+- [Microsoft Reactors on GitHub](https://github.com/microsoft/Reactors)
+- [Microsoft Reactors on YouTube](https://aka.ms/ReactorYouTube)
+- [Microsoft Imagine Cup](https://imaginecup.microsoft.com/)
+- [Microsoft Learn for Students](https://aka.ms/MSLearnforStudent)
+- [Microsoft Learn for Educators](https://aka.ms/MSLearnEducators)
 
 ### 10th March - educators
 
@@ -49,12 +49,12 @@ As our crew quest for gold, they will be talking about topics including learning
 
 #### Show links
 
-[Xbox Game Pass](https://www.xbox.com/xbox-game-pass)
-[Engaging with students via playing video games](https://techcommunity.microsoft.com/t5/educator-developer-blog/engaging-with-students-via-playing-video-games/ba-p/2370378)
-[Using your Xbox for learning](https://techcommunity.microsoft.com/t5/educator-developer-blog/using-your-xbox-for-learning/ba-p/2389569)
-[MakeCode Arcade](https://arcade.makecode.com)
-[Azure PlayFab](https://azure.microsoft.com/services/playfab)
-[PlayFab docs](https://docs.microsoft.com/gaming/playfab/)
+- [Xbox Game Pass](https://www.xbox.com/xbox-game-pass)
+- [Engaging with students via playing video games](https://aka.ms/EngagingViaVideoGames)
+- [Using your Xbox for learning](https://aka.ms/XboxforLearning)
+- [MakeCode Arcade](https://arcade.makecode.com)
+- [Azure PlayFab](https://aka.ms/PlayFabMSAzure)
+- [PlayFab docs](https://aka.ms/PlayFabAzureDoc)
 
 ### 17th March - interns and graduates
 
@@ -64,9 +64,9 @@ For this session, our crew is joined by a couple of young pirates who interned a
 
 As these fresh-faced pirates help us find where X marks the spot and dig for buried treasure, we will be discussing tech internships, what students are looking for in an internship experience and how tech companies can support them. We will also be exchanging tales of graduate recruitment, interview panels and what fun activities Microsoft had in store for them both as interns.
 
-[Microsoft Careers](https://careers.microsoft.com/)
-[Student and graduate careers](https://careers.microsoft.com/students/)
-[Microsoft the Musical](https://youtu.be/ZGeWNR8CWnA)
-[Microsoft Garage internships](https://www.microsoftnewengland.com/garage/)
-[Start in tech as an intern on Microsoft Learn](https://docs.microsoft.com/learn/paths/start-career-in-tech/)
-[Build your tech resilience on Microsoft Learn](https://docs.microsoft.com/learn/paths/tech-resilience/)
+- [Microsoft Careers](https://careers.microsoft.com/)
+- [Student and graduate careers](https://careers.microsoft.com/students/)
+- [Microsoft the Musical](https://youtu.be/ZGeWNR8CWnA)
+- [Microsoft Garage internships](https://www.microsoftnewengland.com/garage/)
+- [Start in tech as an intern on Microsoft Learn](https://aka.ms/TechAsAnIntern)
+- [Build your tech resilience on Microsoft Learn](https://aka.ms/BuildTechResilience)
