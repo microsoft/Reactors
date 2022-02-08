@@ -7,19 +7,19 @@ The increased demand for custom software solutions in support of digital transfo
 
 In this mini-conference, we will focus on a low-code development platform? Benefits / limitation of low - code / no-code developer platform? Difference between low-code & no-code? What can you build with low-code platforms? When to go for it? We will learn - Power Apps, Power Automate, Power Virtual Agents, Power FX and we will also cover how to build low code apps with Microsoft Azure.
 
-Join the conversation :point_right: [**RSVP here**](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
+Join the conversation :point_right: [**here**](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
 
 ## [Action for Developers](https://aka.ms/reactordaysIndia)
 
 We have launched Cloud skills challenge which has modules & learn path to help you get started with Low-code / No-code development platform.
 
-:books:[**Launch Cloud Skills Challenge**](https://aka.ms/reactordaysIndia)
+👉 [**Launch Cloud Skills Challenge**](https://aka.ms/reactordaysIndia)
 
 ## [Resources for Developers](https://github.com/microsoft/monthlyresources)
 
 Explore the latest in Low Code app development. Learn how to build faster with less code in Power Apps, and scale and extend those apps with Azure services.
 
-[**Monthly latest Developer Resources on GitHub**](https://github.com/microsoft/monthlyresources)
+👉 [**Monthly latest Developer Resources on GitHub**](https://github.com/microsoft/monthlyresources)
 
 ## [Low-code / No-code Developer Day - Agenda](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
 
