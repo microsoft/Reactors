@@ -40,6 +40,7 @@ Jennifer Ritzinger has been with Microsoft for 25 years, spending much of that t
 
 **Pablo Veramendi**
 
+Pablo has spent the past 20 years leveraging technology to empower others to achieve more. For the past seven years he has been leading Microsoft’s global Imagine Cup student technology competition where competitors bring their dreams to life and compete on a world stage. Over the past three years he has led the Microsoft Learn Student Ambassador program which consists of on-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers. He believes that the future is in the hands of these incredibly talented students and he is honored and humbled to work at Microsoft to give all students opportunities to achieve more. 
 
 #### Show links
 
@@ -86,6 +87,10 @@ As these fresh-faced pirates help us find where X marks the spot and dig for bur
 ![A photo of Eleanor](./img/eleanor-lewis.jpeg)
 
 **Gustavo Cordido**
+
+![A photo of Gustavo](./img/gustavo-cordido.jpg)
+
+Gustavo is a Cloud Advocate in Spatial Computing. He joined Microsoft as an intern in Summer of 2020 and returned as a Full Time Employee in January of 2021. He currently works in creating curriculum directed at introducing XR to students and developers alike, as well as partnering with academic institutions to support their developments in Mixed, Augmented and Virtual Reality. His hobbies are cooking and hiking, but enjoys playing videogames to keep up with long-distance friendships. You can connect with Gustavo on [LinkedIn](https://www.linkedin.com/in/gcordidoa/) and [Twitter](https://twitter.com/gcordidoa).
 
 #### Show links
 
