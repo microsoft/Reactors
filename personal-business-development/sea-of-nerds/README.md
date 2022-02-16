@@ -40,6 +40,8 @@ Jennifer Ritzinger has been with Microsoft for 25 years, spending much of that t
 
 **Pablo Veramendi**
 
+![A photo of pablo](img/pablo-veramendi.jpg)
+
 Pablo has spent the past 20 years leveraging technology to empower others to achieve more. For the past seven years he has been leading Microsoft’s global Imagine Cup student technology competition where competitors bring their dreams to life and compete on a world stage. Over the past three years he has led the Microsoft Learn Student Ambassador program which consists of on-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers. He believes that the future is in the hands of these incredibly talented students and he is honored and humbled to work at Microsoft to give all students opportunities to achieve more. 
 
 #### Show links
