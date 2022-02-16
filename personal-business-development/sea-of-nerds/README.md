@@ -10,7 +10,7 @@
 
 ⚓️ So come join our crew, bring your questions for our guests, and let's all [#BeMorePirate](https://twitter.com/hashtag/BeMorePirate?src=hashtag_click)!
 
-![An animated gif showing treasure in Sea of Thieves](https://media.giphy.com/media/eM1tbXIzy6vTfJlIBy/giphy.gif)
+[![A link to an overview video](img/video.png)](https://youtu.be/9n3ptcP146A)
 
 ## Session registrations
 
