@@ -18,13 +18,13 @@ Join the challenge here: https://aka.ms/30DaysAzureDeveloper
 
 | Date                 | Title                                | Registration Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | --------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| March 1<sup>st</sup>  | Azure Developer Challenge Kickoff     | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869127)  |
-| March 3<sup>rd</sup>  | Azure Developer Challenge Kickoff     | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869131)  |
-| March 8th             | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869138)  |
-| March 10<sup>th</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869145)  |
-| March 15<sup>th</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869146)  |
-| March 17<sup>th</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869154)  |
-| March 22<sup>nd</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869156)  |
-| March 24<sup>th</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869161)  |
-| March 29<sup>th</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869168)  |
-| March 31<sup>st</sup> | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869172)  |
+| March 1  | Azure Developer Challenge Kickoff     | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869127)  |
+| March 3  | Azure Developer Challenge Kickoff     | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869131)  |
+| March 8th| Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869138)  |
+| March 10 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869145)  |
+| March 15 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869146)  |
+| March 17 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869154)  |
+| March 22 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869156)  |
+| March 24 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869161)  |
+| March 29 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869168)  |
+| March 31 | Azure Developer challenge study group | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283869172)  |
