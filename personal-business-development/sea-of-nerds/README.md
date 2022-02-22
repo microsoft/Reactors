@@ -88,6 +88,8 @@ As these fresh-faced pirates help us find where X marks the spot and dig for bur
 
 ![A photo of Eleanor](./img/eleanor-lewis.jpeg)
 
+Eleanor is a Software Engineer focusing on accessibility in tech. She spent 3 internships with Microsoft working on different teams in Excel. Outside of work her passions are reading and dancing. She usually reads anywhere between 30 to 50 books a year, typically fiction but in a multitude of genres. And she has been dance training for 21 years both at a performing arts school in middle school and high school, and with a Dance Minor in college. But now she just dances for fun.
+
 **Gustavo Cordido**
 
 ![A photo of Gustavo](./img/gustavo-cordido.jpg)
