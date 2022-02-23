@@ -9,7 +9,7 @@ During the full month we will host sessions focused on AI and ML.
 
  Date | Session |  Registration  | Streaming
 ---       | :---   | :--- | :---
-Mar 02 2022 | **[Using Azure IoT to feed my squirrels 🐿️. Now powered by Power Platform !](https://www.meetup.com/Microsoft-Reactor-Toronto/events/283411334/)** <br><br>Winter is here and my backyard squirrels’ friends still come every day to get some food, snow is not a problem for them. I created an Azure IoT solution that help me feed my squirrels (view that previous session on-demand [here](https://youtu.be/hRvMbVoJlAs).<br>Now it's time to leverage the Power Platform - Power BI to analyze and visualize the data collected through Azure IoT. We will see how to use Power BI to get more insights on understating different animals eating behavioural patterns and highlight certain correlations using powerful visual analytics capabilities.<br><br>Presenters: **Ashraf Ghonaim (Microsoft MVP)** and **Bruno Capuano (Sr Cloud Advocate)** |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Toronto/events/283411334/)      | [Microsoft Reactor YouTube](https://aka.ms/FeedmySquirrels)
+Mar 02 2022 | **[Using Azure IoT to feed my squirrels 🐿️. Now powered by Power Platform !](https://www.meetup.com/Microsoft-Reactor-Toronto/events/283411334/)** <br><br>Winter is here and my backyard squirrels’ friends still come every day to get some food, snow is not a problem for them. I created an Azure IoT solution that help me feed my squirrels (view that previous session on-demand in this [Microsoft Reactor YouTube video](https://youtu.be/hRvMbVoJlAs).<br>Now it's time to leverage the Power Platform - Power BI to analyze and visualize the data collected through Azure IoT. We will see how to use Power BI to get more insights on understating different animals eating behavioural patterns and highlight certain correlations using powerful visual analytics capabilities.<br><br>Presenters: **Ashraf Ghonaim (Microsoft MVP)** and **Bruno Capuano (Sr Cloud Advocate)** |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Toronto/events/283411334/)      | [Microsoft Reactor YouTube](https://aka.ms/FeedmySquirrels)
 Mar 03 2022 | **[Introduction to Cognitive Services](https://www.meetup.com/Microsoft-Reactor-Toronto/events/284095723/)** <br><br>Machine Learning, Data Science, Artificial Intelligence. These are all big words we hear coming into our businesses lately - but what does it all mean? This session will focus on the various Cognitive Service offerings and show you plenty of demos on using them in your apps such as ASP.NET Core, React.Js or Microsoft Automated.<br><br>Presenters: **Gosia Borzecka is a Microsoft AI MVP and Consultant, Modern Workplace at Avanade**. |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Toronto/events/284095723/)      | [Microsoft Reactor YouTube](https://aka.ms/IntrotoCognitiveServices)
 Mar 07 2022 | **[Azure AI Fundamentals: Analyze images with the Computer Vision service](https://www.meetup.com/Microsoft-Reactor-Toronto/events/284073273/)** <br><br>In this session you will learn about Computer Vision and its applications. You will also learn how to use computer vision cognitive service to analyze images.<br><br>Presenters: **Carlotta Castelluccio – Cloud Advocate Microsoft** and **Bethany Jepchumba – Microsoft Learn Gold Student Ambassador & Program Coordinator at Andela** |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Toronto/events/284073273/)      | [Microsoft Reactor YouTube](https://aka.ms/Azure-AILive)
 Mar 14 2022 | **[Azure AI Fundamentals: Build a bot with the Language Service & Azure Bot Service](https://www.meetup.com/Microsoft-Reactor-Toronto/events/284073338/)** <br><br>Bots are a popular way to provide support through multiple communication channels. In this session you will learn how to use knowledge base and Azure Bot Service to create a bot that answers user questions automatically.<br><br>Presenters **Ruth Yakubu – Cloud Advocate, Microsoft and Amy Boyd – Senior Cloud Advocate, Microsoft** |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Toronto/events/284073338/)      | [Microsoft Reactor YouTube](https://aka.ms/Azure-AILive)
@@ -24,7 +24,7 @@ Mar 31 2022 | **[Creating and controlling a Web based video game with Computer V
 
 ## Additional Resources
 
-- [Microsoft Docs- What is Custom Vision?](https://aka.ms/CustomVision-ci)
+- [Microsoft Docs - What is Custom Vision?](https://aka.ms/CustomVision-ci)
 - [Microsoft Docs - Test and retrain a model with Custom Vision Service](https://aka.ms/CustomVisionService-ci)
 - [Microsoft Docs - Overview of image classification model by Lobe (preview)](https://docs.microsoft.com/ai-builder/lobe-overview)
 - [Microsoft Docs - Export your image classification model from Lobe to AI Builder (preview)](https://docs.microsoft.com/ai-builder/lobe-export)
@@ -33,7 +33,7 @@ Mar 31 2022 | **[Creating and controlling a Web based video game with Computer V
 
 👤 **[Bruno Capuano](http://aka.ms/elbruno)**
 
-* Blog: https://elbruno.com
+* Blog: [elbruno.com](https://elbruno.com)
 * Twitter: [@elbruno](https://twitter.com/elbruno)
 * Github: [@elbruno](https://github.com/elbruno)
 * LinkedIn: [@elbruno](https://linkedin.com/in/elbruno)
