@@ -6,6 +6,7 @@ Un contenedor es una unidad atómica de software que empaqueta código, dependen
 
 ## Recursos
 
+- [Notas de la instructora](https://github.com/madebygps/linux-notes/tree/main/espanol/intro-a-aks)
 - [Introducción a Azure Kubernetes Service](https://docs.microsoft.com/learn/modules/intro-to-azure-kubernetes-service/)
 - [Implementación de una aplicación en contenedores en Azure Kubernetes Service](https://docs.microsoft.com/learn/modules/aks-deploy-container-app/)
 - [Gwyn Pena-Siguenza Twitter](https://twitter.com/madebygps)
