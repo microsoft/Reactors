@@ -1,5 +1,7 @@
 # Pi Day 2022
 
+![A cartoon of a slice of pie coming out of a pie, and on the slice is a Raspberry Pi computer](./img/pi-day-banner.png)
+
 3/14, or the 14th of March is [Pi day](https://www.piday.org) (apologies to everyone outside the US who uses DD/MM date formats...)!
 
 The best thing to celebrate Pi day with is, well, Pie.
@@ -7,8 +9,6 @@ The best thing to celebrate Pi day with is, well, Pie.
 ![An animated GIF from Twin Peaks of Special Agent Dale Cooper being given a slice of cherry pie](https://media.giphy.com/media/l1IY2ivbsg1RgDpxS/giphy.gif)
 
 The second best thing to celebrate Pi day with is the [Raspberry Pi](https://www.raspberrypi.org), one of our favorite IoT devices.
-
-![2 Raspberry Pi computers in a pie dish](./img/raspberry-pi-pie.jpeg)
 
 At the Microsoft Reactor we will be celebrating with a set of streams focusing on IoT built using a Raspberry Pi. Come join us using the registration links below.
 
