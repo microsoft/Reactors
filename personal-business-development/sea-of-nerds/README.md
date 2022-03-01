@@ -74,7 +74,7 @@ Gustavo is a Cloud Advocate in Spatial Computing. He joined Microsoft as an inte
 - [Start in tech as an intern on Microsoft Learn](https://aka.ms/TechAsAnIntern)
 - [Build your tech resilience on Microsoft Learn](https://aka.ms/BuildTechResilience)
 
-### 3rd March - educators at Microsoft 👩‍🏫
+### 24th March - educators at Microsoft 👩‍🏫
 
 A good pirate crew supports the next generation of pirates, providing them with training and opportunities to terrorize the seven seas and seize treasure. Microsoft is the same – at Microsoft there is a strong focus on the next generation of developers ensuring they have the support and opportunities to not only grow their tech skills but demonstrate these skills in ways that increase their employability or use their skills to empower their peers.
 
