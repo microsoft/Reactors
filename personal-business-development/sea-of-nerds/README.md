@@ -16,42 +16,11 @@
 
 | Date/Time | Registration link |
 | --------- | ----------------- |
-| 3rd March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812139](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812139) |
 | 10th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812213](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812213) |
 | 17th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812234](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812234) |
+| 24th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812139](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812139) |
 
 ## Sessions
-
-### 3rd March - educators at Microsoft 👩‍🏫
-
-A good pirate crew supports the next generation of pirates, providing them with training and opportunities to terrorize the seven seas and seize treasure. Microsoft is the same – at Microsoft there is a strong focus on the next generation of developers ensuring they have the support and opportunities to not only grow their tech skills but demonstrate these skills in ways that increase their employability or use their skills to empower their peers.
-
-For this session, our crew is joined by Jennifer Ritzinger, the General Manager of the Next Generation Experiences team at Microsoft, and Pablo Veramendi, director of audience evangelism and the brains behind the Microsoft Learn Student Ambassador and Imagine Cup programs.
-
-We will be digging up treasure whilst discussing topics including the career backgrounds for our guests, how Microsoft is upskilling students and educators, how students can help their peers and increase their employability via the Microsoft Learn student ambassador program, and how teams of students all around the world can win many pieces of eight by bringing their ideas to the Imagine Cup.
-
-#### Crew
-
-**Jennifer Ritzinger**
-
-![A photo of Jennifer](img/jritz.jpg)
-
-Jennifer Ritzinger has been with Microsoft for 25 years, spending much of that time in the dynamic world of developer relations. She leads the Next Generation Experiences team, including driving the mission of skilling the next generation of developers, curating regional advocacy in global markets, overseeing the Microsoft Reactors, local hubs for developer outreach, and steering the Developer Studio, which produces award winning digital storytelling through hundreds of events and shows within Cloud + AI engineering. Previously, Jennifer led Microsoft’s marquee events including Build, the Professional Developers Conference, TechEd, and MIX.  She is the former co-host of a web series, WM_IN, featuring amazing females in the high-tech industry, and was a regular host of a web series featuring the team behind the scenes at Microsoft. She’s also a previous facilitator for Microsoft’s new employee orientation, imparting key company information and excitement to new recruits. Before joining Microsoft, Jennifer was a secondary school educator, teaching high school English.
-
-**Pablo Veramendi**
-
-![A photo of pablo](img/pablo-veramendi.jpg)
-
-Pablo has spent the past 20 years leveraging technology to empower others to achieve more. For the past seven years he has been leading Microsoft’s global Imagine Cup student technology competition where competitors bring their dreams to life and compete on a world stage. Over the past three years he has led the Microsoft Learn Student Ambassador program which consists of on-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers. He believes that the future is in the hands of these incredibly talented students and he is honored and humbled to work at Microsoft to give all students opportunities to achieve more. 
-
-#### Show links
-
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com)
-- [Microsoft Reactors on GitHub](https://github.com/microsoft/Reactors)
-- [Microsoft Reactors on YouTube](https://aka.ms/ReactorYouTube)
-- [Microsoft Imagine Cup](https://imaginecup.microsoft.com/)
-- [Microsoft Learn for Students](https://aka.ms/MSLearnforStudent)
-- [Microsoft Learn for Educators](https://aka.ms/MSLearnEducators)
 
 ### 10th March - educators 🎓
 
@@ -104,3 +73,34 @@ Gustavo is a Cloud Advocate in Spatial Computing. He joined Microsoft as an inte
 - [Microsoft Garage internships](https://www.microsoftnewengland.com/garage/)
 - [Start in tech as an intern on Microsoft Learn](https://aka.ms/TechAsAnIntern)
 - [Build your tech resilience on Microsoft Learn](https://aka.ms/BuildTechResilience)
+
+### 24th March - educators at Microsoft 👩‍🏫
+
+A good pirate crew supports the next generation of pirates, providing them with training and opportunities to terrorize the seven seas and seize treasure. Microsoft is the same – at Microsoft there is a strong focus on the next generation of developers ensuring they have the support and opportunities to not only grow their tech skills but demonstrate these skills in ways that increase their employability or use their skills to empower their peers.
+
+For this session, our crew is joined by Jennifer Ritzinger, the General Manager of the Next Generation Experiences team at Microsoft, and Pablo Veramendi, director of audience evangelism and the brains behind the Microsoft Learn Student Ambassador and Imagine Cup programs.
+
+We will be digging up treasure whilst discussing topics including the career backgrounds for our guests, how Microsoft is upskilling students and educators, how students can help their peers and increase their employability via the Microsoft Learn student ambassador program, and how teams of students all around the world can win many pieces of eight by bringing their ideas to the Imagine Cup.
+
+#### Crew
+
+**Jennifer Ritzinger**
+
+![A photo of Jennifer](img/jritz.jpg)
+
+Jennifer Ritzinger has been with Microsoft for 25 years, spending much of that time in the dynamic world of developer relations. She leads the Next Generation Experiences team, including driving the mission of skilling the next generation of developers, curating regional advocacy in global markets, overseeing the Microsoft Reactors, local hubs for developer outreach, and steering the Developer Studio, which produces award winning digital storytelling through hundreds of events and shows within Cloud + AI engineering. Previously, Jennifer led Microsoft’s marquee events including Build, the Professional Developers Conference, TechEd, and MIX.  She is the former co-host of a web series, WM_IN, featuring amazing females in the high-tech industry, and was a regular host of a web series featuring the team behind the scenes at Microsoft. She’s also a previous facilitator for Microsoft’s new employee orientation, imparting key company information and excitement to new recruits. Before joining Microsoft, Jennifer was a secondary school educator, teaching high school English.
+
+**Pablo Veramendi**
+
+![A photo of pablo](img/pablo-veramendi.jpg)
+
+Pablo has spent the past 20 years leveraging technology to empower others to achieve more. For the past seven years he has been leading Microsoft’s global Imagine Cup student technology competition where competitors bring their dreams to life and compete on a world stage. Over the past three years he has led the Microsoft Learn Student Ambassador program which consists of on-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers. He believes that the future is in the hands of these incredibly talented students and he is honored and humbled to work at Microsoft to give all students opportunities to achieve more. 
+
+#### Show links
+
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com)
+- [Microsoft Reactors on GitHub](https://github.com/microsoft/Reactors)
+- [Microsoft Reactors on YouTube](https://aka.ms/ReactorYouTube)
+- [Microsoft Imagine Cup](https://imaginecup.microsoft.com/)
+- [Microsoft Learn for Students](https://aka.ms/MSLearnforStudent)
+- [Microsoft Learn for Educators](https://aka.ms/MSLearnEducators)
