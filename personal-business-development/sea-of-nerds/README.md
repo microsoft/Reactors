@@ -16,32 +16,11 @@
 
 | Date/Time | Registration link |
 | --------- | ----------------- |
-| 10th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812213](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812213) |
 | 17th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812234](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812234) |
 | 24th March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812139](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812139) |
+| 31st March, 9am PT | [meetup.com/Microsoft-Reactor-Redmond/events/283812213](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283812213) |
 
 ## Sessions
-
-### 10th March - educators 🎓
-
-Pirates need to learn the ropes before they can successfully contribute to a crew, and games developers are no different!
-
-In this episode our crew is joined by Professor Chris Headleand, the head of the department of games design and technology at Staffordshire University in the UK.
-
-As our crew quest for gold, they will be talking about topics including learning games development, how to get internships and jobs with games companies, what tools there are to help you create games, and more!
-
-#### Crew
-
-**Professor Chris Headleand**
-
-#### Show links
-
-- [Xbox Game Pass](https://www.xbox.com/xbox-game-pass)
-- [Engaging with students via playing video games](https://aka.ms/EngagingViaVideoGames)
-- [Using your Xbox for learning](https://aka.ms/XboxforLearning)
-- [MakeCode Arcade](https://arcade.makecode.com)
-- [Azure PlayFab](https://aka.ms/PlayFabMSAzure)
-- [PlayFab docs](https://aka.ms/PlayFabAzureDoc)
 
 ### 17th March - interns and graduates 👩‍🎓
 
@@ -104,3 +83,24 @@ Pablo has spent the past 20 years leveraging technology to empower others to ach
 - [Microsoft Imagine Cup](https://imaginecup.microsoft.com/)
 - [Microsoft Learn for Students](https://aka.ms/MSLearnforStudent)
 - [Microsoft Learn for Educators](https://aka.ms/MSLearnEducators)
+
+### 31st March - educators 🎓
+
+Pirates need to learn the ropes before they can successfully contribute to a crew, and games developers are no different!
+
+In this episode our crew is joined by Professor Chris Headleand, the head of the department of games design and technology at Staffordshire University in the UK.
+
+As our crew quest for gold, they will be talking about topics including learning games development, how to get internships and jobs with games companies, what tools there are to help you create games, and more!
+
+#### Crew
+
+**Professor Chris Headleand**
+
+#### Show links
+
+- [Xbox Game Pass](https://www.xbox.com/xbox-game-pass)
+- [Engaging with students via playing video games](https://aka.ms/EngagingViaVideoGames)
+- [Using your Xbox for learning](https://aka.ms/XboxforLearning)
+- [MakeCode Arcade](https://arcade.makecode.com)
+- [Azure PlayFab](https://aka.ms/PlayFabMSAzure)
+- [PlayFab docs](https://aka.ms/PlayFabAzureDoc)
