@@ -13,8 +13,8 @@ The IoTea series will be streamed to the [Microsoft Developer Twitch Channel](ht
 | Date | Time | Title |  Register Link | Recording |
 | ---  | --- | :---   | :--- | :--- |
 | February 7th 2022 | 3PM PT | Time for Tea               |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283202708/)      | [YouTube](https://youtu.be/8QWI7qkuFBM) |
-| February 14th 2022 | 10AM PT | Teaing up new Devices  | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283202791/)        | |
-| February 28th 2022 | 3PM PT | Pouring out the Data          | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283202808/)        | |
+| February 14th 2022 | 10AM PT | Teaing up new Devices  | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283202791/)        | [YouTube](https://youtu.be/j7Kixa8Wy9c) |
+| February 28th 2022 | 3PM PT | Pouring out the Data          | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283202808/)        | [YouTube](https://youtu.be/Ir8pKmobLVY) |
 | March 7th 2022 | 10AM PT | Dashboards and Darjeeling              | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283202824/)        | |
 | March 14th 2022 | 3PM PT | Leaves and Logistics                | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283203111/)        | |
 | March 21st 2022 | 10AM PT | Rolling out the Tea Trolley               | [MeetUp](https://www.meetup.com/Microsoft-Reactor-Redmond/events/283203230/)        | |
