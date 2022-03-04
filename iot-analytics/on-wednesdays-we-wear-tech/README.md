@@ -8,7 +8,7 @@ Smart phones were the first step in bringing the internet, data, and AI away fro
 
 In this series we learn how to build some smart wearables, leveraging the power of the cloud to make our clothes come to life along with Raspberry Pi's amazing new board, the Pi Zero W 2! Learn how to add subtitles to your speech with a smart t-shirt, light up your hoodie when people say nice things about you, or have a parrot on your shoulder that reads to you.
 
-![An LED panel showing a ticker tape of hello world](./img/tickertape.gif)
+[![Promo video](https://img.youtube.com/vi/Bl4GaYBEoio/0.jpg)](https://youtube.com/watch?v=Bl4GaYBEoio "Promo video")
 
 ## Registration links
 
@@ -30,12 +30,16 @@ In this first episode of Wacky Wearables, Jim shows how to build a smart t-shirt
 
 <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366501"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a>
 
+> Want to build one yourself? Check out this Quickstart on Microsoft Docs - [Quickstart: Recognize and convert speech to text](https://aka.ms/ConvertSpeechtoText)
+
 ### Episode 2 - Be-kind-o-matic
 
 We should all be kind, all the time. But occasionally some folks need a reminder. What if your hoodie could light up to indicate just how kind someone is being? It goes red – they know they need to start being nicer!
 In this episode of Wacky Wearables, Jim shows how to use speech to text and sentiment analysis to get a feel for how positive or negative spoken sentences are, with a microphone and a Raspberry Pi Zero W 2. He then connects this to a hoodie that lights up red for negative sentiment, or green for positive.
 
 <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366572"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a>
+
+> Want to build one yourself? Check out this learning path on Microsoft Learn - [Extract insights from text with the Language service](https://aka.ms/ExtractInsightsfromText)
 
 ### Episode 3 - GitHub status bracer
 
@@ -44,12 +48,16 @@ In this episode of Wacky Wearable, Jim builds a language model that can be used 
 
 <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366744"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a>
 
+> Want to build one yourself? Check out this learning path on Microsoft Learn - [Create a language model with Conversational Language Understanding](https://aka.ms/ConversationalLanguageUnderstanding)
+
 ### Episode 4 - Reading parrot
 
 Arrrgggghhh, me hearties! Every pirate needs a parrot but what if you could have one that could say more than just ‘Polly wants a cracker’, and ‘Pieces of eight’. What of your parrot could read to you?
 In this episode of Wacky Wearables, Jim sticks a parrot on his shoulder (an inflatable one, not a real one), adds a camera, a Raspberry Pi Zero W 2, and teaches it how to read. Using a free AI service, this parrot can recognize both printed and hand-written text and read it out loud to you.
 
 <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366593"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a>
+
+> Want to build one yourself? Check out this learning path on Microsoft Learn - [Read text with the Computer Vision service](https://aka.ms/ComputerVisionService)
 
 ## Speaker
 
