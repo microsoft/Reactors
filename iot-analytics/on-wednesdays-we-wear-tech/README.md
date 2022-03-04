@@ -4,6 +4,8 @@
 
 Smart phones were the first step in bringing the internet, data, and AI away from the desk and allowing us to be connected and sense some of the world around us wherever we go. The next step was wearables. These started as smart watches and fitness trackers, but this is slowly expanding into smart connected clothing and other devices.
 
+![Animated Gif from Mean Girls of Dee Reynolds saying So Fetch](https://media.giphy.com/media/xlYKItjhiDsY/giphy-downsized.gif)
+
 In this series we learn how to build some smart wearables, leveraging the power of the cloud to make our clothes come to life along with Raspberry Pi's amazing new board, the Pi Zero W 2! Learn how to add subtitles to your speech with a smart t-shirt, light up your hoodie when people say nice things about you, or have a parrot on your shoulder that reads to you.
 
 ![An LED panel showing a ticker tape of hello world](./img/tickertape.gif)
