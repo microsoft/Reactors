@@ -8,8 +8,6 @@ Smart phones were the first step in bringing the internet, data, and AI away fro
 
 In this series we learn how to build some smart wearables, leveraging the power of the cloud to make our clothes come to life along with Raspberry Pi's amazing new board, the Pi Zero W 2! Learn how to add subtitles to your speech with a smart t-shirt, light up your hoodie when people say nice things about you, or have a parrot on your shoulder that reads to you.
 
-[![Promo video](https://img.youtube.com/vi/Bl4GaYBEoio/0.jpg)](https://youtube.com/watch?v=Bl4GaYBEoio "Promo video")
-
 ## Registration links
 
 These events are run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can register for these events on Meetup with the following links:
