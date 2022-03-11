@@ -6,6 +6,7 @@ A container is an atomic unit of software that packages up code, dependencies, a
 
 ## Links
 
+- [Instructor notes](https://github.com/madebygps/linux-notes/tree/main/english/intro-to-aks)
 - [Introduction to Azure Kubernetes Service](https://docs.microsoft.com/learn/modules/intro-to-azure-kubernetes-service/)
 - [Deploy a containerized application on Azure Kubernetes Service](https://docs.microsoft.com/learn/modules/aks-deploy-container-app/)
 - [Gwyn Pena-Siguenza Twitter](https://twitter.com/madebygps)
