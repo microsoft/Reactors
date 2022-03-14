@@ -5,6 +5,8 @@ A container is a loosely isolated environment that allows us to build and run so
 
 ## Links
 
+
+- [Instructor notes](https://github.com/madebygps/linux-notes/tree/main/english/intro-to-containers)
 - [Introduction to Docker Containers](https://docs.microsoft.com/learn/modules/intro-to-docker-containers/)
 - [Build a containerized web application with Docker](https://docs.microsoft.com/learn/modules/intro-to-containers/)
 - [Administer containers in Azure](https://docs.microsoft.com/learn/paths/administer-containers-in-azure/)

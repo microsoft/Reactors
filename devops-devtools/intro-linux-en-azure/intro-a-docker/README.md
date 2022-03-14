@@ -5,6 +5,7 @@ Un contenedor es un entorno vagamente aislado que nos permite crear y ejecutar p
 
 ## Recursos
 
+- [notas de la instructora](https://github.com/madebygps/linux-notes/tree/main/espanol/intro-a-contenedores)
 - [Introducción a los contenedores de Docker](https://docs.microsoft.com/learn/modules/intro-to-docker-containers/)
 - [Compilación de una aplicación web en contenedores con Docker](https://docs.microsoft.com/learn/modules/intro-to-containers/)
 - [Administración de contenedores en Azure](https://docs.microsoft.com/learn/paths/administer-containers-in-azure/)
