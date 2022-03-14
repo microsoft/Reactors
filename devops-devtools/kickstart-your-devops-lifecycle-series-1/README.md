@@ -1,8 +1,8 @@
 # Kickstart Your DevOps Lifecycle Series 1
 
-This is a 3-part series all about DevOps. Building, testing, deploying and iterating!
+This is a series all about DevOps. Building, testing, deploying and iterating!
 
-Attendees will learn how to create an application, containerize it and automate the manual steps involved in the deployment using readily available Azure services.
+Attendees will learn how to create an application, containerise it and automate the manual steps involved in the deployment using readily available Azure services.
 
 Key Technologies involved:
 
@@ -38,7 +38,7 @@ Feb 22 2022 | **[Automate Infrastructure creation with Terraform (IaC)](https://
 
 ## Speaker and Host
 
-👤 **[Liam Hampton](akalinktomyadvocateprofile)**
+👤 **[Liam Hampton](https://developer.microsoft.com/advocates/liam-hampton)**
 
 * Blog: https://dev.to/liamchampton
 * Twitter: [@liamchampton](https://twitter.com/liamchampton)
