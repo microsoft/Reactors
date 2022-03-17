@@ -8,7 +8,7 @@ There is an old joke that the ‘S’ in IoT stands for ‘Security’. There ar
 
 Anyone planning a new IoT device or rollout needs to consider security from the get go, starting with the hardware and working up through the software and cloud stack. Microsoft has a whole hardware and software stack to help, called Azure Sphere.
 
-![](./img/azure-sphere.png)
+![The Azure Sphere logo](./img/azure-sphere.png)
 
 Jim has an Azure Sphere board, minimal knowledge of IoT security, and a Microsoft Learn module and is ready to learn stuff! Join Jim in this 2-part show as he upskills in IoT security!
 
