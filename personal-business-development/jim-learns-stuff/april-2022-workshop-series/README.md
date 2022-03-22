@@ -33,5 +33,5 @@ These events are run through the [Microsoft Reactor Meetup group](https://www.me
 
 | Date | Episode | Meetup registration link |
 | ---- | ------- | ------------------------ |
-| 13th April 2022, 4pm PT | Build a diabetic retinopathy detector with Power Apps | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366501"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
-| 20th April 2022, 4pm PT | Get started with Development Containers in VS Code | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366572"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
+| 13th April 2022, 4pm PT | Build a diabetic retinopathy detector with Power Apps | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284770715"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
+| 20th April 2022, 4pm PT | Get started with Development Containers in VS Code | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284770731"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
