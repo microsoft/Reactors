@@ -12,7 +12,7 @@ Doctors detect this by dilating the patients' pupils and photographing their ret
 
 In this hands-on workshop, Jim will build an app that can detect diabetic retinopathy, using Azure Custom Vision and Power Apps.
 
-🎓 You can follow along from this GitHub repo: [Integrating Custom Vision with Power Apps for Diabetic Retinopathy Detection](https://aka.ms/CustomVisionwithPowerApps)
+🎓 You can follow along from this GitHub repo: [Integrating Custom Vision with Power Apps for Diabetic Retinopathy Detection](https://aka.ms/PowerAppDetection)
 
 ## Get started with Development Containers in VS Code
 
