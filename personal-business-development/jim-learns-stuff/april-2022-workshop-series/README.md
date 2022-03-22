@@ -12,7 +12,7 @@ Doctors detect this by dilating the patients' pupils and photographing their ret
 
 In this hands-on workshop, Jim will build an app that can detect diabetic retinopathy, using Azure Custom Vision and Power Apps.
 
-🎓 You can follow along from this GitHub repo: [Integrating Custom Vision with Power Apps for Diabetic Retinopathy Detection](https://github.com/microsoft/workshop-library/blob/main/full/power-app-custom-vision/README.md)
+🎓 You can follow along from this GitHub repo: [Integrating Custom Vision with Power Apps for Diabetic Retinopathy Detection](https://aka.ms/CustomVisionwithPowerApps)
 
 ## Get started with Development Containers in VS Code
 
@@ -24,7 +24,7 @@ What if there was a better way? What if you could deploy a pre-configured machin
 
 In this hands-on workshop, Jim will show how to access, customize, and add software to development containers in Visual Studio Code so that you can collaborate with ease across machines and development environments.
 
-🎓 You can follow along from this GitHub repo: [Getting Started with Development Containers in VS Code](https://github.com/microsoft/workshop-library/blob/main/full/using-dev-containers-vscode/README.md).
+🎓 You can follow along from this GitHub repo: [Getting Started with Development Containers in VS Code](https://aka.ms/DevContainersinVSCode).
 
 
 ## Registration links
