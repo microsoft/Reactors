@@ -14,13 +14,12 @@ Jim has an Azure Sphere board, minimal knowledge of IoT security, and a Microsof
 
 ## Registration links
 
-This 2-part show is run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can register for these shows on Meetup with the following links:
+This 2-part show was run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can catch the recordings on [the Microsoft Reactor YouTube channel](https://www.youtube.com/c/MicrosoftReactor1):
 
-| Part | Date | Meetup registration link |
+| Date | Episode | Recording |
 | ---- | ------- | ------------------------ |
-| Part 1 | 24th March 2022 | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284664021"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
-| Part 2 | 31st March 2022 | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284664061"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
-
+| 23rd March 2022 | Part 1 | <a href="https://youtu.be/3VhLzce5XmE"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
+| 30th March 2022 | Part 2 | <a href=""><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
 ---
 
 ## Speaker

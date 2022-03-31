@@ -12,14 +12,14 @@ Training and deploying these models is super complicated, so Jim enlists help fr
 
 Once Jim has his model, he will deploy it to his device using VS Code and PlatformIO, an extension for VS Code to do microcontroller development. From there he’ll deal with one of the complexities of building low powered fitness trackers, connectivity. A lot of fitness trackers use Bluetooth to sync with a phone app, so Jim will take this route, syncing fitness data to Azure IoT Central from a mobile app.
 
-## Registration links
+## On demand videos
 
-These events are run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can register for these events on Meetup with the following links:
+This 2-part show was run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can catch the recordings on [the Microsoft Reactor YouTube channel](https://www.youtube.com/c/MicrosoftReactor1):
 
-| Date | Episode | Meetup registration link |
+| Date | Episode | Recording |
 | ---- | ------- | ------------------------ |
-| 23rd March 2022 | Part 1 | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284390626"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
-| 30th March 2022 | Part 2 | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284390639"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> |
+| 23rd March 2022 | Part 1 | <a href="https://youtu.be/ZsQ0-jXdnRY"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
+| 30th March 2022 | Part 2 | <a href=""><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
 
 ## Speaker
 
