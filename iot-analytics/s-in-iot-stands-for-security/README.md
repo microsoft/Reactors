@@ -19,7 +19,8 @@ This 2-part show was run through the [Microsoft Reactor Meetup group](https://ww
 | Date | Episode | Recording |
 | ---- | ------- | ------------------------ |
 | 23rd March 2022 | Part 1 | <a href="https://youtu.be/3VhLzce5XmE"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
-| 30th March 2022 | Part 2 | <a href=""><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
+| 30th March 2022 | Part 2 | <a href="https://youtu.be/-c8g8wjVv10"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube link" style="vertical-align:top; margin:6px 4px"></a> |
+
 ---
 
 ## Speaker
