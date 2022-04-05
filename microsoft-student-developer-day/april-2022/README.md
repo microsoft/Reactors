@@ -1,4 +1,4 @@
-# [Microsoft Student Developer Day | #MSDDay](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
+# [Microsoft Student Developer Day | #MSDDay](https://www.meetup.com/microsoft-reactor-bengaluru/events/285075106/)
 
 **Date: 29th April 2022 </br>
 Time: 4:00 PM IST to 8:00 PM IST**
@@ -7,9 +7,9 @@ We are super excited to launch Microsoft Student Developer Day at Reactor India!
 
 In this mini-conference, we will focus on learning GitHub with Github.dev, Deep learning for computer vision, using custom vision with power apps & serverless logic with Azure functions and more.
 
-Join the conversation [RSVP] :point_right: <link_update>
+Join the conversation [RSVP] :point_right: [Link](https://www.meetup.com/microsoft-reactor-bengaluru/events/285075106/)
 
-## [Microsoft Student Developer Day - Agenda](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
+## [Microsoft Student Developer Day - Agenda](https://www.meetup.com/microsoft-reactor-bengaluru/events/285075106/)
 
 Hosted by: 
 
