@@ -1,4 +1,4 @@
-# Microsoft Student Developer Day | #MSDDay
+# [Microsoft Student Developer Day | #MSDDay](https://www.meetup.com/microsoft-reactor-bengaluru/events/283522502/)
 
 **Date: 29th April 2022 </br>
 Time: 4:00 PM IST to 8:00 PM IST**
