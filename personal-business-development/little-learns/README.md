@@ -11,7 +11,7 @@ This series is designed with students, beginners, and all learners in mind! Come
 
  Date | Title | Livestream | Recording | Learning Path | Futher Learning
 ---       | :---   | :--- | :--- | :--- | :---
-Apr 7, 2022 | **Plant-apdeia**<br> Build your own canvas app with Power Apps                  |  [Register - MeetUp](https://www.meetup.com/Microsoft-Reactor-Sydney/events/284639708/?isFirstPublish=true)     | [Episode 1](https://aka.ms/Littlelearnsep1) | [How to build a canvas app](https://aka.ms/buildappsolutions)  | <ul><li>[Navigation in a canvas app in Power Apps](https://aka.ms/navigatecanvas)</li><li> [Customise a canvas app in Power Apps](https://aka.ms/customizepowerapps)</li><li>[Manage apps in Power Apps](https://aka.ms/manageappsinpowerapps)</li></ul>
+**[POSTPONED]** <br>Apr 7, 2022 | **[POSTPONED]** <br> **Plant-apdeia**<br> Build your own canvas app with Power Apps                  | **[POSTPONED]** <br> [Register - MeetUp](https://www.meetup.com/Microsoft-Reactor-Sydney/events/284639708/?isFirstPublish=true)     | **[POSTPONED]** <br> [Episode 1](https://aka.ms/Littlelearnsep1) | [How to build a canvas app](https://aka.ms/buildappsolutions)  | <ul><li>[Navigation in a canvas app in Power Apps](https://aka.ms/navigatecanvas)</li><li> [Customise a canvas app in Power Apps](https://aka.ms/customizepowerapps)</li><li>[Manage apps in Power Apps](https://aka.ms/manageappsinpowerapps)</li></ul>
 Apr 14, 2022 | **Fishy Functions**:<br> Create serverless computing endpoints with Azure Functions     |  [Register - MeetUp](https://www.meetup.com/Microsoft-Reactor-Sydney/events/284893731/?isFirstPublish=true)     | [Episode 2](https://aka.ms/Littlelearnsep2) | [Develop, test, and publish Azure Functions by using Azure Functions Core Tools](https://aka.ms/Deployazurefunctionswithcoretools) | <ul><li>[Execute an Azure Function with triggers](https://aka.ms/serverlesslogicwithazurefunctions)</li><li>[Chain Azure Functions together using bindings](https://aka.ms/azurefunctionsdatausingbindings)</li><li>[Develop, test, & publish Azure Functions in Azure Functions Core Tools](https://aka.ms/azurefunctionwithtriggers)</li></ul>
 Apr 21, 2022 | **The Pen Pal Project**<br>  Using Azure Cognitive Services for language translation in web apps  |  [Register - MeetUp](https://www.meetup.com/Microsoft-Reactor-Sydney/events/284893982/?isFirstPublish=true)     | [Episode 3](https://aka.ms/Littlelearnsep3) | [Build an AI web app by using Python and Flask](https://aka.ms/pythonflaskbuildAI)<br><br> Pre-work: [Install Python](https://aka.ms/preworkpythoninstall) | <ul><li>[Deploy Python apps to Azure App Service](https://aka.ms/pythontutorialdeployapp)</li><li>[Connecting IoT devices to Cognitive Services using Azure Functions](https://aka.ms/connectingiotdevicesazurefuntions)</li><li>[Create machine learning models](https://aka.ms/createmachinelearnmodels)</li></ul>
 
@@ -19,8 +19,7 @@ Apr 21, 2022 | **The Pen Pal Project**<br>  Using Azure Cognitive Services for l
 
 # Episode info
 
-## **Episode 1 - Plant-apdeia**
-## Build your own canvas app with Power Apps
+## [POSTPONED DUE TO UNFORESEEN CIRCUMSTANCES] <br> **Episode 1 - Plant-apdeia** <br>  Build your own canvas app with Power Apps
 
 In this learn-with-me episode, I take a look at how you can create an no-code app for phone or mobile using Power App. I'll use this fast and simple tool to create "Plant-apedia", and app to help her care for my growing plant population!
 
@@ -32,8 +31,7 @@ This episode is perfect for anyone who wants to give Power Apps a go for the fir
 
 <br>
 
-## **Episode 2 - Fishy Functions**
-## Serverless computing endpoints with Azure Functions 
+## **Episode 2 - Fishy Functions** <br> Serverless computing endpoints with Azure Functions 
 In this learn-with-me episode, I take a look at Azure Functions to create serverless computing solutions for taking care of your fishy friends. 
 
 I'll discuss what makes a serverless solutions right for you, and then learn how to create, execute, monitor, and test Azure functions in the Azure portal. I'll build an Azure Function endpoint that kicks into gear whenever it receives requests from our (imaginary) aquariums, to calculate what needs to be done to keep maintain our aquatic environments. 
@@ -42,8 +40,7 @@ This episode is perfect for anyone who wants to give Azure Functions and Serverl
 
 <br> 
 
-## **Episode 3 - The Pen Pal Project**
-## Using Azure Cognitive Services for language translation in web apps
+## **Episode 3 - The Pen Pal Project** <br> Using Azure Cognitive Services for language translation in web apps
 
 In this learn-with-me episode, I take a look at Azure Cognitive Services' Translator service. I'll combine this with a Python Flask web app to build a website that translates text, perfect for keeping conversation flowing with your pen pals!
 
