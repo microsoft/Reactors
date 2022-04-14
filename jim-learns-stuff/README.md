@@ -6,8 +6,6 @@ Check out this folder for past or upcoming **Jim Learns Stuff** sessions, where 
 
 [**Jim Learns Stuff - Jim Re-learns C++**](./jim-relearns-cpp/README.md)
 
-[**Jim Learns Extended Reality**](./jim-learns-xr/README.md)
-
 ---
 
 ## Speaker
