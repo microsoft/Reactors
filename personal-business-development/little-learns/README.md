@@ -38,6 +38,10 @@ I'll discuss what makes a serverless solutions right for you, and then learn how
 
 This episode is perfect for anyone who wants to give Azure Functions and Serverless computing a go for the first time, as well as any budding Microsoft Student Ambassadors looking for resources to teach their peers about Power Apps.
 
+**Student Ambassodors** <br>
+Teach this course yourself using the resources available here in the [Student Workshop Library](
+https://aka.ms/CreateServerlessLogicwithAzureFunctions).
+
 <br> 
 
 ## **Episode 3 - The Pen Pal Project** <br> Using Azure Cognitive Services for language translation in web apps
