@@ -10,9 +10,9 @@ In this series we learn how to build some smart wearables, leveraging the power 
 
 ## Registration/Live stream links
 
-These events are run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can register for these events on Meetup, or catch the live stream on YouTube.
+These events are run through the [Microsoft Reactor Meetup group](https://www.meetup.com/Microsoft-Reactor-Redmond/). You can register for these events on Meetup, or catch the live stream/recording on YouTube.
 
-| Date/Time (Pacific Time) | Episode | Meetup registration link | Live stream |
+| Date/Time (Pacific Time) | Episode | Meetup registration link | Live stream/Recording |
 | ---- | ------- | ------------------------ | ----------- |
 | 9:00am, 6th April 2022 | [Subtitle shirt](#episode-1---subtitle-shirt) | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366501"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://aka.ms/WWSubtitleShirt"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube live stream link" style="vertical-align:top; margin:6px 4px"></a> |
 | 9:00am, 13th April 2022 | [Be-kind-o-matic](#episode-2---be-kind-o-matic) | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/284366572"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://aka.ms/WWBekind-o-matic"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube live stream link" style="vertical-align:top; margin:6px 4px"></a> |
