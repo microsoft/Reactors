@@ -27,7 +27,7 @@ During march we are hosting several sessions around Visual Studio Code and CoPil
 ## Additional Resources
 
 - [GitHub Copilot](https://copilot.github.com/)
-- [Visual Studo Code](https://code.visualstudio.com/)
+- [Visual Studo Code](https://aka.ms/CoPilotVsCode)
 
 ## Speaker and Co-Host
 
