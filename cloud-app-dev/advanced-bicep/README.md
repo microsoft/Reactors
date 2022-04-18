@@ -5,8 +5,8 @@ In this intermediate level series, we will explore using Bicep to deploy a more 
 
  Date | Title |  Register Link | Recording
 ---       | :---   | :--- | :---
-May 4th 2022 |[Bicep Advanced deployments part 1](build-vnet-bicep/README.md)                     |  [MeetUp]()      | 
-May 11th 2022 |[Bicep Advanced deployments part 2 ](work-within-vnet/README.md)   | [MeetUp]()        |       
+May 4th 2022 |[Bicep Advanced deployments part 1](build-vnet-bicep/README.md)                     |  [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/285347259)      | 
+May 11th 2022 |[Bicep Advanced deployments part 2 ](work-within-vnet/README.md)   | [MeetUp](https://www.meetup.com/Microsoft-Reactor-New-York/events/285347390)        |       
        
 
 ## Resources
