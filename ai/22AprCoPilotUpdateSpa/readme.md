@@ -25,7 +25,7 @@ Durante el mes de Marzo he sido parte de una serie de eventos sobre Visual Studi
 ## Recursos Adicionales
 
 - [GitHub Copilot](https://copilot.github.com/)
-- [Visual Studo Code](https://code.visualstudio.com/)
+- [Visual Studo Code](https://aka.ms/CoPilotVsCode)
 
 ## Speaker and Co-Host
 
