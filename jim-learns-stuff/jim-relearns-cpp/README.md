@@ -8,7 +8,7 @@ C++ is a low-level language, providing blazingly fast performance with the abili
 
 ![An animated gif of a Quicksilver from X Men wearing goggles travelling very fast towards the camera through a range of backgrounds](https://media.giphy.com/media/d4blalI6x2oc4xAA/giphy.gif)
 
-Jim used to be a good C++ programmer. 20 years ago… Since then, the language has evolved, and so has the tooling. In this series Jim decides to re-learn C++ beyond his basic Arduino knowledge with the help of some friends from the Microsoft C++ team – Julia Reid and Sy Brand.
+Jim used to be a good C++ programmer. 20 years ago… Since then, the language has evolved, and so has the tooling. In this series Jim decides to re-learn C++ beyond his basic Arduino knowledge with the help of a friends from the Microsoft C++ team – Sy Brand.
 
 ## Registration/Live stream links
 
@@ -28,7 +28,7 @@ In this first episode, Jim is joined by Sy Brand, a developer advocate on the Mi
 
 Every good programming language has great tools to help you get the most of it, and C++ is no exception. 25 years ago, Jim first used Microsoft Visual C++ 1.52 which came on a CD-ROM (if any of you remember those). Now C++ is supported by a range of developer tools.
 
-In this episode Jim is once again joined by Sy Brand, along with Julia Reid, a program manager on the Microsoft C++ team. Sy is an expert on the cool new features in Visual Studio, and they will be helping guide Jim with getting started in Visual Studio on Windows. If you’ve joined Jim’s streams before, you may remember he is a Mac user, so Julia will be walking Jim through the options for macOS and Linux (and Windows) developers with the tools available in Visual Studio Code. She will also help Jim use other people’s code with vcpkg.
+In this episode Jim is once again joined by Sy Brand. Sy is an expert on the cool new features in Visual Studio, and they will be helping guide Jim with getting started in Visual Studio on Windows. If you’ve joined Jim’s streams before, you may remember he is a Mac user, so Sy will then be walking Jim through the options for macOS and Linux (and Windows) developers with the tools available in Visual Studio Code. They will also help Jim use other people’s code with vcpkg.
 
 ### Episode 3 - Show and tell time!
 
