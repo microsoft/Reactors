@@ -8,7 +8,7 @@ C++ is a low-level language, providing blazingly fast performance with the abili
 
 ![An animated gif of a Quicksilver from X Men wearing goggles travelling very fast towards the camera through a range of backgrounds](https://media.giphy.com/media/d4blalI6x2oc4xAA/giphy.gif)
 
-Jim used to be a good C++ programmer. 20 years ago… Since then, the language has evolved, and so has the tooling. In this series Jim decides to re-learn C++ beyond his basic Arduino knowledge with the help of a friends from the Microsoft C++ team – Sy Brand.
+Jim used to be a good C++ programmer. 20 years ago… Since then, the language has evolved, and so has the tooling. In this series Jim decides to re-learn C++ beyond his basic Arduino knowledge with the help of a friend from the Microsoft C++ team – Sy Brand.
 
 ## Registration/Live stream links
 
@@ -39,6 +39,8 @@ Once again Jim is joined by Sy Brand, a developer advocate on the Microsoft C++ 
 
 ## Speakers
 
+### Jim Bennett
+
 ![A picture of Jim standing outside a building with his arms crossed looking very handsome in a shirt that says Puppies, Azure and I'm fine](https://github.com/jimbobbennett/jimbobbennett/raw/main/images/Headshot1-tiny-square.png)
 
 Jim is a Regional Cloud Advocate focusing on building out and skilling communities in the Pacific North West, with a focus on the Microsoft Reactor in Redmond, Washington. He’s British, so sounds way smarter than he actually is, and is happy he moved to Redmond in time to be locked down at home and not see the office he came to work in, or the places he wanted to visit. In the past he’s lived in 4 continents working as a developer in the mobile, desktop, and scientific space. He's spoken at conferences and events all around the globe, organised meetup groups and communities, and written a book on mobile development.
@@ -57,7 +59,7 @@ You can find Jim on the following platforms:
   <img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/instagram.svg" alt="dev.to" style="vertical-align:top; margin:6px 4px">
 </a>
 <a href="https://linkedin.com/in/jimbobbennett">
-  <img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/linkedin.svg" alt="dev.to" style="vertical-align:top; margin:6px 4px">
+  <img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/linkedin.svg" alt="twitter" style="vertical-align:top; margin:6px 4px">
 </a>
 <a href="https://dev.to/jimbobbennett">
   <img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/blogs/devto.svg" alt="dev.to" style="vertical-align:top; margin:6px 4px">
@@ -70,4 +72,16 @@ You can find Jim on the following platforms:
 </a>
 <a href="https://www.tiktok.com/@jimbobbennett">
   <img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/tiktok.svg" alt="TikTok" style="vertical-align:top; margin:6px 4px">
+</a>
+
+### Sy Brand
+
+![A headshot of Sy standing on top of a building. Sy has long brown hair and is wearing a white flowery shirt over a purple t-shirt, and a feather earing](./img/sy-brand.png)
+
+Sy Brand is Microsoft’s C++ Developer Advocate. Their background is in compilers and debuggers for embedded accelerators, but they’re also interested in generic library design, metaprogramming, functional-style C++, undefined behaviour, and making our communities more welcoming and inclusive.
+
+You can find Sy on the following platforms:
+
+<a href="https://twitter.com/TartanLlama">
+  <img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/twitter.svg" alt="Twitter" style="vertical-align:top; margin:6px 4px">
 </a>
