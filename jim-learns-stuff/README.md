@@ -6,6 +6,8 @@ Check out this folder for past or upcoming **Jim Learns Stuff** sessions, where 
 
 [**Jim Learns Stuff - Jim Re-learns C++**](./jim-relearns-cpp/README.md)
 
+[**Jim Learns Stuff - Cool stuff with Python+**](./jim-relearns-cpp/README.md)
+
 ---
 
 ## Speaker
