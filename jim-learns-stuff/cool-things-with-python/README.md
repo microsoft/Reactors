@@ -1,7 +1,9 @@
-# Jim Learns Stuff - cool things with Python
+# Jim Learns Stuff - cool things with Python 🐍
 
 Python is one of the top programming languages in the world, topping the TIOBE index and coming second in the GitHub state of the Octoverse report. 
- 
+
+![A cartoon raccoon playing a recorded to charm the Python logo out of a laptop on a flying carpet](./img/BIT_PYTHON.png)
+
 Python is a very versatile language, used for everything from teaching young kids to code, to building complex ML and AI models. It’s used by web developers, micro-service developers, infrastructure engineers, and data scientists. 
  
 In this series of Jim Learns Stuff, Jim will be playing with some cool things with Python (some very hot of the presses), including re-creating classic cryptography from the ancient world, embedding Python in a web page, and even making Python run faster! 
