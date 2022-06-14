@@ -2,7 +2,7 @@
 
 Cada mes de Julio, los equipos de IoT de Microsoft celebran #JulyOT. En nuestro caso, celebramos #JulIoT, un mes completo de contenido IoT genial para ayudarlo en su viaje para aprender esta tecnología.
 
-[![An animated cloud with July O T  on it](./img/juliot.gif)](https://aka.ms/julyot)
+[![An animated cloud with July O T  on it](./img/JulI-oT_Animated)](https://aka.ms/julyot)
 
 
 Como parte de esto, Microsoft Reactor está organizando una gran cantidad de transmisiones en vivo de IoT a lo largo de Julio, cubriendo todo, desde Aprendizaje de IoT hasta LoRa, diferentes tipos de hardware, TinyML e Inteligencia Artificial on the Edge.
