@@ -7,7 +7,7 @@ Cada mes de Julio, los equipos de IoT de Microsoft celebran #JulyOT. En nuestro 
 
 Como parte de esto, Microsoft Reactor está organizando una gran cantidad de transmisiones en vivo de IoT a lo largo de Julio, cubriendo todo, desde Aprendizaje de IoT hasta LoRa, diferentes tipos de hardware, TinyML e Inteligencia Artificial on the Edge.
 
-> ¡#JulyOT 2022 comienza el 1 de julio de 2022! Puede obtener más información en Inglés en [aka.ms/JulyOT](https://aka.ms/JulyOT)
+> ¡#JulyOT 2022 comienza el 1 de julio de 2022! Puede obtener más información en Inglés en [julyot.dev](https://julyot.dev/)
 
 Consulte la lista de sesiones en vivo y regístrese en Meetup o únase a nosotros para la transmisión en vivo cuando comiencen las sesiones.
 
