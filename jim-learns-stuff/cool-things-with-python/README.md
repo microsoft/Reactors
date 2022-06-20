@@ -6,7 +6,7 @@ Python is one of the top programming languages in the world, topping the TIOBE i
 
 Python is a very versatile language, used for everything from teaching young kids to code, to building complex ML and AI models. It’s used by web developers, micro-service developers, infrastructure engineers, and data scientists. 
  
-In this series of Jim Learns Stuff, Jim will be playing with some cool things with Python (some very hot of the presses), including re-creating classic cryptography from the ancient world, embedding Python in a web page, and even making Python run faster! 
+In this series of Jim Learns Stuff, Jim will be playing with some cool things with Python (some very hot of the presses), including re-creating classic cryptography from the ancient world, and embedding Python in a web page! 
 
 ## Registration/Live stream links
 
@@ -16,7 +16,6 @@ These events are run through the [Microsoft Reactor Meetup group](https://www.me
 | ---- | ------- | ------------------------ | ----------- | ------ |
 | 4:00pm, 13th June 2022 | [Ancient cryptography](#episode-1---ancient-cryptography) | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/285828787/"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://aka.ms/JLSAncientcryptography"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube live stream link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://www.twitch.tv/microsoftdeveloper"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/twitch.svg" alt="Twitch live stream link" style="vertical-align:top; margin:6px 4px"></a> |
 | 4:00pm, 20th June 2022 | [Python in the browser](#episode-2---python-in-the-browser) | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/285828825/"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://aka.ms/JLSPythoninthebrowser"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube live stream link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://www.twitch.tv/microsoftdeveloper"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/twitch.svg" alt="Twitch live stream link" style="vertical-align:top; margin:6px 4px"></a> |
-| 4:00pm, 27th June 2022 | [Make Python faster](#episode-3---make-python-faster) | <a href="https://www.meetup.com/Microsoft-Reactor-Redmond/events/285828838/"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/social/meetup.svg" alt="Meetup registration link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://aka.ms/JLSMakePythonfaster"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/youtube.svg" alt="YouTube live stream link" style="vertical-align:top; margin:6px 4px"></a> | <a href="https://www.twitch.tv/microsoftdeveloper"><img src="https://raw.githubusercontent.com/jimbobbennett/ColoredBadges/main/svg/streaming/twitch.svg" alt="Twitch live stream link" style="vertical-align:top; margin:6px 4px"></a> |
 
 ### Episode 1 - Ancient cryptography
 
@@ -31,16 +30,6 @@ We all know to do web things in a browser you need JavaScript, right? That’s t
 Wrong! How about Python inline in your HTML? Yes, this is now a thing thanks to [PyScript](https://pyscript.net), recently announced at PyCon US. PyScript uses a version of Python running under Web Assembly to allow you to use in-line Python, accessing all the normal Python packages you know and love. 
  
 In this episode, Jim learns all about PyScript, putting the early alpha versions through their paces to build out a simple web app. He’ll be seeing if he can do web development without JavaScript. 
-
-### Episode 3 - Make Python faster
-
-One of the downsides to Python is speed. It’s very fast to develop with, but at run time it’s nowhere near as fast as compiled languages like C# or C++. In fact, the Computer Language Benchmarks Game with binary trees shows a C++ app can run the test scenario in less than 1 second, but Python takes over 44! 
- 
-Part of the reason is that Python is an interpreted language – each line is read, interpreted into computer instructions then run, rather than a compiled language where the compiler can create the computer instructions before the code is run, and find fun ways to optimize. 
- 
-What if there was a compiler for Python? Imagine if you could drop in a compiler that would create compiled code the first time your code is run, then use that instead of interpreting the code each time. It turns out there is, and it’s called [PyJion](https://www.trypyjion.com). 
- 
-In this episode Jim puts PyJion through its paces. He’ll dig into how to enable it, how it works, and how much of a difference it can make. 
 
 ## Speakers
 
