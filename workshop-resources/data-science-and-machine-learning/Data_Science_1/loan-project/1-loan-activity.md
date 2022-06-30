@@ -35,8 +35,7 @@ To automate this process, they have given a problem to identify the customer’s
 
 ### Test data
 
-<https://drive.google.com/file/d/1At49jn0QF3SOo1BnUIlejmdCD79Y3wEN/view?usp=sharing>
+[loan_prediction_training_data.csv](https://github.com/microsoft/Reactors/blob/main/workshop-resources/data-science-and-machine-learning/Data_Science_1/loan-project/Data/loan_prediction_training_data.csv)
 
 ### Training Data
-
-<https://drive.google.com/file/d/1FyauNsPXjwqCwYqToBDEPfbLGXi8nrSo/view?usp=sharing>
+[loan_prediction_training_data.csv](https://github.com/microsoft/Reactors/blob/main/workshop-resources/data-science-and-machine-learning/Data_Science_1/loan-project/Data/loan_prediction_training_data.csv)
