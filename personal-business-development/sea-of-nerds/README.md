@@ -96,8 +96,14 @@ As these fresh-faced pirates help us find where X marks the spot and dig for bur
 #### Crew
 
 **Antonella Avogadro**
+
 **Hermes Bonilla Janssens **
+
 **Joussef Abdul Salam Garcia**
+
+![A photo of Joussef Abdul Salam](./img/joussef-abdul-salam.jpg)
+
+ Joussef Abdul Salam is originally from Valencia, Venezuela. He is an international student pursuing a degree in Computer Engineering at Florida International University in Miami, FL. He was a Software Engineering Intern at Microsoft during the Summer of 2022. He interned on the Surface Power team and his interests are around the areas of entrepreneurship, innovation, and consumer electronics. He likes to play video games (like Halo!) on his free time but what he enjoys doing every day is music. He could listen, play, curate music all day, every day. As a career goal he would like to hold a CVP role at a technology company and also start a non-profit organization in his home country to bring opportunities in the tech field to underrepresented children.
 
 #### Show links
 
