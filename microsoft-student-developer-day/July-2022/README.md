@@ -21,6 +21,6 @@ Hosted by:
 | 4:30 PM   | Build an App without Using any Code with Microsoft Power Platform |  [Aniket Kumar](https://linktr.ee/aniketkumarsinha) & [Tina Popli](https://www.linkedin.com/in/tina-popli-025a891b4/) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
 | 5:30 PM   | Create Serverless Logic with Azure Functions | Rohit Yadav & Arpita Das | [YouTube](https://aka.ms/MSDevDay29thJuly) |
 | 6:30 PM   |  Data Visualization with R | [Jasleen Sondhi](https://twitter.com/jasleen101010) & [Vidushi Gupta](https://twitter.com/Vidushi_Gupta7) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
-| 7:30 PM   |   | [Vivek Sridhar](https://twitter.com/vivek_sridhar) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
+| 7:30 PM   | Career Talk | [Vivek Sridhar](https://twitter.com/vivek_sridhar) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
 
 Connect with Vivek 👉 [Twitter](https://twitter.com/vivek_sridhar) for more information!
