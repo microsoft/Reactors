@@ -1,0 +1,28 @@
+#text-div {
+    background-image: url("typewriter.jpg");
+    background-size: contain;
+    height: 1150px;
+    width:900px;
+    padding-bottom: 80px;
+    padding-left: 170px;
+    padding-right: 270px;
+    padding-top: 20px;
+}
+
+#text-field {
+    background-color: rgba(0,0,0,0);
+    border-width: 3px;
+    margin-top: 5px;
+}
+
+.inline-form {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#textbox {
+    height: 280px !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+}
