@@ -301,6 +301,7 @@ Now we have a place to put our translated text, we should get Azure ot help us t
 2. Back in your project folder, create a file called `.env`
 
 3. Copy the values from Azure to fill out your `.env` file so it has this format:
+
     ```
     KEY=<your_key>
     ENDPOINT=<your_endpoint>
@@ -328,18 +329,17 @@ load_dotenv()
 <br>
 
 ## Use the translation service in your app
+
 We now have an API we can call from our server.py file. Let's make our web server translate the text from the form before showing the result page.
 
 <details>
     <summary><strong>See steps</strong></summary>
 
 
-    Now to make our app clever, by using the Azure translation service api.
-
-    1. Previouly, we left a gap in our code where we want to add the translation service. It looked like this
+1. Previouly, **we left a gap** in our code where we want to add the translation service. It looked like this
 
     ```python
-        ################################
+    ################################
     # TRANSLATION CODE GOES HERE!  #
     ################################
 
@@ -352,7 +352,7 @@ We now have an API we can call from our server.py file. Let's make our web serve
 
     We're going to replace this code with working code. **So you can delete this code now.**
 
-    2. where you just removed the code, add this code instead.
+2. where you just removed the code, add this code instead.
 
     ```python
     # Load the values from .env
