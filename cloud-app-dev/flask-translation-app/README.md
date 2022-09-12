@@ -1,4 +1,4 @@
-# codess-penpal-sample
+# The Penpal project Sample (instructions and code samples)
 Sample code to create penpal project translation web app
 
 # Getting Started
