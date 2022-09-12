@@ -1,0 +1,19 @@
+#message {
+    background-image: url("paper.jpeg");
+    background-size: contain;
+    height: 500px;
+    width:335px;
+    /* padding-bottom: 80px;
+    padding-left: 170px;
+    padding-right: 270px;
+    padding-top: 20px; */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+}
