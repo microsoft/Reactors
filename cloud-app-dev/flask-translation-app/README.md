@@ -128,6 +128,11 @@ To get started we'll need to make a form that collects the text to be translated
     from flask import Flask, redirect, url_for, request, render_template, session
 
     app = Flask(__name__)
+    
+    
+    @app.route('/', methods=['GET'])
+    def index():
+        return render_template('index.html')
     ```
 
 3. Add this handy code at the bottom or your file, which will help run your code. 
