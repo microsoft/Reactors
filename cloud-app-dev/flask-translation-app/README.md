@@ -271,10 +271,11 @@ Next up lets add our second page, where we'll later display the resutls of our t
     </html>
     ```
 
-</details>
 
 4. Try using your website again. What happens now when you submit the form?
 
+</details>
+    
 > **Bonus Activity - Make it pretty**
 >
 > If you want a little more to do, you can make yours pretty too!
