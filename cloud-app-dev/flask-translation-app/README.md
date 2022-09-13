@@ -3,8 +3,8 @@ Sample code to create penpal project translation web app
 
 # Getting Started
 To do this project you'll need to:
-- Have VS Code installed. 
-- Have the Python and GitHub extensions for VS Code installed.
+- Have VS Code installed with the Python extension (Learn how here)[https://aka.ms/pythoninstallvscode17183]
+- Have the GitHub extensions for VS Code installed. (Learn how here)[[https://aka.ms/pythoninstallvscode17183](https://aka.ms/IntroToGitHub17183)] - *You only need to do the first 3 pages.*
 - Have created a GitHub repo and cloned it into VS Code.
 
 <br>
@@ -296,7 +296,7 @@ Now we have a place to put our translated text, we should get Azure ot help us t
     <summary><strong>See steps and code</strong></summary>
 
 
-1. Follow along in the stream to do the set up in Azure, or if you need to go back (and see pictures), checkout the flow process here: [Create an Azure Translation Service](https://docs.microsoft.com/en-au/training/modules/python-flask-build-ai-web-app/5-exercise-create-translator-service)
+1. Follow along in the stream to do the set up in Azure, or if you need to go back (and see pictures), checkout the flow process here: [Create an Azure Translation Service](https://aka.ms/ExerciseCreateTranslatorservice17183)
 
 2. Back in your project folder, create a file called `.env`
 
@@ -318,11 +318,11 @@ Now we have a place to put our translated text, we should get Azure ot help us t
 
 4. Go back to your server.py file, below your first line where you import things, add this code too:
 
-```python
-import requests, os, uuid, json
-from dotenv import load_dotenv
-load_dotenv()
-```
+    ```python
+    import requests, os, uuid, json
+    from dotenv import load_dotenv
+    load_dotenv()
+    ```
 
 </details>
 
