@@ -3,8 +3,8 @@ Sample code to create penpal project translation web app
 
 # Getting Started
 To do this project you'll need to:
-- Have VS Code installed with the Python extension (Learn how here)[https://aka.ms/pythoninstallvscode17183]
-- Have the GitHub extensions for VS Code installed. (Learn how here)[[https://aka.ms/pythoninstallvscode17183](https://aka.ms/IntroToGitHub17183)] - *You only need to do the first 3 pages.*
+- Have VS Code installed with the Python extension [Learn how here](https://aka.ms/pythoninstallvscode17183)
+- Have the GitHub extensions for VS Code installed. [Learn how here](https://aka.ms/IntroToGitHub17183) - *You only need to do the first 3 pages.*
 - Have created a GitHub repo and cloned it into VS Code.
 
 <br>
