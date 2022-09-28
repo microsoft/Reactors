@@ -11,11 +11,11 @@ Join us for the Microsoft Student Summit India, a free 3-hour long event that of
 
 To join the conversation RSVP :point_right: [here](https://developer.microsoft.com/en-us/reactor/events/17029/)
 
-## // [Action for Developers](https://learn.microsoft.com/en-us/training/challenges?id=c9e49c96-4edb-4997-bf4e-3cb7f0c2634a)
+## // [Action for Developers](https://aka.ms/MS-Summit)
 
 In this cloud skills challenge, you'll find grab-and-go resources to help you build skills on different technologies!
 
-:point_right: [Launch Cloud Skills Challenge - Microsoft Student Summit](https://learn.microsoft.com/en-us/training/challenges?id=c9e49c96-4edb-4997-bf4e-3cb7f0c2634a)
+:point_right: [Launch Cloud Skills Challenge - Microsoft Student Summit](https://aka.ms/MS-Summit)
 
 ## // [Microsoft Student Summit - Agenda](https://developer.microsoft.com/en-us/reactor/events/17029/)
 
