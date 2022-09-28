@@ -23,7 +23,7 @@ Hosted by:
 
 |     Time     |    Title   | Speaker | Livestream / On-Demand | 
 |     ---    | ---          | :---:     | :---: |
-| 5:00 PM   | Welcome to Student Summit 2022 |  [Scott Hanselman](https://twitter.com/shanselman), [Khushboo Verma](https://twitter.com/khushbooverma_) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
-| 5:15 PM   | Keynote: My Journey in Tech | [Rohit Yadav](https://twitter.com/rty2423) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
-| 6:30 PM   |  Data Visualization with R | [Jasleen Sondhi](https://twitter.com/jasleen101010), [Vidushi Gupta](https://twitter.com/Vidushi_Gupta7) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
-| 7:30 PM   | Career Talk | [Vivek Sridhar](https://twitter.com/vivek_sridhar) | [YouTube](https://aka.ms/MSDevDay29thJuly) |
+| 5:00 PM   | Welcome to Student Summit 2022 |  [Scott Hanselman](https://twitter.com/shanselman), [Khushboo Verma](https://twitter.com/khushbooverma_) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
+| 5:15 PM   | Keynote: My Journey in Tech | [Sanket Saurav](https://twitter.com/sanketsaurav) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
+| 5:45 PM   |  Career Panel | [Vidhushi Gupta](https://twitter.com/Vidushi_Gupta7), [Pragati Rai](https://twitter.com/pragatiogal), [Bethany](https://twitter.com/BethanyJep),[Vivek Raja](https://twitter.com/VivekRaja007) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
+| 6:15 PM   | What is "the Cloud"? | [Jasleen Sondhi](https://twitter.com/jasleen101010) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
