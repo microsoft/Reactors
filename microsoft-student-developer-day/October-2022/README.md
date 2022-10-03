@@ -32,7 +32,7 @@ Hosted by:
 | 6:40 PM   | Introduction to GitHub & Azure | [Aniket Kumar Sinha](https://twitter.com/AniketKSinha) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
 | 7:10 PM   | Getting started with Static Web Apps | [Reshmi Sriram](https://twitter.com/ReshSriram) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
 | 7:35 PM   | Imagine Cup Launch | [Olanrewaju Oyinbooke](https://twitter.com/TheOyinbooke) | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
-| 7:45 PM   | Imagine Cup Panel | [Aditya Oberoi](https://twitter.com/adityaoberai1), [Simran Makhija](https://twitter.com/justdev_sim?s=20&t=waN9d0JuM17Wm1mYn7kz3Q), [Ekansh Gupta](https://twitter.com/ekuekanshgupta)  | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
+| 7:45 PM   | Imagine Cup Panel | [Aditya Oberai](https://twitter.com/adityaoberai1), [Simran Makhija](https://twitter.com/justdev_sim?s=20&t=waN9d0JuM17Wm1mYn7kz3Q), [Ekansh Gupta](https://twitter.com/ekuekanshgupta)  | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
 | 8:15 PM   | Activity: Imagination Collaboration | [Vivek Sridhar](https://twitter.com/vivek_sridhar), [Olanrewaju Oyinbooke](https://twitter.com/TheOyinbooke), [Bethany Jepchumba](https://twitter.com/BethanyJep)  | [YouTube](https://www.youtube.com/watch?v=e7tm1WpFK24&ab_channel=MicrosoftReactor) |
 
 Connect with Vivek 👉 [Twitter](https://twitter.com/vivek_sridhar) for more information!
