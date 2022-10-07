@@ -17,6 +17,13 @@ In this cloud skills challenge, you'll find grab-and-go resources to help you bu
 
 :point_right: [Launch Cloud Skills Challenge - Microsoft Student Summit](https://aka.ms/MS-Summit)
 
+### Resources
+
+:link: [Imagine Cup 2023](https://aka.ms/ImagineCup2023)<br>
+:link: [Cloud Skills Challenge](https://aka.ms/MS-Summit)<br>
+:link: [Founders Hub Student Summit](https://aka.ms/FoundersHubStudentSummit)<br>
+:link: [Azure for Students](https://aka.ms/AzureforStudent-India)<br>
+
 ## // [Microsoft Student Summit - Agenda](https://developer.microsoft.com/en-us/reactor/events/17029/)
 
 Hosted by: 
