@@ -1,13 +1,12 @@
 # Imagine Cup  - Ponder Plan Pitch
 
 ## **Resources**
-Slide Deck
+[Slide Deck](https://github.com/microsoft/Reactors/raw/main/personal-business-development/Imagine-Cup%7CPonder-Plan-Pitch/Imagine%20Cup%20-%20Ponder%20Plan%20Pitch.pptx)
 
-Learn more about...
+**Learn more about...**
 - [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
 - [Azure IoT](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
-
-- **Everything**, with module on Microsoft Learn
+- **Everything**, with module on [Microsoft Learn](https://learn.microsoft.com/en-us/training/)
 
 <br>
 
@@ -85,9 +84,8 @@ Create a narative around the issue you identified, the people involved, and the 
 
 ### **What next?**
 
-- Sign up for Imagine Cup
-- Get Imagine Cup resources
-- Learn more about Azure on Microsoft Learn
+- [Sign up for Imagine Cup](https://aka.ms/Imaginecuprego1)
+- [Get Imagine Cup resources](https://aka.ms/Imagine-Cup)
 - Join IC Discord – find teammates, ask questions
 
 
