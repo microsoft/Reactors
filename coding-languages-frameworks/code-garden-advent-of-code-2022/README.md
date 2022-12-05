@@ -8,5 +8,9 @@ We'll talk you through out tips and tricks, live code and demo different problem
 
 If you want to join us on the leaderborad, we'd love to have you!
 
+</br>
+
 Use this code: 545432-5ac33587
-on this page: [https://adventofcode.com/2022/leaderboard/private](Private leaderboard page
+</br>
+
+on this page: [https://adventofcode.com/2022/leaderboard/private](Private leaderboard page)
