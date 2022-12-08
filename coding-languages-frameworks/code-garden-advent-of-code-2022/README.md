@@ -9,10 +9,13 @@ We'll talk you through out tips and tricks, live code and demo different problem
 
 If you want to join us on the leaderborad, we'd love to have you!
 
-
+Use this code: **545432-5ac33587**
 </br>
 
-Use this code: 545432-5ac33587
-</br>
+On this page: [Private leaderboard page](https://adventofcode.com/2022/leaderboard/private)
 
-on this page: [Private leaderboard page](https://adventofcode.com/2022/leaderboard/private)
+
+## See Renee & Jack's solutions in their GitHub repos:
+Renee: https://github.com/reneenoble/advent-of-code-2022
+
+Jack: https://github.com/jackreichelt/aoc2022
