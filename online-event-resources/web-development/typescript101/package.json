@@ -7,7 +7,7 @@
     "build": "tsc --build"
   },
   "dependencies": {
-    "@azure/ai-text-analytics": "^1.0.0-preview.4",
+    "@azure/ai-text-analytics": "^5.1.0",
     "dotenv": "^8.2.0"
   }
 }
