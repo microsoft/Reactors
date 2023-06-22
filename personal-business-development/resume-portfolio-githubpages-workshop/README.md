@@ -26,7 +26,7 @@ Use the [template here](https://github.com/in-the-code-garden/portfolio-template
 
 ### **Want more information?**
 
-**Join the [Cloud Skills Challenge here](https://learn.microsoft.com/training/challenges?id=2fdd46dd-8ccd-47ad-a840-9ee0cef322eb?WT.mc_id=academic-99719-reneenoble)** to learn more about Copilot, GitHub, Front End Development, and VS Code.
+**Join the [Cloud Skills Challenge here](https://learn.microsoft.com/training/challenges?id=2fdd46dd-8ccd-47ad-a840-9ee0cef322eb&WT.mc_id=academic-99719-reneenoble)** to learn more about Copilot, GitHub, Front End Development, and VS Code.
 
 **Watch my videos on [front end development here](https://www.reneenoble.com/code-garden#block-yui_3_17_2_1_1659417996477_56685?WT.mc_id=academic-99718-reneenoble)**, to learn more about HTML, CSS, and JavaScript.
 
