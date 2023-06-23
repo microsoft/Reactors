@@ -6,6 +6,14 @@
 
 <br>
 
+### **Intersted in becoming a Microsoft Learn Student Ambasador?**
+Join our upcoming session on how to apply, on Monday July 10th at 4pm. 
+[Register here](https://aka.ms/MLSA-Information-Session)
+
+Find out more about the [program here](https://aka.ms/UTS-techfest-MSLA). 
+
+<br>
+
 ## Your links for today's session
 
 <br>
