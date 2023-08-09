@@ -1,36 +1,40 @@
-# Community Event-In-A-Box
+# Understanding the Contoso Real Estate project
 
-The event organization guide is a step-by-step guide to help you organize a successful event. It includes tips on how to find speakers, how to promote your event, and more.
+In this tutorial, you will learn about the `portal` project of Contoso Real Estate, which is an open source project developed by Microsoft that simulates a real estate agency website.
 
-You will also find a list of presentations and workshops that you can use to present at your event. These presentations and workshops are based on the **Contoso Real Estate** project. This is a great opportunity to share knowledge about cloud-native applications within your community!
+## ⭐️ Learning objectives:
 
-## 📚 Event organization
-Organizing an event is always an adventure, and to assist you, we have created a guide with tips and suggestions to help you organize a successful event.
+- Understand the composable architecture that is used in the Contoso Real Estate project
+- Experience GitHub Codespaces as a development environment
+- Understand how to use Azure Static Web Apps CLI to run and deploy the Contoso Real Estate project
 
-Join the **Hack Together** initiative by organizing a virtual, hybrid, or in-person event for your community between August 1 – 31, 2023, and receive the following support:
+## ✅ Prerequisites
 
-* ...
-* ...
-* ...
+To follow this tutorial, you will need some basic programming knowledge and access to some tools:
 
-### Get Started
+- [JavaScript](https://learn.microsoft.com/shows/beginners-series-to-javascript/?WT.mc_id=academic-101248-cyzanon)
+- [Node](https://learn.microsoft.com/shows/beginners-series-to-nodejs/?WT.mc_id=academic-101248-cyzanon)
+- [TypeScript](https://www.typescriptlang.org/?WT.mc_id=academic-101248-cyzanon)
+- [Angular](https://angular.io/)
+- [Azure account](https://azure.microsoft.com/free/?WT.mc_id=academic-101248-cyzanon)
+- [GitHub account](https://github.com/?WT.mc_id=academic-101248-cyzanon)
 
-| Resource      | Description |
-| ----------- | ----------- |
-| [Event Checklist](event-checklist.md)      | A quick guide for community leaders, with tips on speakers, promotion, and more. |
-| Code of Conduct   | A CoC is important to ensure that all participants feel safe and comfortable during the event. Be inspired by the [Reactor Code of Conduct](https://developer.microsoft.com/reactor/CodeOfConduct/).       |
-| [Creative](#)   | Assets for promotion on social media, YouTube and Meetup      |
-| [Content](#)   | Presentations and workshops to build an API with Azure Functions and Deploy the `portal` project using Azure Static Web App CLI      |
+You will need an Azure account to use the Azure Static Web Apps, Azure Functions, and Azure Cosmos DB services. If you don't have an account, create one for free at [azure.com](https://azure.microsoft.com/free/?WT.mc_id=academic-101248-cyzanon).
+
+> Students can claim the GitHub Student Developer Pack at [GitHub Student Developer Pack — GitHub Education](https://aka.ms/Copilot4Students). This offer includes access to Codespaces, GitHub Copilot, Azure for Students, and other benefits. If you are not a student, you can use [GitHub Codespaces](https://docs.github.com/en/codespaces/?WT.mc_id=academic-101248-cyzanon) for 60 free hours per month.
 
 
-## 📅 Upcoming Events
-Stay connected to your developer communities through the upcoming **Hack Together: JavaScript on Azure**, virtual Meetups, community stand-ups, podcasts, and more! And discover new ways to get started with JavaScript tutorials and hosting your own virtual experiences.
+## 📚 Learn before you code
 
-| Date      | Event | Language | Link |
-| ----------- | ----------- | ----------- | ----------- |
-| August 16 | Hack Together Launch | English | [Register](https://developer.microsoft.com/pt-br/reactor/events/20275/?WT.mc_id=academic-101248-cyzanon) |
-| August 17 | Introduction to GitHub Copilot Learn Live | English | [Register](https://developer.microsoft.com/pt-br/reactor/events/20321/?WT.mc_id=academic-101248-cyzanon) |
-| August 21 | Build your Frontend with Azure Static Web Apps | English | [Register](https://developer.microsoft.com/pt-br/reactor/events/20276/?WT.mc_id=academic-101248-cyzanon) |
-| August 24 | Build a Serverless Backend with Azure Functions | English | [Register](https://developer.microsoft.com/pt-br/reactor/events/20277/?WT.mc_id=academic-101248-cyzanon) |
-| August 28 | Build and connect to a Database using Azure Cosmos DB | English | [Register](https://developer.microsoft.com/pt-br/reactor/events/20278/?WT.mc_id=academic-101248-cyzanon) |
-| August 31 | Introduction toAzure OpenAI Service Learn Live | English | [Register](https://developer.microsoft.com/pt-br/reactor/events/20322/?WT.mc_id=academic-101248-cyzanon) |
+Is this your first time using the Azure and GitHub platforms? No problem! We have some resources to help you get started:
+
+- [GitHub](https://learn.microsoft.com/training/github/?WT.mc_id=academic-101248-cyzanon)
+- [Introduction to GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-to-github-copilot/?WT.mc_id=academic-101248-cyzanon)
+- [Introduction To Codespaces](https://aka.ms/CodespacesVideoTutorial)
+- [Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/overview/?WT.mc_id=academic-101248-cyzanon)
+
+## 🚀 Next steps
+- [Prepare for the challenge](./00-prepare.md)
+- [Exercise 1: Analyzing the portal project](./01-analyzing-portal.md)
+- [Exercise 2: Working with Azure Static Web App CLI](./02-exercise-swa-cli.md)
+- [Exercise 3: Deploy on Azure Static Web App](./03-exercise-portal-deploy.md)
