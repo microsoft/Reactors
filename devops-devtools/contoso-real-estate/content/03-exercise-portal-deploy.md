@@ -26,7 +26,7 @@ With the `portal-deploy` folder created, access the file `packages/portal-deploy
 
 ## Navigate and delete existing files
 
-Now, go back to the terminal, as we will run some routines with basic Linux commands and configure the project deployment with the Azure Static Web Apps CLI.
+Go back to the terminal, as we will run some routines with basic Linux commands and configure the project deployment with the Azure Static Web Apps CLI.
 
 ```bash
   cd packages/portal-deploy
@@ -39,6 +39,34 @@ We need to delete the `swa-cli.config.json` file. To do this, we will use the li
 ```bash
   rm -rf swa-cli.config.json
 ```
+
+## Customize your portal
+
+> Remember, we will use the portal-deploy for deployment on Azure. So make your changes in the portal-deploy folder and not in the portal.
+
+**1️⃣ Change the title of the portal**
+
+Access the file `app/homepage/homepage.component.html` and change the `h1` tag to `Contoso Real Estate - Your Name`.
+
+You can also add a paragraph below the title with the following text: `Welcome to the best real estate experience!`.
+
+**2️⃣ Add social media links**
+
+In the footer section, add the a list of social media links. If you want download the LinkedIn, Instagram and Twitter icons from [Font Awesome](https://fontawesome.com/).
+
+Use GitHub Copilot to help you with the code and don't forget to add some CSS to make the links look good. The CSS code can be added in the `app.component.scss` file.
+
+**3️⃣ Update the About page**
+
+The About page is a static page with information about the Contoso Real Estate company. This page is located in the `app/about/` folder. 
+
+Work on the following tasks:
+
+- Change the title of the page to `About Contoso Real Estate`.
+- Add a paragraph below the title with the following text: `Contoso Real Estate is a company that has been in the market for more than 20 years. We are a company that values ​​the quality of our services and the satisfaction of our customers.`
+- Add a paragraph with the following text: `We are always looking for new talents to join our team. If you are interested in working with us, send your resume to real@contoso.com.`
+- Add a photo of the Contoso Real Estate team. You can save the image in the `assets/images` folder
+
 
 ## Azure Static Web Apps (SWA) CLI
 
@@ -104,9 +132,11 @@ Artifacts are the files that will be sent to Azure Static Web Apps. Artifacts ar
 
 ### Configuring GitHub Actions
 
-Now that we already have the generated artifacts, we need to configure GitHub Actions so that the `portal-deploy` is published on Azure Static Web Apps.
+Having the artifacts created, we need to configure GitHub Actions to deploy `portal-deploy` on Azure Static Web Apps. You can work with [Azure Static Web Apps CLI](https://azure.github.io/static-web-apps-cli/docs/cli/swa-deploy/) or use the Azure portal.
 
-To do this, access the Azure portal and create a new Azure Static Web Apps following the steps below:
+**Azure portal**
+
+Access the Azure portal and create a new Azure Static Web Apps following the steps below:
 
 1. Access the Azure portal and click the `Create a resource` button.
 2. In the search bar, type `Static Web Apps` and click on the first result.
